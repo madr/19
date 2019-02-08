@@ -38,7 +38,7 @@ Metalsmith(__dirname)
   .use(pagination({
     'collections.posts': {
       perPage: 2,
-      layout: 'list.html',
+      layout: 'list.hbs',
       first: 'index.html',
       path: ':num/index.html',
       pageMetadata: {
