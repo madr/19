@@ -1,6 +1,6 @@
 ---
 title: Om
-layout: page.html
+layout: single.hbs
 ---
 
 Some info about the author.
