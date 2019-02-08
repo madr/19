@@ -4,6 +4,7 @@ var htmlMinifier = require("metalsmith-html-minifier");
 var layouts      = require('metalsmith-layouts');
 var markdown     = require('metalsmith-markdown');
 var pagination   = require('metalsmith-pagination');
+var partials     = require('metalsmith-discover-partials');
 var permalinks   = require('metalsmith-permalinks');
 
 Metalsmith(__dirname)
@@ -48,6 +49,9 @@ Metalsmith(__dirname)
   }))
   .use(markdown())
   .use(permalinks())
+  .use(partials({
+    directory: 'layouts/partials'
+  }))
   .use(layouts({
     engine: 'handlebars'
   }))
