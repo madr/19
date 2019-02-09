@@ -39,10 +39,7 @@ Metalsmith(__dirname)
       perPage: 2,
       layout: 'list.hbs',
       first: 'index.html',
-      path: ':num/index.html',
-      pageMetadata: {
-        title: 'Arkiv'
-      }
+      path: ':num/index.html'
     }
   }))
   .use(markdown())
