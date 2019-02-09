@@ -1,5 +1,5 @@
 
-build: node_modules
+build:
 	node index.js
 
 node_modules: package.json
