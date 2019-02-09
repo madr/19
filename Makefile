@@ -5,4 +5,7 @@ build: node_modules
 node_modules: package.json
 	npm install
 
-.PHONY: build
+serve:
+	(cd doc && python3 -m 'http.server' 666)
+
+.PHONY: build serve
