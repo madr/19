@@ -9,8 +9,14 @@
   {{/if}}
   <meta name="viewport" content="width=device-width">
   <!-- <link rel="stylesheet" title="madr.se stilmall" href="/madrse.css"> -->
-  {{#if pagination.index}}{{else}}
+  {{#unless pagination.index}}
     <meta name="robots" value="noindex,follow">
+  {{/unless}}
+  {{#if pagination.previous}}
+    <link rel="previous" href="/{{ pagination.previous.path }}">
+  {{/if}}
+  {{#if pagination.next}}
+    <link rel="next" href="/{{ pagination.next.path }}">
   {{/if}}
 </head>
 <body>
@@ -25,6 +31,14 @@
       <a href="/{{ path }}">{{ title }}</a>
     {{/each}}
   </main>
+  <div class="pagination">
+    {{#if pagination.previous}}
+      <a rel="previous" href="/{{ pagination.previous.path }}">Yngre inlägg</a>
+    {{/if}}
+    {{#if pagination.next}}
+      <a rel="next" href="/{{ pagination.next.path }}">Äldre inlägg</a>
+    {{/if}}
+  </div>
   {{> footer }}
 </body>
 </html>
