@@ -2,15 +2,25 @@
 <html lang="sv">
 <head>
   <meta charset="UTF-8">
-  <title>{{ name }}</title>
+  {{#if pagination.index}}
+    <title>Sida {{ pagination.num }} | {{ name }}</title>
+  {{else}}
+    <title>{{ name }}</title>
+  {{/if}}
   <meta name="viewport" content="width=device-width">
   <!-- <link rel="stylesheet" title="madr.se stilmall" href="/madrse.css"> -->
-  <meta name="robots" value="noindex,nofollow">
+  {{#if pagination.index}}{{else}}
+    <meta name="robots" value="noindex,follow">
+  {{/if}}
 </head>
 <body>
   {{> header }}
   <main id="content">
-    <h1>{{ title }}</h1>
+    {{#if pagination.index}}
+      <h1>Sida {{ pagination.num }}</h1>
+    {{else}}
+      <h1>{{ name }}</h1>
+    {{/if}}
     {{#each pagination.files}}
       <a href="{{path}}">{{title}}</a>
     {{/each}}
