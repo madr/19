@@ -9,6 +9,14 @@
 <body>
   {{> header }}
   <main id="content">
+    {{#if archived}}
+      <p class="alert--archived"><i>
+        Detta är ett arkiverat inlägg, som importerats
+        hit för referens. Det kan se konstigt ut och
+        innehålla utdaterad information eller inaktuella
+        åsikter.
+      </i></p>
+    {{/if}}
     <h1>{{ title }}</h1>
     {{{ contents }}}
   </main>
