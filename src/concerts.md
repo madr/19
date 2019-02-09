@@ -2,10 +2,8 @@
 title: Mina deltaganden i konserter och festivaler sedan 2000
 date: 2017-07-07
 template: post.html
-
 tags: concerts
 layout: single.hbs
-collection: articles
 ---
 <div id="about">
 
@@ -29,17 +27,38 @@ Geografisk utspridning
 Kommande
 --------
 
- * **Enslaved, Gaahls Wyrd, Skogen** på Slaktkyrkan, Stockholm den 11 november 2018.
- * **Myrkur** på Vasateatern, Stockholm den 3 december 2018.
- * **Behemoth, At The Gates, Wolves in the Throne Room** den 28 januari 2019.
+ * **Sweden Rock Festival** i Sölvesborg den 6-9 juli 2019.
  * **Gefle Metal Festival** på Gasklockorna, Gävle den 11-12 juli 2019.
 
 </div>
 <div id="past">
 <div>
 
+
+2019
+----
+
+### Behemoth: Ecclesia Diabolica Evropa 2019
+
+ * Konsert på Annexet, Stockholm den 28 januari 2019.
+ * Förband: **At The Gates**, **Wolves in the Throne Room**
+ * Aktuellt album: *I Loved you at your Darkest*
+
+
 2018
 ----
+
+### Myrkur
+
+ * Konsert på Vasateatern, Stockholm den 3 december 2018.
+ * Förband: **Jo Quail**
+ * Aktuellt album: Mareridt
+
+### Enslaved: Army of the North Star
+
+ * Konsert på Slaktkyrkan, Stockholm den 11 november 2018.
+ * Förband: **Gaahls Wyrd**, **Skogen**
+ * Aktuellt album: -
 
 ### Wacken Open Air
 
