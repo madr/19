@@ -9,9 +9,7 @@ var permalinks   = require('metalsmith-permalinks');
 
 Metalsmith(__dirname)
   .metadata({
-    title: "Anders Ytterströms hemsida",
-    description: "Blogg och digital lekstuga för webbutvecklaren, hobbymusikanten och hårdrockaren Anders Ytterström.",
-    generator: "Metalsmith",
+    name: "Anders Ytterströms hemsida",
     url: "https://madr.se",
     image: ""
   })
