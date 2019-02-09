@@ -29,7 +29,7 @@ Metalsmith(__dirname)
       reverse: true
     },
     posts: {
-      pattern: 'posts/**/*.md',
+      pattern: '20*/*.md',
       sortBy: 'date',
       reverse: true
     }
