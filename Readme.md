@@ -1,6 +1,13 @@
 
 # se19
 
-Webbplatsen madr.se. För att regenerera alla dokument, kör
+The site https://madr.se, a swedish personal site.
+
+## Build site
 
     $ make build
+
+
+## Run build locally
+
+    $ make serve
