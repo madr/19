@@ -1,13 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>{{ title }}</title>
+  <meta charset="UTF-8">
+  <title>{{ title }} | {{ name }}</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <link rel="stylesheet" title="madr.se stilmall" href="/madrse.css"> -->
 </head>
 <body>
   {{> header }}
-  <h1>{{ title }}</h1>
-  {{{ contents }}}
+  <main id="content">
+    <h1>{{ title }}</h1>
+    {{{ contents }}}
+  </main>
   {{> footer }}
 </body>
 </html>
