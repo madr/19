@@ -1,4 +1,5 @@
 var Metalsmith   = require('metalsmith');
+var atomfeed     = require('metalsmith-feed-atom');
 var collections  = require('metalsmith-collections');
 var htmlMinifier = require("metalsmith-html-minifier");
 var layouts      = require('metalsmith-layouts');
@@ -32,6 +33,15 @@ Metalsmith(__dirname)
       pattern: '20*/*.md',
       sortBy: 'date',
       reverse: true
+    }
+  }))
+  .use(atomfeed({
+    collection: 'articles',
+    destination: '/prenumerera.xml',
+    metadata: {
+      title: 'madr.se',
+      subtitle: 'Anders Ytterströms hemsida om hårdrock, musik och webbutveckling',
+      url: 'https://madr.se/'
     }
   }))
   .use(pagination({
