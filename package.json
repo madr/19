@@ -11,6 +11,7 @@
     "metalsmith-layouts": "^1.4.1",
     "metalsmith-markdown": "^1.1.0",
     "metalsmith-pagination": "^1.4.1",
-    "metalsmith-permalinks": "^2.1.0"
+    "metalsmith-permalinks": "^2.1.0",
+    "metalsmith-sitemap": "^1.2.2"
   }
 }
