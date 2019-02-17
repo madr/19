@@ -7,6 +7,7 @@ var markdown     = require('metalsmith-markdown');
 var pagination   = require('metalsmith-pagination');
 var partials     = require('metalsmith-discover-partials');
 var permalinks   = require('metalsmith-permalinks');
+var sitemap      = require('metalsmith-sitemap');
 
 var author = function () {
   return function (files, _, done) {
@@ -67,6 +68,9 @@ Metalsmith(__dirname)
   }))
   .use(markdown())
   .use(permalinks())
+  .use(sitemap({
+    hostname: 'https://madr.se'
+  }))
   .use(partials({
     directory: 'layouts/partials'
   }))
