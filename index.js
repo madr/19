@@ -8,10 +8,22 @@ var pagination   = require('metalsmith-pagination');
 var partials     = require('metalsmith-discover-partials');
 var permalinks   = require('metalsmith-permalinks');
 
+var author = function () {
+  return function (files, _, done) {
+    Object.keys(files).forEach(function (file) {
+      files[file].author = {
+        name: 'Anders Ytterström',
+        email: 'yttan@fastmail.se'
+      }
+    })
+    done();
+  }
+}
+
 Metalsmith(__dirname)
   .metadata({
     name: "Anders Ytterströms hemsida",
-    url: "https://madr.se",
+    url: "https://madr.se/",
     image: "https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276"
   })
   .source('./src')
@@ -35,6 +47,7 @@ Metalsmith(__dirname)
       reverse: true
     }
   }))
+  .use(author())
   .use(atomfeed({
     collection: 'articles',
     destination: '/prenumerera.xml',
