@@ -1,5 +1,5 @@
 ---
-title: Om
+title: Hej, Jag heter Anders!
 layout: single.hbs
 ---
 

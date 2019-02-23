@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>{{ title }} | {{ name }}</title>
   <meta name="viewport" content="width=device-width">
-  <!-- <link rel="stylesheet" title="madr.se stilmall" href="/madrse.css"> -->
+  <link rel="stylesheet" title="madr.se stilmall" href="/madrse.css">
   <link href="/prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
   <link rel="canonical" href="{{ url }}/{{ path }}/">
   <meta property="og:title" content="{{ title }}">
@@ -24,8 +24,19 @@
         åsikter.
       </i></p>
     {{/if}}
-    <h1>{{ title }}</h1>
-    {{{ contents }}}
+    <article>
+      <h1>{{ title }}</h1>
+      <footer>
+        <time>
+          10 jan 2019</time> av
+          <a rel="author" href="/om">
+            <img src="https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276" alt="porträtt">
+            Anders Ytterström
+          </a>
+          <button data-save-offline>🔖 Läs offline senare</button>
+      </footer>
+      {{{ contents }}}
+    </article>
   </main>
   {{> footer }}
 </body>
