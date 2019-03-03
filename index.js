@@ -51,7 +51,7 @@ Metalsmith(__dirname)
   .use(author())
   .use(atomfeed({
     collection: 'articles',
-    destination: '/prenumerera.xml',
+    destination: 'prenumerera.xml',
     metadata: {
       title: 'madr.se',
       subtitle: 'Anders Ytterströms hemsida om hårdrock, musik och webbutveckling',
