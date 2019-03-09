@@ -27,14 +27,22 @@
     <article>
       <h1>{{ title }}</h1>
       <footer>
-        <time>
-          10 jan 2019</time> av
-          <a rel="author" href="/om">
-            <img src="https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276" alt="porträtt">
-            Anders Ytterström
-          </a>
-          <button data-save-offline>🔖 Läs offline senare</button>
+        <time>{{ date }}</time> av
+        <a rel="author" href="/om">
+          <img src="https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276" alt="porträtt">
+          Anders Ytterström
+        </a>
       </footer>
+      {{#if album}}
+        <p>
+          Som jag tidigare skrivit om har jag ett roligt projekt pågående: att äga alla låtar 
+          i spelet <a href="https://sv.wikipedia.org/wiki/Br%C3%BCtal_Legend">Brütal Legend</a> 
+          äldre än 1990 på vinyl, där det är möjligt.
+        </p>
+        <p>
+          #{{num}}: {{artist}} - "{{songs}}", från <em>{{album}}</em> ({{year}})
+        </p>
+      {{/if}}
       {{{ contents }}}
     </article>
   </main>

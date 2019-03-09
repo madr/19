@@ -95,6 +95,14 @@ h1 {
     font-size: 4rem;
     line-height: .95;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.super-h1 {
+    margin: 0;
+    height: calc(100vh - 40px);
 }
 
 h2 {

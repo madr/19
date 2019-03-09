@@ -13,5 +13,8 @@
     "metalsmith-pagination": "^1.4.1",
     "metalsmith-permalinks": "^2.1.0",
     "metalsmith-sitemap": "^1.2.2"
+  },
+  "devDependencies": {
+    "metalsmith-date-formatter": "^1.0.2"
   }
 }

@@ -9,10 +9,10 @@ serve:
 	(cd doc && python3 -m 'http.server' 666)
 
 brutal-legend:
-	(cd ../practical-redux && npm run build)
+	(cd ../brutal-legend && npm run build)
 	mkdir doc/bl
-	cp ../practical-redux/index.html doc/bl/index.html
-	cp ../practical-redux/bundle.js doc/bl/bundle.js
-	cp -r ../practical-redux/assets doc/bl/assets
+	cp ../brutal-legend/index.html doc/bl/index.html
+	cp ../brutal-legend/bundle.js doc/bl/bundle.js
+	cp -r ../brutal-legend/assets doc/bl/assets
 
 .PHONY: brutal-legend build serve

@@ -26,10 +26,21 @@
     {{#if pagination.index}}
       <h1>Sida {{ pagination.num }}</h1>
     {{else}}
-      <h1>{{ name }}</h1>
+      <h1 class="super-h1">{{ name }}</h1>
     {{/if}}
     {{#each pagination.files}}
-      <a href="/{{ path }}">{{ title }}</a>
+        <article>
+          <a href="/{{ path }}">
+            <h2>{{ title }}</h2>
+          </a>
+          <footer>
+            <time>{{ date }}</time> av
+            <a rel="author" href="/om">
+              <img src="https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276" alt="porträtt">
+              Anders Ytterström
+            </a>
+          </footer>
+        </article>
     {{/each}}
   </main>
   <div class="pagination">

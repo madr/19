@@ -1,13 +1,14 @@
-var Metalsmith   = require('metalsmith');
-var atomfeed     = require('metalsmith-feed-atom');
-var collections  = require('metalsmith-collections');
-var htmlMinifier = require("metalsmith-html-minifier");
-var layouts      = require('metalsmith-layouts');
-var markdown     = require('metalsmith-markdown');
-var pagination   = require('metalsmith-pagination');
-var partials     = require('metalsmith-discover-partials');
-var permalinks   = require('metalsmith-permalinks');
-var sitemap      = require('metalsmith-sitemap');
+var Metalsmith      = require('metalsmith');
+var atomfeed        = require('metalsmith-feed-atom');
+var dateFormatter   = require('metalsmith-date-formatter');
+var collections     = require('metalsmith-collections');
+var htmlMinifier    = require("metalsmith-html-minifier");
+var layouts         = require('metalsmith-layouts');
+var markdown        = require('metalsmith-markdown');
+var pagination      = require('metalsmith-pagination');
+var partials        = require('metalsmith-discover-partials');
+var permalinks      = require('metalsmith-permalinks');
+var sitemap         = require('metalsmith-sitemap');
 
 var author = function () {
   return function (files, _, done) {
@@ -65,6 +66,12 @@ Metalsmith(__dirname)
       first: 'index.html',
       path: ':num/index.html'
     }
+  }))
+  .use(dateFormatter({
+    dates: [{
+      key: 'date',
+      format: 'YYYY-MM-DD'
+    }]
   }))
   .use(markdown())
   .use(permalinks())
