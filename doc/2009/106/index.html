@@ -1,0 +1,45 @@
+<!doctype html><html lang=sv><head><meta charset=UTF-8><title>CSS borders - färger och kortkommandon | Anders Ytterströms hemsida</title><meta name=viewport content="width=device-width"><link rel=stylesheet title="madr.se stilmall" href=/madrse.css><link href=/prenumerera.xml type=application/atom+xml rel=alternate title=madr.se><link rel=canonical href=https://madr.se//2009/106/ ><meta property=og:title content="CSS borders - färger och kortkommandon"><meta property=og:type content=article><meta property=og:url content=https://madr.se//2009/106/ ><meta property=og:image content=https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276><meta property=og:site_name content="Anders Ytterströms hemsida"></head><body><a href=#content class=skiplink>Hoppa till innehåll</a><header><a href=/ rel=home>madr.se</a><nav><a href=/bl/ >🤘 Brütal Legend</a> <a href=/evenemang/ >📅 Evenemang</a> <a href=/om/ >🤷‍♂️ Om</a> <a href=/prenumerera.xml rel=alternate title="Prenumerera via Atom">📣</a></nav></header><main id=content><p class=alert--archived><i>Detta är ett arkiverat inlägg, som importerats hit för referens. Det kan se konstigt ut och innehålla utdaterad information eller inaktuella åsikter.</i></p><article><h1>CSS borders - färger och kortkommandon</h1><footer><time>2009-01-12</time> av <a rel=author href=/om><img src=https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276 alt=porträtt> Anders Ytterström</a></footer><p>CSS Shorthands är en egenskap som borde vara närmast helig för alla gränssnittsutvecklare. Det spar viktiga bytes och ger nästan alltid en snyggare och mer lättläslig kod.</p><p>Jag har sedan länge använt de shorthands som de flesta stöter på tidigt.</p><pre><code>/* === shorthands === */
+.myElm {
+        background:#000 url(bgTeaser.png) no-repeat 50% 100%;
+        color:#fff;
+        font:bold 1.2em/1.4 Verdana,sans-serif;
+        padding:2px 0;
+        margin:0 5px 2px;
+}
+
+/* === long way, equivalent to above === */
+.myElm {
+        background-color:#000;
+        background-image:url(bgTeaser.png);
+        background-position-left:50%;
+        background-position-top:100%;
+        background-repeat:no-repeat;
+        color:#ffffff;
+        font-weight:bold;
+        font-size:1.2em;
+        line-height:1.4;
+        font-family:Verdana,sans-serif;
+        padding-top:2px;
+        padding-right:0;
+        padding-bottom:2px;
+        padding-left:0;
+        margin-top:0;
+        margin-right:5px;
+        margin-bottom:2px;
+        margin-left:5px;        
+}</code></pre><p>Nyligen upptäckte jag dock en ny shorthand, nämligen för <code>border-color</code>. Ett exempel där det kan komma till nytta: Vi ska göra en bloggpuff som ska ha 3D-utseende, med en ram som är ljusare på ovansidan) (topp och höger) och mörkare på undersidan (botten och vänster) <em>utan</em> att använda <code>border-style: inset;</code>.</p><p>Tidigare har jag gjort såhär:</p><pre><code>/* === 1.using &#39;border&#39; shorthand === */
+.blogTeaser {
+        border-top:1px solid #333;
+        border-right:1px solid #333;
+        border-bottom:1px solid #666;
+        border-left:1px solid #666;
+}</code></pre><p>Det är inte särskilt snyggt, då jag skriver bredd och style tre gånger för mycket. En annan variant skulle kunna vara en kortare, men fortfarande ful sådan:</p><pre><code>/* === 2.using &#39;border&#39; and switching colors === */
+.blogTeaser {
+        border:1px solid #333;
+        border-bottom-color:#666;
+        border-left-color:#666;
+}</code></pre><p>Bättre. Jag känner dock fortfarande att jag slösar bytes. I det här skedet kommer <code>border-color</code> till hands!</p><pre><code>/* === 3.using border and border-color === */
+.blogTeaser {
+        border:1px solid #333;
+        border-color:#666 #666 #333 #333;
+}</code></pre><p><code>border-color</code> har stöd för <a href=http://reference.sitepoint.com/css/shorthandproperties title="Shorthand Properties">TRouBLE-minnesregeln</a> och tar därför färgargumenten i ordningen topp, höger, botten och vänster. Det kan komma till nytta vid de mest oväntade situationer.</p><p>En bra sammanfattning över alla shorthands i allmänhet finns sammanställd av <a href=http://reference.sitepoint.com/css/shorthandproperties title="Shorthand Properties">Sitepoints CSS-referens</a>.</p></article></main><footer><p><a href=https://creativecommons.org/licenses/by-sa/4.0/ lang=en>CC BY-SA 4.0</a> av Anders Ytterström sedan dec 2006. <a rel=alternate href=/prenumerera.xml>Prenumerera</a>.</p></footer></body></html>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://madr.se/</id>
+  <link href="https://madr.se/"/>
+  <link href="https://madr.se/prenumerera.xml" rel="self"/>
+  <title>madr.se</title>
+  <subtitle>Anders Ytterströms hemsida om hårdrock, musik och webbutveckling</subtitle>
+  <updated>2019-03-16T17:07:15.968Z</updated>
+  <entry>
+    <title>Tack för tiden, Twitter och Instagram</title>
+    <id>https://madr.se/2018/twitter-instagram-eol.md</id>
+    <link href="https://madr.se/2018/twitter-instagram-eol.md"/>
+    <updated>2018-04-07T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>I mitt intresse för webb och teknik har jag ofta varit först eller åtminstone tidig med att haka på nya sätt som ger mig möjlighet att utbyta idéer och gillande instämmanden från folk som är lika konstiga och knäppa som jag är. Sociala medier var inget undantag när dessa blev populära i slutet av 00-talet.&#xD;
+&#xD;
+Jag tog dock bort mitt Twitterkonto i mars, och mitt Instagramkonto i april. Facebook är tills vidare kvar då det finns värde. Mitt mål är att istället börja publicera bilder, kortare videos och annat personligt här på min hemsida istället för i sociala nätverk. &#xD;
+&#xD;
+Jag tror inte längre på sociala medier, och vill därför inte ge mer personlig data till stora företag och därmed bli en produkt. Min tid ska istället tillägnas åt att teckna, läsa och att såväl lyssna som skapa musik. &#xD;
+&#xD;
+Jag har även privata skäl som jag har svårt att förklara i ord här. Det har med min förmåga att lägga alldeles för mycket tid och energi på sociala nätverk, med mycket låg ROI. Jag blir helt enkelt mer produktiv, lugn och balanserad när jag inte har sociala flöden att hålla mig uppdaterad på.&#xD;
+&#xD;
+Twitter använde jag under tio år (2008-2018). Jag fick där några viktiga kontakter som gav min karriär skjuts under tidigt 10-tal. De 3 senaste åren där har dock varit en nedåtgående spiral, och min egen aktivitet hade helt avstannat. &#xD;
+&#xD;
+Instagram använde jag under perioderna 2011-2012 och 2015-2018. På Instagram sökte jag främst annat hårdrocksfolk och kreatörer, samt följde viktiga personer i mitt liv. Mitt eget innehåll var en sorts bilddagbok, då jag tycker det är roligt att dokumentera vardagen på det sättet. &#xD;
+&#xD;
+Det sistnämnda är något jag vill fortsätta med, så jag har här ett ypperligt tillfälle att koda något kul i Django, Flask eller Elixir. Det ger mig förmodligen också anledning att använda CSS-variabler och CSS Grids. Framförallt får jag äga min egen data igen.</content>
+  </entry>
+  <entry>
+    <title>2017, året som gick</title>
+    <id>https://madr.se/2017/2017.md</id>
+    <link href="https://madr.se/2017/2017.md"/>
+    <updated>2017-12-31T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>Ännu ett år är avslutat, varvid det är lägligt att skriva litet om de 12 månader som gått. &#xD;
+&#xD;
+&#xD;
+## Tekniker jag älskat under året&#xD;
+&#xD;
+Trots att mycket hände under 2017 finns inte så mycket att skriva om för teknik.&#xD;
+&#xD;
+ * **Django**. Nio månader på ett nytt jobb där huvudprodukten är byggd med detta ramverk har lärt mig massor.&#xD;
+ * Använding av **Ansible** och **Terraform** visar möjligheterna bortom bashscript.&#xD;
+ * Tanken på att börja använda **CSS Grid layout** är inte riktigt lika otäck längre. &#xD;
+ * **Elixir** och **Phoenix** var mycket utmanande långt utanför komfortzonen.&#xD;
+ * **React** och **Webpack**.&#xD;
+&#xD;
+## Linux&#xD;
+&#xD;
+[Jag vill vara kreatör, inte Sysadmin](/b/no-sysop/). På Jobbet har jag kört **Elementary Loki** i nio månader, men det ska ersättas med min favorit **Arch linux** efter årsskiftet.&#xD;
+&#xD;
+Hemmavid kör jag numera Windows 10, som är ett bedrövligt och hemskt operativsystem.&#xD;
+&#xD;
+&#xD;
+## Dota 2&#xD;
+&#xD;
+Genom hela 2017 spelade jag Dota 2 sporadiskt. De typiska [uppföljningsposterna](/dota2) har uteblivit då jag bara spelar för att det är kul numera, utan några mål med mitt spelande.&#xD;
+&#xD;
+Jag förlorade fler matcher än jag vann, enligt mitt tidigare spelmönster. Jag fokuserade på att spela position 4-5 och fick slutligen upp **Omniknight** som min mest spelade hjälte.&#xD;
+&#xD;
+Dota 2 har under året fått några rejält feta patchar som förändrat hela spelet flera gånger, samt ett par nya hjältar.&#xD;
+&#xD;
+&#xD;
+## AFK&#xD;
+&#xD;
+I februari jobbade jag min sista månad som systemutvecklare på **Adeprimo i Östersund**, och i mars började jag som utvecklare på **Kundo i Stockholm**. &#xD;
+&#xD;
+Initiellt jobbpendlade jag i början av veckorna, och körde de sista dagarna i veckan hemifrån.&#xD;
+&#xD;
+I maj flyttade jag till Gävle för att få närmare hem till min brorson, och för att underlätta resandet till Stockholm.&#xD;
+&#xD;
+Jag styrketränade baslyft hela året. I juni sprang jag **Blodomloppet**. Jag sprang inte milen detta år.&#xD;
+&#xD;
+&#xD;
+## Musik&#xD;
+&#xD;
+**Hägran** avslutades, nytt material skrevs och spelades in. **6 nya spår** laddades upp på SoundCloud.&#xD;
+&#xD;
+Jag besökte **Gefle Metal Festival** och **House of Metal**, samt åkte **Close-Up båten 21**. Mellan dessa gick jag på **12** konserter i Gävle, Sundsvall och Stockholm, där **Tredingsriten** (Grift, Noêta och Forndom) på Medelplana bygdegård var den mest spektakulära.&#xD;
+&#xD;
+Mina favoritalbum under året:&#xD;
+&#xD;
+ * *Mareridt* av **Myrkur**  &#xD;
+   En skiva jag väntade hela året på och var snabb med att förbeställa. Den överträffade alla förväntningar.&#xD;
+ * *The End is Nigh* av **Apocalypse Orchestra**  &#xD;
+   Så här bra har inte säckpipor, nyckelharpor och distad barytongitarr låtit sedan **Lumsk**.&#xD;
+ * *Stellar* av **Der Weg Einer Freiheit**  &#xD;
+   Min favoritskiva ur årets skörd från **Metalhead box**.&#xD;
+ * *Ödelagt* av **Domgård**  &#xD;
+   Välskrivet, anrikt och arvshedrande. På riktigt.&#xD;
+ * *Dra sad* av **Elffor**  &#xD;
+   Minimalistisk skiva som går tillbaka till hur Elffor lät på *Son of the Shades* och *Into the Dark Forest ...*, högst oväntat men riktigt bra.&#xD;
+ * *Ulfven* av **Ereb Altor**  &#xD;
+   Mycket publikfriar-låtar på denna. Värdigt arv till **Bathory**.&#xD;
+ * *Arvet* av **Grift**  &#xD;
+   **Grift** tämjer på gränserna vad som ryms innanför ramarna av svensk Black Metal. Mycket värdig uppföljare till **Syner**.&#xD;
+ * *Berdreyminn* av **Solstafir**  &#xD;
+   Mysig skiva från ett band jag hade mycket liten koll på innan.&#xD;
+&#xD;
+&#xD;
+## Lästa böcker&#xD;
+&#xD;
+ * **Get ready for the new CSS layout** (Rachel Andrew)  &#xD;
+   Flexbox, grids och några nya CSS properties som kommer att pensionera floats och avancerade hack med Media queries på sikt.&#xD;
+ * **Programming Elixir** (Dave Thomas)  &#xD;
+   Funktionell programmering är rejält långt borta från min komfortzon.&#xD;
+ * **Programming Phoenix** (McCord, Tate, Valim)  &#xD;
+   Den egentliga orsaken till att jag ens sneglar åt Elixir.&#xD;
+ * **Practical SVG** (Chris Coyier)  &#xD;
+   Vektorgrafik är här för att stanna.&#xD;
+ * **Lord of the Rings** (J.R.R. Tolkien)  &#xD;
+   Tillbaka till ursprunget: en av de viktigaste böckerna i mitt liv, på originalspråket.&#xD;
+ * **Assassin's Quest** och **Assassin's Fate** (Robin Hobb)    &#xD;
+   Det definitiva slutet för FitzChivalry Farseer och Fool/Amber, med en möte av Liveship traders. Det var inte ovärdigt, men jag hade inte klagat om **Tawny man** (*I am content.") förblivit det sista som berättades om Fitz.&#xD;
+ * **The Colour of Magick** och **The Light Fantastic** (Terry Pratchett)  &#xD;
+   Lättsam läsning.&#xD;
+ * **The Satanic Bible** (Anton Szandor LaVey)  &#xD;
+   En återförening! Denna bok var häftigare när en var tonåring än vad den är nu.&#xD;
+&#xD;
+&#xD;
+## 2018&#xD;
+&#xD;
+Jag ska vara Årskortskund på SJ under ett år som yrkesverksam i Stockholm.&#xD;
+&#xD;
+Jag kommer att besöka kultfestivalen **Sweden Rock Festival**, andra tappningen av **Stockholm Slaughter**, ännu en **House of Metal**, självfallet **Gefle Metal Festival**, samt se Tyskland genom att åka till **Wacken Open Air**.&#xD;
+&#xD;
+Jag kommer att fortsätta att spela Dota 2 för att det är kul.&#xD;
+&#xD;
+En demo med experiment av **blastbeats** i tretakt, tremolo picking och HM-2-ljud ska vara klar under nästa år.&#xD;
+&#xD;
+Fortsatt fokus på hälsa: mer träning, mindre skitmat.</content>
+  </entry>
+  <entry>
+    <title>When Women Stopped Coding →</title>
+    <id>https://madr.se/2017/when-women-stopped-coding.md</id>
+    <link href="https://madr.se/2017/when-women-stopped-coding.md"/>
+    <updated>2017-09-17T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>&#xD;
+*Följande text är kopierad från ett inlägg på Facebook. Det är borttaget där, men sparat här för referens.*&#xD;
+&#xD;
+Jag kan verkligen känna magnituden i [Inlägget av A Mighty Girl](https://www.facebook.com/amightygirl/photos/a.360833590619627/1433083900061252/?type=3&amp;theater) om Podd-avsnittet [When Women Stopped Coding](https://www.npr.org/sections/money/2014/10/17/356944145/episode-576-when-women-stopped-coding?fbclid=IwAR3uggflsBRAu6s_hJw3kInbSBPwCLibRm34wHOVW6OZQcoCCQHZBgli08c&amp;t=1550419003163).&#xD;
+&#xD;
+Det här är en av de sorgligaste sakerna som hänt i efterkrigstid. Bara för att ge litet exempel på hur det var före 1984 vill jag nämna två kvinnor vars kod verkligen är historisk.&#xD;
+&#xD;
+Först har vi [Grave Hopper](https://sv.wikipedia.org/wiki/Grace_Hopper) som såg till att den första kompilatorn togs fram. En kompilator är det som översätter programmeringskod, som människor skriver och resonerar kring, till ettor och nollor som en dator förstår. Det programmeringsspråk hon introducerade till kompilatorn vidareutvecklades senare till COBOL, som fortfarande används i banker än idag. Hon fick för detta smeknamnet "Mormor COBOL" och var även Officer i amerikanska flottan.&#xD;
+&#xD;
+Sedan är det [Margaret Hamilton](https://sv.wikipedia.org/…/Margaret_Hamilton_(vetenskapsman)), som var ansvarig mjukvarudesigner och en av de främsta programmerarna till Apolloprogrammet på NASA, bl a Apollo 11 som vi alla minns tog människan till månen. Det var några incidenter på den månfärden som hade avbrutit månfärden om det inte vore för Hamiltons förmåga för problemlösning.&#xD;
+&#xD;
+Det är förkastligt att vi på 1980-talet bestämde oss för att inpränta i tjejer att datorer bara är för pojkar. Det gör att det idag, tre årtionden senare, fortfarande är alldeles för svårt för flickor/tjejer att börja programmera (det gör man som barn eller tonåring) och för kvinnor att göra karriär inom IT.&#xD;
+&#xD;
+Vi behöver jobba med det här, särskilt genom att visa vårt stöd för döttrar, systrar, svägerskor och till och med mammor. Berätta för dem att de kan, de KAN!</content>
+  </entry>
+  <entry>
+    <title>Ut med det gamla, in med det nya</title>
+    <id>https://madr.se/2017/2017-mid.md</id>
+    <link href="https://madr.se/2017/2017-mid.md"/>
+    <updated>2017-07-30T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>2017 är ett år i rörelse. Hitills i år har jag flyttat hem till Gävleborg från Jämtland och avslutat mina 10 år som konsult genom att ta anställning i Stockholm som utvecklare för digitala produkter inom kundservice. &#xD;
+&#xD;
+Den här typen av tillstånd agerar ibland katalysator till beslut, och jag har beslutat att avsluta två långvariga projekt.&#xD;
+&#xD;
+**Hägran**, enmansbandet med inriktning mot experimentiell Doom Metal, blir officiellt bordslagt på obestämd tid efter 9 år utan nytt material. Utgett material kommer att laddas upp på Youtube och Soundcloud.&#xD;
+&#xD;
+**Tajm**, ett försök att stilla frustration över att tidrapportering suger, har släppts under BSD-licens på Github. De servrar jag har för tjänsten kommer att stängas ner i höst.&#xD;
+&#xD;
+&#xD;
+## Nästa projekt&#xD;
+&#xD;
+Ett ännu odöpt musikprojekt, under arbetsnamnet **Umgällt**, är aktivt och kommer att påbörja inspelning av musik sent i höst eller under vintern.</content>
+  </entry>
+  <entry>
+    <title>2016, året som gick</title>
+    <id>https://madr.se/2016/2016.md</id>
+    <link href="https://madr.se/2016/2016.md"/>
+    <updated>2016-12-31T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>Ännu ett år är avslutat, varvid det är lägligt att skriva litet om de 12 månader som gått. &#xD;
+&#xD;
+## Tekniker jag älskat under året&#xD;
+&#xD;
+2016 är ett år där jag trots en hel del hinder (mer om detta senare i inlägget) programmerat mer än jag gjort på flera år. Jag har under året främst skrivit kod i backends för webb.&#xD;
+&#xD;
+ * **Django** bara växer, särskilt efter årets nyhet att [Channels blir en del av Django-projektet](https://www.djangoproject.com/weblog/2016/sep/09/channels-adopted-official-django-project/). &#xD;
+ * **Flask** släppte version 0.11 i april och fortsätter att vara relevant. Inget annat verktyg fick så mycket tid som Flask fick 2016, då jag tillbringade massor tid åt att nyutveckla och förvalta ett REST API med en egen Oauth2-implementation, skrivet i Flask.&#xD;
+ * **Vue.js** blev utvärderat, efter förra årets upptäcktsfärder med React och Angular. Detta är ett JavaScript-bibliotek helt i min smak! Inkludera ett script och sätt igång, ingen startsträcka. För den som vill växa med ramverket finns massor med fördjupningar och intressanta koncept.&#xD;
+ * Återkomsten av **Twitter Bootstrap**. Mycket har hänt med detta prototyp-verktyg sedan sist jag använde det i dess barndom. Härligt att se hur det mognat och blivit pålitligt.&#xD;
+ * Jag slutförde min konvertering från CSS floats till **Flexbox**. &#xD;
+ * Jag skrev min första app till **Android**, och har en andra under pågående utveckling. **Java** är inte lika läskligt som det brukade vara. Jag kan verkligen gå i god för [Udacity nanodegree](https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801) för alla som vill kika på Android.&#xD;
+ * **Wordpress** utvärderades på djupet. Mitt ogillande fick ännu mer vatten på sin kvarn.&#xD;
+&#xD;
+Med allt ovanstående sagt så känner jag att **ren gränssnittsutveckling för webb** är alldeles för tråkigt och ostimulerande, främst på grund av att webben som utvecklingsplattform är för tidsödande för att bära frukt. &#xD;
+&#xD;
+För min del känns API:er, Service Workers och backends med Django/Flask för HTTP/PubSubHubbub mer intressant i dagsläget. Det är åt det hållet jag vill gå.&#xD;
+&#xD;
+## Linux&#xD;
+&#xD;
+[Jag vill vara kreatör, inte Sysadmin](/b/no-sysop/). På jobbet funkar Linux perfekt, men hemmavid har jag övergett tanken på Linux då det kraftigt hämmar mitt musikskapande. De program jag använder finns inte på plattformen.&#xD;
+&#xD;
+Av denna anledning avslutade jag året med att köpa en **Macbook Pro med Touch bar** med avsikt att gå all-in på laptop igen. Min stationära dator, som varit bootad i Windows 10 större delen av året, kommer att ominstalleras och bli en hemserver med **Debian** för följande tillämpningar:&#xD;
+ &#xD;
+ * Steam in-home streaming&#xD;
+ * [SyncThing](https://syncthing.net) för backup av filer&#xD;
+ * iTunes hemmadelning&#xD;
+ * Vagrant + Virtualbox för virtuella maskiner att labba med&#xD;
+ * [Plex Media Server](https://www.plex.tv) för det egna musik- och filmbiblioteket.&#xD;
+&#xD;
+## Dota 2&#xD;
+&#xD;
+Jag höll löftet till mig själv att spela mindre Dota 2 under 2016. Jag planerar inte att skruva upp något, men inte heller att helt sluta. Nivån jag har nu fungerar och gör att spelet är roligt när jag väl tar mig tiden. Regelbundna matcher att titta på, sporadiska botmatcher och riktiga matcher enbart i ranked eller tillsammans med vänner.&#xD;
+&#xD;
+## AFK&#xD;
+&#xD;
+2016 blev sammanslaget ett bättre år än 2015. Men det är också till ett dyrt pris. Mellan april och augusti var jag **deltidssjukskriven** och behandlades för **utmattningssyndrom** och **depression**. Det var jag själv som tog initiativet att kolla upp de fel jag hade, som bestod av bl a följande: minskad aptit, orolig sömn, oerhört alarmerande koncentrationssvårigheter och en känsla av att ingenting någonsin blev bra.&#xD;
+&#xD;
+Det startades även en utredning för om jag har **Bipolär sjukdom**, där slutsatsen blev att så ej var fallet.&#xD;
+&#xD;
+Min egen slutsats kring allt är att privatlivet som varit slutligen hann ikapp mig och tvingade mig att stanna och hämta andan. Det visade sig vara för en bra sak, när allt kommer omkring.&#xD;
+&#xD;
+Gällande min hälsa har jag hållit igång kroppen och ägnat sista kvartalet åt att teknikträna basövningar inom styrketräning, med avsikt att gymma regelbundet närmsta tolv månaderna. Jag sprang inte milen detta år, men har fått tillbaka mycket rörlighet i kroppen.&#xD;
+&#xD;
+2016 flyttade jag ut ur den stora bostadsrätt jag blev ensamboende i under förgående år. Jag bor nu i en hyresrätt i ett nyproducerat område i utkanten av Östersund, där jag trivs.&#xD;
+&#xD;
+## Musik&#xD;
+&#xD;
+**Hägran** slutförde nytt material för första gången sedan 2008. *Arvet* är ett spår på sju minuter, Doomigt och mörkt i samma anda som *Imperium* och *Vilseledd*. [Lyssna på SoundCloud](https://soundcloud.com/hagran/arvet). &#xD;
+&#xD;
+Sessionen innehåller den tveklöst bästa inspelningen jag gjort av mig själv på sång. Detta beror både på min egen musikaliska kapacitet, men också på att jag hade en förträffligt bra mikrofon. &#xD;
+&#xD;
+Musiken är en ledstjärna i mörkret och jag har som ambition att producera mer nästa år. Det jag gjorde helt rätt i år var att skapa förutsättningar för att bara greppa ett instrument och spela, utan press, med mycket lek. &#xD;
+&#xD;
+## 2017&#xD;
+&#xD;
+Jag vill under 2016 ta lärdomarna från Android för att utforska **Swift** i  Apples ekosystem, genom att appar för AppleTV, Watch, iPhone och iPad. Jag vill bli en gränssnittsutvecklare **på riktigt**, och börja gå utanför den traditionella webbutvecklarrollen jag hittills förlitat mig på. Idéerna finns, och tiden också nu när jag spelar avsevärt mindre Dota 2.&#xD;
+&#xD;
+Kanske blir 2017 det år jag slutligen tar itu med GTK+ eller PyGObjects? Jag är skeptisk, men är inte beredd att helt släppa idén på att skriva program till Linux.&#xD;
+&#xD;
+Eftersom C# nu är på väg att bli något för oss utan Windows och  Visual Studio finns stora möjligheter för att jag skriver litet kod i det programmeringsspråket igen.&#xD;
+&#xD;
+Ännu mer musik! Minst en till låt med **Hägran**.</content>
+  </entry>
+  <entry>
+    <title>Rants om Progressive Enhancement</title>
+    <id>https://madr.se/2016/pe.md</id>
+    <link href="https://madr.se/2016/pe.md"/>
+    <updated>2016-12-15T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>I [The Case Against Progressive Enhancement's Flimsy Moral Foundation](https://www.viget.com/articles/the-case-against-progressive-enhancements-flimsy-moral-foundation) ifrågasätts den praktiska och faktiska nyttan med [Progressive Enhancement](https://en.wikipedia.org/wiki/Progressive_enhancement), en av de principer jag krampaktigt hållit fast vid sedan långt innan jag blev professionell webbutvecklare.&#xD;
+&#xD;
+Jag hittade den via en rant, [Yes, progressive enhancement is a fucking moral argument](https://sonniesedge.co.uk/blog/progressive-enhancement) vars ton är snarlik den ton jag hade haft om jag tagit mig tid att skriva något:&#xD;
+&#xD;
+&gt; Fundamentally, the article is a shitty strawman argument against PE. It erroneously states that PE proponents want the latest canvas-based in-browser game to work with JS turned off. Which is bollocks, because the argument for PE is developing useful apps and sites that achieve core functionality for everyone, no matter their browser, OS, hardware and user ableness, offering nice-to-haves as the abilities of those things increase. But no, the author has reduced it down to “PE hardliners want everything to work without JS”.&#xD;
+&#xD;
+De är läsvärda i sin helhet. Det jag personligen kommer att tänka på är att tänket inte är nytt. &#xD;
+&#xD;
+ * När CSS började ta fart fanns det folk som försvarade fortsatt användning av tabeller för layout, samt personer som använde `divs and spans for layout`.&#xD;
+ * När IE var den enda webbläsaren fanns det personer som ansåg att alla andra webbläsare inte räknades, samt folk som tyckte att det var ok att stänga folk med IE ute.&#xD;
+ * När CSS3 började ta fart fanns personer som bara inkludera `-webkit-` prefix, inte `-moz-`, `-o-` och `-ms-`.&#xD;
+&#xD;
+Mentaliteten där verktygen är viktigare än affärsnytta är inget nytt. Det är lätt att avfärda Progressive Enhancement då det trycker på en öm punkt: att det finns ett gäng enheter och scenarion som förvandlar strålande vacker kod i Det Älskade JavaScript-ramverket(tm) till en oläslig klump sörja. Ignorance is bliss.&#xD;
+&#xD;
+Med detta sagt har även jag lärt mig att kompromissa för affärs- och kundnytta åt båda håll.&#xD;
+&#xD;
+Under mina 10 år som konsult har inte en enda kund hört av sig gällande problem relaterat till att JavaScript och CSS är avslaget. Inte heller har någon hört av sig om att HTML-dokument inte är tillgängliga eller semantiskt uppmärkta.&#xD;
+&#xD;
+I de Google Analytics-rapporter jag baserar en månadsrapport på för kunds räkning används sajten enbart av Google Chrome och Safari för iOS, med mindre än en halv procents användning för någon annan enhet eller webbläsare.&#xD;
+&#xD;
+Med det sagt så bygger jag alltid saker med Progressive Enhancement eftersom det var så jag lärde mig, men det är inte längre något jag tar för givet att se som ekvivalent till kund- och affärsnytta.</content>
+  </entry>
+  <entry>
+    <title>Less is More - omgörning(ar) av madr.se</title>
+    <id>https://madr.se/2016/less-is-more.md</id>
+    <link href="https://madr.se/2016/less-is-more.md"/>
+    <updated>2016-11-17T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>För nästan 1,5 år sedan smög jag helt fräckt ut en ny design av den här hemsidan, där jag dessutom kastade ut Django utan minsta förvarning.&#xD;
+&#xD;
+Ska jag hitta på en bra ursäkt så var det främst för att [Heroku inte längre kan köras helt gratis][1]. Men helt ärligt så hade tanken på att gå vidare från Django funnits i mitt huvud ett tag redan.&#xD;
+&#xD;
+**Less is more**. Jag bloggar på den här hemsidan rätt sporadiskt. Jag använder den inte för något särskilt, annat än att blogga om sånt jag tycker är värt att kunna blicka tillbaka på i retrospektiv, främst för egen del.&#xD;
+&#xD;
+Så när jag snubblade över [MetalSmith][2], en modulär och pluginbaserad variant på generatorer för statiska hemsidor, blev jag genast inspirerad. På några kvällar hade jag skrivit några byggscript i Node.js och litet CSS, samt ett export-script i Django. &#xD;
+&#xD;
+Jag placerade de genererade HTML-filerna på min egen VPS, och skjöt upp källkoden på Github för att få litet backup. Någon månad senare skapade jag också ett SSL-certifikat så att sajten numera kör över HTTPS. Detta skedde sommaren 2015.&#xD;
+&#xD;
+I och med detta inlägg har jag piffat upp med litet ny CSS och litet uppstädning bland gamla sidor. Återigen, **less os more**: jag städade här bort JavaScript som inte användes, samt några beroenden som inte längre var aktuella i `package.json`.&#xD;
+&#xD;
+Madr.se är när allt kommer omkring det mest personliga jag har på Internet. Jag är ingen person som uppskattar verktyg som går i träda. Sånt som inte kommer till användning ska ut. Enkelt.&#xD;
+&#xD;
+Detta gjorde jag även med tanke på att madr.se fyller 10 år i slutet av december. Det är utan tävlan det längsta jag givit en och samma sajt.&#xD;
+&#xD;
+Jag kommer troligtvis att tillåta mig att bli litet nostalgisk genom att skriva några rader om de sajter jag drev innan när det så är dags att fira 10 år med samma blogg. Måhända kikar jag tillbaka på vem jag var då, i december 2006.&#xD;
+&#xD;
+[1]: https://blog.heroku.com/new-dyno-types-public-beta &#xD;
+[2]: http://metalsmith.io</content>
+  </entry>
+  <entry>
+    <title>Uppladdning inför Advent of Code 2016</title>
+    <id>https://madr.se/2016/aoc-2016.md</id>
+    <link href="https://madr.se/2016/aoc-2016.md"/>
+    <updated>2016-11-17T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>Jag har under året skrivit mer kod än på många tidigare år, så vad är väl mer passande än att använda formtoppen till något kul?&#xD;
+&#xD;
+[Advent of Code](http://adventofcode.com) är en adventskalender för programmerare. Varje dag 1-25 december släpps en nya uppgift som kan lösas med valfritt programmeringsspråk.  Det hölls för första gången 2015 och repriseras i år.&#xD;
+&#xD;
+Jag deltog inte förra året men jag hade tänkt ta revanch i år genom att försöka slutföra hela kalendern med minst två programmeringsspråk: ett för mig välbekant, och ett för mig obekant.&#xD;
+&#xD;
+Det välbekanta språket är ingen högoddsare: **Python 3**. Det är sedan fyra år mitt förstahandsval för att koda webbbackends och scripts, så jag ser fram emot att få prova Python på ren problemlösnings-orienterad programmering.&#xD;
+&#xD;
+Det för mig obekanta språket var litet tufft att välja ut, men landade till slut på ett av de språk som fascinerar mig mest: **Lisp**. Här har jag ännu inte valt dialekt, men jag har smalnat av till antingen **Common Lisp** (då Clozure Common Lisp) eller **Scheme**. &#xD;
+&#xD;
+Då Lisp är mig totalt obekant kommer jag att tillbringa närmasta dagarna åt att läsa på litet och sedan välja dialekt baserat på Minsta motståndets lag.&#xD;
+&#xD;
+Jag ska en gång för alla ifrågasätta myten om att JavaScript och Lisp har likheter, om så bara för min egen skull. &#xD;
+&#xD;
+Jag har redan tjuvstartat genom att forka [Kodsnacks repo på Github][1] för att kunna lämna in lösningarna i ett lokalt sammanhang, samt för att utmana mig själv litet att versionshantera lösningarna ordentligt.&#xD;
+&#xD;
+[1]: https://gitub.com/madr/advent_of_code_2016</content>
+  </entry>
+  <entry>
+    <title>Framsteg i Dota 2 juli-september 2016</title>
+    <id>https://madr.se/2016/dota2-2016-q3.md</id>
+    <link href="https://madr.se/2016/dota2-2016-q3.md"/>
+    <updated>2016-10-05T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>Detta är en summering av mitt spelande i Dota 2 från juli till september 2016. Siffror och statistik baserar jag på [min profil på Dotabuff][1].&#xD;
+&#xD;
+Fördelat över **4** hjältar spelade jag **4** matcher i pubs när jag inte övade mot bottar eller såg repriser/turnéringar[^1]. Min win rate stannade på **100%** (4 vinster, 0 förluster).&#xD;
+&#xD;
+Dessa hjältar spelade jag **En match** med: Ogre Magi, Omniknight, Underlord och Undying.&#xD;
+&#xD;
+&#xD;
+## Månadsöversikt&#xD;
+&#xD;
+| Månad                    | Vinster / Förluster (Abandons)    | Skillnad[^2] |&#xD;
+| -----------------------: | :-------------------------------: | :----------- |&#xD;
+| Juli 2016                |        1 / 0                  (0) |           -1 |&#xD;
+| Augusti 2016             |        2 / 0                  (0) |           -2 |&#xD;
+| September 2016           |        1 / 0                  (0) |           -1 |&#xD;
+&#xD;
+&#xD;
+## Paus i Dota 2&#xD;
+&#xD;
+Mitt mål från förra kvartalsrapporten:&#xD;
+&#xD;
+&gt; Mål för Q3 2016: **ett helt kvartal utan en enda match**. Botmatcher är ok, likaså helgspelsmatcher som t ex All Random Deathmatch eller Ability draft.&#xD;
+&#xD;
+Jag fuskade litet genom att spela 4 matcher, dessa tillsammans med vänner. Tanken med att kraftigt skära ner på spelandet i Q3 var att försöka få Dota att bli roligt igen, då ett halvår med 40% win rate tagit bort mycket av det jag tyckte var kul med Dota 2. &#xD;
+&#xD;
+Jag vet inte hur mycket jag kommer att spela nu i Q4. Jag trodde jag skulle sakna Dota mer än vad jag gör. Det som kan få mig att spela mycket igen skulle vara att spela med kompisar.&#xD;
+&#xD;
+## Ti6&#xD;
+&#xD;
+Jag hejade på Alliance, och fick iaf se dem leverera ett bra gruppspel för första gången sedan 2013. De åkte däremot ut, varvid deras roaster kraftigt ändrades.&#xD;
+&#xD;
+Överlag så är nuvarande metan otroligt balanserad, då många hjältar spelades i Ti med mycket variation. Det fanns inga hjältar som var obalanserade under Ti.&#xD;
+&#xD;
+## Underlord&#xD;
+&#xD;
+Den nya hjälten Underlord nötte jag en del Botmatcher med, uppåt 20-30 stycken. Därefter fick jag chansen att testa honom på riktigt tillsammans med några vänner. Det är en rolig hjälte som är lätt att lära sig, men som går att mästra till nya nivåer många gånger om.&#xD;
+&#xD;
+## Q4&#xD;
+&#xD;
+Botmatcher, möjligtvis någon ranked som support eller core. Jag är rostig och kommer att spela försiktigt. Förhoppningsvis blir Dota kul igen. Med litet tur börjar även TLG att lira igen, lagom till höstmörkret.&#xD;
+&#xD;
+&#xD;
+[^1]: Inkluderar ej mina abandons eller helgspel: 0 respektive 1 matcher. Till helgspel räknas matcher av typen All Random Deathmatch, Ability draft och ett gäng säsongs- eller evenemangsbundna matchtyper. Roligt men inte statistikgrundande.&#xD;
+[^2]: Negativa värden innebär att det var fler vinster än förluster, och positivt tvärtom. Detta används främst för att visa framsteg mot 50% win rate.&#xD;
+&#xD;
+&#xD;
+[1]: http://dotabuff.com/players/42850321</content>
+  </entry>
+  <entry>
+    <title>Tips för att jobba på distans, från andras lärdomar</title>
+    <id>https://madr.se/2016/working-remote-testimonials.md</id>
+    <link href="https://madr.se/2016/working-remote-testimonials.md"/>
+    <updated>2016-09-01T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>Att jobba på distans kan vid en första inblick verka simpelt i yrket som programmerare, webbutvecklare och systemutvecklare, då det som krävs för att jobba är en dator med internet-uppkoppling.&#xD;
+&#xD;
+Det eskalerar dock snabbt till att bli besvärligt, då organisationskulturer fortfarande är starkt förknippade med kontor: bilden av hårt arbetande kodare som sitter tillsammans i en hastigt införd lokal och slänger dåliga skämt mellan bordsplatserna likt [Silicon Valley][1] och [IT Crowd][2] är idealbilden.&#xD;
+&#xD;
+Det finns dock företag som överlistat idealbilden, där man gått långt för att få till en kultur som är anpassad för distansjobb. [Basecamp][3] är troligtvis det mest kända exemplet. De har dessutom valt att skriva böcker om sin kultur, mer generellt i [Rework][4] och mer specifikt om distansjobb i [Remote][5]. Dessa böcker kan jag varmt rekommendera för att få en överblick av de grundläggande anledningarna till att jobba på distans.&#xD;
+&#xD;
+Förra månaden skrev [Jonathan Snook][6] om [erfarenheter om att jobba på distans][7] på Yahoo, Shopify och Xero. Denna är mycket läsvärd. Han kom fram till att följande fungerade bra:&#xD;
+&#xD;
+ * Konkreta arbetsuppgifter att göra. T ex att ställningstagande, övergripande ansvar, utförande och leverans av en uppgift görs av samma person eller entitet, från start till mål.&#xD;
+ * Isolerade delmoment att göra av en uppgift, utan för starka beroenden av andra moment. T ex att i rollen som frontend-orienterad webbutvecklare motta designskisser för att realisera som HTML och CSS, eller att som backend-orienterad webbutvecklare skapa backendlogik med felhantering och flöden innan en design finns på plats.&#xD;
+ * Att få variation i vardagen och slippa vara bunden till en skrivbordsplats på ett kontor för att kunna jobba.&#xD;
+&#xD;
+Det fanns även sånt som inte fungerade. Att vara projektledare eller team leader är särskilt utmanande. &#xD;
+&#xD;
+ * Många möten över telefon och VoIP kan ibland missas på grund av teknikstrul, vilket skapar en oro för att hamna ur synk till teamet.&#xD;
+ * När tidszoner diffar för mycket hamnar många möten på de timmar på dygnet som familjen kräver ens tid, vilket gör att många möten missas följt av skuldkänslor och känslor av att vara överflödig.&#xD;
+&#xD;
+Artikeln avslutas med två tips för att fostra distansfrämjande kultur i ett företag.&#xD;
+&#xD;
+**Ha åtskilda arbetsuppgifter**. Ha en lista över saker att göra och se till att den som åttar sig en uppgift kan göra den med så litet yttre beroenden som möjligt, med fullt ansvar och ägande.&#xD;
+&#xD;
+&gt; There are opportunities through code reviews, design reviews, and other exercises to ensure that people are on the right track. Otherwise, get out of their way.&#xD;
+&#xD;
+**Kommunicera via öppna kanaler**. Undvik att information bara når delar av teamet. Säg eller skriv inte saker som stannar på kontoret eller i ett personligt mail. Informera inte om saker på en Post-it eller Whiteboard. Detta skapar nämligen oro och ängslan i arbetslaget över att inte ha koll.&#xD;
+&#xD;
+&gt; Every decision is documented. Find a place, be it Slack, GitHub, Trello, or wherever, and get the word out. &#xD;
+&#xD;
+Det andra och sista tipset kommer från [Remy Sharp][8] och det rör att ha retrospektiv på distans. Retrospektiv är grymt viktigt för alla arbetslag då det ger tillfälle att förbättra arbetsprocessen och samtidigt passa på att kolla så att alla trivs på jobbet.&#xD;
+&#xD;
+Såhär körde de tidigare:&#xD;
+&#xD;
+&gt; The retrospectives would run over remote video calls, and we would try to simulate the typical writing on postit notes, with writing in a shared spreadsheet. First listing those things that worked well, then those that needed working on, then we'd vote on what we wanted to improve on. All in the spreadsheet.&#xD;
+&#xD;
+Det fungerade inte riktigt, så för att prova på något annat skapades [Retrobot][9], en bot som låter en kanal i Slack bli en styrd retrospekt.&#xD;
+&#xD;
+Den funkar såhär:&#xD;
+&#xD;
+&#xD;
+&gt; You invite @retrobot a channel (we used #retro as the channel name)&#xD;
+&gt;&#xD;
+&gt; Tell the bot to start the retrospective: @retrobot start 5m (and automatically end in 5 minutes)&#xD;
+&gt; The bot invites everyone who's active in the #retro channel to a private DM session, asking for "worked well" and "needs work" items, indicated by a prefix of + and - respectively&#xD;
+&gt; &#xD;
+&gt; Once the retro is over, the bot invites everyone back into the #retro channel, and prints out a shuffled list of what worked well, and what needs work&#xD;
+&gt; &#xD;
+&gt; Everyone is then asked to 👍 the items that need work that they want to action from the retrospective, and once the person running the retrospective is satisfied everyone is done, they ask the bot for a summary: @retrobot summary which prints the top three items with the most 👍s&#xD;
+&#xD;
+Grymt bra initiativ som nog kan fungera i team med språkbarriärer, t ex. Eller kass lina eller med medioker utrustning för videosamtal.&#xD;
+&#xD;
+Mina slutsatser är att det är klurigt att jobba på distans, och att det ligger i företaget och arbetslaget gemensamma intresse att jobba för att det ska fungera.&#xD;
+&#xD;
+&#xD;
+[1]: http://www.imdb.com/title/tt2575988/&#xD;
+[2]: http://www.imdb.com/title/tt0487831/&#xD;
+[3]: https://basecamp.com/&#xD;
+[4]: https://37signals.com/rework&#xD;
+[5]: https://37signals.com/remote&#xD;
+[6]: https://snook.ca&#xD;
+[7]: https://snook.ca/archives/other/working-remotely&#xD;
+[8]: https://remysharp.com&#xD;
+[9]: https://remysharp.com/2016/08/22/remote-retrospectives-with-retrobot</content>
+  </entry>
+</feed>

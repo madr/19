@@ -1,0 +1,94 @@
+<!doctype html><html lang=sv><head><meta charset=UTF-8><title>Hur nya madr.se byggdes | Anders Ytterströms hemsida</title><meta name=viewport content="width=device-width"><link rel=stylesheet title="madr.se stilmall" href=/madrse.css><link href=/prenumerera.xml type=application/atom+xml rel=alternate title=madr.se><link rel=canonical href=https://madr.se//2012/hur-webbplatsen-byggdes/ ><meta property=og:title content="Hur nya madr.se byggdes"><meta property=og:type content=article><meta property=og:url content=https://madr.se//2012/hur-webbplatsen-byggdes/ ><meta property=og:image content=https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276><meta property=og:site_name content="Anders Ytterströms hemsida"></head><body><a href=#content class=skiplink>Hoppa till innehåll</a><header><a href=/ rel=home>madr.se</a><nav><a href=/bl/ >🤘 Brütal Legend</a> <a href=/evenemang/ >📅 Evenemang</a> <a href=/om/ >🤷‍♂️ Om</a> <a href=/prenumerera.xml rel=alternate title="Prenumerera via Atom">📣</a></nav></header><main id=content><article><h1>Hur nya madr.se byggdes</h1><footer><time>2012-07-22</time> av <a rel=author href=/om><img src=https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276 alt=porträtt> Anders Ytterström</a></footer><p>Madr.se har varit det ständiga offret när jag vill lära mig något nytt. Den nyaste versionen av sajten är inget undantag.</p><h2 id=tack-och-adj-posterous>Tack och adjö, Posterous</h2><p>Jag har verkligen ingenting ont att säga om <a href=http://madrse.posterous.com>Posterous</a> då det verktyget hade mycket positiv inverkan på mitt bloggande under två år. Jag känner dock att jag saknat möjligheten att öppna huven och skruva på (läs: pilla på) saker.</p><p>Alla gamla inlägg som tidigare låg på Posterous är kvar på sina gamla permalänkar, främst eftersom jag inte har tillåtelse att sätta den här sajten till huvuddomänen då det kräver åtkomst till <code>CNAME</code>.</p><p>Jag är inte beredd att gå tillbaka till ett eget webbramverk från scratch som driftas på en egen server i vardagsrummet: snarare vill jag välja något som <strong>är utanför min konfortzon</strong> och som <strong>verkar vara riktigt häftigt och väl igenomtänkt</strong>.</p><h2 id=utvecklat-i-django>Utvecklat i Django</h2><p>Därav föll mitt val på <strong>Django</strong> då dess slogan <a href=https://www.djangoproject.com/ >The Web framework for perfectionists with deadlines</a> är alldeles för provocerande för att motstå. Python är ingenting jag använt till stor utsträckning, men det är ett språk som jag alltid haft en bra magkänsla inför.</p><p>Att få ihop grundläggande bloggfunktionalitet var <strong>busenkelt</strong>. Helt på köpet fick jag ett <strong>minimalt, men ändå funktionsdugligt</strong> CMS för att skriva och hantera inlägg.</p><p>Tre saker jag gillar med Django:</p><ul><li>Mallspråket, som lyckas med bragden att göra sitt jobb utan att vara i vägen eller bromsa.</li><li>Konventionerna för filer och kataloger. Det går att hitta saker spontant bara genom att se hur saker är döpta.</li><li>Definitionen av url-routes. Ett enkelt regex.</li></ul><h2 id=drift-i-heroku-och-amazon-s3>Drift i Heroku och Amazon S3</h2><p><a href=http://heroku.com>Heroku</a> är något jag använder mycket såväl i jobbet som för privata projekt, och en av anledningarna till att den här sajten blev av är för att Heroku sedan en tid stödjer system utvecklade i Python.</p><p>På Heroku använder jag följande addons:</p><ul><li><strong>Scheduler</strong>, för schemalagda bakgrundsjobb (t ex cachning av sidspalterna på den här sajten).</li></ul><p>För att inte lasta Heroku mer än nödvändigt ligger mina statiska filer (CSS, JavaScript, bilder) i <a href=http://aws.amazon.com/s3/ >Amazon S3</a> där jag enkelt kan hantera expires-headers och annat.</p><h2 id=mobile-first>Mobile first</h2><p>I dagar där följsam design är poppis är det en yrkesskyldighet att applicera media queries. Jag har dock även valt att köra <a href=http://www.lukew.com/ff/entry.asp?933>Mobile first</a> genom att applicera följande principer:</p><ul><li>Minimal vikt. Inga CSS- eller JS-bibliotek, bara handskriven, domänspecifik kod som dessutom är minifierad. CSS3 istället för CSS-bilder.</li><li>Stor typografi för löptext med (relativt) hög kontrast. <a href=http://www.zeldman.com/2012/05/18/web-design-manifesto-2012/ >Web Design Manifesto 2012</a></li><li>Favikoner och diverse anpassningar (<code>viewport</code> och annat) för webbläsare i mobiler.</li><li>Appcache-manifest för att erbjuda permanent lagring av CSS, favikoner och JavaScript.</li></ul><h2 id=kort-om-kod>Kort om kod</h2><p>Jag validerar och lintar sajtens frontend-kod med <a href=http://gruntjs.com/ >Grunt</a>. Grunt används även för att ladda upp filer till Amazon S3. Här är min Gruntfile:</p><pre><code>module.exports = function(grunt) {
+  // Project configuration.
+  grunt.initConfig({
+    pkg: grunt.file.readJSON(&#39;package.json&#39;),
+    aws: grunt.file.readJSON(&#39;../../../Dropbox/madrse/grunt-aws.json&#39;),
+    s3: {
+      options: {
+        key: &#39;&lt;%= aws.key %&gt;&#39;,
+        secret: &#39;&lt;%= aws.secret %&gt;&#39;,
+        bucket: &#39;&lt;%= aws.bucket %&gt;&#39;,
+        access: &#39;public-read&#39;,
+        headers: {
+          // Two Year cache policy (1000 * 60 * 60 * 24 * 730)
+          &quot;Cache-Control&quot;: &quot;max-age=630720000, public&quot;,
+          &quot;Expires&quot;: new Date(Date.now() + 63072000000).toUTCString()
+        }
+      },
+      dev: {
+        options: {
+          maxOperations: 20
+        },
+        upload: [
+          {
+            src: &#39;../../../Dropbox/madrse/assets/*.png&#39;,
+            dest: &#39;assets/&#39;
+          },
+          {
+            src: &#39;madrse.appcache&#39;,
+            dest: &#39;madrse.appcache&#39;
+          },
+          {
+            src: &#39;admin/*&#39;,
+            dest: &#39;admin/&#39;
+          },
+          {
+            src: &#39;img/*.png&#39;,
+            dest: &#39;img/&#39;
+          },
+          {
+            src: &#39;dist/*&#39;,
+            dest: &#39;dist/&#39;
+          }
+        ]
+      }
+    },
+    csslint: {
+      strict: {
+        src: [&#39;dist/design.css&#39;]
+      }
+    },
+    devserver: {
+      &quot;options&quot;: {
+        &quot;port&quot;: 8888
+      },
+      server: {}
+    },
+    less: {
+      development: {
+        files: {
+          &quot;dist&quot;: &quot;src/less&quot;
+        },
+        files: {
+          &quot;dist/design.css&quot;: &quot;src/less/*.less&quot;
+        }
+      },
+      production: {
+        options: {
+          cleancss: true
+        },
+        files: {
+          &quot;dist/design.min.css&quot;: &quot;src/less/*.less&quot;
+        }
+      }
+    },
+    uglify: {
+      options: {
+        banner: &#39;/*! &lt;%= pkg.name %&gt; &lt;%= grunt.template.today(&quot;yyyy-mm-dd&quot;) %&gt; */\n&#39;
+      },
+      build: {
+        src: &#39;dist/app.js&#39;,
+        dest: &#39;dist/app.min.js&#39;
+      }
+    }
+  });
+
+  grunt.loadNpmTasks(&#39;grunt-contrib-csslint&#39;);
+  grunt.loadNpmTasks(&#39;grunt-contrib-less&#39;);
+  grunt.loadNpmTasks(&#39;grunt-devserver&#39;);
+  grunt.loadNpmTasks(&#39;grunt-s3&#39;);
+
+  grunt.registerTask(&#39;deploy&#39;, [&#39;less:production&#39;, &#39;less:development&#39;, &#39;s3&#39;]);
+  grunt.registerTask(&#39;test&#39;, [&#39;csslint&#39;]);
+  grunt.registerTask(&#39;default&#39;, [&#39;test&#39;]);
+};</code></pre><p>Gällande CSS använder jag senaste kopian av <a href=https://gist.github.com/madr/6622974>site.less</a>, en gist jag ständigt uppdaterar och förbättrar.</p><p>Koden i produktion är minifierad enligt rekommendation, men för den som är intresserad finns även orginalen uppladdade på S3:</p><ul><li><a href=http://madrse.s3.amazonaws.com/dist/design.css>CSS för nya madr.se</a></li></ul><h2 id=tack>Tack</h2><p>Ära den som äras bör. Jag skapade den här sajten utifrån några principer, de främsta här nedan:</p><ul><li>Ethan Schoonover, för färgsättningen <a href=http://ethanschoonover.com/solarized>Solarized</a>.</li><li>Rachel Andrew, för stor inspiration: <a href=http://www.rachelandrew.co.uk/archives/2012/03/21/stop-solving-problems-you-dont-yet-have/ >Stop solving problems you don&#39;t yet have</a>.</li><li>All samlad och delad visdom i <a href=http://html5boilerplate.com>HTML5 Boilerplate</a>.</li><li>Nicolas Gallagher &amp; Jonathan Neal för <a href=necolas.github.com/normalize.css/ >normalise.css</a>.</li></ul></article></main><footer><p><a href=https://creativecommons.org/licenses/by-sa/4.0/ lang=en>CC BY-SA 4.0</a> av Anders Ytterström sedan dec 2006. <a rel=alternate href=/prenumerera.xml>Prenumerera</a>.</p></footer></body></html>

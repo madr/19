@@ -1,0 +1,15 @@
+<!doctype html><html lang=sv><head><meta charset=UTF-8><title>Hex till RGB och RGBa med JavaScript | Anders Ytterströms hemsida</title><meta name=viewport content="width=device-width"><link rel=stylesheet title="madr.se stilmall" href=/madrse.css><link href=/prenumerera.xml type=application/atom+xml rel=alternate title=madr.se><link rel=canonical href=https://madr.se//2010/151/ ><meta property=og:title content="Hex till RGB och RGBa med JavaScript"><meta property=og:type content=article><meta property=og:url content=https://madr.se//2010/151/ ><meta property=og:image content=https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276><meta property=og:site_name content="Anders Ytterströms hemsida"></head><body><a href=#content class=skiplink>Hoppa till innehåll</a><header><a href=/ rel=home>madr.se</a><nav><a href=/bl/ >🤘 Brütal Legend</a> <a href=/evenemang/ >📅 Evenemang</a> <a href=/om/ >🤷‍♂️ Om</a> <a href=/prenumerera.xml rel=alternate title="Prenumerera via Atom">📣</a></nav></header><main id=content><p class=alert--archived><i>Detta är ett arkiverat inlägg, som importerats hit för referens. Det kan se konstigt ut och innehålla utdaterad information eller inaktuella åsikter.</i></p><article><h1>Hex till RGB och RGBa med JavaScript</h1><footer><time>2010-05-31</time> av <a rel=author href=/om><img src=https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276 alt=porträtt> Anders Ytterström</a></footer><p>Jag var i behov av att kunna skifta mellan hex, rgb och rgba och tröttnade på att googla ytterligare en gång. Jag skrev därför ihop en liten funktion som kan köras i Firebug eller annan Inspector.</p><pre><code>function hex2rgb(hex, opacity) {
+  var rgb = hex.replace(&#39;#&#39;, &#39;&#39;).match(/(.{2})/g);
+
+  var i = 3;
+  while (i--) {
+    rgb[i] = parseInt(rgb[i], 16);
+  }
+
+  if (typeof opacity == &#39;undefined&#39;) {
+    return &#39;rgb(&#39; + rgb.join(&#39;,&#39;) + &#39;)&#39;;
+  }
+
+  return &#39;rgba(&#39; + rgb.join(&#39;, &#39;) + &#39;, &#39; + opacity + &#39;)&#39;;
+};</code></pre><p>Används ganska så rättframt.</p><pre><code>hex2rgb(&#39;#e68079&#39;); // rgb(230, 128, 121)
+hex2rgb(&#39;#e68079&#39;, .66); // rgba(230, 128, 121, 0.66)</code></pre><p><a href=http://pastie.textmate.org/private/zzdtftq29p0nk5mo2xqp1w>Kodsnutt på Pastie</a> finns också för den som föredrar det.</p></article></main><footer><p><a href=https://creativecommons.org/licenses/by-sa/4.0/ lang=en>CC BY-SA 4.0</a> av Anders Ytterström sedan dec 2006. <a rel=alternate href=/prenumerera.xml>Prenumerera</a>.</p></footer></body></html>
