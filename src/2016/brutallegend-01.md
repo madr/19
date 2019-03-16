@@ -1,6 +1,8 @@
 ---
+num: 1
+title: "Sanctuary - Battle Angels #bl01"
 artist: Sanctuary
-title: 
+songs: 
  - Battle Angels
 album: Refuge Denied
 year: 1987

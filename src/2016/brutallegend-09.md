@@ -1,6 +1,8 @@
 ---
+num: 9
+title: "Black Sabbath - Children of the Grave #bl09"
 artist: Black Sabbath
-title: 
+songs: 
  - Children of the Grave
 album: Masters of Reality
 year: 1971

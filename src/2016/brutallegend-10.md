@@ -1,6 +1,8 @@
 ---
+num: 10
+title: "Savatage - Hall of the Mountain King #bl10"
 artist: Savatage
-title: 
+songs: 
  - Hall of the Mountain King
 album: Hall of the Mountain King
 year: 1987

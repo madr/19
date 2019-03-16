@@ -1,6 +1,8 @@
 ---
+num: 14
+title: "Ostrogoth - Queen of Desire #bl14"
 artist: Ostrogoth
-title: 
+songs: 
  - Queen of Desire
 album: Ecstasy and Anger
 year: 1984

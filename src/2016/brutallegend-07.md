@@ -1,6 +1,8 @@
 ---
+num: 7
+title: "Diamond Head - Am I Evil #bl07"
 artist: Diamond Head
-title: 
+songs: 
  - Am I Evil
 album: Am I Evil
 year: 1987

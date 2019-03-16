@@ -1,6 +1,8 @@
 ---
+num: 15
+title: "Riot - Narita, Road Racin' #bl15"
 artist: Riot
-title: 
+songs: 
  - Narita
  - Road Racin'
 album: Narita

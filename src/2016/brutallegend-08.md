@@ -1,6 +1,8 @@
 ---
+num: 8
+title: "Anvil - March of the Crabs, Tag Team #bl08"
 artist: Anvil
-title: 
+songs: 
  - March of the Crabs
  - Tag Team
 album: Metal on Metal

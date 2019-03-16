@@ -1,6 +1,8 @@
 ---
+num: 17
+title: "Angel Witch - Angel Witch #bl17"
 artist: Angel Witch
-title: 
+songs: 
  - Angel Witch
 album: Angel Witch
 year: 1980

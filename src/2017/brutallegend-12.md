@@ -1,6 +1,8 @@
 ---
+num: 12
+title: "Budgie - Breadfan #bl12"
 artist: Budgie
-title: 
+songs: 
  - Breadfan
 album: Never Turn Your Back On A Friend
 year: 1973

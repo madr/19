@@ -1,6 +1,8 @@
 ---
+num: 6
+title: "Running Wild - Riding the Storm #bl06"
 artist: Running Wild
-title: 
+songs: 
  - Riding the Storm
 album: Death or Glory
 year: 1989

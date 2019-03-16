@@ -1,6 +1,8 @@
 ---
+num: 11
+title: "Metal Church - Metal Church #bl11"
 artist: Metal Church
-title: 
+songs: 
  - Metal Church
 album: Metal Church
 year: 1984

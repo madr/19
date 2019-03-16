@@ -1,6 +1,8 @@
 ---
+num: 2
+title: "Nitro - Machine Gunn Eddie #bl02"
 artist: Nitro
-title: 
+songs: 
  - Machine Gunn Eddie
 album: O.F.R.
 year: 1989

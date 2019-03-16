@@ -1,10 +1,12 @@
 ---
+num: 16
+title: "Motörhead - (We are) the Roadcrew #bl16"
 artist: Motörhead
-title: 
+songs: 
  - (We Are) The Roadcrew
 album: Ace of Spades
 year: 1980
-date: 2017-07-25
+date: 2017-07-26
 layout: single.hbs
 collection: brutal-legends
 ---

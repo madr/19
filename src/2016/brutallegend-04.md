@@ -1,6 +1,8 @@
 ---
+num: 4
+title: "KISS - God of Thunder #bl04"
 artist: KISS
-title: 
+songs: 
  - God of Thunder
 album: Destroyer
 year: 1976

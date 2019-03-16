@@ -1,6 +1,8 @@
 ---
+num: 13
+title: "Coroner - Skeleton on Your Shoulder #bl13"
 artist: Coroner
-title: 
+songs: 
  - Skeleton on Your Shoulder
 album: Punishment for Decadence
 year: 1988

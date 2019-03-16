@@ -1,6 +1,8 @@
 ---
+num: 3
+title: "Omen - The Axeman #bl03"
 artist: Omen
-title: 
+songs: 
  - The Axeman
 album: Battle Cry
 year: 1984

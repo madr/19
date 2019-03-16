@@ -1,6 +1,8 @@
 ---
+num: 5
+title: "Ozzy Osbourne - Mr Crowley #bl05"
 artist: Ozzy Osbourne
-title: 
+songs: 
  - Mr Crowley
 album: Blizzard of Ozz
 year: 1980
