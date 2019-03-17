@@ -29,7 +29,7 @@ Metalsmith(__dirname)
     image: "https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276"
   })
   .source('./src')
-  .destination('./doc')
+  .destination('./docs')
   .use(collections({
     events: {
       sortBy: 'date',
