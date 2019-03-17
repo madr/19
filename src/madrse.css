@@ -30,6 +30,11 @@ a:visited::after {
     content: ' ✅';
 }
 
+strong {
+    font-weight: normal;
+    color: #d33682;
+}
+
 code {
     color: #859900;
     font-size: .75rem;
