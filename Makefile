@@ -6,6 +6,7 @@ build:
 	cp ../brutal-legend/index.html docs/bl/index.html
 	cp ../brutal-legend/bundle.js docs/bl/bundle.js
 	cp -r ../brutal-legend/assets docs/bl/assets
+	echo "www.madr.se" > docs/CNAME
 
 node_modules: package.json
 	npm install
