@@ -1,163 +1,25 @@
+/**
+ * Main CSS file for madr.se.
+ * Bring Anders Ytterström a 🍺 if you find something useful.
+ */
+
+/* === Base === */
+
 html {
-    background-color: #002b36;
     color: #eee8d5;
     font: normal large/1.4 apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    background-color: #123;
+    background-image:
+    radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+    radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+    radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+    radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+    background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+    background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 body {
     margin: 0;
-}
-
-a {
-    transition: transform .3s;
-}
-
-a:link {
-    color: #268bd2;
-}
-
-a:hover,
-a:focus {
-    color: #d33682;
-}
-
-a:visited {
-    text-decoration: line-through;
-    color: #2aa198;
-}
-
-a:visited::after {
-    content: ' ✅';
-}
-
-strong {
-    font-weight: normal;
-    color: #d33682;
-}
-
-code {
-    color: #859900;
-    font-size: .75rem;
-    font-family: monaco, consolas, monospace;
-}
-
-header {
-    background: #073642;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav {
-    display: flex;
-    font-size: medium;
-}
-
-nav a {
-    padding: .5rem 1.5rem;
-    position: relative;
-    z-index: 2;
-    transition: color .3s;
-}
-
-nav a:hover,
-nav a:focus {
-    color: #fff;
-}
-
-nav a::before {
-    content: '';
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform: skewX(-20deg);
-    transition: background-color .3s;
-}
-
-nav a:hover::before,
-nav a:focus::before {
-    background-color: #d33682;
-}
-
-.skiplink {
-    position: absolute;
-    left: 1rem;
-    top: -99rem;
-    background-color: #268bd2;
-    padding: .5rem;
-}
-
-.skiplink:focus {
-    color: #fff;
-    top: 1rem;
-}
-
-h1 {
-    font-size: 4rem;
-    line-height: .95;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.super-h1 {
-    margin: 0;
-    height: calc(100vh - 40px);
-}
-
-h2 {
-    margin-top: 3rem;
-    color: #fff;
-}
-
-article {
-    max-width: 35em;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-footer img {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    vertical-align: middle;
-    padding: 0 10px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 3rem;
-    color: #93a1a1;
-    font-size: smaller;
-}
-
-article footer {
-    text-align: left;
-    margin-top: 0;
-}
-
-.pagination {
-    margin: 2rem auto;
-    display: flex;
-    max-width: 27rem;
-    justify-content: space-between;
-}
-
-a[rel=previous]::before {
-    content:'⬅️ ';
-}
-
-a[rel=next]::after {
-    content: ' ➡️';
-}
-
-a[rel=alternate]::after {
-    content: ' 💖'
 }
 
 table {
@@ -194,6 +56,230 @@ blockquote :last-child::before {
     content: '"';
 }
 
+strong {
+    font-weight: normal;
+    color: #d33682;
+}
+
+code {
+    color: #859900;
+    font-size: .75rem;
+    font-family: monaco, consolas, monospace;
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: #93a1a1;
+    font-size: smaller;
+}
+
+@media (min-width: 666px) {
+    footer {
+        grid-column: 1 / -1;
+    }
+}
+
+/* === /Base === */
+/* === Links === */
+
+a {
+    transition: transform .3s;
+}
+
+a:link {
+    color: #268bd2;
+}
+
+a:hover,
+a:focus {
+    color: #d33682;
+}
+
+a:visited {
+    text-decoration: line-through;
+    color: #2aa198;
+}
+
+a:visited::after {
+    content: ' ✅';
+}
+
+a[rel=previous]::before {
+    content:'⬅️ ';
+}
+
+a[rel=next]::after {
+    content: ' ➡️';
+}
+
+a[rel=alternate]::after {
+    content: ' 💖'
+}
+
+/* === /Links === */
+/* === Headings === */
+
+h1 {
+    font-size: 3.33rem;
+    line-height: .95;
+    margin: 1.4rem 0;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 2.66rem;
+    color: #fff;
+}
+
+.super-h1 {
+    display: flex;
+    margin: 0;
+    height: calc(100vh - 40px);
+    align-items: center;
+    justify-content: center;
+}
+
+/* === /Headings === */
+/* === Header === */
+
+header {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+header > a {
+    display: block;
+    text-align: center;
+    line-height: 4;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* === /Header === */
+/* === Navigation === */
+
+nav {
+    display: flex;
+    font-size: small;
+}
+
+nav a {
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #fff;
+    background-color: #d33682;
+}
+
+@media (min-width: 60rem) {
+    nav {
+        display: block;
+        position: sticky;
+        top: 0;
+        font-size: large;
+    }
+
+    nav a {
+        display: block;
+        position: relative;
+        padding: .5rem 1.5rem;
+        z-index: 2;
+        transition: color .3s;
+    }
+}
+
+/* === /Navigation === */
+/* === Skip link === */
+
+.skiplink {
+    position: absolute;
+    left: 1rem;
+    top: -99rem;
+    background-color: #268bd2;
+    padding: .5rem;
+}
+
+.skiplink:focus {
+    color: #fff;
+    top: 1rem;
+}
+
+/* === /Skip link === */
+/* === Grid === */
+
+@media (min-width: 666px) {
+    body {
+        display: grid;
+        grid-template-columns: 2fr 4fr;
+        grid-gap: 2px;
+    }
+
+    header {
+        grid-column: 1;
+        align-items: start;
+        border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    main {
+        grid-column: 2;
+        align-items: start;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+    }
+}
+
+@media (min-width: 963px) {
+    body {
+        grid-template-columns: 2fr 2fr 4fr 2fr;
+    }
+
+    header {
+        grid-column: 2;
+    }
+
+    main {
+        grid-column: 3;
+    }
+}
+
+/* === /Grid === */
+/* === Article === */
+
+article {
+    border-radius: 5px;
+    padding: .75rem;
+}
+
+article footer {
+    text-align: left;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* === /Article === */
+/* === Pagination === */
+
+.pagination {
+    margin: 2rem auto;
+    display: flex;
+    max-width: 27rem;
+    justify-content: space-between;
+}
+
+/* === /Pagination === */
+/* === Alert === */
+
 .alert--archived {
     max-width: 30rem;
     margin: 2rem auto;
@@ -211,3 +297,5 @@ blockquote :last-child::before {
     opacity: 1;
     transform: initial;
 }
+
+/* === /Alert === */
