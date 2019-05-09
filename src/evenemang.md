@@ -27,8 +27,6 @@ Geografisk utspridning
 Kommande
 --------
 
- * **Close-Up båten 24** den 28-29 mars 2019.
- * **Stockholm Slaughter: act III** på Fryshuset den 27 april 2019.
  * **Sweden Rock Festival** i Sölvesborg den 6-9 juli 2019.
  * **Gefle Metal Festival** på Gasklockorna, Gävle den 11-12 juli 2019.
 
@@ -39,6 +37,17 @@ Kommande
 
 2019
 ----
+
+### Stockholm Slaughter: act III
+
+ * Stadsfestival på Kraken och Slaktkyrkan, Stockholm den 27 april 2019.
+ * Personliga höjdpunkter: **Månegarm**, **Mgła**.
+ * Band jag missade: **Harakiri for the Sky**, **Forndom**.
+
+### Close-Up båten 21
+
+ * Temakryssning till Åbo, Finland den 28-29 mars 2019.
+ * Personliga höjdpunkter: **Vomitory**, **Dark Tranquility**, **Crawl**, **LIK**, **Unanimated**, **Demonical**.
 
 ### House of Metal
 

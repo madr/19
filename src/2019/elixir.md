@@ -52,4 +52,4 @@ Jag har ett gäng andra idéer på gång som jag inte kommer att nämna här, me
  * **Genomför Advent of Code 2019 i Elixir**. För att koda ännu mer.
  * **Åk på ElixirConf under 2020**. För att på riktigt få umgås med communityt.
 
- Detta kommer förhoppningsvis att bli en inläggs-serie som jag uppdaterar under året.
+Detta kommer förhoppningsvis att bli en inläggs-serie som jag uppdaterar under året.
