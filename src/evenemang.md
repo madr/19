@@ -29,6 +29,8 @@ Kommande
 
  * **Sweden Rock Festival** i Sölvesborg den 6-9 juli 2019.
  * **Gefle Metal Festival** på Gasklockorna, Gävle den 11-12 juli 2019.
+ * **King Diamond** på Fryshuset, Stockholm den 8 augusti 2019.
+ * **Mayhem** på Fryshuset, Stockholm den 29 oktober 2019.
 
 </div>
 <div id="past">
