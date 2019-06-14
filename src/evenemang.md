@@ -40,6 +40,12 @@ Kommande
 2019
 ----
 
+### Sweden Rock Festival
+
+ * Festival i Norje, Sölvesborg den 5-8 juni 2018.
+ * Personliga höjdpunkter: **Amon Amarth**, **Brothers of Metal**, **Burning Witches**, **Demons & Wizards**, **Jag Panzer**, **Saxon**, **Tenacious D**, **Unleashed**.
+ * Band jag missade: **Behemoth**, **Candlemass**.
+
 ### Stockholm Slaughter: act III
 
  * Stadsfestival på Kraken och Slaktkyrkan, Stockholm den 27 april 2019.
