@@ -1,6 +1,5 @@
 ---
 title: Mina deltaganden i konserter och festivaler sedan 2000
-date: 2017-07-07
 template: post.html
 tags: concerts
 layout: single.hbs
@@ -27,9 +26,10 @@ Geografisk utspridning
 Kommande
 --------
 
- * **Gefle Metal Festival** på Gasklockorna, Gävle den 11-12 juli 2019.
  * **King Diamond** på Fryshuset, Stockholm den 8 augusti 2019.
  * **Mayhem** på Fryshuset, Stockholm den 29 oktober 2019.
+ * **Wacken Open Air** i Wacken, Tyskland den 30 juli 2020.
+ * **Gefle Metal Festival** på Gasklockorna, Gävle den 9-11 juli 2020.
 
 </div>
 <div id="past">
@@ -39,7 +39,13 @@ Kommande
 2019
 ----
 
-### Sweden Rock Festival
+### Gefle Metal Festival
+
+ * Festival på Gasklockorna, Gävle den 19-20 juni 2018.
+ * Personliga höjdpunkter: **Nervosa**, **Macabre Decay**, **Legion of the Damned**, **Eiveitie**, **Dimmu Borgir**, **Scarlet**, **Satyricon**, **Dying Fetus**, **Primordial**, **Dark Tranquility**, **Deathstars**, **Ministry**.
+ * Band jag missade: **Kataklysm**, **Wolfheart**, **Murdermarket**.
+
+#### Sweden Rock Festival
 
  * Festival i Norje, Sölvesborg den 5-8 juni 2018.
  * Personliga höjdpunkter: **Amon Amarth**, **Brothers of Metal**, **Burning Witches**, **Demons & Wizards**, **Jag Panzer**, **Saxon**, **Tenacious D**, **Unleashed**.

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://madr.se/</id>
-  <link href="https://madr.se/"/>
-  <link href="https://madr.se/prenumerera.xml" rel="self"/>
+  <id>https://www.madr.se/</id>
+  <link href="https://www.madr.se/"/>
+  <link href="https://www.madr.se/prenumerera.xml" rel="self"/>
   <title>madr.se</title>
   <subtitle>Anders Ytterströms hemsida om hårdrock, musik och webbutveckling</subtitle>
-  <updated>2019-06-19T11:59:12.758Z</updated>
+  <updated>2019-08-05T13:18:29.692Z</updated>
   <entry>
     <title>Tack för tiden, Twitter och Instagram</title>
-    <id>https://madr.se/2018/twitter-instagram-eol.md</id>
-    <link href="https://madr.se/2018/twitter-instagram-eol.md"/>
+    <id>https://www.madr.se/2018/twitter-instagram-eol.md</id>
+    <link href="https://www.madr.se/2018/twitter-instagram-eol.md"/>
     <updated>2018-04-07T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -31,8 +31,8 @@ Det sistnämnda är något jag vill fortsätta med, så jag har här ett ypperli
   </entry>
   <entry>
     <title>2017, året som gick</title>
-    <id>https://madr.se/2017/2017.md</id>
-    <link href="https://madr.se/2017/2017.md"/>
+    <id>https://www.madr.se/2017/2017.md</id>
+    <link href="https://www.madr.se/2017/2017.md"/>
     <updated>2017-12-31T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -138,8 +138,8 @@ Fortsatt fokus på hälsa: mer träning, mindre skitmat.</content>
   </entry>
   <entry>
     <title>When Women Stopped Coding →</title>
-    <id>https://madr.se/2017/when-women-stopped-coding.md</id>
-    <link href="https://madr.se/2017/when-women-stopped-coding.md"/>
+    <id>https://www.madr.se/2017/when-women-stopped-coding.md</id>
+    <link href="https://www.madr.se/2017/when-women-stopped-coding.md"/>
     <updated>2017-09-17T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -162,8 +162,8 @@ Vi behöver jobba med det här, särskilt genom att visa vårt stöd för döttr
   </entry>
   <entry>
     <title>Ut med det gamla, in med det nya</title>
-    <id>https://madr.se/2017/2017-mid.md</id>
-    <link href="https://madr.se/2017/2017-mid.md"/>
+    <id>https://www.madr.se/2017/2017-mid.md</id>
+    <link href="https://www.madr.se/2017/2017-mid.md"/>
     <updated>2017-07-30T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -184,8 +184,8 @@ Ett ännu odöpt musikprojekt, under arbetsnamnet **Umgällt**, är aktivt och k
   </entry>
   <entry>
     <title>2016, året som gick</title>
-    <id>https://madr.se/2016/2016.md</id>
-    <link href="https://madr.se/2016/2016.md"/>
+    <id>https://www.madr.se/2016/2016.md</id>
+    <link href="https://www.madr.se/2016/2016.md"/>
     <updated>2016-12-31T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -257,8 +257,8 @@ Eftersom C# nu är på väg att bli något för oss utan Windows och  Visual Stu
   </entry>
   <entry>
     <title>Rants om Progressive Enhancement</title>
-    <id>https://madr.se/2016/pe.md</id>
-    <link href="https://madr.se/2016/pe.md"/>
+    <id>https://www.madr.se/2016/pe.md</id>
+    <link href="https://www.madr.se/2016/pe.md"/>
     <updated>2016-12-15T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -287,36 +287,9 @@ I de Google Analytics-rapporter jag baserar en månadsrapport på för kunds rä
 Med det sagt så bygger jag alltid saker med Progressive Enhancement eftersom det var så jag lärde mig, men det är inte längre något jag tar för givet att se som ekvivalent till kund- och affärsnytta.</content>
   </entry>
   <entry>
-    <title>Uppladdning inför Advent of Code 2016</title>
-    <id>https://madr.se/2016/aoc-2016.md</id>
-    <link href="https://madr.se/2016/aoc-2016.md"/>
-    <updated>2016-11-17T00:00:00.000Z</updated>
-    <author>
-      <name>Anders Ytterström</name>
-      <email>yttan@fastmail.se</email>
-    </author>
-    <content>Jag har under året skrivit mer kod än på många tidigare år, så vad är väl mer passande än att använda formtoppen till något kul?&#xD;
-&#xD;
-[Advent of Code](http://adventofcode.com) är en adventskalender för programmerare. Varje dag 1-25 december släpps en nya uppgift som kan lösas med valfritt programmeringsspråk.  Det hölls för första gången 2015 och repriseras i år.&#xD;
-&#xD;
-Jag deltog inte förra året men jag hade tänkt ta revanch i år genom att försöka slutföra hela kalendern med minst två programmeringsspråk: ett för mig välbekant, och ett för mig obekant.&#xD;
-&#xD;
-Det välbekanta språket är ingen högoddsare: **Python 3**. Det är sedan fyra år mitt förstahandsval för att koda webbbackends och scripts, så jag ser fram emot att få prova Python på ren problemlösnings-orienterad programmering.&#xD;
-&#xD;
-Det för mig obekanta språket var litet tufft att välja ut, men landade till slut på ett av de språk som fascinerar mig mest: **Lisp**. Här har jag ännu inte valt dialekt, men jag har smalnat av till antingen **Common Lisp** (då Clozure Common Lisp) eller **Scheme**. &#xD;
-&#xD;
-Då Lisp är mig totalt obekant kommer jag att tillbringa närmasta dagarna åt att läsa på litet och sedan välja dialekt baserat på Minsta motståndets lag.&#xD;
-&#xD;
-Jag ska en gång för alla ifrågasätta myten om att JavaScript och Lisp har likheter, om så bara för min egen skull. &#xD;
-&#xD;
-Jag har redan tjuvstartat genom att forka [Kodsnacks repo på Github][1] för att kunna lämna in lösningarna i ett lokalt sammanhang, samt för att utmana mig själv litet att versionshantera lösningarna ordentligt.&#xD;
-&#xD;
-[1]: https://gitub.com/madr/advent_of_code_2016</content>
-  </entry>
-  <entry>
     <title>Less is More - omgörning(ar) av madr.se</title>
-    <id>https://madr.se/2016/less-is-more.md</id>
-    <link href="https://madr.se/2016/less-is-more.md"/>
+    <id>https://www.madr.se/2016/less-is-more.md</id>
+    <link href="https://www.madr.se/2016/less-is-more.md"/>
     <updated>2016-11-17T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -344,9 +317,36 @@ Jag kommer troligtvis att tillåta mig att bli litet nostalgisk genom att skriva
 [2]: http://metalsmith.io</content>
   </entry>
   <entry>
+    <title>Uppladdning inför Advent of Code 2016</title>
+    <id>https://www.madr.se/2016/aoc-2016.md</id>
+    <link href="https://www.madr.se/2016/aoc-2016.md"/>
+    <updated>2016-11-17T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>Jag har under året skrivit mer kod än på många tidigare år, så vad är väl mer passande än att använda formtoppen till något kul?&#xD;
+&#xD;
+[Advent of Code](http://adventofcode.com) är en adventskalender för programmerare. Varje dag 1-25 december släpps en nya uppgift som kan lösas med valfritt programmeringsspråk.  Det hölls för första gången 2015 och repriseras i år.&#xD;
+&#xD;
+Jag deltog inte förra året men jag hade tänkt ta revanch i år genom att försöka slutföra hela kalendern med minst två programmeringsspråk: ett för mig välbekant, och ett för mig obekant.&#xD;
+&#xD;
+Det välbekanta språket är ingen högoddsare: **Python 3**. Det är sedan fyra år mitt förstahandsval för att koda webbbackends och scripts, så jag ser fram emot att få prova Python på ren problemlösnings-orienterad programmering.&#xD;
+&#xD;
+Det för mig obekanta språket var litet tufft att välja ut, men landade till slut på ett av de språk som fascinerar mig mest: **Lisp**. Här har jag ännu inte valt dialekt, men jag har smalnat av till antingen **Common Lisp** (då Clozure Common Lisp) eller **Scheme**. &#xD;
+&#xD;
+Då Lisp är mig totalt obekant kommer jag att tillbringa närmasta dagarna åt att läsa på litet och sedan välja dialekt baserat på Minsta motståndets lag.&#xD;
+&#xD;
+Jag ska en gång för alla ifrågasätta myten om att JavaScript och Lisp har likheter, om så bara för min egen skull. &#xD;
+&#xD;
+Jag har redan tjuvstartat genom att forka [Kodsnacks repo på Github][1] för att kunna lämna in lösningarna i ett lokalt sammanhang, samt för att utmana mig själv litet att versionshantera lösningarna ordentligt.&#xD;
+&#xD;
+[1]: https://gitub.com/madr/advent_of_code_2016</content>
+  </entry>
+  <entry>
     <title>Framsteg i Dota 2 juli-september 2016</title>
-    <id>https://madr.se/2016/dota2-2016-q3.md</id>
-    <link href="https://madr.se/2016/dota2-2016-q3.md"/>
+    <id>https://www.madr.se/2016/dota2-2016-q3.md</id>
+    <link href="https://www.madr.se/2016/dota2-2016-q3.md"/>
     <updated>2016-10-05T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -401,8 +401,8 @@ Botmatcher, möjligtvis någon ranked som support eller core. Jag är rostig och
   </entry>
   <entry>
     <title>Tips för att jobba på distans, från andras lärdomar</title>
-    <id>https://madr.se/2016/working-remote-testimonials.md</id>
-    <link href="https://madr.se/2016/working-remote-testimonials.md"/>
+    <id>https://www.madr.se/2016/working-remote-testimonials.md</id>
+    <link href="https://www.madr.se/2016/working-remote-testimonials.md"/>
     <updated>2016-09-01T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
