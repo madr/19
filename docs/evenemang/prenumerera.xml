@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://www.madr.se/</id>
-  <link href="https://www.madr.se/"/>
-  <link href="https://www.madr.se/prenumerera.xml" rel="self"/>
+  <id>https://madr.se/</id>
+  <link href="https://madr.se/"/>
+  <link href="https://madr.se/prenumerera.xml" rel="self"/>
   <title>madr.se</title>
   <subtitle>Anders Ytterströms hemsida om hårdrock, musik och webbutveckling</subtitle>
-  <updated>2019-08-05T13:18:29.692Z</updated>
+  <updated>2019-08-17T19:01:56.112Z</updated>
   <entry>
     <title>Tack för tiden, Twitter och Instagram</title>
-    <id>https://www.madr.se/2018/twitter-instagram-eol.md</id>
-    <link href="https://www.madr.se/2018/twitter-instagram-eol.md"/>
+    <id>https://madr.se/2018/twitter-instagram-eol.md</id>
+    <link href="https://madr.se/2018/twitter-instagram-eol.md"/>
     <updated>2018-04-07T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -31,8 +31,8 @@ Det sistnämnda är något jag vill fortsätta med, så jag har här ett ypperli
   </entry>
   <entry>
     <title>2017, året som gick</title>
-    <id>https://www.madr.se/2017/2017.md</id>
-    <link href="https://www.madr.se/2017/2017.md"/>
+    <id>https://madr.se/2017/2017.md</id>
+    <link href="https://madr.se/2017/2017.md"/>
     <updated>2017-12-31T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -138,32 +138,32 @@ Fortsatt fokus på hälsa: mer träning, mindre skitmat.</content>
   </entry>
   <entry>
     <title>When Women Stopped Coding →</title>
-    <id>https://www.madr.se/2017/when-women-stopped-coding.md</id>
-    <link href="https://www.madr.se/2017/when-women-stopped-coding.md"/>
+    <id>https://madr.se/2017/when-women-stopped-coding.md</id>
+    <link href="https://madr.se/2017/when-women-stopped-coding.md"/>
     <updated>2017-09-17T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
       <email>yttan@fastmail.se</email>
     </author>
-    <content>
-*Följande text är kopierad från ett inlägg på Facebook. Det är borttaget där, men sparat här för referens.*
-
-Jag kan verkligen känna magnituden i [Inlägget av A Mighty Girl](https://www.facebook.com/amightygirl/photos/a.360833590619627/1433083900061252/?type=3&amp;theater) om Podd-avsnittet [When Women Stopped Coding](https://www.npr.org/sections/money/2014/10/17/356944145/episode-576-when-women-stopped-coding?fbclid=IwAR3uggflsBRAu6s_hJw3kInbSBPwCLibRm34wHOVW6OZQcoCCQHZBgli08c&amp;t=1550419003163).
-
-Det här är en av de sorgligaste sakerna som hänt i efterkrigstid. Bara för att ge litet exempel på hur det var före 1984 vill jag nämna två kvinnor vars kod verkligen är historisk.
-
-Först har vi [Grave Hopper](https://sv.wikipedia.org/wiki/Grace_Hopper) som såg till att den första kompilatorn togs fram. En kompilator är det som översätter programmeringskod, som människor skriver och resonerar kring, till ettor och nollor som en dator förstår. Det programmeringsspråk hon introducerade till kompilatorn vidareutvecklades senare till COBOL, som fortfarande används i banker än idag. Hon fick för detta smeknamnet "Mormor COBOL" och var även Officer i amerikanska flottan.
-
-Sedan är det [Margaret Hamilton](https://sv.wikipedia.org/…/Margaret_Hamilton_(vetenskapsman)), som var ansvarig mjukvarudesigner och en av de främsta programmerarna till Apolloprogrammet på NASA, bl a Apollo 11 som vi alla minns tog människan till månen. Det var några incidenter på den månfärden som hade avbrutit månfärden om det inte vore för Hamiltons förmåga för problemlösning.
-
-Det är förkastligt att vi på 1980-talet bestämde oss för att inpränta i tjejer att datorer bara är för pojkar. Det gör att det idag, tre årtionden senare, fortfarande är alldeles för svårt för flickor/tjejer att börja programmera (det gör man som barn eller tonåring) och för kvinnor att göra karriär inom IT.
-
+    <content>&#xD;
+*Följande text är kopierad från ett inlägg på Facebook. Det är borttaget där, men sparat här för referens.*&#xD;
+&#xD;
+Jag kan verkligen känna magnituden i [Inlägget av A Mighty Girl](https://www.facebook.com/amightygirl/photos/a.360833590619627/1433083900061252/?type=3&amp;theater) om Podd-avsnittet [When Women Stopped Coding](https://www.npr.org/sections/money/2014/10/17/356944145/episode-576-when-women-stopped-coding?fbclid=IwAR3uggflsBRAu6s_hJw3kInbSBPwCLibRm34wHOVW6OZQcoCCQHZBgli08c&amp;t=1550419003163).&#xD;
+&#xD;
+Det här är en av de sorgligaste sakerna som hänt i efterkrigstid. Bara för att ge litet exempel på hur det var före 1984 vill jag nämna två kvinnor vars kod verkligen är historisk.&#xD;
+&#xD;
+Först har vi [Grave Hopper](https://sv.wikipedia.org/wiki/Grace_Hopper) som såg till att den första kompilatorn togs fram. En kompilator är det som översätter programmeringskod, som människor skriver och resonerar kring, till ettor och nollor som en dator förstår. Det programmeringsspråk hon introducerade till kompilatorn vidareutvecklades senare till COBOL, som fortfarande används i banker än idag. Hon fick för detta smeknamnet "Mormor COBOL" och var även Officer i amerikanska flottan.&#xD;
+&#xD;
+Sedan är det [Margaret Hamilton](https://sv.wikipedia.org/…/Margaret_Hamilton_(vetenskapsman)), som var ansvarig mjukvarudesigner och en av de främsta programmerarna till Apolloprogrammet på NASA, bl a Apollo 11 som vi alla minns tog människan till månen. Det var några incidenter på den månfärden som hade avbrutit månfärden om det inte vore för Hamiltons förmåga för problemlösning.&#xD;
+&#xD;
+Det är förkastligt att vi på 1980-talet bestämde oss för att inpränta i tjejer att datorer bara är för pojkar. Det gör att det idag, tre årtionden senare, fortfarande är alldeles för svårt för flickor/tjejer att börja programmera (det gör man som barn eller tonåring) och för kvinnor att göra karriär inom IT.&#xD;
+&#xD;
 Vi behöver jobba med det här, särskilt genom att visa vårt stöd för döttrar, systrar, svägerskor och till och med mammor. Berätta för dem att de kan, de KAN!</content>
   </entry>
   <entry>
     <title>Ut med det gamla, in med det nya</title>
-    <id>https://www.madr.se/2017/2017-mid.md</id>
-    <link href="https://www.madr.se/2017/2017-mid.md"/>
+    <id>https://madr.se/2017/2017-mid.md</id>
+    <link href="https://madr.se/2017/2017-mid.md"/>
     <updated>2017-07-30T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -184,8 +184,8 @@ Ett ännu odöpt musikprojekt, under arbetsnamnet **Umgällt**, är aktivt och k
   </entry>
   <entry>
     <title>2016, året som gick</title>
-    <id>https://www.madr.se/2016/2016.md</id>
-    <link href="https://www.madr.se/2016/2016.md"/>
+    <id>https://madr.se/2016/2016.md</id>
+    <link href="https://madr.se/2016/2016.md"/>
     <updated>2016-12-31T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -257,8 +257,8 @@ Eftersom C# nu är på väg att bli något för oss utan Windows och  Visual Stu
   </entry>
   <entry>
     <title>Rants om Progressive Enhancement</title>
-    <id>https://www.madr.se/2016/pe.md</id>
-    <link href="https://www.madr.se/2016/pe.md"/>
+    <id>https://madr.se/2016/pe.md</id>
+    <link href="https://madr.se/2016/pe.md"/>
     <updated>2016-12-15T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -288,8 +288,8 @@ Med det sagt så bygger jag alltid saker med Progressive Enhancement eftersom de
   </entry>
   <entry>
     <title>Less is More - omgörning(ar) av madr.se</title>
-    <id>https://www.madr.se/2016/less-is-more.md</id>
-    <link href="https://www.madr.se/2016/less-is-more.md"/>
+    <id>https://madr.se/2016/less-is-more.md</id>
+    <link href="https://madr.se/2016/less-is-more.md"/>
     <updated>2016-11-17T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -318,8 +318,8 @@ Jag kommer troligtvis att tillåta mig att bli litet nostalgisk genom att skriva
   </entry>
   <entry>
     <title>Uppladdning inför Advent of Code 2016</title>
-    <id>https://www.madr.se/2016/aoc-2016.md</id>
-    <link href="https://www.madr.se/2016/aoc-2016.md"/>
+    <id>https://madr.se/2016/aoc-2016.md</id>
+    <link href="https://madr.se/2016/aoc-2016.md"/>
     <updated>2016-11-17T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -345,8 +345,8 @@ Jag har redan tjuvstartat genom att forka [Kodsnacks repo på Github][1] för at
   </entry>
   <entry>
     <title>Framsteg i Dota 2 juli-september 2016</title>
-    <id>https://www.madr.se/2016/dota2-2016-q3.md</id>
-    <link href="https://www.madr.se/2016/dota2-2016-q3.md"/>
+    <id>https://madr.se/2016/dota2-2016-q3.md</id>
+    <link href="https://madr.se/2016/dota2-2016-q3.md"/>
     <updated>2016-10-05T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
@@ -401,8 +401,8 @@ Botmatcher, möjligtvis någon ranked som support eller core. Jag är rostig och
   </entry>
   <entry>
     <title>Tips för att jobba på distans, från andras lärdomar</title>
-    <id>https://www.madr.se/2016/working-remote-testimonials.md</id>
-    <link href="https://www.madr.se/2016/working-remote-testimonials.md"/>
+    <id>https://madr.se/2016/working-remote-testimonials.md</id>
+    <link href="https://madr.se/2016/working-remote-testimonials.md"/>
     <updated>2016-09-01T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
