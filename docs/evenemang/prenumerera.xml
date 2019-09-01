@@ -5,7 +5,7 @@
   <link href="https://madr.se/prenumerera.xml" rel="self"/>
   <title>madr.se</title>
   <subtitle>Anders Ytterströms hemsida om hårdrock, musik och webbutveckling</subtitle>
-  <updated>2019-08-17T19:01:56.112Z</updated>
+  <updated>2019-09-01T16:51:36.014Z</updated>
   <entry>
     <title>Tack för tiden, Twitter och Instagram</title>
     <id>https://madr.se/2018/twitter-instagram-eol.md</id>
@@ -287,6 +287,33 @@ I de Google Analytics-rapporter jag baserar en månadsrapport på för kunds rä
 Med det sagt så bygger jag alltid saker med Progressive Enhancement eftersom det var så jag lärde mig, men det är inte längre något jag tar för givet att se som ekvivalent till kund- och affärsnytta.</content>
   </entry>
   <entry>
+    <title>Uppladdning inför Advent of Code 2016</title>
+    <id>https://madr.se/2016/aoc-2016.md</id>
+    <link href="https://madr.se/2016/aoc-2016.md"/>
+    <updated>2016-11-17T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>Jag har under året skrivit mer kod än på många tidigare år, så vad är väl mer passande än att använda formtoppen till något kul?&#xD;
+&#xD;
+[Advent of Code](http://adventofcode.com) är en adventskalender för programmerare. Varje dag 1-25 december släpps en nya uppgift som kan lösas med valfritt programmeringsspråk.  Det hölls för första gången 2015 och repriseras i år.&#xD;
+&#xD;
+Jag deltog inte förra året men jag hade tänkt ta revanch i år genom att försöka slutföra hela kalendern med minst två programmeringsspråk: ett för mig välbekant, och ett för mig obekant.&#xD;
+&#xD;
+Det välbekanta språket är ingen högoddsare: **Python 3**. Det är sedan fyra år mitt förstahandsval för att koda webbbackends och scripts, så jag ser fram emot att få prova Python på ren problemlösnings-orienterad programmering.&#xD;
+&#xD;
+Det för mig obekanta språket var litet tufft att välja ut, men landade till slut på ett av de språk som fascinerar mig mest: **Lisp**. Här har jag ännu inte valt dialekt, men jag har smalnat av till antingen **Common Lisp** (då Clozure Common Lisp) eller **Scheme**. &#xD;
+&#xD;
+Då Lisp är mig totalt obekant kommer jag att tillbringa närmasta dagarna åt att läsa på litet och sedan välja dialekt baserat på Minsta motståndets lag.&#xD;
+&#xD;
+Jag ska en gång för alla ifrågasätta myten om att JavaScript och Lisp har likheter, om så bara för min egen skull. &#xD;
+&#xD;
+Jag har redan tjuvstartat genom att forka [Kodsnacks repo på Github][1] för att kunna lämna in lösningarna i ett lokalt sammanhang, samt för att utmana mig själv litet att versionshantera lösningarna ordentligt.&#xD;
+&#xD;
+[1]: https://gitub.com/madr/advent_of_code_2016</content>
+  </entry>
+  <entry>
     <title>Less is More - omgörning(ar) av madr.se</title>
     <id>https://madr.se/2016/less-is-more.md</id>
     <link href="https://madr.se/2016/less-is-more.md"/>
@@ -315,33 +342,6 @@ Jag kommer troligtvis att tillåta mig att bli litet nostalgisk genom att skriva
 &#xD;
 [1]: https://blog.heroku.com/new-dyno-types-public-beta &#xD;
 [2]: http://metalsmith.io</content>
-  </entry>
-  <entry>
-    <title>Uppladdning inför Advent of Code 2016</title>
-    <id>https://madr.se/2016/aoc-2016.md</id>
-    <link href="https://madr.se/2016/aoc-2016.md"/>
-    <updated>2016-11-17T00:00:00.000Z</updated>
-    <author>
-      <name>Anders Ytterström</name>
-      <email>yttan@fastmail.se</email>
-    </author>
-    <content>Jag har under året skrivit mer kod än på många tidigare år, så vad är väl mer passande än att använda formtoppen till något kul?&#xD;
-&#xD;
-[Advent of Code](http://adventofcode.com) är en adventskalender för programmerare. Varje dag 1-25 december släpps en nya uppgift som kan lösas med valfritt programmeringsspråk.  Det hölls för första gången 2015 och repriseras i år.&#xD;
-&#xD;
-Jag deltog inte förra året men jag hade tänkt ta revanch i år genom att försöka slutföra hela kalendern med minst två programmeringsspråk: ett för mig välbekant, och ett för mig obekant.&#xD;
-&#xD;
-Det välbekanta språket är ingen högoddsare: **Python 3**. Det är sedan fyra år mitt förstahandsval för att koda webbbackends och scripts, så jag ser fram emot att få prova Python på ren problemlösnings-orienterad programmering.&#xD;
-&#xD;
-Det för mig obekanta språket var litet tufft att välja ut, men landade till slut på ett av de språk som fascinerar mig mest: **Lisp**. Här har jag ännu inte valt dialekt, men jag har smalnat av till antingen **Common Lisp** (då Clozure Common Lisp) eller **Scheme**. &#xD;
-&#xD;
-Då Lisp är mig totalt obekant kommer jag att tillbringa närmasta dagarna åt att läsa på litet och sedan välja dialekt baserat på Minsta motståndets lag.&#xD;
-&#xD;
-Jag ska en gång för alla ifrågasätta myten om att JavaScript och Lisp har likheter, om så bara för min egen skull. &#xD;
-&#xD;
-Jag har redan tjuvstartat genom att forka [Kodsnacks repo på Github][1] för att kunna lämna in lösningarna i ett lokalt sammanhang, samt för att utmana mig själv litet att versionshantera lösningarna ordentligt.&#xD;
-&#xD;
-[1]: https://gitub.com/madr/advent_of_code_2016</content>
   </entry>
   <entry>
     <title>Framsteg i Dota 2 juli-september 2016</title>
