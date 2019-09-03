@@ -25,10 +25,13 @@ Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronog
 
 ## Kommande
 
+- **Airbourne** på Münchenbryggeriet, Stockholm den 5 oktober 2019.
 - **Mayhem** på Fryshuset, Stockholm den 29 november 2019.
 - **Wardruna** på Annexet, Stockholm den 1 december 2019.
 - **Amon Amarth** på Annexet, Stockholm den 7 december 2019.
 - **Solstafir** på Fryshuset, Stockholm den 18 december 2019.
+- **Opeth** på Cirkus, Stockholm den 13 januari 2020.
+- **Coraline** på Folkoperan, Stockholm den 5 februari 2020.
 - **Gefle Metal Festival** på Gasklockorna, Gävle den 9-11 juli 2020.
 - **Wacken Open Air** i Wacken, Tyskland den 30 juli - 1 augusti 2020.
 - **Brutal Assault** i Jaroměř, Tjeckien den 5-8 augusti 2020.
@@ -38,6 +41,12 @@ Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronog
 <div>
 
 ## 2019
+
+### King Diamond
+
+- Konsert på Fryshuset, Stockholm den 8 augusti 2019.
+- Förband: **Batushka**
+- Aktuellt album: n/a
 
 ### King Diamond
 
