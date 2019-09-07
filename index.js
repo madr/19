@@ -30,6 +30,7 @@ Metalsmith(__dirname)
   })
   .source('./src')
   .destination('./docs')
+  .clean(false)
   .use(collections({
     events: {
       sortBy: 'date',
