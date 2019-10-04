@@ -43,6 +43,13 @@ Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronog
 
 ## 2019
 
+### Svartidauði
+
+- Konsert på Kraken, Stockholm den 26 september 2019.
+- Förband: **Sinmara**
+- Aktuellt album: _Revelations of the Red Sword_
+
+
 ### King Diamond
 
 - Konsert på Fryshuset, Stockholm den 8 augusti 2019.

@@ -1,21 +1,23 @@
+var hljs            = require('hilight/index');
 var Metalsmith      = require('metalsmith');
 var atomfeed        = require('metalsmith-feed-atom');
-var dateFormatter   = require('metalsmith-date-formatter');
 var collections     = require('metalsmith-collections');
+var dateFormatter   = require('metalsmith-date-formatter');
 var htmlMinifier    = require("metalsmith-html-minifier");
 var layouts         = require('metalsmith-layouts');
-var markdown        = require('metalsmith-markdown');
+var markdown        = require('metalsmith-markdown-remarkable');
 var pagination      = require('metalsmith-pagination');
 var partials        = require('metalsmith-discover-partials');
 var permalinks      = require('metalsmith-permalinks');
 var sitemap         = require('metalsmith-sitemap');
+var static          = require('metalsmith-static');
 
-var author = function () {
+var author = function (params) {
   return function (files, _, done) {
     Object.keys(files).forEach(function (file) {
       files[file].author = {
-        name: 'Anders Ytterström',
-        email: 'yttan@fastmail.se'
+        name: params.name,
+        email: params.email
       }
     })
     done();
@@ -50,15 +52,9 @@ Metalsmith(__dirname)
       reverse: true
     }
   }))
-  .use(author())
-  .use(atomfeed({
-    collection: 'articles',
-    destination: 'prenumerera.xml',
-    metadata: {
-      title: 'madr.se',
-      subtitle: 'Anders Ytterströms hemsida om hårdrock, musik och webbutveckling',
-      url: 'https://madr.se/'
-    }
+  .use(author({
+    name: 'Anders Ytterström',
+    email: 'yttan@fastmail.se'
   }))
   .use(pagination({
     'collections.posts': {
@@ -68,14 +64,38 @@ Metalsmith(__dirname)
       path: ':num/index.html'
     }
   }))
+  .use(markdown({
+    typographer:  false,
+    highlight: function (str, lang) {
+      if (lang && lang in hljs.languages) {
+        try {
+          return hljs.highlight(lang, str).value;
+        } catch (__) {}
+      }
+  
+      try {
+        return hljs.highlightAuto(str).value;
+      } catch (__) {}
+  
+      return '';
+    }
+  }))
+  .use(permalinks()) // must be *before* atomfeed, and *after* collections
+  .use(atomfeed({    // must be *after* permalinks
+    collection: 'articles',
+    destination: 'prenumerera.xml',
+    metadata: {
+      title: 'madr.se',
+      subtitle: 'Anders Ytterström om hårdrock, musik och webbutveckling',
+      url: 'https://madr.se/'
+    }
+  }))
   .use(dateFormatter({
     dates: [{
       key: 'date',
       format: 'YYYY-MM-DD'
     }]
   }))
-  .use(markdown())
-  .use(permalinks())
   .use(sitemap({
     hostname: 'https://madr.se'
   }))
@@ -86,6 +106,10 @@ Metalsmith(__dirname)
     engine: 'handlebars'
   }))
   .use(htmlMinifier())
-  .build(function(err, files) {
+  .use(static({
+    "src": "./assets",
+    "dest": "./"
+  }))
+  .build(function(err, _files) {
     if (err) { throw err; }
   });
