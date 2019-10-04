@@ -1,0 +1,532 @@
+/********************************************************************
+Main CSS file for madr.se.
+Bring Anders Ytterström <yttan@fastmail.se> a 🍺 if you find 
+something useful.
+
+Colors used
+-----------
+
+#222, #ddd  -- background and foreground colors
+#444, #666  -- plate colors
+gold        -- links
+goldenrod   -- visited links
+silver      -- headings
+white       -- headings, focus/hover and emphazied text
+deeppink    -- wow effects, focus outline
+
+Breakpoints used
+----------------
+
+    @media (min-width: 666px) {}
+
+Table of Contents, 7-1 inspired
+-------------------------------
+
+    1. Base
+    2. Components
+        2.1 Nav item
+    3. Layout
+        3.1. Header
+        3.1. Nav
+        3.1. Main
+    4. Pages
+    5. Themes
+    6. Vendors
+    7. Shame
+
+*********************************************************************/
+
+/* === 1. Base === */
+
+/* 
+Normalize and resets. 
+Only element and attribute selectors allowed in this section. 
+*/
+
+:focus {
+  outline: 4px solid deeppink;
+}
+
+html {
+  color: #ddd;
+  font: normal large/1.4 apple-system, system-ui, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
+  background-color: #222;
+}
+
+figure {
+  display: block;
+  margin: 0;
+}
+
+figure > img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid #073642;
+  width: 100%;
+}
+
+td,
+th {
+  border: 3px solid #073642;
+  padding: 0.25rem;
+  font-size: 0.8rem;
+}
+
+th {
+  color: #93a1a1;
+  font-weight: normal;
+}
+
+li {
+  color: white;
+}
+
+blockquote {
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  font-style: italic;
+  border-left: 5px solid #444;
+  margin: 1em 1em 1em 0;
+  padding-left: 1em;
+}
+
+blockquote p::after,
+blockquote p::before {
+  content: '"';
+}
+
+code {
+  color: #859900;
+  font-size: 0.75rem;
+  font-family: monaco, consolas, monospace;
+}
+
+[rel=author] > img {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+  padding: 0 0.6em;
+  border-radius: 50%;
+}
+
+abbr {
+  cursor: help;
+}
+
+a:link {
+  color: gold;
+  transition: transform 0.3s;
+}
+
+a:hover,
+a:focus {
+  color: white;
+}
+
+a:visited {
+  text-decoration: line-through;
+  color: goldenrod;
+}
+
+p:first-child {
+  margin-top: 0;
+}
+
+p:list-child {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 3.33rem;
+  line-height: 0.95;
+  margin: 1.4rem 0;
+  color: white;
+}
+
+h2 {
+  margin: 0.66em 0;
+  color: white;
+}
+/* === /Base === */
+
+/* === Components === */
+
+/*
+Use classes with BEM as naming convention. Avoid using element
+selectors.
+*/
+
+/* --- visually hidden --- */
+.visuallyhidden {
+  position: absolute;
+  left: -999em;
+}
+/* --- /visually hidden --- */
+/* --- skip link --- */
+.skiplink {
+  position: absolute;
+  left: 1rem;
+  top: -99rem;
+  background-color: gold;
+  padding: 0.5rem;
+}
+
+.skiplink:focus {
+  color: black;
+  top: 1rem;
+}
+/* --- /skip link --- */
+/* --- nav item --- */
+.nav__item {
+  padding: 0.5rem;
+  text-decoration: none;
+  display: block;
+}
+
+.nav__item:hover,
+.nav__item:focus {
+  color: white;
+}
+
+@media (min-width: 666px) {
+  .nav__item {
+    font-size: large;
+    display: block;
+    position: relative;
+    padding: 0.5rem;
+    z-index: 24;
+    transition: color 0.3s;
+    overflow: hidden;
+  }
+
+  .nav__item::before {
+    content: "";
+    background-color: deeppink;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0;
+    transform: skewX(70deg) translateX(130%);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  }
+
+  .nav__item:hover::before {
+    transform: skewX(0) translateX(0);
+    opacity: 1;
+  }
+
+  .nav__item:focus {
+    background: deeppink;
+  }
+}
+/* --- /nav item --- */
+/* --- headings --- */
+.h--aside {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  margin: 0 0 0.25em;
+  color: silver;
+}
+
+.h--post {
+  font-size: 2.5em;
+  margin: 1em 0 0;
+  line-height: 1.2;
+}
+
+.h--media {
+  margin: 0;
+  padding-bottom: 0;
+  grid-area: title;
+}
+/* --- /headings --- */
+/* --- recent posts --- */
+.recents {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2em;
+  margin-top: 0.5em;
+}
+
+.recents__item {
+  margin: 0 0 .75em;
+}
+/* --- /recent posts --- */
+/* --- events --- */
+.upcoming {
+  padding-left: 0;
+  list-style: none;
+  line-height: 1;
+}
+
+.upcoming__item {
+  margin: 1em 0;
+  display: grid;
+  gap: 0.33em 0.5em;
+  grid-template-columns: 2em 1fr;
+  grid-template-rows: 1.2em 1fr;
+  grid-template-areas: 
+    "when what"
+    "when where";
+}
+
+.upcoming__item__when {
+  grid-area: when;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-content: center;
+  text-align: center;
+}
+
+.upcoming__item__when :first-child {
+  background: #666;
+  color: white;
+  line-height: 2;
+}
+
+.upcoming__item__when :last-child {
+  background: #444;
+  color: white;
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+.upcoming__item__when::before {
+  content: none;
+}
+
+.upcoming__item__what {
+  grid-area: what;
+  color: gold;
+  font-weight: normal;
+}
+
+.upcoming__item__where {
+  grid-area: where;
+  font-size: .8em;
+}
+/* --- /events --- */
+/* --- portrait --- */
+.portrait {
+  display: block;
+  height: auto;
+  width: 100%;
+  margin: 0;
+}
+
+@media (min-width: 666px) {
+  .portrait {
+    width: 75%;
+    border-radius: 50%;
+    margin: 2em auto;
+  }
+}
+/* --- /portrait --- */
+/* --- teaser --- */
+.teaser {
+  margin: 2em 0;
+}
+
+@media (min-width: 666px) {
+  .teaser {
+    margin: 5em 0;
+  }
+}
+
+.teaser__footer {
+  text-align: right;
+  font-size: 75%;
+  padding: 0.5em 0 0;
+}
+
+.teaser--media {
+  display: grid;
+  grid-template-areas: 
+    "media title"
+    "media summary"
+    "footer footer";
+  grid-gap: 1em;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.teaser--media :first-child {
+  grid-area: media;
+  height: auto;
+}
+
+.teaser--media__summary {
+  grid-area: summary;
+  margin: 0;
+  padding: 0;
+}
+/* --- /teaser --- */
+/* --- pagination --- */
+.pagination {
+  margin: 2rem auto;
+  display: flex;
+  max-width: 27rem;
+  justify-content: space-between;
+}
+/* --- /pagination --- */
+/* --- alert --- */
+.alert--archived {
+  max-width: 30rem;
+  margin: 2rem auto;
+  background: #000;
+  padding: 7px 10px;
+  box-shadow: 0 0 0 10px #000;
+  border: 2px dashed white;
+  background-clip: padding-box;
+  transform: rotate(-2deg) translate(10px, 20px) scale(0.8);
+  opacity: 0.33;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.alert--archived:hover {
+  opacity: 1;
+  transform: initial;
+}
+/* --- /alert --- */
+/* === /Components === */
+
+/* === Layout === */
+
+/*
+Containers and wrappers for components.
+Only BEM-naming allowed, with the following element selectors as 
+exceptions: aside, body, footer, header, main and nav.
+*/
+
+body {
+  max-width: 67em;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+@media (min-width: 666px) {
+  body {
+    display: grid;
+    grid-template-areas: 
+      "header main"
+      "aside main"
+      "footer footer";
+    grid-template-columns: 15em 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 2em;
+    align-items: start;
+  }
+}
+
+/* --- main --- */
+@media (min-width: 666px) {
+  main {
+    grid-area: main;
+  }
+}
+/* --- /main --- */
+/* --- aside --- */
+@media (min-width: 666px) {
+  aside {
+    grid-area: aside;
+  }
+}
+/* --- /aside --- */
+/* --- footer --- */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  color: silver;
+  font-size: smaller;
+}
+
+@media (min-width: 666px) {
+  footer {
+    grid-area: footer;
+  }
+}
+/* --- /footer --- */
+/* --- header --- */
+header {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+}
+
+@media (min-width: 666px) {
+  header {
+    display: block;
+    grid-area: header;
+  }
+}
+/* --- /header --- */
+/* --- nav --- */
+nav {
+  border: 2px solid gold;
+  border-width: 0 0 0 2px;
+  background: #444;
+}
+
+@media (min-width: 666px) {
+  nav {
+    border-width: 2px 2px 0 0;
+  }
+}
+/* --- /nav --- */
+/* === /Layout === */
+
+/* === Pages === */
+
+/*
+Styles that should only apply to certain pages.
+Only BEM-naming allowed.
+*/
+
+/* === /Pages === */
+
+/* === Themes === */
+
+/*
+Styles to create user-customized themes.
+
+madr.se does not implement any themes, for now.
+*/
+
+/* === /Themes === */
+
+/* === Vendors === */
+
+/*
+Styles belonging to third-party components.
+
+madr.se does not use any third-party CSS at this moment.
+*/
+
+/* === /Vendors === */
+
+/* === Shame === */
+
+/*
+Styles necessary for specifity issues and for cutting corners
+(breaking the rules in short terms in waiting for an opportunity
+to rewrite or fix a problem for good).
+
+madr.se has no reason to feel ashamed. Yet.
+*/
+
+/* === /Shame === */
