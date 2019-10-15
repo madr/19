@@ -13,6 +13,7 @@ goldenrod   -- visited links
 silver      -- headings
 white       -- headings, focus/hover and emphazied text
 deeppink    -- wow effects, focus outline
+magenta     -- code
 
 Breakpoints used
 ----------------
@@ -49,7 +50,7 @@ Only element and attribute selectors allowed in this section.
 
 html {
   color: #ddd;
-  font: normal large/1.4 apple-system, system-ui, BlinkMacSystemFont, Segoe UI,
+  font: normal medium/1.4 apple-system, system-ui, BlinkMacSystemFont, Segoe UI,
     Roboto, Helvetica Neue, Arial, sans-serif;
   background-color: #222;
 }
@@ -57,6 +58,10 @@ html {
 figure {
   display: block;
   margin: 0;
+}
+
+strong, i, em, b {
+  color: #fff;
 }
 
 figure > img {
@@ -71,20 +76,20 @@ figcaption {
 }
 
 table {
-  border-collapse: collapse;
-  border: 3px solid #073642;
   width: 100%;
 }
 
 td,
 th {
-  border: 3px solid #073642;
-  padding: 0.25rem;
-  font-size: 0.8rem;
+  background: #444;
+  padding: 0.25em;
+  font-size: 0.8em;
 }
 
 th {
-  color: #93a1a1;
+  text-transform: uppercase;
+  color: white;
+  background: #666;
   font-weight: normal;
 }
 
@@ -92,9 +97,13 @@ li {
   color: white;
 }
 
+li::marker {
+  color: silver;
+}
+
 blockquote {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   line-height: 1.2;
   font-style: italic;
   border-left: 5px solid #444;
@@ -108,14 +117,14 @@ blockquote p::before {
 }
 
 code {
-  color: #859900;
-  font-size: 0.75rem;
+  color: magenta;
+  font-size: 0.75em;
   font-family: monaco, consolas, monospace;
 }
 
 [rel=author] > img {
-  width: 2rem;
-  height: 2rem;
+  width: 2em;
+  height: 2em;
   vertical-align: middle;
   padding: 0 0.6em;
   border-radius: 50%;
@@ -140,6 +149,10 @@ a:visited {
   color: goldenrod;
 }
 
+a:visited::before {
+  content: '✔ ';
+}
+
 p:first-child {
   margin-top: 0;
 }
@@ -149,9 +162,9 @@ p:list-child {
 }
 
 h1 {
-  font-size: 3.33rem;
+  font-size: 3.33em;
   line-height: 0.95;
-  margin: 1.4rem 0;
+  margin: 1.4em 0;
   color: white;
 }
 
@@ -177,20 +190,20 @@ selectors.
 /* --- skip link --- */
 .skiplink {
   position: absolute;
-  left: 1rem;
-  top: -99rem;
+  left: 1em;
+  top: -99em;
   background-color: gold;
-  padding: 0.5rem;
+  padding: 0.5em;
 }
 
 .skiplink:focus {
   color: black;
-  top: 1rem;
+  top: 1em;
 }
 /* --- /skip link --- */
 /* --- nav item --- */
 .nav__item {
-  padding: 0.5rem;
+  padding: 0.5em;
   text-decoration: none;
   display: block;
 }
@@ -205,7 +218,7 @@ selectors.
     font-size: large;
     display: block;
     position: relative;
-    padding: 0.5rem;
+    padding: 0.5em;
     z-index: 24;
     transition: color 0.3s;
     overflow: hidden;
@@ -322,6 +335,14 @@ selectors.
   font-size: .8em;
 }
 /* --- /events --- */
+/* --- floats --- */
+@media (min-width: 666px) {
+  .align-right {
+    float: right;
+    margin-left: 1em;
+  }
+}
+/* --- /floats --- */
 /* --- portrait --- */
 .portrait {
   display: block;
@@ -379,16 +400,25 @@ selectors.
 /* --- /teaser --- */
 /* --- pagination --- */
 .pagination {
-  margin: 2rem auto;
+  border-top: 2px solid gold;
+  margin: 2em auto;
   display: flex;
-  max-width: 27rem;
+  padding: 1em;
   justify-content: space-between;
+  background: #444;
 }
 /* --- /pagination --- */
+/* --- presentation --- */
+.presentation {
+  margin: 2em auto;
+  font-size: 80%;
+  color: silver;
+}
+/* --- /presentation --- */
 /* --- alert --- */
 .alert--archived {
-  max-width: 30rem;
-  margin: 2rem auto;
+  max-width: 30em;
+  margin: 2em auto;
   background: #000;
   padding: 7px 10px;
   box-shadow: 0 0 0 10px #000;
@@ -421,7 +451,7 @@ body {
 }
 
 @media (min-width: 666px) {
-  body {
+  body:not(.homepage) {
     display: grid;
     grid-template-areas: 
       "header main"
@@ -451,7 +481,7 @@ body {
 /* --- footer --- */
 footer {
   text-align: center;
-  padding: 2rem 0;
+  padding: 2em 0;
   color: silver;
   font-size: smaller;
 }
@@ -513,9 +543,12 @@ madr.se does not implement any themes, for now.
 
 /*
 Styles belonging to third-party components.
-
-madr.se does not use any third-party CSS at this moment.
 */
+
+.footnotes-list {
+  color: silver;
+  font-size: 80%;
+}
 
 /* === /Vendors === */
 

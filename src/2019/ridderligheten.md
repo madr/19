@@ -16,7 +16,7 @@ Det var en sådan person som någon minut efter vår ankomst ställde sig på mi
 
 Under sista låten av bandet på andra scenen fick hon sällskap av en jämnårig och lika småväxt kompis, som lämnade sin svarta kofta på stängslet mellan mig och henne, varvid kompisen försvinner. Detta är på festivalspråk en gest att säga att man är del av ett sällskap, och en påbjudan att andra ska respektera att platserna vid kravallstängslet är upptagna.
 
-Minuterna går, och kompisen kom inte tillbaka. Bandet på andra scenen spelade klart. De korta minutrarna av andrum mellan spelningar passerar, och det började fyllas på med folk bakom oss som väntat längst. Ungefär en halvminut innan **Legion of the Damned** går ut på scenen kom en korthårig, städad snubbe i vit t-shirt och trängde sig fram till mig och tjejen bredvid.
+Minuterna gick, och kompisen kom inte tillbaka. Bandet på andra scenen spelade klart. De korta minutrarna av andrum mellan spelningar passerade, och det började fyllas på med folk bakom oss som väntat längst. Ungefär en halvminut innan **Legion of the Damned** gick ut på scenen kom en korthårig, städad snubbe i vit t-shirt och trängde sig fram till mig och tjejen bredvid.
 
 Jag är allt för välbekant med typen. Jag tänker på honom och hans likar som [en sprätt][2]. Jag såg i ögonvrån hur tjejen bredvid mig vände sig om och talade med honom, samtidigt som hon pekade på koftan. Jag såg sprätten svara att han förstod, men att han flinade när han sade det.
 

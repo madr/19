@@ -1,6 +1,10 @@
 <footer>
   <p>
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/" lang="en">CC BY-SA 4.0</a> av Anders Ytterström sedan dec 2006.
-    <a rel="alternate" href="/prenumerera.xml">Prenumerera</a>.
+    {{#if date}}
+    Publicerades <time>{{ date }}</time>.
+    {{/if}}
+    <a href="https://creativecommons.org/licenses/by-sa/4.0/" lang="en">CC BY-SA 4.0</a> av Anders Ytterström sedan dec
+    2006.
+    <a rel="alternate" href="{{#if date}}../{{/if}}../prenumerera.xml">Prenumerera</a>.
   </p>
 </footer>

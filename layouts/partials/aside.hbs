@@ -1,0 +1,25 @@
+<aside>
+    <h2 class="h--aside">Senaste inläggen</h2>
+    <ul class="recents">
+        {{#before posts 5}}
+        <li class="recents__item"><a href="{{#if ../date}}../{{/if}}../{{path}}">{{title}}</a></li>
+        {{/before}}
+    </ul>
+    <h2 class="h--aside">Kommande evenemang</h2>
+    <ul class="upcoming">
+        {{#upcoming upcoming }}
+        <li class="upcoming__item" itemscope="" itemtype="http://schema.org/Event">
+            <strong itemprop="name" class="upcoming__item__what">
+                {{ title }}
+            </strong>
+            <span class="upcoming__item__where" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+                <span itemprop="name">{{ venue }}</span>, {{ region }}
+            </span>
+            <time datetime="2019-11-29" content="2019-11-29" class="upcoming__item__when" itemprop="startDate">
+                <span>{{ d }}</span>
+                <span>{{ m }}</span>
+            </time>
+        </li>
+        {{/upcoming}}
+    </ul>
+</aside>

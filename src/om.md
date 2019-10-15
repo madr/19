@@ -27,7 +27,8 @@ Jag har mer än fem års erfarenhet av nedanstående tekniker och vanor.
  * Mobile first och UX.
  * Wordpress, Drupal, Silverstripe och PHP.
 
-Min favoritdistro är Arch linux, som jag använt sedan 2011. För närvarande kör jag Cinnamon DE.
+Min favoritdistro är [Arch linux](https://archlinux.org), som jag använt sedan 2011. Jag 
+var Mac-användare 2001-2017, men är nu i exil.
 
 ## Tidigare projekt
 
@@ -62,7 +63,9 @@ Mellan december 2012 och september 2016 spelade jag [Dota 2](https://www.dotabuf
  * [Stack Overflow](http://stackoverflow.com/users/512382/madr)
 
 
-[^0]: Hemsidans ASP-jox är numera portad till Wordpress. Jag förblir dock hedersmedlem. Jag är via Catahya även [publicerad författare](https://www.goodreads.com/author/show/7245013.Mars_Ytterstr_m).
+[^0]: Hemsidans ASP-jox blev senare portad till Wordpress. Jag förblev hedersmedlem fram 
+tills föreningen avslutades våren 2019. Jag är via Catahya även [publicerad författare]
+(https://www.goodreads.com/author/show/7245013.Mars_Ytterstr_m).
 
 [^1]: Detta är mitt mest forkade repo på Github. Personligen har jag gått över till Less och [autoprefixer](https://www.npmjs.com/package/autoprefixer) för de sällsamma fall där vendor-prefix fortfarande behövs.
 

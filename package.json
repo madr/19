@@ -16,6 +16,7 @@
   "devDependencies": {
     "hilight": "0.0.1",
     "metalsmith-date-formatter": "^1.0.2",
+    "metalsmith-discover-helpers": "^0.1.1",
     "metalsmith-markdown-remarkable": "^1.0.1",
     "metalsmith-static": "0.0.5"
   }
