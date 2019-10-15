@@ -1,10 +1,21 @@
- <a href="#content" class="skiplink">Hoppa till innehåll</a>
+<a href="#content" class="skiplink">Hoppa till innehåll</a>
 <header>
-  <a href="/" rel="home">madr.se</a> 
+
+  <a href="{{#if date}}../{{/if}}../" rel="home">
+    <img class="portrait" src="{{#if date}}../{{/if}}../mugshot.jpg" alt="Anders, september 2018.">
+  </a>
+  <p class="presentation">
+    Anders är en webbutvecklare och hårdrockare som gillar brädspel, kaffe och öl.
+    <a href="{{#if date}}../{{/if}}../om/" rel="author">Om Anders Ytterström</a>
+  </p>
   <nav>
-    <a href="/bl/">🤘 Brütal Legend</a>
-    <a href="/evenemang/">📅 Evenemang</a>
-    <a href="/om/">🤷‍♂️ Om</a>
-    <a href="/prenumerera.xml" rel="alternate" title="Prenumerera via Atom">📣</a>
+    <h2 class="visuallyhidden">Meny</h2>
+    {{#if date}}
+    <a class="nav__item" href="../../bl/">🤘 Brütal Legend</a>
+    <a class="nav__item" href="../../evenemang/">📅 Evenemang</a>
+    {{else}}
+    <a class="nav__item" href="../bl/">🤘 Brütal Legend</a>
+    <a class="nav__item" href="../evenemang/">📅 Evenemang</a>
+    {{/if}}
   </nav>
 </header>

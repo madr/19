@@ -1,56 +1,46 @@
 <!doctype html>
 <html lang="sv">
+
 <head>
   <meta charset="UTF-8">
   {{#if pagination.index}}
-    <title>Sida {{ pagination.num }} | {{ name }}</title>
+  <title>Sida {{ pagination.num }} | {{ name }}</title>
   {{else}}
-    <title>{{ name }}</title>
+  <title>{{ name }}</title>
   {{/if}}
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" title="madr.se stilmall" href="/madrse.css">
+  <link rel="stylesheet" title="madr.se stilmall" href="../madrse.css">
+  <link href="../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
   {{#unless pagination.index}}
-    <meta name="robots" value="noindex,follow">
+  <meta name="robots" value="noindex,follow">
   {{/unless}}
   {{#if pagination.previous}}
-    <link rel="previous" href="/{{ pagination.previous.path }}">
+  <link rel="previous" href="/{{ pagination.previous.path }}">
   {{/if}}
   {{#if pagination.next}}
-    <link rel="next" href="/{{ pagination.next.path }}">
+  <link rel="next" href="/{{ pagination.next.path }}">
   {{/if}}
-  <link href="/prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
 </head>
+
 <body>
   {{> header }}
   <main id="content">
-    {{#if pagination.index}}
-      <h1>Sida {{ pagination.num }}</h1>
-    {{else}}
-      <h1 class="super-h1">{{ name }}</h1>
-    {{/if}}
+    <h1>Sida {{ pagination.num }}</h1>
     {{#each pagination.files}}
-        <article>
-          <a href="/{{ path }}">
-            <h2>{{ title }}</h2>
-          </a>
-          <footer>
-            <time>{{ date }}</time> av
-            <a rel="author" href="/om">
-              <img src="https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276" alt="porträtt">
-              Anders Ytterström
-            </a>
-          </footer>
-        </article>
+    {{> teaser-post }}
     {{/each}}
+    <div class="pagination">
+      {{#if pagination.previous}}
+      <a rel="previous" href="../{{ pagination.previous.path }}">← Yngre
+        inlägg</a>
+      {{/if}}
+      {{#if pagination.next}}
+      <a rel="next" href="../{{ pagination.next.path }}">Äldre inlägg →</a>
+      {{/if}}
+    </div>
   </main>
-  <div class="pagination">
-    {{#if pagination.previous}}
-      <a rel="previous" href="/{{ pagination.previous.path }}">Yngre inlägg</a>
-    {{/if}}
-    {{#if pagination.next}}
-      <a rel="next" href="/{{ pagination.next.path }}">Äldre inlägg</a>
-    {{/if}}
-  </div>
+  {{> aside }}
   {{> footer }}
 </body>
+
 </html>

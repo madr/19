@@ -25,8 +25,6 @@ Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronog
 
 ## Kommande
 
-- **Airbourne** på Münchenbryggeriet, Stockholm den 5 oktober 2019.
-- **Swedish Deathfest** på Kraken, Stockholm den 13 oktober 2019.
 - **Mayhem** på Fryshuset, Stockholm den 29 november 2019.
 - **Wardruna** på Annexet, Stockholm den 1 december 2019.
 - **Amon Amarth** på Annexet, Stockholm den 7 december 2019.
@@ -43,12 +41,24 @@ Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronog
 
 ## 2019
 
+### Scandinavian Deathfest
+
+- Festival på Kraken, Stockholm den 13 oktober 2019.
+- Personliga höjdpunkter: **Grave**, **Vanhelgd**, **LIK**.
+- Band jag missade: **Dismember**
+
+### Airbourne
+
+- Konsert på Münchenbryggeriet, Stockholm den 5 oktober 2019.
+- Förband: **Supersuckers**
+- Aktuellt album: _Boneshaker_
+
+
 ### Svartidauði
 
 - Konsert på Kraken, Stockholm den 26 september 2019.
 - Förband: **Sinmara**
 - Aktuellt album: _Revelations of the Red Sword_
-
 
 ### King Diamond
 

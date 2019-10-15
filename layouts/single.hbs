@@ -1,11 +1,14 @@
 <!doctype html>
 <html lang="sv">
+
 <head>
   <meta charset="UTF-8">
   <title>{{ title }} | {{ name }}</title>
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" title="madr.se stilmall" href="/madrse.css">
-  <link href="/prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+  <link rel="stylesheet" title="madr.se stilmall" href="{{#if date}}../{{/if}}../madrse.css">
+  <link href="{{#if date}}../{{/if}}../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+  <link rel="stylesheet" title="madr.se stilmall" href="../madrse.css">
+  <link href="../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
   <link rel="canonical" href="{{ url }}/{{ path }}/">
   <meta property="og:title" content="{{ title }}">
   <meta property="og:type" content="article">
@@ -13,11 +16,12 @@
   <meta property="og:image" content="{{ image }}">
   <meta property="og:site_name" content="{{ name }}">
 </head>
+
 <body>
   {{> header }}
   <main id="content">
     {{#if archived}}
-      <p class="alert--archived"><i>
+    <p class="alert--archived"><i>
         Detta är ett arkiverat inlägg, som importerats
         hit för referens. Det kan se konstigt ut och
         innehålla utdaterad information eller inaktuella
@@ -26,26 +30,21 @@
     {{/if}}
     <article>
       <h1>{{ title }}</h1>
-      <footer>
-        <time>{{ date }}</time> av
-        <a rel="author" href="/om">
-          <img src="https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276" alt="porträtt">
-          Anders Ytterström
-        </a>
-      </footer>
       {{#if album}}
-        <p>
-          Som jag tidigare skrivit om har jag ett roligt projekt pågående: att äga alla låtar 
-          i spelet <a href="https://sv.wikipedia.org/wiki/Br%C3%BCtal_Legend">Brütal Legend</a> 
-          äldre än 1990 på vinyl, där det är möjligt.
-        </p>
-        <p>
-          #{{num}}: {{artist}} - "{{songs}}", från <em>{{album}}</em> ({{year}})
-        </p>
+      <p>
+        Som jag tidigare skrivit om har jag ett roligt projekt pågående: att äga alla låtar
+        i spelet <a href="https://sv.wikipedia.org/wiki/Br%C3%BCtal_Legend">Brütal Legend</a>
+        äldre än 1990 på vinyl, där det är möjligt.
+      </p>
+      <p>
+        #{{num}}: {{artist}} - "{{songs}}", från <em>{{album}}</em> ({{year}})
+      </p>
       {{/if}}
       {{{ contents }}}
     </article>
   </main>
+  {{> aside }}
   {{> footer }}
 </body>
+
 </html>
