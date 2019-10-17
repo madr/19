@@ -3,6 +3,7 @@ var Metalsmith      = require('metalsmith');
 var atomfeed        = require('metalsmith-feed-atom');
 var collections     = require('metalsmith-collections');
 var dateFormatter   = require('metalsmith-date-formatter');
+var helpers        = require('metalsmith-discover-helpers');
 var htmlMinifier    = require("metalsmith-html-minifier");
 var layouts         = require('metalsmith-layouts');
 var markdown        = require('metalsmith-markdown-remarkable');
@@ -26,9 +27,9 @@ var author = function (params) {
 
 Metalsmith(__dirname)
   .metadata({
-    name: "Anders Ytterströms hemsida",
+    name: "Skrivna ord av Anders Ytterström.",
     url: "https://madr.se/",
-    image: "https://sv.gravatar.com/avatar/981e98db0f85baaa05dddd1ee46a3276"
+    image: "https://madr.se/mugshot.jpg"
   })
   .source('./src')
   .destination('./docs')
@@ -60,11 +61,11 @@ Metalsmith(__dirname)
     'collections.posts': {
       perPage: 10,
       layout: 'list.hbs',
-      first: 'index.html',
       path: ':num/index.html'
     }
   }))
   .use(markdown({
+    html: true,
     typographer:  false,
     highlight: function (str, lang) {
       if (lang && lang in hljs.languages) {
@@ -101,6 +102,9 @@ Metalsmith(__dirname)
   }))
   .use(partials({
     directory: 'layouts/partials'
+  }))
+  .use(helpers({
+    directory: 'layouts/helpers'
   }))
   .use(layouts({
     engine: 'handlebars'
