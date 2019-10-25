@@ -117,7 +117,7 @@ Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronog
 
 ### Wacken Open Air
 
-- Festival i Wacken, Tyskland den 2-4 augusti.
+- Festival i Wacken, Tyskland den 2-4 augusti 2018.
 - Personliga höjdpunkter: **Alestorm**, **Arch Enemy**, **Belphegor**, **Cannibal Corpse**, **Ensiferum**, **Gojira**, **Helloween** (pumpkins united), **Korpiklaani**, **Nightwish**, **Running Wild**, **Toxic Holocaust**, **Trollfest**, **Watain**.
 - Band jag missade: **Arkona**, **Dokken**, **Heidevolk**, **Samael**, **Solstafir**.
 
@@ -140,7 +140,7 @@ Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronog
 
 ### Gamrocken
 
-- Festival på Grängesberg Folkets park, den 24-25 maj 2018.
+- Festival på Folkets park, Grängesberg den 24-25 maj 2018.
 - Personliga höjdpunkter: **Cup up**, **Dark Funeral**, **Entrails**, **Naglfar**, **Necrophobic**, **Netherbird**, **Rotten Sound**, **The Crown**, **Wormwood**.
 - Band jag missade: **Evocation**
 
