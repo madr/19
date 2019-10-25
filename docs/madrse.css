@@ -3,8 +3,8 @@ Main CSS file for madr.se.
 Bring Anders Ytterström <yttan@fastmail.se> a 🍺 if you find 
 something useful.
 
-Colors used
------------
+Colors used, dark theme
+-----------------------
 
 #222, #ddd  -- background and foreground colors
 #444, #666  -- plate colors
@@ -14,6 +14,18 @@ silver      -- headings
 white       -- headings, focus/hover and emphazied text
 deeppink    -- wow effects, focus outline
 magenta     -- code
+
+Colors used, light theme
+------------------------
+
+#fff, #333    -- background and foreground colors
+#ddd, #bbb    -- plate colors
+teal          -- links
+lightseagreen -- visited links
+silver        -- headings
+black         -- headings, focus/hover and emphazied text
+deeppink      -- wow effects, focus outline
+tomato        -- code
 
 Breakpoints used
 ----------------
@@ -60,7 +72,10 @@ figure {
   margin: 0;
 }
 
-strong, i, em, b {
+strong,
+i,
+em,
+b {
   color: #fff;
 }
 
@@ -122,7 +137,7 @@ code {
   font-family: monaco, consolas, monospace;
 }
 
-[rel=author] > img {
+[rel="author"] > img {
   width: 2em;
   height: 2em;
   vertical-align: middle;
@@ -150,14 +165,14 @@ a:visited {
 }
 
 a:visited::before {
-  content: '✔ ';
+  content: "✔ ";
 }
 
 p:first-child {
   margin-top: 0;
 }
 
-p:list-child {
+p:last-child {
   margin-bottom: 0;
 }
 
@@ -277,7 +292,7 @@ selectors.
 }
 
 .recents__item {
-  margin: 0 0 .75em;
+  margin: 0 0 0.75em;
 }
 /* --- /recent posts --- */
 /* --- events --- */
@@ -293,7 +308,7 @@ selectors.
   gap: 0.33em 0.5em;
   grid-template-columns: 2em 1fr;
   grid-template-rows: 1.2em 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     "when what"
     "when where";
 }
@@ -332,7 +347,7 @@ selectors.
 
 .upcoming__item__where {
   grid-area: where;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 /* --- /events --- */
 /* --- floats --- */
@@ -378,7 +393,7 @@ selectors.
 
 .teaser--media {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     "media title"
     "media summary"
     "footer footer";
@@ -426,6 +441,7 @@ selectors.
   background-clip: padding-box;
   transform: rotate(-2deg) translate(10px, 20px) scale(0.8);
   opacity: 0.33;
+  border-radius: 3px;
   transition: opacity 0.3s, transform 0.3s;
 }
 
@@ -434,36 +450,6 @@ selectors.
   transform: initial;
 }
 /* --- /alert --- */
-/* === /Components === */
-
-/* === Layout === */
-
-/*
-Containers and wrappers for components.
-Only BEM-naming allowed, with the following element selectors as 
-exceptions: aside, body, footer, header, main and nav.
-*/
-
-body {
-  max-width: 67em;
-  margin: 0 auto;
-  padding: 0.5em;
-}
-
-@media (min-width: 666px) {
-  body:not(.homepage) {
-    display: grid;
-    grid-template-areas: 
-      "header main"
-      "aside main"
-      "footer footer";
-    grid-template-columns: 15em 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-gap: 2em;
-    align-items: start;
-  }
-}
-
 /* --- main --- */
 @media (min-width: 666px) {
   main {
@@ -518,6 +504,35 @@ nav {
   }
 }
 /* --- /nav --- */
+/* === /Components === */
+
+/* === Layout === */
+
+/*
+Containers and wrappers for components.
+Only BEM-naming allowed, with the following element selectors as 
+exceptions: aside, body, footer, header, main and nav.
+*/
+
+body {
+  max-width: 67em;
+  margin: 0 auto;
+  padding: 0.5em;
+}
+
+@media (min-width: 666px) {
+  body:not(.homepage) {
+    display: grid;
+    grid-template-areas:
+      "header main"
+      "aside main"
+      "footer footer";
+    grid-template-columns: 15em 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 2em;
+    align-items: start;
+  }
+}
 /* === /Layout === */
 
 /* === Pages === */
@@ -533,9 +548,130 @@ Only BEM-naming allowed.
 
 /*
 Styles to create user-customized themes.
-
-madr.se does not implement any themes, for now.
 */
+
+@media (prefers-color-scheme: light) {
+  :focus {
+    outline-color: deeppink;
+  }
+
+  html {
+    color: #444;
+    background-color: #fff;
+  }
+
+  strong,
+  i,
+  em,
+  b {
+    color: #000;
+  }
+
+  td,
+  th {
+    background: #eee;
+  }
+
+  th {
+    color: black;
+    background: #ddd;
+  }
+
+  li {
+    color: black;
+  }
+
+  li::marker {
+    color: mediumseagreen;
+  }
+
+  blockquote {
+    color: black;
+    border-color: #ddd;
+  }
+
+  code {
+    color: tomato;
+  }
+
+  a:link {
+    color: teal;
+  }
+
+  a:hover,
+  a:focus {
+    color: black;
+  }
+
+  a:visited {
+    color: lightseagreen;
+  }
+
+  h1 {
+    color: black;
+  }
+
+  h2 {
+    color: black;
+  }
+
+  .skiplink {
+    background-color: teal;
+  }
+
+  .skiplink:focus {
+    color: white;
+  }
+
+  .nav__item:hover,
+  .nav__item:focus {
+    color: black;
+  }
+
+  .h--aside {
+    color: silver;
+  }
+
+  .upcoming__item__when :first-child {
+    background: #ddd;
+    color: black;
+  }
+
+  .upcoming__item__when :last-child {
+    background: #eee;
+    color: black;
+  }
+
+  .upcoming__item__what {
+    grid-area: what;
+    color: mediumvioletred;
+    font-weight: normal;
+  }
+
+  .pagination {
+    border-color: teal;
+    background-color: #eee;
+  }
+
+  .presentation {
+    color: silver;
+  }
+
+  .alert--archived {
+    background-color: #aaa;
+    border-color: #aaa;
+    box-shadow: 0 0 0 10px #aaa;
+  }
+
+  footer {
+    color: slategray;
+  }
+
+  nav {
+    border-color: teal;
+    background: #eee;
+  }
+}
 
 /* === /Themes === */
 
