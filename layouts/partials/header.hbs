@@ -10,12 +10,8 @@
   </p>
   <nav>
     <h2 class="visuallyhidden">Meny</h2>
-    {{#if date}}
-    <a class="nav__item" href="../../bl/">🤘 Brütal Legend</a>
-    <a class="nav__item" href="../../evenemang/">📅 Evenemang</a>
-    {{else}}
-    <a class="nav__item" href="../bl/">🤘 Brütal Legend</a>
-    <a class="nav__item" href="../evenemang/">📅 Evenemang</a>
-    {{/if}}
+    <a class="nav__item" href="{{#if date}}../{{/if}}../bl/">🤘 Brütal Legend</a>
+    <a class="nav__item" href="{{#if date}}../{{/if}}../evenemang/">📅 Evenemang</a>
+    <a class="nav__item" href="https://madr.github.io/mybgg/">🎲 Brädspel</a>
   </nav>
 </header>
