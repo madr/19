@@ -85,6 +85,10 @@ figure > img {
   height: auto;
 }
 
+article {
+  line-height: 1.66;
+}
+
 figcaption {
   text-align: center;
   margin-top: 0.5em;
@@ -515,7 +519,7 @@ exceptions: aside, body, footer, header, main and nav.
 */
 
 body {
-  max-width: 67em;
+  max-width: 60em;
   margin: 0 auto;
   padding: 0.5em;
 }
@@ -591,7 +595,7 @@ Styles to create user-customized themes.
   }
 
   code {
-    color: tomato;
+    color: mediumvioletred;
   }
 
   a:link {
@@ -628,8 +632,12 @@ Styles to create user-customized themes.
     color: black;
   }
 
+  .nav__item::before {
+    background-color: gold;
+  }
+
   .h--aside {
-    color: silver;
+    color: slategray;
   }
 
   .upcoming__item__when :first-child {
@@ -654,7 +662,7 @@ Styles to create user-customized themes.
   }
 
   .presentation {
-    color: silver;
+    color: slategray;
   }
 
   .alert--archived {
