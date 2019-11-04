@@ -85,6 +85,10 @@ figure > img {
   height: auto;
 }
 
+article {
+  line-height: 1.66;
+}
+
 figcaption {
   text-align: center;
   margin-top: 0.5em;
@@ -515,7 +519,7 @@ exceptions: aside, body, footer, header, main and nav.
 */
 
 body {
-  max-width: 67em;
+  max-width: 60em;
   margin: 0 auto;
   padding: 0.5em;
 }
