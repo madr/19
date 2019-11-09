@@ -31,16 +31,25 @@ Only element and attribute selectors allowed in this section.
 :root {
   --color: #ddd;
   --em-color: white;
+
   --background-color: #222;
   --background-color-d: black;
   --background-color-l: #444;
   --background-color-ll: #666;
+
   --outline-color: deeppink;
+
   --link-color: gold;
   --link-visited-color: silver;
+
   --code-color: magenta;
+
   --aside-color: silver;
+
   --skip-link-color: black;
+
+  --nav-color: #fff;
+  --nav-background-color: deeppink;
 }
 
 :focus {
@@ -241,9 +250,18 @@ selectors.
     overflow: hidden;
   }
 
+  .nav__item:hover {
+    color: var(--nav-color);
+  }
+
+  .nav__item:focus {
+    color: var(--nav-color);
+    background-color: var(--nav-background-color);
+  }
+
   .nav__item::before {
     content: "";
-    background-color: var(--outline-color);
+    background-color: var(--nav-background-color);
     position: absolute;
     top: 0;
     left: 0;
@@ -258,10 +276,6 @@ selectors.
   .nav__item:hover::before {
     transform: skewX(0) translateX(0);
     opacity: 1;
-  }
-
-  .nav__item:focus {
-    background-color: var(--outline-color);
   }
 }
 /* --- /nav item --- */
@@ -564,17 +578,26 @@ Styles to create user-customized themes.
 @media (prefers-color-scheme: light) {
   :root {
     --color: #444;
-    --em-color: black;
     --background-color: #fff;
+
+    --em-color: black;
     --background-color-d: #f1f1f1;
     --background-color-l: #f6f6f6;
     --background-color-ll: #e5e5e5;
+
     --outline-color: deeppink;
+
     --link-color: teal;
     --link-visited-color: #666;
+
     --code-color: magenta;
+
     --aside-color: slategray;
+
     --skip-link-color: white;
+
+    --nav-color: black;
+    --nav-background-color: gold;
   }
 }
 
