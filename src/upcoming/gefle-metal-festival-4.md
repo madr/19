@@ -5,8 +5,9 @@ enddate: 2020-07-11
 venue: Gasklockorna
 region: Gävle
 collection: upcoming
-location: 
-    latitude: 60.678416
-    longitude: 17.1761251
+location:
+  latitude: 60.678416
+  longitude: 17.1761251
 ---
-**Gefle Metal Festival** på Gasklockorna, Gävle den 9-11 juli 2020.
+
+Festival på Gasklockorna, Gävle den 9-11 juli 2020.

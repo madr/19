@@ -1,42 +1,9 @@
 ---
 title: Mina deltaganden i konserter och festivaler sedan 2000
-template: post.html
 tags: concerts
-layout: single.hbs
+layout: events.hbs
 ---
 
-<div id="about">
-
-Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronogisk ordning från juni 2000 till idag, enligt nedanstående format.
-
-- _Festivaler_ (Endags-, Stads-) nämns med datum och plats. Jag listar de band jag särskilt minns var bra, vilket alltså nödvändigtvis inte är alla band jag såg på den festivalen. Jag listar även band jag anser mig ha missat.
-- _Konserter_ nämns med datum och plats. Jag listar förband, och aktuellt album i de fall där det är relevant. Alla konserter är inte hårdrocksspelningar... :)
-
-</div>
-
-<div id="map">
-
-## Geografisk utspridning
-
- <iframe style="display: block;" src="https://www.google.com/maps/d/embed?mid=10nYel6wNvsjpMOECD53M-dfOa2M" width="640" height="480"></iframe>
-</div>
-
-<div id="upcoming">
-
-## Kommande
-
-- **Mayhem** på Fryshuset, Stockholm den 29 november 2019.
-- **Wardruna** på Annexet, Stockholm den 1 december 2019.
-- **Amon Amarth** på Annexet, Stockholm den 7 december 2019.
-- **Solstafir** på Fryshuset, Stockholm den 18 december 2019.
-- **Opeth** på Cirkus, Stockholm den 13 januari 2020.
-- **Coraline** på Folkoperan, Stockholm den 5 februari 2020.
-- **Gefle Metal Festival** på Gasklockorna, Gävle den 9-11 juli 2020.
-- **Wacken Open Air** i Wacken, Tyskland den 30 juli - 1 augusti 2020.
-- **Brutal Assault** i Jaroměř, Tjeckien den 5-8 augusti 2020.
-
-</div>
-<div id="past">
 <div>
 
 ## 2019
@@ -590,5 +557,4 @@ Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronog
 - Förband: **Entombed**, **Slayer**.
 - Aktuellt album: _Brave New World_
 
-</div>
 </div>

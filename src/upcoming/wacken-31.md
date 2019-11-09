@@ -5,8 +5,9 @@ enddate: 2020-08-01
 venue: Wacken
 region: Tyskland
 collection: upcoming
-location: 
-    latitude: 54.0225064
-    longitude: 9.3635148
+location:
+  latitude: 54.0225064
+  longitude: 9.3635148
 ---
-**Wacken Open Air** i Wacken, Tyskland den 30 juli - 1 augusti 2020.
+
+Festival i Wacken, Tyskland den 30 juli - 1 augusti 2020.

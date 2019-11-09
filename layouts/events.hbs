@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }} | {{ name }}</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" title="madr.se stilmall" href="{{#if date}}../{{/if}}../madrse.css">
+  <link href="{{#if date}}../{{/if}}../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+  <link rel="stylesheet" title="madr.se stilmall" href="../madrse.css">
+  <link href="../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+  <link rel="canonical" href="{{ url }}/{{ path }}/">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ url }}/{{ path }}/">
+  <meta property="og:image" content="{{ image }}">
+  <meta property="og:site_name" content="{{ name }}">
+</head>
+
+<body>
+  {{> header }}
+  <main id="content">
+    <article>
+      <h1>{{ title }}</h1>
+
+      <div id="about">
+        <p>
+          Här samlas de spelningar, konserter och festivaler jag besökt i omvänd kronogisk ordning från juni 2000 till
+          idag, enligt nedanstående format.
+        </p>
+        <ul>
+          <li> <em>Festivaler</em> (Endags-, Stads-) nämns med datum och plats. Jag listar de band jag särskilt minns
+            var bra,
+            vilket alltså nödvändigtvis inte är alla band jag såg på den festivalen. Jag listar även band jag anser mig
+            ha
+            missat.
+          <li> <em>Konserter</em> nämns med datum och plats. Jag listar förband, och aktuellt album i de fall där det är
+            relevant.
+            Alla konserter är inte hårdrocksspelningar... :)
+        </ul>
+      </div>
+
+      <div id="map">
+
+        <h2>Geografisk utspridning</h2>
+
+        <iframe style="display: block;" src="https://www.google.com/maps/d/embed?mid=10nYel6wNvsjpMOECD53M-dfOa2M"
+          width="640" height="480"></iframe>
+      </div>
+
+      <div id="upcoming">
+
+        <h2>Kommande</h2>
+
+        <ul>
+          {{#upcoming upcoming }}
+          <li itemscope="" itemtype="http://schema.org/Event">
+            <strong itemprop="name">
+              {{ title }}
+            </strong>
+            {{{contents}}}
+          </li>
+          {{/upcoming}}
+        </ul>
+
+      </div>
+      <div id="past">
+        {{{ contents }}}
+      </div>
+    </article>
+  </main>
+  {{> aside }}
+  {{> footer }}
+</body>
+
+</html>
