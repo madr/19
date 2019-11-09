@@ -3,30 +3,6 @@ Main CSS file for madr.se.
 Bring Anders Ytterström <yttan@fastmail.se> a 🍺 if you find 
 something useful.
 
-Colors used, dark theme
------------------------
-
-#222, #ddd  -- background and foreground colors
-#444, #666  -- plate colors
-gold        -- links
-goldenrod   -- visited links
-silver      -- headings
-white       -- headings, focus/hover and emphazied text
-deeppink    -- wow effects, focus outline
-magenta     -- code
-
-Colors used, light theme
-------------------------
-
-#fff, #333    -- background and foreground colors
-#ddd, #bbb    -- plate colors
-teal          -- links
-black         -- visited links
-silver        -- headings
-black         -- headings, focus/hover and emphazied text
-deeppink      -- wow effects, focus outline
-purple        -- code
-
 Breakpoints used
 ----------------
 
@@ -37,11 +13,7 @@ Table of Contents, 7-1 inspired
 
     1. Base
     2. Components
-        2.1 Nav item
     3. Layout
-        3.1. Header
-        3.1. Nav
-        3.1. Main
     4. Pages
     5. Themes
     6. Vendors
@@ -56,15 +28,30 @@ Normalize and resets.
 Only element and attribute selectors allowed in this section. 
 */
 
+:root {
+  --color: #ddd;
+  --em-color: white;
+  --background-color: #222;
+  --background-color-d: black;
+  --background-color-l: #444;
+  --background-color-ll: #666;
+  --outline-color: deeppink;
+  --link-color: gold;
+  --link-visited-color: silver;
+  --code-color: magenta;
+  --aside-color: silver;
+  --skip-link-color: black;
+}
+
 :focus {
-  outline: 4px solid deeppink;
+  outline: 4px solid var(--outline-color);
 }
 
 html {
-  color: #ddd;
+  color: var(--color);
   font: normal medium/1.4 apple-system, system-ui, BlinkMacSystemFont, Segoe UI,
     Roboto, Helvetica Neue, Arial, sans-serif;
-  background-color: #222;
+  background-color: var(--background-color);
 }
 
 figure {
@@ -76,7 +63,7 @@ strong,
 i,
 em,
 b {
-  color: #fff;
+  color: var(--em-color);
 }
 
 figure > img {
@@ -100,32 +87,32 @@ table {
 
 td,
 th {
-  background: #444;
+  background-color: var(--background-color-l);
   padding: 0.25em;
   font-size: 0.8em;
 }
 
 th {
   text-transform: uppercase;
-  color: white;
-  background: #666;
+  color: var(--em-color);
+  background-color: var(--background-color-ll);
   font-weight: normal;
 }
 
 li {
-  color: white;
+  color: var(--em-color);
 }
 
 li::marker {
-  color: silver;
+  color: var(--aside-color);
 }
 
 blockquote {
-  color: white;
+  color: var(--em-color);
   font-size: 1.2em;
   line-height: 1.2;
   font-style: italic;
-  border-left: 5px solid #444;
+  border-left: 5px solid var(--background-color-l);
   margin: 1em 1em 1em 0;
   padding-left: 1em;
 }
@@ -141,7 +128,7 @@ pre {
 }
 
 code {
-  color: magenta;
+  color: var(--code-color);
   font-size: 0.75em;
   font-family: monaco, consolas, monospace;
 }
@@ -159,18 +146,18 @@ abbr {
 }
 
 a:link {
-  color: gold;
+  color: var(--link-color);
   transition: transform 0.3s;
 }
 
 a:hover,
 a:focus {
-  color: white;
+  color: var(--em-color);
 }
 
 a:visited {
   text-decoration: line-through;
-  color: goldenrod;
+  color: var(--link-visited-color);
 }
 
 a:visited::before {
@@ -189,7 +176,7 @@ h1 {
   font-size: 3.33em;
   line-height: 0.95;
   margin: 0.5em 0;
-  color: white;
+  color: var(--em-color);
 }
 
 @media (max-width: 666px) {
@@ -200,7 +187,7 @@ h1 {
 
 h2 {
   margin: 0.66em 0;
-  color: white;
+  color: var(--em-color);
 }
 /* === /Base === */
 
@@ -222,12 +209,12 @@ selectors.
   position: absolute;
   left: 1em;
   top: -99em;
-  background-color: gold;
+  background-color: var(--link-color);
+  color: var(--skip-link-color);
   padding: 0.5em;
 }
 
 .skiplink:focus {
-  color: black;
   top: 1em;
 }
 /* --- /skip link --- */
@@ -240,7 +227,7 @@ selectors.
 
 .nav__item:hover,
 .nav__item:focus {
-  color: white;
+  color: var(--em-color);
 }
 
 @media (min-width: 666px) {
@@ -256,7 +243,7 @@ selectors.
 
   .nav__item::before {
     content: "";
-    background-color: deeppink;
+    background-color: var(--outline-color);
     position: absolute;
     top: 0;
     left: 0;
@@ -274,7 +261,7 @@ selectors.
   }
 
   .nav__item:focus {
-    background: deeppink;
+    background-color: var(--outline-color);
   }
 }
 /* --- /nav item --- */
@@ -283,7 +270,7 @@ selectors.
   font-size: 0.8em;
   text-transform: uppercase;
   margin: 0 0 0.25em;
-  color: silver;
+  color: var(--aside-color);
 }
 
 .h--post {
@@ -338,14 +325,14 @@ selectors.
 }
 
 .upcoming__item__when :first-child {
-  background: #666;
-  color: white;
+  background-color: var(--background-color-ll);
+  color: var(--em-color);
   line-height: 2;
 }
 
 .upcoming__item__when :last-child {
-  background: #444;
-  color: white;
+  background-color: var(--background-color-l);
+  color: var(--em-color);
   font-size: 0.8em;
   line-height: 1.6;
 }
@@ -356,7 +343,7 @@ selectors.
 
 .upcoming__item__what {
   grid-area: what;
-  color: gold;
+  color: var(--link-color);
   font-weight: normal;
 }
 
@@ -401,7 +388,7 @@ selectors.
 
 .teaser__footer {
   text-align: right;
-  font-size: 75%;
+  font-size: 80%;
   padding: 0.5em 0 0;
 }
 
@@ -429,29 +416,29 @@ selectors.
 /* --- /teaser --- */
 /* --- pagination --- */
 .pagination {
-  border-top: 2px solid gold;
+  border-top: 2px solid var(--link-color);
   margin: 2em auto;
   display: flex;
   padding: 1em;
   justify-content: space-between;
-  background: #444;
+  background-color: var(--background-color-l);
 }
 /* --- /pagination --- */
 /* --- presentation --- */
 .presentation {
   margin: 2em auto;
   font-size: 80%;
-  color: silver;
+  color: var(--aside-color);
 }
 /* --- /presentation --- */
 /* --- alert --- */
 .alert--archived {
   max-width: 30em;
   margin: 2em auto;
-  background: #000;
+  background-color: var(--background-color-d);
   padding: 7px 10px;
-  box-shadow: 0 0 0 10px #000;
-  border: 2px dashed white;
+  box-shadow: 0 0 0 10px var(--background-color-d);
+  border: 2px dashed var(--em-color);
   background-clip: padding-box;
   transform: rotate(-2deg) translate(10px, 20px) scale(0.8);
   opacity: 0.33;
@@ -465,9 +452,14 @@ selectors.
 }
 /* --- /alert --- */
 /* --- main --- */
+main {
+  margin-bottom: 2em;
+}
+
 @media (min-width: 666px) {
   main {
     grid-area: main;
+    margin-bottom: 0;
   }
 }
 /* --- /main --- */
@@ -482,7 +474,7 @@ selectors.
 footer {
   text-align: center;
   padding: 2em 0;
-  color: silver;
+  color: var(--aside-color);
   font-size: smaller;
 }
 
@@ -508,9 +500,9 @@ header {
 /* --- /header --- */
 /* --- nav --- */
 nav {
-  border: 2px solid gold;
+  border: 2px solid var(--link-color);
   border-width: 2px 0;
-  background: #444;
+  background-color: var(--background-color-l);
   grid-column: 1 / 3;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -570,129 +562,19 @@ Styles to create user-customized themes.
 */
 
 @media (prefers-color-scheme: light) {
-  :focus {
-    outline-color: deeppink;
-  }
-
-  html {
-    color: #444;
-    background-color: #fff;
-  }
-
-  strong,
-  i,
-  em,
-  b {
-    color: #000;
-  }
-
-  td,
-  th {
-    background: #eee;
-  }
-
-  th {
-    color: black;
-    background: #ddd;
-  }
-
-  li {
-    color: black;
-  }
-
-  li::marker {
-    color: mediumseagreen;
-  }
-
-  blockquote {
-    color: black;
-    border-color: #ddd;
-  }
-
-  code {
-    color: mediumvioletred;
-  }
-
-  a:link {
-    color: teal;
-  }
-
-  a:hover,
-  a:focus {
-    color: black;
-  }
-
-  a:visited {
-    color: lightseagreen;
-  }
-
-  h1 {
-    color: black;
-  }
-
-  h2 {
-    color: black;
-  }
-
-  .skiplink {
-    background-color: teal;
-  }
-
-  .skiplink:focus {
-    color: white;
-  }
-
-  .nav__item:hover,
-  .nav__item:focus {
-    color: black;
-  }
-
-  .nav__item::before {
-    background-color: gold;
-  }
-
-  .h--aside {
-    color: slategray;
-  }
-
-  .upcoming__item__when :first-child {
-    background: #ddd;
-    color: black;
-  }
-
-  .upcoming__item__when :last-child {
-    background: #eee;
-    color: black;
-  }
-
-  .upcoming__item__what {
-    grid-area: what;
-    color: mediumvioletred;
-    font-weight: normal;
-  }
-
-  .pagination {
-    border-color: teal;
-    background-color: #eee;
-  }
-
-  .presentation {
-    color: slategray;
-  }
-
-  .alert--archived {
-    background-color: #aaa;
-    border-color: #aaa;
-    box-shadow: 0 0 0 10px #aaa;
-  }
-
-  footer {
-    color: slategray;
-  }
-
-  nav {
-    border-color: teal;
-    background: #eee;
+  :root {
+    --color: #444;
+    --em-color: black;
+    --background-color: #fff;
+    --background-color-d: #f1f1f1;
+    --background-color-l: #f6f6f6;
+    --background-color-ll: #e5e5e5;
+    --outline-color: deeppink;
+    --link-color: teal;
+    --link-visited-color: #666;
+    --code-color: magenta;
+    --aside-color: slategray;
+    --skip-link-color: white;
   }
 }
 
@@ -705,7 +587,7 @@ Styles belonging to third-party components.
 */
 
 .footnotes-list {
-  color: silver;
+  color: var(--aside-color);
   font-size: 80%;
 }
 
