@@ -9,16 +9,22 @@
     <ul class="upcoming">
         {{#upcoming upcoming }}
         <li class="upcoming__item" itemscope="" itemtype="http://schema.org/Event">
-            <strong itemprop="name" class="upcoming__item__what">
+            <strong itemprop="name performer" class="upcoming__item__what">
                 {{ title }}
             </strong>
             <span class="upcoming__item__where" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
-                <span itemprop="name">{{ venue }}</span>, {{ region }}
+                <span itemprop="address">
+                    <span itemprop="name">{{ venue }}</span>, {{ region }}
+                </span>
             </span>
-            <time datetime="{{ date }}T00:00:00Z" class="upcoming__item__when" itemprop="startDate">
+            <time datetime="{{ date }}T00:00:00Z" class="upcoming__item__when"
+                itemprop="startDate{{#unless enddate}} endDate{{/unless}}">
                 <span>{{ d }}</span>
                 <span>{{ m }}</span>
             </time>
+            {{#if enddate}}<span class="visuallyhidden" itemprop="endDate">{{enddate}}</span>{{/if}}
+            <div class="visuallyhidden" itemprop="description">{{{contents}}}</div>
+            <span class="visuallyhidden" itemprop="address">{{address}}</span>
         </li>
         {{/upcoming}}
     </ul>
