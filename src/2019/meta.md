@@ -78,8 +78,37 @@ main {
 Det är riktigt trevligt att arbeta med, då `grid-area` känns mer intuitivt än att använda
 `grid-row` och `grid-column`.
 
-Denna lista kommer troligtvis att fyllas på.
+## Variabler i CSS
+
+Variabler är en av de starkaste argumenten för att introducera precompilers för CSS, då
+det gör underhåll av CSS-kod över tid så ofantligt mycket enklare. I mitt fall använder jag
+dem för **att spara och därmed snabbt ändra färger** (beroende på _Dark Mode_).
+
+```css
+:root {
+  --text-color: #ddd;
+  --background-color: #222;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: #444;
+    --background-color: #fff;
+  }
+}
+```
+
+[CSS Variabler][4] har funnits ett tag i specen, men få använder dem då de är begränsade i jämförelse
+med deras motsvarigheter i precompilers.
+
+- [CSS variabler stöds ej i media queries breakpoints](https://stackoverflow.com/questions/40722882/css-native-variables-not-working-in-media-queries#40723269), vilket är något av en showstopper.
+- Deras syntax är ful och icke-intuitiv, i jämförelse med sina motsvarigheter i precompilers.
+
+En av deras främsta styrkor är dock att de kan nås från JavaScript, vilket har gjort projekt där animationer och transitions tas på stort allvar har börjat pusha för CSS-variabler.
+
+_Denna lista kommer troligtvis att fyllas på._
 
 [1]: https://metalsmith.io/
 [2]: ../../2016/less-is-more/
 [3]: https://github.com/madr/19/.stylelintrc.json
+[4]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
