@@ -34,6 +34,11 @@ ställningstaganden med den här webbplatsen.
 Jag har introducerat _Mikrodata_ igen, i det som jag känner har mest värde av det: mina
 kommande evenemang.
 
+Mikrodata är ett sätt för att få sökmotorer och andra parsers att visa mer berikade och relevanta sökresultat.
+
+Genom att kika på [Googles testverktyg för strukturerad data][5] går det att se vad mina sidor
+innehåller för evenemang. Det är också ett bra verktyg för att validera saker, ska sägas.
+
 ## Adaptiv layout
 
 Baserat på vilket operativsystem besökaren har, så kommer operativsystemets system-teckensnitt att användas. Detta för att texten ska vara så adaptiv som möjligt.
@@ -112,3 +117,4 @@ _Denna lista kommer troligtvis att fyllas på._
 [2]: ../../2016/less-is-more/
 [3]: https://github.com/madr/19/.stylelintrc.json
 [4]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+[5]: https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fmadr.se%2F1%2F
