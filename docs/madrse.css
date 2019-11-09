@@ -141,8 +141,10 @@ blockquote p::before {
 }
 
 pre {
+  font-size: 125%;
   max-width: 100%;
   overflow: auto;
+  line-height: 1.33;
 }
 
 code {
@@ -197,7 +199,7 @@ h1 {
   color: var(--em-color);
 }
 
-@media (max-width: 666px) {
+@media (min-width: 666px) {
   h1 {
     margin: 1.4em 0;
   }
@@ -225,7 +227,7 @@ selectors.
 }
 /* --- /visually hidden --- */
 /* --- skip link --- */
-.skiplink {
+.skiplink:link {
   position: absolute;
   left: 1em;
   top: -99em;
@@ -238,6 +240,20 @@ selectors.
   top: 1em;
 }
 /* --- /skip link --- */
+/* --- anchor --- */
+.anchor:link {
+  display: inline-block;
+  padding: 0 0.25em;
+  margin-left: 0.75em;
+  transition: none;
+  transform: translateX(-99em);
+}
+
+*:hover > .anchor,
+.anchor:focus {
+  transform: none;
+}
+/* --- /anchor --- */
 /* --- nav item --- */
 .nav__item {
   padding: 0.5em;
@@ -484,12 +500,14 @@ selectors.
 /* --- /alert --- */
 /* --- main --- */
 main {
+  margin-top: 1em;
   margin-bottom: 2em;
 }
 
 @media (min-width: 666px) {
   main {
     grid-area: main;
+    margin-top: 0;
     margin-bottom: 0;
   }
 }
