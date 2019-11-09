@@ -3,6 +3,7 @@ var Metalsmith = require("metalsmith");
 var atomfeed = require("metalsmith-feed-atom");
 var collections = require("metalsmith-collections");
 var dateFormatter = require("metalsmith-date-formatter");
+var headingsidentifier = require("metalsmith-headings-identifier");
 var helpers = require("metalsmith-discover-helpers");
 var htmlMinifier = require("metalsmith-html-minifier");
 var layouts = require("metalsmith-layouts");
@@ -87,6 +88,13 @@ Metalsmith(__dirname)
 
         return "";
       }
+    })
+  )
+  .use(
+    headingsidentifier({
+      selector: "h2,h3,h4",
+      linkTemplate: "<a class='anchor' href='#%s'>¶</a>",
+      position: "right"
     })
   )
   .use(permalinks()) // must be *before* atomfeed, and *after* collections
