@@ -5,7 +5,7 @@ date: 2009-07-02
 enddate: 2009-07-04
 venue: Folkets park
 region: Arvika
-img:
+img: arvikafestivalen-2009.jpg
 collection: events
 location:
   latitude: 59.6505598

@@ -5,7 +5,7 @@ date: 2016-08-17
 enddate: 2016-08-20
 venue: Lugnets skidstadion
 region: Falun
-img:
+img: sabaton-open-air-2016.png
 collection: events
 location:
   latitude: 60.6187955

@@ -68,13 +68,6 @@ figure {
   margin: 0;
 }
 
-figure > img:focus {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%, 0);
-}
-
 strong,
 i,
 em,
@@ -429,6 +422,17 @@ selectors.
   }
 }
 /* --- /portrait --- */
+/* --- no-image --- */
+.no-image {
+  background-color: rgba(128, 128, 128, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  height: 100%;
+  color: #888;
+}
+/* --- /no-image --- */
 /* --- teaser --- */
 .teaser {
   margin: 2em 0;
@@ -459,7 +463,6 @@ selectors.
 
 .teaser--media :first-child {
   grid-area: media;
-  height: auto;
 }
 
 .teaser--media__summary {

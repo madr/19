@@ -12,6 +12,7 @@ location:
 bands:
   - Wardruna
   - Kaunan
+layout: event.hbs
 ---
 
 Sittplats! Oerhört vackert och stämningsfullt, och några rörande ord sagda om den närmast förlorade sångtraditionen i Skandinavien.

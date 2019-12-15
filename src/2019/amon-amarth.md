@@ -16,6 +16,7 @@ bands:
   - Amon Amarth
   - Hypocrisy
   - Arch Enemy
+layout: event.hbs
 ---
 
 Jag missade **Hypocrisy**, men av goda anledningar då kött sköljdes ner medelst mjöd och mölska på [Aifur](http://aifur.se/).

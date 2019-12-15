@@ -1,6 +1,10 @@
 <article class="teaser teaser--media">
   <figure>
+    {{#if img}}
     <img src="../img/{{ img }}" alt="poster">
+    {{else}}
+    <i class="no-image">Ingen poster</i>
+    {{/if}}
   </figure>
   <h2 class="h--media">
     📆 {{ title }}
@@ -33,7 +37,6 @@
     {{#if release}}
     <p><strong>Album-aktuella med</strong>:<br> <i>"{{ release.name }}"</i></p>
     {{/if}}
-    {{{ contents }}}
   </div>
   <footer class="teaser__footer">
     <a href="../{{ path }}"><time>{{ date }}</time></a>

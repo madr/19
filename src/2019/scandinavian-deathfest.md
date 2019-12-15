@@ -15,6 +15,7 @@ best:
   - LIK
 mia:
   - Dismember
+layout: event.hbs
 ---
 
 Extra-insatt dag på _Scandinavian Deathfest_, med enskilda biljetter.

@@ -15,6 +15,7 @@ location:
 bands:
   - Mayhem
   - Ghaal's WYRD
+layout: event.hbs
 ---
 
 Inga djurkadaver eller blod på scenen. Klubben hade väl inte ansökt om tillstånd, förmodar jag. Eller sagt nej.

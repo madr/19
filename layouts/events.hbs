@@ -65,7 +65,9 @@
 
       </div>
       <div id="past">
-        {{{ contents }}}
+        {{#each events}}
+        {{> teaser-event}}
+        {{/each}}
       </div>
     </article>
   </main>

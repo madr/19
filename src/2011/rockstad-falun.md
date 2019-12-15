@@ -5,7 +5,7 @@ date: 2011-06-02
 enddate: 2011-06-03
 venue: Lugnets skidstadion
 region: Falun
-img:
+img: rockstad-falun-2011.jpg
 collection: events
 location:
   latitude: 60.6187955
