@@ -1,5 +1,5 @@
 ---
-title: Gefle Metal Festival 4
+title: Gefle Metal Festival 5
 date: 2020-07-09
 enddate: 2020-07-11
 venue: Gasklockorna

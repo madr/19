@@ -8,57 +8,57 @@ layout: events.hbs
 
 ## 2019
 
-### Amon Amarth - Berserker World Tour 
+### Amon Amarth: Berserker World Tour
 
-- Konsert på Fryshuset, Stockholm den 7 december 2019.
-- Förband: **Hypocrisy**, **Arch Enemy**
+- Konsert på Annexet, Stockholm den 7 december 2019.
+- Förband: **Hypocrisy**, **Arch Enemy**.
 - Aktuellt album: _Berserker_
 
 ### Wardruna
 
 - Konsert på Annexet, Stockholm den 1 december 2019.
-- Förband: **Kaunan**
+- Förband: **Kaunan**.
 
 ### Mayhem + support
 
-- Konsert på Fryshuset, Stockholm den 29 november 2019.
-- Förband: **Ghaal's WYRD**
+- Konsert på Klubben/Fryshuset, Stockholm den 29 november 2019.
+- Förband: **Ghaal's WYRD**.
 - Aktuellt album: _Daemon_
 
 ### Scandinavian Deathfest
 
 - Festival på Kraken, Stockholm den 13 oktober 2019.
 - Personliga höjdpunkter: **Grave**, **Vanhelgd**, **LIK**.
-- Band jag missade: **Dismember**
+- Band jag missade: **Dismember**.
 
 ### Airbourne
 
 - Konsert på Münchenbryggeriet, Stockholm den 5 oktober 2019.
-- Förband: **Supersuckers**
+- Förband: **Supersuckers**.
 - Aktuellt album: _Boneshaker_
 
 
 ### Svartidauði
 
 - Konsert på Kraken, Stockholm den 26 september 2019.
-- Förband: **Sinmara**
+- Förband: **Sinmara**.
 - Aktuellt album: _Revelations of the Red Sword_
 
 ### King Diamond
 
-- Konsert på Fryshuset, Stockholm den 8 augusti 2019.
-- Förband: **Batushka** (bartusha)
+- Konsert på Arenan/Fryshuset, Stockholm den 8 augusti 2019.
+- Förband: **Batushka**.
 - Aktuellt album: n/a
 
 ### Gefle Metal Festival
 
-- Festival på Gasklockorna, Gävle den 19-20 juni 2018.
+- Festival på Gasklockorna, Gävle den 19-20 juli 2019.
 - Personliga höjdpunkter: **Nervosa**, **Macabre Decay**, **Legion of the Damned**, **Eiveitie**, **Dimmu Borgir**, **Scarlet**, **Satyricon**, **Dying Fetus**, **Primordial**, **Dark Tranquility**, **Deathstars**, **Ministry**.
 - Band jag missade: **Kataklysm**, **Wolfheart**, **Murdermarket**.
 
 #### Sweden Rock Festival
 
-- Festival i Norje, Sölvesborg den 5-8 juni 2018.
+- Festival i Norje, Sölvesborg den 5-8 juni 2019.
 - Personliga höjdpunkter: **Amon Amarth**, **Brothers of Metal**, **Burning Witches**, **Demons & Wizards**, **Jag Panzer**, **Saxon**, **Tenacious D**, **Unleashed**.
 - Band jag missade: **Behemoth**, **Candlemass**.
 
@@ -68,21 +68,21 @@ layout: events.hbs
 - Personliga höjdpunkter: **Månegarm**, **Mgła**.
 - Band jag missade: **Harakiri for the Sky**, **Forndom**.
 
-### Close-Up båten 21
+### Close-Up båten 24
 
 - Temakryssning till Åbo, Finland den 28-29 mars 2019.
 - Personliga höjdpunkter: **Vomitory**, **Dark Tranquility**, **Crawl**, **LIK**, **Unanimated**, **Demonical**.
 
 ### House of Metal
 
-- Stadsfestival på Folkets hus, Umeå den 1-2 mars 2018.
+- Stadsfestival på Folkets hus, Umeå den 1-2 mars 2019.
 - Personliga höjdpunkter: **Tiamat**, **At The Gates**, **Rotting Christ**, **LIK**.
 - Band jag missade: **Persuader**, **Taake**.
 
 ### Behemoth: Ecclesia Diabolica Evropa 2019
 
 - Konsert på Annexet, Stockholm den 28 januari 2019.
-- Förband: **At The Gates**, **Wolves in the Throne Room**
+- Förband: **At The Gates**, **Wolves in the Throne Room**.
 - Aktuellt album: _I Loved you at your Darkest_
 
 ## 2018
@@ -90,13 +90,13 @@ layout: events.hbs
 ### Myrkur
 
 - Konsert på Vasateatern, Stockholm den 3 december 2018.
-- Förband: **Jo Quail**
-- Aktuellt album: Mareridt
+- Förband: **Jo Quail**.
+- Aktuellt album: _Mareridt_
 
 ### Enslaved: Army of the North Star
 
 - Konsert på Slaktkyrkan, Stockholm den 11 november 2018.
-- Förband: **Gaahls Wyrd**, **Skogen**
+- Förband: **Gaahls Wyrd**, **Skogen**.
 - Aktuellt album: -
 
 ### Wacken Open Air
@@ -107,7 +107,7 @@ layout: events.hbs
 
 ### Storsjöyran
 
-- Stadsfestival i Östersund den 27-28 juli 2018.
+- Stadsfestival på Stortorget, Östersund den 27-28 juli 2018.
 - Personliga höjdpunkter: **Kraftwerk**, **Thåström**.
 
 ### Gefle Metal Festival
@@ -125,8 +125,8 @@ layout: events.hbs
 ### Gamrocken
 
 - Festival på Folkets park, Grängesberg den 24-25 maj 2018.
-- Personliga höjdpunkter: **Cup up**, **Dark Funeral**, **Entrails**, **Naglfar**, **Necrophobic**, **Netherbird**, **Rotten Sound**, **The Crown**, **Wormwood**.
-- Band jag missade: **Evocation**
+- Personliga höjdpunkter: **Cut up**, **Dark Funeral**, **Entrails**, **Naglfar**, **Necrophobic**, **Netherbird**, **Rotten Sound**, **The Crown**, **Wormwood**.
+- Band jag missade: **Evocation**.
 
 ### Ulver
 
@@ -142,7 +142,7 @@ layout: events.hbs
 
 ### Stockholm Slaughter
 
-- Stadsfestival på Fryshuset, Stockholm den 27-28 april 2018.
+- Stadsfestival på Klubben/Fryshuset, Stockholm den 27-28 april 2018.
 - Personliga höjdpunkter: **Arkona**, **Aura Noir**, **Fejd**, **October Tide**, **Thyrfing**, **Tsjuder**.
 - Band jag missade: **Asagraum**, **Swallow the sun**.
 
@@ -155,19 +155,19 @@ layout: events.hbs
 ### LIK
 
 - Konsert på Dirty Harry, Gävle den 23 februari 2018.
-- Förband: **Septekh**
+- Förband: **Septekh**.
 - Aktuellt album: -
 
 ### Månegarm
 
 - Konsert på Nalen, Stockholm den 2 februari 2018.
-- Förband: **Ereb Altor**, **Cruachan**
+- Förband: **Ereb Altor**, **Cruachan**.
 - Aktuellt album: -
 
 ### Watain
 
 - Konsert på Kraken, Stockholm den 5 januari 2018.
-- Förband: **Unanimated**
+- Förband: **Unanimated**.
 - Aktuellt album: _Trident Wolf Eclipse_
 
 </div>
@@ -178,7 +178,7 @@ layout: events.hbs
 ### Solstafir
 
 - Konsert på Debaser Strand, Stockholm den 20 december 2017.
-- Förband: **Myrkur**
+- Förband: **Myrkur**.
 - Aktuellt album: _Berdreyminn_, _Mareridt_
 
 ### Apocalypse Orchestra
@@ -189,7 +189,7 @@ layout: events.hbs
 ### Dirkschneider: back to the roots
 
 - Konsert på Gasklockorna, Gävle den 18 november 2017.
-- Förband: **Raven**
+- Förband: **Raven**.
 - Aktuellt album: n/a
 
 ### Close-Up båten 21
@@ -208,10 +208,10 @@ layout: events.hbs
 - Konsert på Gröna lund, Stockholm den 17 augusti 2017.
 - Aktuellt album: _The Serenity of Suffering_
 
-### Tredingsriten
+### Grift: Tredingsriten
 
 - Konsert på Medelplana bygdegård, Götene den 5 augusti 2017.
-- Band: **Grift**, **Forndom**, **Noêta**.
+- Förband: **Forndom**, **Noêta**.
 - Aktuellt album: _Arvet_
 
 ### Megadeth
@@ -242,13 +242,13 @@ layout: events.hbs
 
 ### The Horror: Kungliga filharmonikerna med Katarinakören
 
-- Konsert på Stockholms Konserthus den 9 juni 2017.
+- Konsert på Konserthuset, Stockholm den 9 juni 2017.
 - Konferencier: Orvar Säfström.
 
 ### Merciless
 
 - Konsert på Club Deströyer, Sundsvall den 19 maj 2017.
-- Förband: **Vånda**
+- Förband: **Vånda**.
 - Aktuellt album: -
 
 ### House of Metal
@@ -265,13 +265,13 @@ layout: events.hbs
 ### Amon Amarth
 
 - Konsert på Arenan/Fryshuset, Stockholm den 17 december 2016.
-- Förband: **Grand Magus**, **Behemoth**
+- Förband: **Grand Magus**, **Behemoth**.
 - Aktuellt album: _Jomsviking_
 
 ### Opeth
 
 - Konsert på Annexet, Stockholm den 5 november 2016.
-- Förband: **Myrkur**
+- Förband: **Myrkur**.
 - Aktuellt album: _Sorceress_
 
 ### Sabaton Open Air
@@ -304,14 +304,14 @@ layout: events.hbs
 
 ### Storsjöyran
 
-- Stadsfestival i Östersund den 27 juli 2013.
+- Stadsfestival i Stortorget, Östersund den 27 juli 2013.
 - Personliga höjdpunkter: **Alice Cooper**.
 - Band jag missade: -
 
 ### Iron Maiden
 
 - Konsert på Friends Arena, Stockholm den 13 juli 2013.
-- Förband: **Voodoo Six**, **Sabaton**
+- Förband: **Voodoo Six**, **Sabaton**.
 - Aktuellt album: -
 
 </div>
@@ -328,7 +328,7 @@ layout: events.hbs
 ### Agalloch
 
 - Konsert på Fängelset, Göteborg den 8 april 2012.
-- Förband: **Velnias**
+- Förband: **Velnias**.
 - Aktuellt album: -
 
 </div>
@@ -344,7 +344,7 @@ layout: events.hbs
 
 ### Storsjöyran
 
-- Stadsfestival i Östersund den 20 juli 2011.
+- Stadsfestival på Stortorget, Östersund den 20 juli 2011.
 - Personliga höjdpunkter: **Ghost**, **The Haunted**.
 - Band jag missade: **Graveyard**.
 
@@ -356,13 +356,13 @@ layout: events.hbs
 ### Sabaton
 
 - Konsert på Gamla Teatern, Östersund den 9 december 2010.
-- Förband: **Steelwing**, **Raubtier**
+- Förband: **Steelwing**, **Raubtier**.
 - Aktuellt album: _Coat of Arms_
 
 ### Blind Guardian
 
 - Konsert på Brewhouse, Göteborg den 22 oktober 2010.
-- Förband: **Steelwing**
+- Förband: **Steelwing**.
 - Aktuellt album: _At the Edge of Time_
 
 ### Rockweekend
@@ -379,18 +379,18 @@ layout: events.hbs
 ### Amon Amarth
 
 - Konsert på Gamla Tingshuset, Östersund den 6 oktober 2009.
-- Förband: **Entombed**
+- Förband: **Entombed**.
 - Aktuellt album: _Twilight of the Thunder God_
 
 ### Arvikafestivalen
 
-- Festival på Folkets park, Arvika den 18-19 juni 2009.
+- Festival på Folkets park, Arvika den 2-4 juli 2009.
 - Personliga höjdpunkter: **Depeche Mode**, **Diary of Dreams**, **KoRn**, **Nine Inch Nails**, **Opeth**, **Röyksopp**, **Thåström**.
-- Band jag missade: **Eagles of Death Metal**
+- Band jag missade: **Eagles of Death Metal**.
 
 ### Metaltown
 
-- Stadsfestival på Frihamnen, Göteborg den 26-27 juni 2008.
+- Stadsfestival på Frihamnen, Göteborg den 26-27 juni 2009.
 - Personliga höjdpunkter: **Cult of Luna**, **Evergrey**, **My Dying Bride**, **Opeth**, **The Haunted**.
 - Band jag missade: **Dir En Grey**, **Slipknot**.
 
@@ -408,13 +408,13 @@ layout: events.hbs
 ### AeoN
 
 - Konsert på Gamla Tingshuset, Östersund den 12 september 2008.
-- Förband: **Denicalis**
+- Förband: **Denicalis**.
 
 ### Rockweekend
 
-- Festival på Kilafors herrgård den 18-19 juli 2008.
-- Personliga höjdpunkter: **Alice Cooper**, **Crazy Lixx**, **Entombed**, **Heat**.
-- Band jag missade: **Firewind**, **Lions Share**, **Paul Di'anno**
+- Festival på Kilafors herrgård, Bollnäs den 18-19 juli 2008.
+- Personliga höjdpunkter: **Alice Cooper**, **Helloween**, **Crazy Lixx**, **Entombed**, **Heat**.
+- Band jag missade: **Firewind**, **Lions Share**, **Paul Di'anno**.
 
 ### Metaltown
 
@@ -430,13 +430,13 @@ layout: events.hbs
 ### 6th Awakening
 
 - Konsert på Red Rock, Sundsvall den 24 november 2007.
-- Förband: **My Own Grave**, **Nidsang**
+- Förband: **My Own Grave**, **Nidsang**.
 - Aktuellt album: -
 
 ### Watain
 
 - Konsert på Red Rock, Sundsvall den 24 september 2007.
-- Förband: **Unpure**
+- Förband: **Unpure**.
 - Aktuellt album: _Legions of the Black Light_
 
 ### Schwarzmeer-don Kosaken
@@ -445,8 +445,8 @@ layout: events.hbs
 
 ### Metaltown
 
-- Endagsfestival på Frihamnen, Göteborg den 7 juli 2007.
-- Personliga höjdpunkter: **Cult of Luna**, **Entombed**, **Marduk**, **Opeth**, **Slayer**.
+- Endagsfestival på Frihamnen, Göteborg den 30 juni 2007.
+- Personliga höjdpunkter: **Cult of Luna**, **Entombed**, **Marduk**, **Slayer**.
 - Band jag missade: **Mastodon**, **Meshuggah**.
 
 ### John Williams - filmusikens gigant: Göteborgsmusiken
@@ -459,7 +459,7 @@ layout: events.hbs
 ### Kamelot
 
 - Konsert på Trädgårn, Göteborg den 5 januari 2007.
-- Förband: **Triosphere**, **Leaves' Eyes**
+- Förband: **Triosphere**, **Leaves' Eyes**.
 - Aktuellt album: _The Black Halo_
 
 </div>
@@ -470,12 +470,12 @@ layout: events.hbs
 ### Blind Guardian
 
 - Konsert på Arenan/Fryshuset, Stockholm den 24 september 2006.
-- Förband: **Astral Doors**
+- Förband: **Astral Doors**.
 - Aktuellt album: _A Twist in the Myth_
 
 ### Gates of Metal
 
-- Festival på Hultsfreds Hembygdspark den 4-5 augusti 2006.
+- Festival på Hultsfreds Hembygdspark, Hultsfred den 4-5 augusti 2006.
 - Personliga höjdpunkter: **Dismember**, **Helloween**, **Lumsk**, **Mayhem**, **Sabaton**, **Thyrfing**.
 - Band jag missade: **Amorphis**, **Naglfar**.
 
@@ -488,7 +488,7 @@ layout: events.hbs
 ### Metaltown
 
 - Endagsfestival på Frihamnen, Göteborg den 7 juli 2006.
-- Personliga höjdpunkter: **Entombed**, **Evergrey**, **Motörhead**, **Opeth**, **The Haunted**, **Tool**
+- Personliga höjdpunkter: **Entombed**, **Evergrey**, **Motörhead**, **Opeth**, **The Haunted**, **Tool**.
 - Band jag missade: **Khoma**, **Satyricon**.
 
 </div>
@@ -503,13 +503,13 @@ layout: events.hbs
 ### 2000 Decibel
 
 - Festival på Folkets Park, Bengtsfors den 21-22 maj 2004.
-- Personliga höjdpunkter: **Astral Doors**, **Beseech**, **Dark Tranquility**, **Lefay**, **Morifade**, **Månegarm**, **Persuader**, **Tad Morose**, **Vintersorg** (med långt hår!)
+- Personliga höjdpunkter: **Astral Doors**, **Beseech**, **Dark Tranquility**, **Lefay**, **Morifade**, **Månegarm**, **Persuader**, **Tad Morose**, **Vintersorg**.
 - Band jag missade: **Draconian**, **Merciless**, **Naglfar**, **Pain of Salvation**, **The Haunted**.
 
 ### In Flames
 
 - Konsert på Arenan/Fryshuset, Stockholm den 27 oktober 2004.
-- Förband: **Caliban**, **DevilDriver**
+- Förband: **Caliban**, **DevilDriver**.
 - Aktuellt album: _Soundtrack To Your Escape_
 
 </div>
@@ -520,7 +520,7 @@ layout: events.hbs
 ### Dimmu Borgir
 
 - Konsert på Arenan/Fryshuset, Stockholm den 27 oktober 2003.
-- Förband: **Norther**, **Hypocrisy**
+- Förband: **Norther**, **Hypocrisy**.
 - Aktuellt album: _Death Cult Armageddon_
 
 </div>
@@ -543,7 +543,7 @@ layout: events.hbs
 ### Stratovarius
 
 - Konsert på Arenan/Fryshuset, Stockholm den 23 mars 2002.
-- Förband: **Thunderstone**, **Symphony X**
+- Förband: **Thunderstone**, **Symphony X**.
 - Aktuellt album: _Element pt. 1_
 
 </div>
@@ -554,13 +554,13 @@ layout: events.hbs
 ### Gamma Ray
 
 - Konsert på Arenan/Fryshuset, Stockholm den 30 oktober 2001.
-- Förband: **Vanishing Point**, **Sonata Arctica**
+- Förband: **Vanishing Point**, **Sonata Arctica**.
 - Aktuellt album: _No World Order!_
 
 ### Hammerfall
 
 - Konsert på Arenan/Fryshuset, Stockholm den 12 januari 2001.
-- Förband: **Freedom Call**, **Virgin Steele**
+- Förband: **Freedom Call**, **Virgin Steele**.
 - Aktuellt album: _Renegade_
 
 </div>
@@ -570,7 +570,7 @@ layout: events.hbs
 
 ### Iron Maiden
 
-- Konsert på Stockholm Stadion den 27 juni 2000.
+- Konsert på Stadion, Stockholm den 27 juni 2000.
 - Förband: **Entombed**, **Slayer**.
 - Aktuellt album: _Brave New World_
 

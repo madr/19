@@ -329,7 +329,7 @@ selectors.
   padding-bottom: 0;
   grid-area: title;
   border: 0;
-  padding: 0;
+  line-height: 1.2;
 }
 /* --- /headings --- */
 /* --- recent posts --- */

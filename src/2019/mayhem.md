@@ -17,4 +17,4 @@ bands:
   - Ghaal's WYRD
 ---
 
-**Mayhem** hade inga djurkadaver eller blod på scenen.
+Inga djurkadaver eller blod på scenen. Klubben hade väl inte ansökt om tillstånd, förmodar jag. Eller sagt nej.
