@@ -8,6 +8,23 @@ layout: events.hbs
 
 ## 2019
 
+### Amon Amarth - Berserker World Tour 
+
+- Konsert på Fryshuset, Stockholm den 7 december 2019.
+- Förband: **Hypocrisy**, **Arch Enemy**
+- Aktuellt album: _Berserker_
+
+### Wardruna
+
+- Konsert på Annexet, Stockholm den 1 december 2019.
+- Förband: **Kaunan**
+
+### Mayhem + support
+
+- Konsert på Fryshuset, Stockholm den 29 november 2019.
+- Förband: **Ghaal's WYRD**
+- Aktuellt album: _Daemon_
+
 ### Scandinavian Deathfest
 
 - Festival på Kraken, Stockholm den 13 oktober 2019.

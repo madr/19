@@ -5,11 +5,12 @@ template: post.html
 layout: single.hbs
 collection: articles
 ---
+
 I mitt intresse för webb och teknik har jag ofta varit först eller åtminstone tidig med att haka på nytt. Jag uppskattar nya sätt som ger mig möjlighet att utbyta idéer och gillande instämmanden från folk som är lika konstiga och knäppa som jag är. Sociala medier var inget undantag när dessa blev populära i slutet av 00-talet.
 
-Jag har sedan dess tappat tron på sociala medier, och vill därför inte ge mer personlig data till stora företag och därmed bli en produkt. Min tid ska istället tillägnas åt att teckna, läsa och att såväl lyssna som skapa musik. 
+Jag har sedan dess tappat tron på sociala medier, och vill därför inte ge mer personlig data till stora företag och därmed bli en produkt. Min tid ska istället tillägnas åt att teckna, läsa och att såväl lyssna som skapa musik.
 
-Av denna anledning tog jag bort Twitter och Instagram  under våren 2018, med [en liten motivering][1]. 
+Av denna anledning tog jag bort Twitter och Instagram under våren 2018, med [en liten motivering][1].
 
 ## Dags igen: Facebook och LinkedIn
 
@@ -23,12 +24,12 @@ LinkedIn har jag haft sedan 2008, och för varje år som gått har mängden kall
 
 För alla som går i liknande tankar har jag ett tips: **exportera din data först**. Den är värd att behålla för minnenas skull. Brukligt i branchen har blivit att generera en zipfil med all data i HTML-format, vilket jag personligen uppskattar mycket.
 
- * [Hur du hämtar hem all data från Facebook][2]
- * [Hur du hämtar hem all data från LinkedIn][3]
+- [Hur du hämtar hem all data från Facebook][2]
+- [Hur du hämtar hem all data från LinkedIn][3]
 
 Detta går även att göra för [Twitter][4] och [Instagram][5].
 
-[1]: ../2018/twitter-instagram-eol/
+[1]: ../../2018/twitter-instagram-eol/
 [2]: https://www.facebook.com/help/1701730696756992
 [3]: https://www.linkedin.com/help/linkedin/answer/66844/exporting-connections-from-linkedin?lang=en
 [4]: https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive

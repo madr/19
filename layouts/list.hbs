@@ -27,7 +27,11 @@
   <main id="content">
     <h1>Sida {{ pagination.num }}</h1>
     {{#each pagination.files}}
+    {{#if location}}
+    {{> teaser-event}}
+    {{else}}
     {{> teaser-post }}
+    {{/if}}
     {{/each}}
     <div class="pagination">
       {{#if pagination.previous}}

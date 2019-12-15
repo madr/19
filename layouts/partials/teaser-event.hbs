@@ -5,9 +5,20 @@
   <h2 class="h--media">
     📆 {{ title }}
   </h2>
-  <p class="teaser--media__summary">
-    {{{ content }}}
-  </p>
+  <div class="teaser--media__summary">
+    <p>{{ lead }}.</p>
+    <p>Förband:
+      {{#each bands}}
+      {{#unless @first}}
+      <b>{{.}}</b>{{#unless @last}},{{/unless}}
+      {{/unless}}
+      {{/each}}
+    </p>
+    {{{ contents }}}
+    {{#if release}}
+    <p>Album-aktuella med: <i>"{{ release.name }}"</i> ({{ release.year }})</p>
+    {{/if}}
+  </div>
   <footer class="teaser__footer">
     <a href="../{{ path }}"><time>{{ date }}</time></a>
     <a rel="author" href="../om">
