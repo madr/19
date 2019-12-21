@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }} | {{ name }}</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" title="madr.se stilmall" href="{{#if date}}../{{/if}}../madrse.css">
+    <link href="{{#if date}}../{{/if}}../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+    <link rel="stylesheet" title="madr.se stilmall" href="../madrse.css">
+    <link href="../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+    <link rel="canonical" href="{{ url }}/{{ path }}/">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{{ url }}/{{ path }}/">
+    <meta property="og:image" content="{{ image }}">
+    <meta property="og:site_name" content="{{ name }}">
+</head>
+
+<body>
+    {{> header }}
+    <main id="content">
+        <article>
+            <h1>{{ title }}</h1>
+            <p>
+                Som jag tidigare skrivit om har jag ett roligt projekt pågående: att äga alla låtar
+                i spelet <a href="https://sv.wikipedia.org/wiki/Br%C3%BCtal_Legend">Brütal Legend</a>
+                äldre än 1990 på vinyl, där det är möjligt.
+            </p>
+            <p>
+                #{{num}}: {{artist}} - "{{songs}}", från <em>{{album}}</em> ({{year}})
+            </p>
+            {{{ contents }}}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{youtube}}" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </article>
+    </main>
+    {{> aside }}
+    {{> footer }}
+</body>
+
+</html>

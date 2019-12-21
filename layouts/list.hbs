@@ -30,7 +30,11 @@
     {{#if location}}
     {{> teaser-event}}
     {{else}}
+    {{#if album}}
+    {{> teaser-brutal}}
+    {{else}}
     {{> teaser-post }}
+    {{/if}}
     {{/if}}
     {{/each}}
     <div class="pagination">
