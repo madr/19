@@ -27,6 +27,7 @@ mia:
   - Kataklysm
   - Murdermarket
   - Wolfheart
+layout: event.hbs
 ---
 
 Läs också: [Gärning i ridderlighetens namn](../ridderligheten/).

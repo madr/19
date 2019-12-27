@@ -5,7 +5,7 @@ date: 2018-06-06
 enddate: 2018-06-09
 venue: Norje
 region: Sölvesborg
-  img: sweden-rock-festival-2018.jpg
+img: sweden-rock-festival-2018.jpg
 collection: events
 location:
   latitude: 56.1174188
@@ -35,6 +35,6 @@ mia:
   - Suffocation
   - The 69 Eyes
   - The DArk Element
-  - Yes
+  - "Yes"
 layout: event.hbs
 ---

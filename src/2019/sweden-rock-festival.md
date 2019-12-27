@@ -22,4 +22,5 @@ best:
 mia:
   - Behemoth
   - Candlemass
+layout: event.hbs
 ---
