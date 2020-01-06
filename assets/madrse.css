@@ -40,7 +40,7 @@ Only element and attribute selectors allowed in this section.
   --outline-color: deeppink;
 
   --link-color: gold;
-  --link-visited-color: silver;
+  --link-visited-color: white;
 
   --code-color: turquoise;
 
@@ -227,12 +227,6 @@ selectors.
   left: -999em;
 }
 /* --- /visually hidden --- */
-/* --- reverse-col --- */
-.col-reverse {
-  display: flex;
-  flex-direction: column-reverse;
-}
-/* --- /reverse-col --- */
 /* --- skip link --- */
 .skiplink:link {
   position: absolute;
@@ -626,11 +620,14 @@ Only BEM-naming allowed.
 
 /*
 Styles to create user-customized themes.
+
+This section adapts the design to the following user preferences:
+Color theme, reduced motion
 */
 
 @media (prefers-color-scheme: light) {
   :root {
-    --color: #444;
+    --color: #222;
     --background-color: #fff;
 
     --em-color: black;
@@ -641,7 +638,7 @@ Styles to create user-customized themes.
     --outline-color: deeppink;
 
     --link-color: teal;
-    --link-visited-color: #666;
+    --link-visited-color: black;
 
     --code-color: magenta;
 
@@ -651,6 +648,15 @@ Styles to create user-customized themes.
 
     --nav-color: black;
     --nav-background-color: gold;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
   }
 }
 
