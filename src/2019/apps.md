@@ -2,6 +2,7 @@
 title: Vad berättar mina program om mig?
 date: 2019-09-10
 layout: single.hbs
+collection: articles
 ---
 
 Lång historia kort: Min dator hemma är ett hopplock av delar som börjar bli med åren.
@@ -88,7 +89,7 @@ Stundtals saknar jag även det minimalistiska i Flask.
 
 ## Bubblare: Android Studio
 
-Dagen efter den omedelbara ominstallationen installerades också Android Studio. 
+Dagen efter den omedelbara ominstallationen installerades också Android Studio.
 
 Jag gillar ibland att skriva appar för smartphones, då det är ett skönt avbrott från [Den
 mest fientliga utvecklingsmiljön som går att föreställa sig][2]. Det är smidigare, mer
@@ -96,7 +97,6 @@ förutsägbart och totalt annorlunda att skriva gränssnittskod för appar.
 
 Jag föredrar att koda appar för Android av ett par skäl: för det första tvingar det mig
 inte att äga en Mac, för det andra är jag nyfiken på Kotlin.
-
 
 [1]: /2019/elixir/
 [2]: https://news.ycombinator.com/item?id=1083244

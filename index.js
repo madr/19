@@ -105,7 +105,8 @@ Metalsmith(__dirname)
       destination: "prenumerera.xml",
       metadata: {
         title: "madr.se",
-        subtitle: "Anders Ytterström om hårdrock, musik och webbutveckling",
+        subtitle:
+          "Anders Ytterström om hårdrock, musik, styrketräning och webbutveckling",
         url: "https://madr.se/"
       }
     })

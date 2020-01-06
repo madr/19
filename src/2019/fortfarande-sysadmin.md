@@ -2,6 +2,7 @@
 title: Fortfarande sysadmin - jag ger upp linux tills vidare
 date: 2019-12-15
 layout: single.hbs
+collection: articles
 ---
 
 Jag har de senaste fem åren arbetat primärt med en linuxdistribution som

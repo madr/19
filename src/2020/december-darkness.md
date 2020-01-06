@@ -1,5 +1,5 @@
 ---
-title: December Darkness
+title: December Darkness II
 lead: Endagsfestival på Dynamo, Norrköping den 28 december 2019
 date: 2019-12-28
 enddate: 2019-12-28

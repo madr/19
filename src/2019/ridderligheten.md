@@ -2,6 +2,7 @@
 title: Gärning i ridderlighetens namn
 date: 2019-09-01
 layout: single.hbs
+collection: articles
 ---
 
 Följande berättelse ägde rum vid Gasklockorna i Gävle under årets upplaga av Gefle Metal Festival. Det är en historia jag redan berättat för några utvalda, men som jag också har behov av att skriva ner och publicera här. Det är nämligen en historia om upprätthålla [ridderlighet][1].

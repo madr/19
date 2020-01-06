@@ -4,8 +4,182 @@
   <link href="https://madr.se/"/>
   <link href="https://madr.se/prenumerera.xml" rel="self"/>
   <title>madr.se</title>
-  <subtitle>Anders Ytterström om hårdrock, musik och webbutveckling</subtitle>
-  <updated>2020-01-01T23:58:26.439Z</updated>
+  <subtitle>Anders Ytterström om hårdrock, musik, styrketräning och webbutveckling</subtitle>
+  <updated>2020-01-06T12:32:13.751Z</updated>
+  <entry>
+    <title>2019: ursäkta röran, ombyggnad pågår</title>
+    <id>https://madr.se/2020/2019</id>
+    <link href="https://madr.se/2020/2019"/>
+    <updated>2020-01-01T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>&lt;p&gt;&amp;#xC4;nnu ett &amp;#xE5;r &amp;#xE4;r avslutat, varvid det &amp;#xE4;r l&amp;#xE4;gligt att skriva litet om de 12 m&amp;#xE5;nader som g&amp;#xE5;tt.&lt;/p&gt;
+&lt;h2 id="tekniker-jag-lskat-under-ret"&gt;Tekniker jag &amp;#xE4;lskat under &amp;#xE5;ret&lt;a class="anchor" href="#tekniker-jag-lskat-under-ret"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Nya element och attribut i HTML5&lt;/strong&gt;. &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;lt;datalist&amp;gt;&lt;/code&gt; och &lt;code&gt;&amp;lt;button form=&amp;quot;yada&amp;quot;&amp;gt;&lt;/code&gt; g&amp;#xF6;r saker som &amp;#xE4;r sjukt sv&amp;#xE5;rt att g&amp;#xF6;ra med JavaScript.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ServiceWorkers och Web App Manifests&lt;/strong&gt;. &amp;#xC4;ntligen fick jag bygga min f&amp;#xF6;rsta progressiva webbapplikation (&lt;a href="../b3/"&gt;b3&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MetalSmith&lt;/strong&gt;. Fortfarande min favorit bland alla statiska sajt-genererare.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSS Grids&lt;/strong&gt;. Kan jag v&amp;#xE4;lja grids &amp;#xF6;ver flex s&amp;#xE5; g&amp;#xF6;r jag det n&amp;#xE4;stan alltid. Saker &amp;#xE4;r s&amp;#xE5; mycket enklare nu.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;React med kusiner&lt;/strong&gt;. Redux och Redux-sagas k&amp;#xE4;nns skalbart och enkelt att testa. Det &amp;#xE4;r ett verktyg jag kan t&amp;#xE4;nka mig att jobba ett par &amp;#xE5;r fokuserat med.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TypeScript&lt;/strong&gt; f&amp;#xF6;r att f&amp;#xE5; typchecking i JavaScript som faktiskt k&amp;#xE4;nns vettig.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elixir&lt;/strong&gt;. Det blev &lt;a href="https://github.com/madr/psychic-palm-tree"&gt;en t&amp;#xE4;rnings-simulator&lt;/a&gt; (k&amp;#xF6;randes &lt;a href="https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html"&gt;Phoenix LiveView&lt;/a&gt;) och n&amp;#xE5;gra luckor med &lt;a href="https://adventofcode.com"&gt;Advent of Code&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;KSS&lt;/strong&gt;. I uppstartsfasen p&amp;#xE5; ett designsystem kom en gammal k&amp;#xE4;r bundsf&amp;#xF6;rvant till anv&amp;#xE4;ndning igen!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="afk"&gt;AFK&lt;a class="anchor" href="#afk"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Startl&amp;#xE4;get 2019 var r&amp;#xE4;tt uselt.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Biverkningar av att &amp;#xE4;ta anti-depressivt, bl a &amp;#xF6;kad inflationsrisk: Vagel i &amp;#xF6;gat som tog god tid p&amp;#xE5; sig att l&amp;#xE4;ka, &amp;#xE5;terkommande tandv&amp;#xE4;rk.&lt;/li&gt;
+&lt;li&gt;F&amp;#xF6;rs&amp;#xE4;ljning av l&amp;#xE4;genhet till brakf&amp;#xF6;rlust (22%) efter sju m&amp;#xE5;nader med dubbla boendekostnader.&lt;/li&gt;
+&lt;li&gt;Till f&amp;#xF6;ljd av ovanst&amp;#xE5;ende: kapital f&amp;#xF6;r att &amp;#xE5;terl&amp;#xE4;mna en &amp;#xF6;verfl&amp;#xF6;dig &lt;a href="https://www.radron.se/artiklar/leasa-bilen---fordelar-och-nackdelar/"&gt;leasing-bil&lt;/a&gt; uteblev.&lt;/li&gt;
+&lt;li&gt;Ett f&amp;#xF6;rh&amp;#xE5;llande p&amp;#xE5; som inte var bra, som slutligen br&amp;#xF6;ts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;2019 var ett &amp;#xE5;r d&amp;#xE4;r jag var arg, besviken och uppriven mer &amp;#xE4;n n&amp;#xE5;got &amp;#xE5;r hittills. Ett par f&amp;#xF6;rhastade beslut 2017 kom att bita mig p&amp;#xE5; h&amp;#xF6;gst or&amp;#xE4;ttvisa s&amp;#xE4;tt; det dr&amp;#xF6;jer till en bit in p&amp;#xE5; 2020 innan jag helt kan g&amp;#xE5; vidare.&lt;/p&gt;
+&lt;p&gt;Jag kommer f&amp;#xF6;rmodligen ha minnesluckor fr&amp;#xE5;n 2019, d&amp;#xE5; alldeles f&amp;#xF6;r m&amp;#xE5;nga veckor och m&amp;#xE5;nader &amp;#xE4;r h&amp;#xF6;jda i dunklet av psykisk oh&amp;#xE4;lsa.&lt;/p&gt;
+&lt;p&gt;Med detta sagt s&amp;#xE5; gav 2019 mig &amp;#xE4;ven fog f&amp;#xF6;r att vara tapper, modig och stark. Jag har under &amp;#xE5;ret blivit &lt;strong&gt;friskf&amp;#xF6;rklarad fr&amp;#xE5;n sv&amp;#xE5;r depression&lt;/strong&gt;, samt fullf&amp;#xF6;ljt en &lt;a href="https://www.1177.se/Stockholm/behandling--hjalpmedel/undersokningar-och-provtagning/psykiatriska-utredningar/neuropsykiatrisk-utredning-for-vuxna/"&gt;Neuropsykiatrisk utredning&lt;/a&gt;. I den senare uppfyllde jag inte &lt;em&gt;alla&lt;/em&gt; kriterier f&amp;#xF6;r &lt;a href="https://sv.wikipedia.org/wiki/Autismspektrumst%C3%B6rning"&gt;AST&lt;/a&gt;, men en majoritet. Detta har gett mig v&amp;#xE4;rdefulla insikter och verktyg f&amp;#xF6;r att m&amp;#xE5; litet mindre d&amp;#xE5;ligt i vardagen.&lt;/p&gt;
+&lt;h3 id="urskta-rran"&gt;Urs&amp;#xE4;kta r&amp;#xF6;ran?&lt;a class="anchor" href="#urskta-rran"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Ja, f&amp;#xF6;r samtidigt som tillvaron var r&amp;#xE4;tt s&amp;#xE5; bedr&amp;#xF6;vlig inombords har ocks&amp;#xE5; annat kaos h&amp;#xE4;grat runt mig i &amp;#xE5;r.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I mitt omr&amp;#xE5;de d&amp;#xE4;r jag bor har 4 parhus smackats upp. Buller, vassa s&amp;#xE5;gljud, h&amp;#xF6;gfrekventa slipljud, borrljud etc har varit min granne i &amp;#xF6;ver ett halv&amp;#xE5;r.&lt;/li&gt;
+&lt;li&gt;Mitt n&amp;#xE4;rmsta centrum, Orminge, har ett p&amp;#xE5;g&amp;#xE5;ende arbete med ny trafikl&amp;#xF6;sning som resulterat i att ca 3km v&amp;#xE4;g rivits upp.&lt;/li&gt;
+&lt;li&gt;P&amp;#xE5; v&amp;#xE4;g in mot stan fr&amp;#xE5;n Orminge har ena sidan av hela str&amp;#xE4;ckan Orminge-Bj&amp;#xF6;rkn&amp;#xE4;s varit uppriven f&amp;#xF6;r ny kraftledning och f&amp;#xF6;rberedelse f&amp;#xF6;r annat jox.&lt;/li&gt;
+&lt;li&gt;Ombyggnaden av Slussen har passerats varje dag p&amp;#xE5; v&amp;#xE4;g in till stan.&lt;/li&gt;
+&lt;li&gt;Delar av v&amp;#xE4;gen mot Gustavsberg, mitt andra centrum, har ocks&amp;#xE5; rivits upp. Oklar anledning.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;S&amp;#xE5; jag har bott i konstant flytt- och byggr&amp;#xF6;ra hela 2019, samtidigt som jag inombords ocks&amp;#xE5; haft det r&amp;#xF6;rigt. &amp;quot;Urs&amp;#xE4;kta r&amp;#xF6;ran, ombyggnation p&amp;#xE5;g&amp;#xE5;r&amp;quot; summerar d&amp;#xE4;rf&amp;#xF6;r &amp;#xE5;ret bra.&lt;/p&gt;
+&lt;h2 id="musik"&gt;Musik&lt;a class="anchor" href="#musik"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Musik&amp;#xE5;ret 2019 har m&amp;#xE5;nga bra album, med nytt ifr&amp;#xE5;n &lt;strong&gt;Domg&amp;#xE5;rd&lt;/strong&gt;, &lt;strong&gt;Mg&amp;#x142;a&lt;/strong&gt;, &lt;strong&gt;Ereb Altor&lt;/strong&gt;, &lt;strong&gt;Asagraum&lt;/strong&gt;, &lt;strong&gt;Macabre Decay&lt;/strong&gt;, &lt;strong&gt;Opeth&lt;/strong&gt;, &lt;strong&gt;Amon Amarth&lt;/strong&gt;, &lt;strong&gt;Mayhem&lt;/strong&gt; och &lt;strong&gt;Gaahls WYRD&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Jag nj&amp;#xF6;t av en temakryssning, 6 festivaler och 7 konserter. Mysigast var &lt;strong&gt;Wardruna&lt;/strong&gt;, b&amp;#xE4;st var &lt;strong&gt;Behemoth&lt;/strong&gt;. Mest meh var &lt;strong&gt;King Diamond&lt;/strong&gt;. &amp;#xC5;rets &lt;em&gt;&amp;#xE4;ntligen&lt;/em&gt; var &lt;strong&gt;Domg&amp;#xE5;rd&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Jag spelade inte in n&amp;#xE5;got eget material under &amp;#xE5;ret, men skaffade en gitarrf&amp;#xF6;rst&amp;#xE4;rkare: en &lt;strong&gt;Peavey Bandit&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="trning"&gt;Tr&amp;#xE4;ning&lt;a class="anchor" href="#trning"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Detta &amp;#xE5;r har jag tr&amp;#xE4;nat h&amp;#xE5;rt med m&amp;#xE5;nga framsteg, och n&amp;#xE5;gra motg&amp;#xE5;ngar.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;F&amp;#xF6;rsta ryggskottet, januari: i l&amp;#xE4;ndryggen under ett set marklyft.&lt;/li&gt;
+&lt;li&gt;Andra ryggskottet, februari: i br&amp;#xF6;stryggen under ett set frontb&amp;#xF6;j.&lt;/li&gt;
+&lt;li&gt;Diverse problem med handlederna.&lt;/li&gt;
+&lt;li&gt;Avbruten deff p&amp;#xE5; grund av ryggskotten.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jag k&amp;#xF6;rde fr&amp;#xE4;mst periodisering om 6 veckor under &amp;#xE5;ret, med fokus p&amp;#xE5; att bli starkare i press. D&amp;#xE4;rimellan k&amp;#xF6;rde jag helkroppstr&amp;#xE4;ning, och kompletterade &amp;#xF6;verkroppsfokuset med kn&amp;#xE4;b&amp;#xF6;j, rum&amp;#xE4;nska marklyft och trapbar-marklyft.&lt;/p&gt;
+&lt;p&gt;Jag slog &amp;#xE4;ven vad om &lt;a href="https://www.systembolaget.se/dryck/sprit/ardbeg-1040701"&gt;en flaska whisky&lt;/a&gt; om att f&amp;#xF6;rst n&amp;#xE5; 100kg i b&amp;#xE4;nkpress, men f&amp;#xF6;rlorade detta vad.&lt;/p&gt;
+&lt;p&gt;Under sommarhalv&amp;#xE5;ret hade jag 4 m&amp;#xE5;naders uppeh&amp;#xE5;ll fr&amp;#xE5;n regelbunden tr&amp;#xE4;ning, vilket gjorde att jag tappade ungef&amp;#xE4;r 15% maxstyrka.&lt;/p&gt;
+&lt;p&gt;Kudos till &lt;a href="https://styrkelabbet.se"&gt;Styrkelabbet&lt;/a&gt; f&amp;#xF6;r programmen &lt;strong&gt;Press Pasodoble&lt;/strong&gt;, &lt;strong&gt;B&amp;#xE4;nkpress Boogie&lt;/strong&gt; och &lt;strong&gt;&amp;#xD6;ver- och underkroppsprogram&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id="personliga-rekord"&gt;Personliga rekord&lt;a class="anchor" href="#personliga-rekord"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Personb&amp;#xE4;stan som k&amp;#xE4;nns relevanta f&amp;#xF6;r mig att f&amp;#xF6;lja upp &amp;#xE4;r de tre momenten i &lt;a href="https://sv.wikipedia.org/wiki/Styrkelyft"&gt;Styrkelyft&lt;/a&gt;, samt mitt favoritlyft &lt;strong&gt;Press&lt;/strong&gt; (&amp;#xE4;ven k&amp;#xE4;nd som &amp;quot;Milit&amp;#xE4;rpress&amp;quot;).&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;&lt;th style="text-align:right"&gt;Lyft&lt;/th&gt;&lt;th style="text-align:center"&gt;Datum&lt;/th&gt;&lt;th style="text-align:center"&gt;Vikt, kg&lt;/th&gt;&lt;th style="text-align:right"&gt;&amp;#xD6;kning under &amp;#xE5;ret, %&lt;/th&gt;&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;&lt;td style="text-align:right"&gt;Press&lt;/td&gt;&lt;td style="text-align:center"&gt;2019-12-21&lt;/td&gt;&lt;td style="text-align:center"&gt;62,5&lt;/td&gt;&lt;td style="text-align:right"&gt;38%&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:right"&gt;B&amp;#xE4;nkpress&lt;/td&gt;&lt;td style="text-align:center"&gt;2019-05-28&lt;/td&gt;&lt;td style="text-align:center"&gt;87,5&lt;/td&gt;&lt;td style="text-align:right"&gt;25%&lt;/td&gt;&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="2020"&gt;2020&lt;a class="anchor" href="#2020"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Jag vill b&amp;#xF6;rja spara till ett hus.&lt;/li&gt;
+&lt;li&gt;Jag ska f&amp;#xF6;rhoppningsvis inte flytta n&amp;#xE5;gonstans, och hoppas f&amp;#xE5; lugn och ro.&lt;/li&gt;
+&lt;li&gt;Bes&amp;#xF6;ka festivaler snarare en enstaka konserter.&lt;/li&gt;
+&lt;li&gt;Spela musik snarare &amp;#xE4;n att producera.&lt;/li&gt;
+&lt;li&gt;Tr&amp;#xE4;na hela kroppen, med fortsatt fokus p&amp;#xE5; press.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Fortfarande sysadmin - jag ger upp linux tills vidare</title>
+    <id>https://madr.se/2019/fortfarande-sysadmin</id>
+    <link href="https://madr.se/2019/fortfarande-sysadmin"/>
+    <updated>2019-12-15T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>&lt;p&gt;Jag har de senaste fem &amp;#xE5;ren arbetat prim&amp;#xE4;rt med en linuxdistribution som
+operativsystem, d&amp;#xE4;r jag har skiftat mellan Arch och Ubuntu i omg&amp;#xE5;ngar.&lt;/p&gt;
+&lt;p&gt;Jag har sedan 2015 varit i exil fr&amp;#xE5;n Mac, d&amp;#xE5; jag inte gillar Apples v&amp;#xE4;gval f&amp;#xF6;r
+Macbook pro. M&amp;#xE5;ttet var r&amp;#xE5;gat n&amp;#xE4;r &lt;a href="https://www.change.org/p/apple-apple-recall-macbook-pro-w-defective-keyboard-replace-with-different-working-keyboard"&gt;Butterfly switches&lt;/a&gt; och &lt;a href="https://forums.macrumors.com/threads/why-does-everyone-hate-the-touch-bar.2213135/"&gt;TouchBar&lt;/a&gt;
+introducerades, men de tappade mig redan n&amp;#xE4;r de b&amp;#xF6;rjade limma och l&amp;#xF6;da fast
+alla f&amp;#xF6;rslitningsdelar s&amp;#xE5;som batteri, h&amp;#xE5;rddisk och RAM - n&amp;#xE5;got som
+konkurrenterna tyv&amp;#xE4;rr tog efter ocks&amp;#xE5;.&lt;/p&gt;
+&lt;p&gt;Det g&amp;#xE4;ller fortfarande att &lt;a href="../../2015/no-sysop/"&gt;jag vill vara kreat&amp;#xF6;r, inte sysadmin&lt;/a&gt;: jag m&amp;#xE5;
+vara intresserad av operativsystem och teknik, men jag ser prim&amp;#xE4;rt p&amp;#xE5;
+datorer som ett &lt;strong&gt;arbetsredskap f&amp;#xF6;r att vara kreat&amp;#xF6;r&lt;/strong&gt;. Allts&amp;#xE5; ungef&amp;#xE4;r som en
+m&amp;#xE5;lare ser penslar och f&amp;#xE4;rg, eller en musikant ser p&amp;#xE5; sitt instrument
+och dess f&amp;#xF6;rst&amp;#xE4;rkningsmetoder.&lt;/p&gt;
+&lt;h2 id="att-skriva-kra-och-debugga-kod-fungerar"&gt;Att skriva, k&amp;#xF6;ra och debugga kod fungerar&lt;a class="anchor" href="#att-skriva-kra-och-debugga-kod-fungerar"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Det &amp;#xE4;r inte n&amp;#xE5;gon brist p&amp;#xE5; &lt;strong&gt;utvecklarverktyg f&amp;#xF6;r linux&lt;/strong&gt; idag.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git anv&amp;#xE4;nds via CLI.&lt;/li&gt;
+&lt;li&gt;Tmux har ig&amp;#xE5;ng &amp;quot;allt&amp;quot; i bakgrunden och g&amp;#xF6;r det m&amp;#xF6;jligt att snabbt skifta kontext.&lt;/li&gt;
+&lt;li&gt;Docker g&amp;#xF6;r det enkelt att matcha versioner av MySQL, RabbitMQ, ElasticSearch, Poxa, Redis, Memcached och liknande.&lt;/li&gt;
+&lt;li&gt;Jag kan dra tunga lass och g&amp;#xF6;ra riktigt seri&amp;#xF6;s debug med JetBrains produkter.&lt;/li&gt;
+&lt;li&gt;Vim och SpaceMacs r&amp;#xE4;cker gott f&amp;#xF6;r snabba insatser.&lt;/li&gt;
+&lt;li&gt;VSCode hamnar i n&amp;#xE5;gon sorts mellanl&amp;#xE4;ge mellan JetBrains styrka och Vims kvickhet.&lt;/li&gt;
+&lt;li&gt;Alla webbl&amp;#xE4;sare finns p&amp;#xE5; Linux, och &amp;#xF6;vriga g&amp;#xE5;r att snabbt komma &amp;#xE5;t via Virtualbox och virtuella maskiner som Microsoft tillhandah&amp;#xE5;ller gratis.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="den-alldagliga-kontorslunken-fungerar-ej"&gt;Den alldagliga kontorslunken fungerar ej&lt;a class="anchor" href="#den-alldagliga-kontorslunken-fungerar-ej"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Det vardagliga livet p&amp;#xE5; kontor, d&amp;#xE4;remot, &amp;#xE4;r en st&amp;#xF6;rre utmaning.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jag skiftar mellan att arbeta med enbart b&amp;#xE4;rbar dator till att docka den till
+sk&amp;#xE4;rm, tangentbord och mus.&lt;/li&gt;
+&lt;li&gt;Jag vill kunna skala upp gr&amp;#xE4;nssnittet d&amp;#xE5; min syn inte &amp;#xE4;r den b&amp;#xE4;sta, eller
+personen bredvid g&amp;#xE4;rna vill se vad som h&amp;#xE4;nder p&amp;#xE5; den lilla sk&amp;#xE4;rmen.&lt;/li&gt;
+&lt;li&gt;Jag har presentationer och mobbprogrammerar, vilket kr&amp;#xE4;ver att datorn kopplas
+in till presentationssk&amp;#xE4;rmar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Det &amp;#xE4;r inte n&amp;#xE5;gon direkt konstig bild att m&amp;#xE5;la upp: bilden summerar en r&amp;#xE4;tt s&amp;#xE5;
+vanlig bild av att arbeta p&amp;#xE5; kontor med kollegor.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interna sk&amp;#xE4;rmen fryser r&amp;#xE4;tt ofta. &amp;#xC4;r en extern sk&amp;#xE4;rm inkopplad forts&amp;#xE4;tter
+bilden att visas d&amp;#xE4;r, och mus- och tangentbordsinmatningar forts&amp;#xE4;tter att
+fungera. F&amp;#xF6;rmodligen drivrutinsproblem.&lt;/li&gt;
+&lt;li&gt;DisplayPort g&amp;#xE5;r inte att &amp;#xE5;teransluta till, d&amp;#xE5; DP-sk&amp;#xE4;rmar antingen byter
+intern adress, tappas bort av Wayland/Xorg eller en kombination av b&amp;#xE5;da. HDMI
+fungerar alltid. F&amp;#xF6;rmodligen protokollsproblem.&lt;/li&gt;
+&lt;li&gt;Det &amp;#xE4;r &amp;#xF6;verj&amp;#xE4;vligt sv&amp;#xE5;rt att skala grafiska anv&amp;#xE4;ndargr&amp;#xE4;nssnitt: varken MATE,
+GNOME, Cinnamon eller XFCE fixar detta p&amp;#xE5; ett acceptabelt s&amp;#xE4;tt.&lt;/li&gt;
+&lt;li&gt;Alla DEs jag provat kraschar sporadiskt, varvid alla f&amp;#xF6;nster och sessioner
+jag hade ig&amp;#xE5;ng f&amp;#xF6;rsvinner helt.&lt;/li&gt;
+&lt;li&gt;Dubbla batterier funkar halvdant.&lt;/li&gt;
+&lt;li&gt;Ibland hittas inte tangentbord eller mus n&amp;#xE4;r jag dockar i datorn. Ibland
+hj&amp;#xE4;lper ur- och idockning, ibland inte.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detta kan nog kanske beskyllas p&amp;#xE5; min Thinkpad X260 ocks&amp;#xE5;, men jag &amp;#xE4;r r&amp;#xE4;tt
+s&amp;#xE4;ker p&amp;#xE5; att en annan b&amp;#xE4;rbar dator ocks&amp;#xE5; hade haft problem.&lt;/p&gt;
+&lt;p&gt;Linuxdistributioner &amp;#xE4;r n&amp;#xE4;mligen, &lt;strong&gt;efter 30 &amp;#xE5;r&lt;/strong&gt;, fortfarande skitkassa p&amp;#xE5;
+skrivbordsanv&amp;#xE4;ndning f&amp;#xF6;r b&amp;#xE4;rbar dator. Tiden jag hade station&amp;#xE4;r workstation (en HP z440) funkade saker b&amp;#xE4;ttre, men d&amp;#xE5; hade jag &amp;#xE5; andra sidan inte heller kraven som en b&amp;#xE4;rbar arbetsstation kr&amp;#xE4;ver.&lt;/p&gt;
+&lt;p&gt;Inga av dessa krav &amp;#xE4;r s&amp;#xE4;rskilt h&amp;#xF6;gt st&amp;#xE4;llda, utan anses enligt mig fullt
+rimliga.&lt;/p&gt;
+&lt;h2 id="2020-bryter-jag-min-exil-frn-mac"&gt;2020 bryter jag min exil fr&amp;#xE5;n Mac&lt;a class="anchor" href="#2020-bryter-jag-min-exil-frn-mac"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Apple har gjort en del f&amp;#xF6;rb&amp;#xE4;ttringar med sina produkter, s&amp;#xE5; jag &amp;#xE4;r nu p&amp;#xE5; v&amp;#xE4;g
+tillbaka till de datorer jag alltid har f&amp;#xF6;redragit. Det finns n&amp;#xE5;gra anledningar
+till att de f&amp;#xE5;r ny en chans av mig.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Macbook pro har &amp;#xE5;terigen en &lt;em&gt;riktig&lt;/em&gt; ESC-tangent.&lt;/li&gt;
+&lt;li&gt;Macbook pro har acceptabelt tangentbord, med samma tangentbord som Macbook
+Air var sist med att f&amp;#xF6;rlora.&lt;/li&gt;
+&lt;li&gt;Macbook pro har f&amp;#xE5;tt tillbaka T-formationen p&amp;#xE5; piltangenterna.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Det finns ocks&amp;#xE5; saker jag verkligen saknat i min exil.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MacOS: det b&amp;#xE4;sta operativsystemet jag n&amp;#xE5;gonsin anv&amp;#xE4;nt.&lt;/li&gt;
+&lt;li&gt;Den &amp;#xF6;verlag fantastiskt h&amp;#xF6;ga kvaliteten p&amp;#xE5; appar och program.&lt;/li&gt;
+&lt;li&gt;Touchpaden, som &amp;#xE4;r &amp;#xF6;verl&amp;#xE4;gsen alla konkurrenters.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Det finns fortfarande saker som jag s&amp;#xF6;rjer med Mac:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Magsafe, det lysande &amp;#xE4;pplet, startljudet och den pulserande dioden som
+indikerade s&amp;#xF6;mnl&amp;#xE4;get. Vila i frid, ni var en del av en fantastisk era
+av Macar. jag saknar er alla!&lt;/li&gt;
+&lt;li&gt;Adapter-helvetet. Ingenting nytt d&amp;#xE4;remot, och det g&amp;#xE5;r att komma runt.&lt;/li&gt;
+&lt;li&gt;L&amp;#xF6;jligt l&amp;#xE5;g batteritid. Seri&amp;#xF6;st Apple, ge datorn 400g och en halv millimeter
+tjocklek till s&amp;#xE5; att batteritiden r&amp;#xE4;cker en hel arbetsdag!&lt;/li&gt;
+&lt;li&gt;Mother fucking TouchBar, som inte l&amp;#xE4;ngre &amp;#xE4;r m&amp;#xF6;jlig att v&amp;#xE4;lja bort. Jag har
+d&amp;#xE4;remot vant av mig vid funktionstangenterna p&amp;#xE5; sistone, s&amp;#xE5; det &amp;#xE4;r inte l&amp;#xE4;ngre
+ett problem.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Tack för tiden, Facebook och LinkedIn</title>
     <id>https://madr.se/2019/facebook-linkedin-eol</id>
@@ -32,270 +206,539 @@
 </content>
   </entry>
   <entry>
-    <title>Tack för tiden, Twitter och Instagram</title>
-    <id>https://madr.se/2018/twitter-instagram-eol</id>
-    <link href="https://madr.se/2018/twitter-instagram-eol"/>
-    <updated>2018-04-07T00:00:00.000Z</updated>
+    <title>Baslyft, bärs och burgare - min första PWA</title>
+    <id>https://madr.se/2019/b3</id>
+    <link href="https://madr.se/2019/b3"/>
+    <updated>2019-11-24T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
       <email>yttan@fastmail.se</email>
     </author>
-    <content>&lt;p&gt;I mitt intresse f&amp;#xF6;r webb och teknik har jag ofta varit f&amp;#xF6;rst eller &amp;#xE5;tminstone tidig med att haka p&amp;#xE5; nya s&amp;#xE4;tt som ger mig m&amp;#xF6;jlighet att utbyta id&amp;#xE9;er och gillande inst&amp;#xE4;mmanden fr&amp;#xE5;n folk som &amp;#xE4;r lika konstiga och kn&amp;#xE4;ppa som jag &amp;#xE4;r. Sociala medier var inget undantag n&amp;#xE4;r dessa blev popul&amp;#xE4;ra i slutet av 00-talet.&lt;/p&gt;
-&lt;p&gt;Jag tog dock bort mitt Twitterkonto i mars, och mitt Instagramkonto i april. Facebook &amp;#xE4;r tills vidare kvar d&amp;#xE5; det finns v&amp;#xE4;rde. Mitt m&amp;#xE5;l &amp;#xE4;r att ist&amp;#xE4;llet b&amp;#xF6;rja publicera bilder, kortare videos och annat personligt h&amp;#xE4;r p&amp;#xE5; min hemsida ist&amp;#xE4;llet f&amp;#xF6;r i sociala n&amp;#xE4;tverk.&lt;/p&gt;
-&lt;p&gt;Jag tror inte l&amp;#xE4;ngre p&amp;#xE5; sociala medier, och vill d&amp;#xE4;rf&amp;#xF6;r inte ge mer personlig data till stora f&amp;#xF6;retag och d&amp;#xE4;rmed bli en produkt. Min tid ska ist&amp;#xE4;llet till&amp;#xE4;gnas &amp;#xE5;t att teckna, l&amp;#xE4;sa och att s&amp;#xE5;v&amp;#xE4;l lyssna som skapa musik.&lt;/p&gt;
-&lt;p&gt;Jag har &amp;#xE4;ven privata sk&amp;#xE4;l som jag har sv&amp;#xE5;rt att f&amp;#xF6;rklara i ord h&amp;#xE4;r. Det har med min f&amp;#xF6;rm&amp;#xE5;ga att l&amp;#xE4;gga alldeles f&amp;#xF6;r mycket tid och energi p&amp;#xE5; sociala n&amp;#xE4;tverk, med mycket l&amp;#xE5;g ROI. Jag blir helt enkelt mer produktiv, lugn och balanserad n&amp;#xE4;r jag inte har sociala fl&amp;#xF6;den att h&amp;#xE5;lla mig uppdaterad p&amp;#xE5;.&lt;/p&gt;
-&lt;p&gt;Twitter anv&amp;#xE4;nde jag under tio &amp;#xE5;r (2008-2018). Jag fick d&amp;#xE4;r n&amp;#xE5;gra viktiga kontakter som gav min karri&amp;#xE4;r skjuts under tidigt 10-tal. De 3 senaste &amp;#xE5;ren d&amp;#xE4;r har dock varit en ned&amp;#xE5;tg&amp;#xE5;ende spiral, och min egen aktivitet hade helt avstannat.&lt;/p&gt;
-&lt;p&gt;Instagram anv&amp;#xE4;nde jag under perioderna 2011-2012 och 2015-2018. P&amp;#xE5; Instagram s&amp;#xF6;kte jag fr&amp;#xE4;mst annat h&amp;#xE5;rdrocksfolk och kreat&amp;#xF6;rer, samt f&amp;#xF6;ljde viktiga personer i mitt liv. Mitt eget inneh&amp;#xE5;ll var en sorts bilddagbok, d&amp;#xE5; jag tycker det &amp;#xE4;r roligt att dokumentera vardagen p&amp;#xE5; det s&amp;#xE4;ttet.&lt;/p&gt;
-&lt;p&gt;Det sistn&amp;#xE4;mnda &amp;#xE4;r n&amp;#xE5;got jag vill forts&amp;#xE4;tta med, s&amp;#xE5; jag har h&amp;#xE4;r ett ypperligt tillf&amp;#xE4;lle att koda n&amp;#xE5;got kul i Django, Flask eller Elixir. Det ger mig f&amp;#xF6;rmodligen ocks&amp;#xE5; anledning att anv&amp;#xE4;nda CSS-variabler och CSS Grids. Framf&amp;#xF6;rallt f&amp;#xE5;r jag &amp;#xE4;ga min egen data igen.&lt;/p&gt;
+    <content>&lt;p&gt;Jag har byggt min f&amp;#xF6;rsta &lt;a href="https://en.wikipedia.org/wiki/Progressive_web_applications"&gt;Progressiva Web app&lt;/a&gt;: en webbplats som erbjuder
+okompromissad offline-funktionalitet och som kan installeras till hemsk&amp;#xE4;rmar p&amp;#xE5;
+telefoner och andra enheter som st&amp;#xF6;djer det.&lt;/p&gt;
+&lt;p&gt;Det &amp;#xE4;r en tr&amp;#xE4;ningsapp, med dagboksfunktion och n&amp;#xE5;gra hj&amp;#xE4;lpmedel f&amp;#xF6;r att lyckas
+med styrketr&amp;#xE4;ning i gymet. Den ligger hostad p&amp;#xE5; Github pages:
+&lt;a href="https://madr.github.io/urban-enigma/"&gt;B3: Baslyft, b&amp;#xE4;rs och burgare&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Detta blogginl&amp;#xE4;gg &amp;#xE4;r en utv&amp;#xE4;rdering av hur jag planerade projektet, vad jag
+ville uppn&amp;#xE5; med det och resultatet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer!&lt;/strong&gt; Namnet p&amp;#xE5; appen, och &amp;#xE4;ven n&amp;#xE5;gra av dess funktioner, &amp;#xE4;r
+inspirerade fr&amp;#xE5;n min favorit bland alla poddar och sajter f&amp;#xF6;r styrketr&amp;#xE4;ning -
+&lt;a href="https://styrkelabbet.se"&gt;Styrkelabbet&lt;/a&gt;. Deras textinneh&amp;#xE5;ll &amp;#xE4;r sakliga, mycket
+k&amp;#xE4;llkritiska och motiverande. Deras tr&amp;#xE4;ningsprogram fick mig att, efter flera
+&amp;#xE5;rs f&amp;#xF6;rs&amp;#xF6;k, slutligen f&amp;#xE5; in rutiner f&amp;#xF6;r att tr&amp;#xE4;na f&amp;#xF6;r en starkare kropp och ett friskare liv. Att tr&amp;#xE4;na &amp;#xE4;r &amp;#xE4;ntligen &lt;em&gt;kul&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;D&amp;#xE4;rmed, kudos till Styrkelabbet! &lt;a href="https://www.styrkelabbet.se/app/"&gt;Deras app&lt;/a&gt;
+kan jag rekommendera varmt, d&amp;#xE5; den vida &amp;#xF6;verstiger denna app i funktionalitet
+och smarta funktioner. &amp;#x1F917;&lt;/p&gt;
+&lt;h2 id="nskvrda-funktioner"&gt;&amp;#xD6;nskv&amp;#xE4;rda funktioner&lt;a class="anchor" href="#nskvrda-funktioner"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Bara f&amp;#xF6;r att ha n&amp;#xE5;got att str&amp;#xE4;va mot tog jag fram en lista som definierar
+en acceptabel app f&amp;#xF6;r syftet.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Rent, enkelt gr&amp;#xE4;nssnitt med kloka standardbeteenden snarare &amp;#xE4;n
+konfigurationsm&amp;#xF6;jligheter.&lt;/li&gt;
+&lt;li&gt;En lista &amp;#xF6;ver utf&amp;#xF6;rda pass, i omv&amp;#xE4;nd kronologisk ordning.&lt;/li&gt;
+&lt;li&gt;En &lt;a href="https://sv.wikipedia.org/wiki/1RM"&gt;1RM&lt;/a&gt;-ber&amp;#xE4;knare.&lt;/li&gt;
+&lt;li&gt;M&amp;#xF6;jlighet att d&amp;#xF6;pa pass.&lt;/li&gt;
+&lt;li&gt;L&amp;#xE4;gg till set (&lt;em&gt;&amp;#xF6;vningsnamn&lt;/em&gt;, &lt;em&gt;vikt&lt;/em&gt; och &lt;em&gt;repetitioner&lt;/em&gt;) med sm&amp;#xE5;, smarta
+funktioner f&amp;#xF6;r &amp;#xF6;kad produktivitet.&lt;/li&gt;
+&lt;li&gt;M&amp;#xF6;jlighet att definiera ett set som &lt;em&gt;uppv&amp;#xE4;rmningsset&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Braiga nyckeltal: antalet lyfta ton per pass, totala antalet set och totala
+antalet repetitioner.&lt;/li&gt;
+&lt;li&gt;F&amp;#xE5;r g&amp;#xE4;rna fungera i splitscreen-l&amp;#xE4;ge (s&amp;#xE5; att tidtagarurets app kan ligga
+bredvid).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="tekniska-ml"&gt;Tekniska m&amp;#xE5;l&lt;a class="anchor" href="#tekniska-ml"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;N&amp;#xE4;r jag s&amp;#xE5;g &lt;a href="https://www.youtube.com/watch?v=cmGr0RszHc8&amp;amp;t=5s"&gt;Jake Archibalds Google I/O-presentation av offline-first Web
+Apps&lt;/a&gt; 2016 blev jag riktigt nyfiken p&amp;#xE5; &lt;em&gt;Service Workers&lt;/em&gt;, som p&amp;#xE5; den tiden
+var hipster-prylar. &amp;#xC4;nda sedan jag l&amp;#xE4;ste &lt;a href="https://abookapart.com/products/going-offline"&gt;Going offline av Jeremy Keith&lt;/a&gt;
+2018 visste jag att detta &amp;#xE4;r n&amp;#xE5;got som kommer att bli en grej.&lt;/p&gt;
+&lt;p&gt;I och med &lt;a href="../react-redux/"&gt;mitt avancemang mot React i &amp;#xE5;r&lt;/a&gt; var jag inte sv&amp;#xE5;r&amp;#xF6;vertalad att
+hitta p&amp;#xE5; n&amp;#xE5;got kul. Jag besl&amp;#xF6;t mig f&amp;#xF6;r att s&amp;#xE4;tta upp litet tekniska projektm&amp;#xE5;l.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;S&amp;#xE5; snart jag laddat sidan och lagt till den p&amp;#xE5; hemsk&amp;#xE4;rmen, s&amp;#xE5; ska den fungera
+i Flight mode. Detta kallas &lt;a href="http://offlinefirst.org/"&gt;Offline-first&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Bekantskap med &lt;a href="https://parceljs.org/"&gt;Parcel bundler&lt;/a&gt;, f&amp;#xF6;r att se hur ett alternativ till
+Webpack st&amp;#xE5;r sig.&lt;/li&gt;
+&lt;li&gt;V&amp;#xE4;nja mig vid &lt;a href="https://prettier.io/"&gt;Prettier&lt;/a&gt; f&amp;#xF6;r automatisk formatering.&lt;/li&gt;
+&lt;li&gt;Skriva ett projekt fr&amp;#xE5;n b&amp;#xF6;rjan med &lt;a href="https://sass-guidelin.es/"&gt;7-1 Sass guidelines&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Forts&amp;#xE4;tta kika p&amp;#xE5; React med Redux.&lt;/li&gt;
+&lt;li&gt;Lagra all data lokalt med &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Local_storage"&gt;LocalStorage&lt;/a&gt; och Redux middleware, &lt;a href="https://remysharp.com/2014/10/06/what-is-a-web-app"&gt;som en
+app snarare &amp;#xE4;n en hemsida&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Komplett testning med &lt;a href="https://jestjs.io/"&gt;Jest&lt;/a&gt; och eventuellt &lt;a href="https://airbnb.io/enzyme/"&gt;Enzyme&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="metod-och-arbetsprocess"&gt;Metod och arbetsprocess&lt;a class="anchor" href="#metod-och-arbetsprocess"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag &amp;#xE4;gnade f&amp;#xF6;rst en stund &amp;#xE5;t att s&amp;#xE4;tta upp ett app-skal med &lt;em&gt;React&lt;/em&gt;, &lt;em&gt;Redux&lt;/em&gt;,
+&lt;em&gt;Redux-Sagas&lt;/em&gt; (bara f&amp;#xF6;r att ha det p&amp;#xE5; plats) och f&amp;#xE5; allt detta att bundlas med
+&lt;em&gt;Parcel&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;D&amp;#xE4;refter skrev jag ett &lt;em&gt;Redux-middleware&lt;/em&gt; f&amp;#xF6;r att automatiskt synka state med
+&lt;em&gt;localStorage&lt;/em&gt; vid uppdatering (via &lt;em&gt;reducers&lt;/em&gt;) och initiering (sidladdning).&lt;/p&gt;
+&lt;p&gt;En sak jag d&amp;#xE4;refter donade en stund med var att f&amp;#xE5; r&amp;#xE4;tt tangentbord att visas
+vid inmatning i formul&amp;#xE4;r f&amp;#xF6;r nya set och nya pass, samt att navigering mellan
+formul&amp;#xE4;r skulle fungera p&amp;#xE5; ett bra s&amp;#xE4;tt.&lt;/p&gt;
+&lt;p&gt;N&amp;#xE5;gonstans h&amp;#xE4;r b&amp;#xF6;rjade jag inse att jag beh&amp;#xF6;vde konfigurera min kodeditor till
+att b&amp;#xF6;rja &lt;em&gt;linta&lt;/em&gt; och &lt;em&gt;automatiskt formatera&lt;/em&gt; min kod &amp;#xE5;t mig, snarare &amp;#xE4;n att jag
+manuellt skulle g&amp;#xF6;ra det. &lt;sup class="footnote-ref"&gt;&lt;a href="#fn1" id="fnref1"&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;Som ett f&amp;#xF6;rsta steg mot att bli PWA skrev jag h&amp;#xE4;r ett &lt;a href="https://developer.mozilla.org/en-US/docs/Web/Manifest"&gt;Web App Manifest&lt;/a&gt;,
+den f&amp;#xF6;rsta halvan av att bli &lt;em&gt;Offline first&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Den andra halvan &amp;#xE4;r att skriva en &lt;em&gt;Service Worker&lt;/em&gt;. F&amp;#xF6;r detta projekt k&amp;#xE4;nde jag
+att det inte var v&amp;#xE4;rt att investera tid i att skriva en Service Worker fr&amp;#xE5;n
+skratch, s&amp;#xE5; jag valde ist&amp;#xE4;llet att l&amp;#xE5;ta en Parcel-plugin generera en Service
+Worker &amp;#xE5;t mig.&lt;/p&gt;
+&lt;p&gt;N&amp;#xE5;gra &lt;em&gt;reducers&lt;/em&gt;, &lt;em&gt;actions&lt;/em&gt;, &lt;em&gt;komponenter&lt;/em&gt;, hj&amp;#xE4;lpfunktioner och &lt;em&gt;containers&lt;/em&gt;&lt;sup class="footnote-ref"&gt;&lt;a href="#fn2" id="fnref2"&gt;[2]&lt;/a&gt;&lt;/sup&gt; b&amp;#xF6;rjade
+falla p&amp;#xE5; plats, s&amp;#xE5; nu var det h&amp;#xF6;g tid att skriva tester. Jag lade d&amp;#xE4;rf&amp;#xF6;r en
+stund p&amp;#xE5; att f&amp;#xE5; ig&amp;#xE5;ng &lt;em&gt;Jest&lt;/em&gt;, automatisera testf&amp;#xF6;rfarandet och att d&amp;#xE4;refter
+skriva tester f&amp;#xF6;r den funktionalitet jag f&amp;#xE5;tt p&amp;#xE5; plats.&lt;/p&gt;
+&lt;p&gt;D&amp;#xE4;rifr&amp;#xE5;n var all grund p&amp;#xE5; plats, s&amp;#xE5; h&amp;#xE4;rifr&amp;#xE5;n fortsatte jag koda p&amp;#xE5; funktioner i
+appen. Jag skrev fler tester, jag testade av och f&amp;#xF6;rb&amp;#xE4;ttrade design, jag
+ut&amp;#xF6;kade och snyggade till kodens struktur.&lt;/p&gt;
+&lt;h2 id="resultatet"&gt;Resultatet&lt;a class="anchor" href="#resultatet"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Vid &lt;a href="https://github.com/madr/urban-enigma/releases/tag/v1.4"&gt;version 1.4&lt;/a&gt; hade jag st&amp;#xE4;ngt alla tekniska m&amp;#xE5;l jag ville uppn&amp;#xE5; f&amp;#xF6;r projektet. &amp;#x1F942; I detta l&amp;#xE4;ge konfigurerade jag &lt;a href="https://travis-ci.org/madr/urban-enigma"&gt;Travis CI&lt;/a&gt; f&amp;#xF6;r att p&amp;#xE5;bjuda fortsatt bra rutiner.&lt;/p&gt;
+&lt;p&gt;Jag har personligen anv&amp;#xE4;nt appen p&amp;#xE5; gymet i ett par m&amp;#xE5;nader, och har hunnit
+g&amp;#xF6;ra ett par releaser med f&amp;#xF6;rb&amp;#xE4;ttringar och nya funktioner ut&amp;#xF6;ver den initiella
+kravlistan.&lt;/p&gt;
+&lt;h2 id="4-saker-vrda-att-uppmrksamma-i-koden"&gt;4 saker v&amp;#xE4;rda att uppm&amp;#xE4;rksamma i koden&lt;a class="anchor" href="#4-saker-vrda-att-uppmrksamma-i-koden"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;F&amp;#xF6;r det f&amp;#xF6;rsta, hur man visar r&amp;#xE4;tt tangentbord f&amp;#xF6;r nummerf&amp;#xE4;lt, samt hur man ger st&amp;#xF6;d f&amp;#xF6;r &lt;em&gt;b&amp;#xE5;de&lt;/em&gt; kommatecken och punkt som skiljetecken:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-jsx"&gt;&amp;lt;React.Fragment&amp;gt;
+  &amp;lt;label htmlFor=&amp;quot;weight&amp;quot;&amp;gt;Vikt&amp;lt;/label&amp;gt;
+  &amp;lt;input
+    id=&amp;quot;weight&amp;quot;
+    type=&amp;quot;number&amp;quot;
+    min=&amp;quot;2.5&amp;quot;
+    step=&amp;quot;0.5&amp;quot;
+    lang=&amp;quot;en-150&amp;quot;
+    pattern=&amp;quot;[0-9]*&amp;quot;
+    inputMode=&amp;quot;decimal&amp;quot;
+    value={value}
+    onChange={handleOnChange}
+  /&amp;gt;
+&amp;lt;/React.Fragment&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;inputMode&lt;/code&gt; &amp;#xE4;r det som visar ett numeriskt tangentbord, ist&amp;#xE4;llet f&amp;#xF6;r ett alfabetiskt tangentbord. Detta &amp;#xE4;r n&amp;#xE5;got som 90% av v&amp;#xE4;rldens alla webbshopar skulle kunna fundera p&amp;#xE5; att l&amp;#xE4;gga till i sina checkout-formul&amp;#xE4;r.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lang=&amp;quot;en-150&amp;quot;&lt;/code&gt; ser till att b&amp;#xE5;de kommatecken och punkt fungerar, d&amp;#xE5; &lt;a href="https://friendlybit.com/other/im-not-from-america/"&gt;vi alla inte lever i Amerika&lt;/a&gt;. Det h&amp;#xE4;r skulle g&amp;#xE4;rna fler st&amp;#xF6;rre akt&amp;#xF6;rer f&amp;#xE5; st&amp;#xF6;dja ocks&amp;#xE5; (jag tittar p&amp;#xE5; dig, Google docs!).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Det &amp;#xE4;r ocks&amp;#xE5; v&amp;#xE4;rt att visa att &lt;a href="https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/"&gt;f&amp;#xE4;ltet &amp;#xE4;r kontrollerat av React&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Bonus: jag tar med &lt;code&gt;htmlFor&lt;/code&gt; ocks&amp;#xE5;, f&amp;#xF6;r att JSX sannerligen inte &amp;#xE4;r vackert
+ibland i de fall man valt att &amp;#xE4;rva fr&amp;#xE5;n ur&amp;#xE5;ldriga DOM API-best&amp;#xE4;mmelser, vilket bara blir f&amp;#xF6;rvirrande n&amp;#xE4;r JSX kan antas vara &amp;#xE4;mnat att likna HTML. &lt;code&gt;className&lt;/code&gt; &amp;#xE4;r en annan favorit i samma kategori.&lt;/p&gt;
+&lt;p&gt;F&amp;#xF6;r det andra: hur f&amp;#xE5;nigt enkelt det var att skapa persistent state med localStorage och redux middleware!&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-javascript"&gt;const ITEM_NAME = &amp;quot;BBB&amp;quot;;
+
+// synka &amp;#xE4;ndrat state till localStorage
+const localStorageMiddleware = ({ getState }) =&amp;gt; {
+  return next =&amp;gt; action =&amp;gt; {
+    const result = next(action);
+    localStorage.setItem(ITEM_NAME, JSON.stringify(getState()));
+    return result;
+  };
+};
+
+// ladda initiellt state i createStore() fr&amp;#xE5;n localStorage
+export const reHydrateStore = () =&amp;gt; {
+  if (localStorage.getItem(ITEM_NAME) !== null) {
+    return JSON.parse(localStorage.getItem(ITEM_NAME));
+  }
+};
+
+export default localStorageMiddleware;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Visst, jag hade ett tag en tanke p&amp;#xE5; att l&amp;#xE5;ta Service Workern skriva till localStorage ist&amp;#xE4;llet, och l&amp;#xE5;ta appen skicka &amp;#xE4;ndringarna som &lt;code&gt;fetch()&lt;/code&gt; med &lt;em&gt;Redux-Sagas&lt;/em&gt;. Jag &amp;#xF6;vergav dock denna id&amp;#xE9; d&amp;#xE5; ovanst&amp;#xE5;ende l&amp;#xF6;sning visade sig vara god nog f&amp;#xF6;r denna app.&lt;/p&gt;
+&lt;p&gt;F&amp;#xF6;r det tredje: HTML5-elementet &lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt;, samt HTML5-attributet &lt;code&gt;form&lt;/code&gt; p&amp;#xE5; buttons.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-jsx"&gt;{ /* Details-elementet: accordion utan JavaScript! */ }
+&amp;lt;details&amp;gt;
+  &amp;lt;summary&amp;gt;Press Pasodoble 2.1 (2019-11-01)&amp;lt;/summary&amp;gt;
+  &amp;lt;table&amp;gt;
+    { /* ... */ }
+  &amp;lt;/table&amp;gt;
+&amp;lt;/details&amp;gt;
+
+{ /* form-attributet: knappen ligger utanf&amp;#xF6;r formul&amp;#xE4;ret! */ }
+&amp;lt;header&amp;gt;
+  &amp;lt;h1&amp;gt;L&amp;#xE4;gg till nytt pass&amp;lt;/h1&amp;gt;
+  &amp;lt;button type=&amp;quot;submit&amp;quot; form=&amp;quot;new-workout&amp;quot;&amp;gt;Starta&amp;lt;/button&amp;gt;
+&amp;lt;/header&amp;gt;
+&amp;lt;form id=&amp;quot;new-workout&amp;quot;&amp;gt;
+  { /* ... */ }
+&amp;lt;/form&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;details&amp;gt;&lt;/code&gt; ger utvecklare en chans att toggla saker p&amp;#xE5; ett trevligt s&amp;#xE4;tt utan
+att blanda in JavaScript. Github anv&amp;#xE4;nder det f&amp;#xF6;r alla kontextberoende menyer
+som kan klickas fram via en handle, exempelvis en knapp med ett kugghjul p&amp;#xE5;.
+Det finns goda m&amp;#xF6;jligheter att &lt;a href="http://html5doctor.com/the-details-and-summary-elements/"&gt;&amp;#xE4;ndra utseende med CSS&lt;/a&gt;, men tillg&amp;#xE4;nglighetsst&amp;#xF6;det &amp;#xE4;r dessv&amp;#xE4;rre inte
+helt optimal i dagsl&amp;#xE4;get.&lt;/p&gt;
+&lt;p&gt;Attributet &lt;code&gt;form&lt;/code&gt; p&amp;#xE5; knappar &amp;#xE4;r otroligt smidigt! Det till&amp;#xE5;ter knappar som g&amp;#xF6;r
+saker med formul&amp;#xE4;ret ligga utanf&amp;#xF6;r &lt;code&gt;&amp;lt;form&amp;gt;&lt;/code&gt;, exempelvis i en fixerad toolbar
+som jag till&amp;#xE4;mpar i det h&amp;#xE4;r projektet.&lt;/p&gt;
+&lt;p&gt;Slutligen: att det med &lt;code&gt;&amp;lt;datalist&amp;gt;&lt;/code&gt; g&amp;#xE5;r alldeles utm&amp;#xE4;rkt att f&amp;#xE5; autofill och
+f&amp;#xF6;rslag helt utan JavaScript.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-jsx"&gt;&amp;lt;datalist id=&amp;quot;exercises&amp;quot;&amp;gt;
+  &amp;lt;option&amp;gt;Bicepscurls&amp;lt;/option&amp;gt;
+  &amp;lt;option&amp;gt;B&amp;#xE4;nkpress&amp;lt;/option&amp;gt;
+  &amp;lt;option&amp;gt;Chins&amp;lt;/option&amp;gt;
+  &amp;lt;option&amp;gt;Kn&amp;#xE4;b&amp;#xF6;j&amp;lt;/option&amp;gt;
+  &amp;lt;option&amp;gt;Marklyft&amp;lt;/option&amp;gt;
+&amp;lt;/datalist&amp;gt;
+{ /* ... */ }
+&amp;lt;input type=&amp;quot;text&amp;quot; autocomplete=&amp;quot;off&amp;quot; list=&amp;quot;exercises&amp;quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I webbl&amp;#xE4;sare s&amp;#xE5; f&amp;#xF6;resl&amp;#xE5;s h&amp;#xE4;r saker ur listan, snyggt integrerat native
+i telefonens tangentbord och i en lista med matchande val, i ett
+&lt;code&gt;&amp;lt;select&amp;gt;&lt;/code&gt;-liknande beteende.&lt;/p&gt;
+&lt;h2 id="avslutande-ord"&gt;Avslutande ord&lt;a class="anchor" href="#avslutande-ord"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Appen utvecklas hela tiden, och jag klurar hela tiden p&amp;#xE5; hur den ska vara
+mindre i v&amp;#xE4;gen fr&amp;#xE5;n det jag g&amp;#xF6;r p&amp;#xE5; gymet. Mest roligt &amp;#xE4;r det att skruva p&amp;#xE5;
+designen, d&amp;#xE5; jag aldrig slutas att f&amp;#xF6;rundras &amp;#xF6;ver hur sm&amp;#xE5; nyanser kan skapa
+stor skillnad.&lt;/p&gt;
+&lt;p&gt;N&amp;#xE4;r en design har satt sig, och jag l&amp;#xF6;st n&amp;#xE5;gra tr&amp;#xE5;kiga buggar, kanske n&amp;#xE5;gra
+sk&amp;#xE4;rmdumpar eller videoklipp kommer upp. Kanske!&lt;/p&gt;
+&lt;hr class="footnotes-sep"&gt;
+&lt;section class="footnotes"&gt;
+&lt;ol class="footnotes-list"&gt;
+&lt;li id="fn1" class="footnote-item"&gt;&lt;p&gt;I VS Code, som jag anv&amp;#xE4;nde prim&amp;#xE4;rt f&amp;#xF6;r detta projekt, &amp;#xE4;r detta supersmidigt med befintliga extensions. Jag installerade Prettier-till&amp;#xE4;gget, och aktiverade &amp;quot;format on save&amp;quot; f&amp;#xF6;r alla filer. &lt;a href="#fnref1" class="footnote-backref"&gt;&amp;#x21A9;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn2" class="footnote-item"&gt;&lt;p&gt;Detta &amp;#xE4;r React- och Redux-saker. Om detta &amp;#xE4;r obekant, kika p&amp;#xE5; &lt;a href="https://www.codementor.io/johnanisere/learn-redux-in-5-mins-j12ibbr33"&gt;Redux in 5 minutes&lt;/a&gt; f&amp;#xF6;r att f&amp;#xE5; litet koll. &lt;a href="#fnref2" class="footnote-backref"&gt;&amp;#x21A9;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
 </content>
   </entry>
   <entry>
-    <title>2017, året som gick</title>
-    <id>https://madr.se/2017/2017</id>
-    <link href="https://madr.se/2017/2017"/>
-    <updated>2017-12-31T00:00:00.000Z</updated>
+    <title>Tuffa saker i senaste iterationen av madr.se</title>
+    <id>https://madr.se/2019/meta</id>
+    <link href="https://madr.se/2019/meta"/>
+    <updated>2019-10-26T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
       <email>yttan@fastmail.se</email>
     </author>
-    <content>&lt;p&gt;&amp;#xC4;nnu ett &amp;#xE5;r &amp;#xE4;r avslutat, varvid det &amp;#xE4;r l&amp;#xE4;gligt att skriva litet om de 12 m&amp;#xE5;nader som g&amp;#xE5;tt.&lt;/p&gt;
-&lt;h2 id="tekniker-jag-lskat-under-ret"&gt;Tekniker jag &amp;#xE4;lskat under &amp;#xE5;ret&lt;a class="anchor" href="#tekniker-jag-lskat-under-ret"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Trots att mycket h&amp;#xE4;nde under 2017 finns inte s&amp;#xE5; mycket att skriva om f&amp;#xF6;r teknik.&lt;/p&gt;
+    <content>&lt;p&gt;H&amp;#xE4;r g&amp;#xE5;r det att infoga valfri fyndighet om skomakarens barn. Ist&amp;#xE4;llet t&amp;#xE4;nker jag dock
+&amp;#xE4;gna ett inl&amp;#xE4;gg &amp;#xE5;t att kommentera p&amp;#xE5; h&amp;#xE4;ftiga saker jag gjorde sist jag &amp;#xE4;ndrade mallarna
+f&amp;#xF6;r den h&amp;#xE4;r hemsidan. Det &amp;#xE4;r fr&amp;#xE4;mst CSS-relaterat.&lt;/p&gt;
+&lt;p&gt;K&amp;#xE4;llkoden finns tillg&amp;#xE4;nglig utan minifiering om man vill se helheten genom att l&amp;#xE4;sa i
+&lt;a href="../../madrse.css"&gt;min CSS-fil&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="startlget"&gt;Startl&amp;#xE4;get&lt;a class="anchor" href="#startlget"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;madr.se &amp;#xE4;r min egen hemsida. Jag vill med den h&amp;#xE4;r hemsidans utformning ge en bild av mina
+v&amp;#xE4;rderingar som webbutvecklare och skribent p&amp;#xE5; Internet. Jag har d&amp;#xE4;rf&amp;#xF6;r n&amp;#xE5;gra f&amp;#xE4;rgstarka
+st&amp;#xE4;llningstaganden med den h&amp;#xE4;r webbplatsen.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Django&lt;/strong&gt;. Nio m&amp;#xE5;nader p&amp;#xE5; ett nytt jobb d&amp;#xE4;r huvudprodukten &amp;#xE4;r byggd med detta ramverk har l&amp;#xE4;rt mig massor.&lt;/li&gt;
-&lt;li&gt;Anv&amp;#xE4;nding av &lt;strong&gt;Ansible&lt;/strong&gt; och &lt;strong&gt;Terraform&lt;/strong&gt; visar m&amp;#xF6;jligheterna bortom bashscript.&lt;/li&gt;
-&lt;li&gt;Tanken p&amp;#xE5; att b&amp;#xF6;rja anv&amp;#xE4;nda &lt;strong&gt;CSS Grid layout&lt;/strong&gt; &amp;#xE4;r inte riktigt lika ot&amp;#xE4;ck l&amp;#xE4;ngre.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Elixir&lt;/strong&gt; och &lt;strong&gt;Phoenix&lt;/strong&gt; var mycket utmanande l&amp;#xE5;ngt utanf&amp;#xF6;r komfortzonen.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;React&lt;/strong&gt; och &lt;strong&gt;Webpack&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Fortsatt inget CMS: &lt;a href="../../2016/less-is-more/"&gt;Less is more&lt;/a&gt;. Ist&amp;#xE4;llet skriver jag inneh&amp;#xE5;ll i markdown-filer.
+Dessa k&amp;#xF6;rs i en &lt;a href="https://metalsmith.io/"&gt;Metalsmith&lt;/a&gt;-pipeline som omvandlar dem till HTML-dokument.&lt;/li&gt;
+&lt;li&gt;Ingen JavaScript. Detta &amp;#xE4;r en enkel blogg: text, l&amp;#xE4;nkar och enstaka media-objekt.
+Behov av JavaScript finns inte, och d&amp;#xE4;rf&amp;#xF6;r undviker jag det helt f&amp;#xF6;r att slippa kr&amp;#xE5;ngla
+med Cookie-direktiv.&lt;/li&gt;
+&lt;li&gt;Ingen CSS-f&amp;#xF6;rprocessning (exempelvis Sass, SCSS, Less eller Stylus). Jag
+kvalitetss&amp;#xE4;krar kod enligt &lt;a href="https://github.com/madr/19/.stylelintrc.json"&gt;min Stylelint-konfiguration&lt;/a&gt;, och anv&amp;#xE4;nder rikligt med
+kommentarer f&amp;#xF6;r att f&amp;#xE5; struktur i hemsidans enda CSS-fil.&lt;/li&gt;
+&lt;li&gt;CSS ska vara enkel att l&amp;#xE4;sa f&amp;#xF6;r m&amp;#xE4;nniskor. Jag vill uppmuntra andra att l&amp;#xE4;sa min
+CSS-kod f&amp;#xF6;r att ge inspiration och f&amp;#xF6;rst&amp;#xE5;else.&lt;/li&gt;
+&lt;li&gt;HTML ska vara enkel att tolka f&amp;#xF6;r maskiner. Kod ska validera samt vara semantisk s&amp;#xE5; rik som m&amp;#xF6;jligt f&amp;#xF6;r bots, s&amp;#xF6;kmotorer, webbl&amp;#xE4;sare och assistans-teknologier.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="linux"&gt;Linux&lt;a class="anchor" href="#linux"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="/b/no-sysop/"&gt;Jag vill vara kreat&amp;#xF6;r, inte Sysadmin&lt;/a&gt;. P&amp;#xE5; Jobbet har jag k&amp;#xF6;rt &lt;strong&gt;Elementary Loki&lt;/strong&gt; i nio m&amp;#xE5;nader, men det ska ers&amp;#xE4;ttas med min favorit &lt;strong&gt;Arch linux&lt;/strong&gt; efter &amp;#xE5;rsskiftet.&lt;/p&gt;
-&lt;p&gt;Hemmavid k&amp;#xF6;r jag numera Windows 10, som &amp;#xE4;r ett bedr&amp;#xF6;vligt och hemskt operativsystem.&lt;/p&gt;
-&lt;h2 id="dota-2"&gt;Dota 2&lt;a class="anchor" href="#dota-2"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Genom hela 2017 spelade jag Dota 2 sporadiskt. De typiska &lt;a href="/dota2"&gt;uppf&amp;#xF6;ljningsposterna&lt;/a&gt; har uteblivit d&amp;#xE5; jag bara spelar f&amp;#xF6;r att det &amp;#xE4;r kul numera, utan n&amp;#xE5;gra m&amp;#xE5;l med mitt spelande.&lt;/p&gt;
-&lt;p&gt;Jag f&amp;#xF6;rlorade fler matcher &amp;#xE4;n jag vann, enligt mitt tidigare spelm&amp;#xF6;nster. Jag fokuserade p&amp;#xE5; att spela position 4-5 och fick slutligen upp &lt;strong&gt;Omniknight&lt;/strong&gt; som min mest spelade hj&amp;#xE4;lte.&lt;/p&gt;
-&lt;p&gt;Dota 2 har under &amp;#xE5;ret f&amp;#xE5;tt n&amp;#xE5;gra rej&amp;#xE4;lt feta patchar som f&amp;#xF6;r&amp;#xE4;ndrat hela spelet flera g&amp;#xE5;nger, samt ett par nya hj&amp;#xE4;ltar.&lt;/p&gt;
-&lt;h2 id="afk"&gt;AFK&lt;a class="anchor" href="#afk"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I februari jobbade jag min sista m&amp;#xE5;nad som systemutvecklare p&amp;#xE5; &lt;strong&gt;Adeprimo i &amp;#xD6;stersund&lt;/strong&gt;, och i mars b&amp;#xF6;rjade jag som utvecklare p&amp;#xE5; &lt;strong&gt;Kundo i Stockholm&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Initiellt jobbpendlade jag i b&amp;#xF6;rjan av veckorna, och k&amp;#xF6;rde de sista dagarna i veckan hemifr&amp;#xE5;n.&lt;/p&gt;
-&lt;p&gt;I maj flyttade jag till G&amp;#xE4;vle f&amp;#xF6;r att f&amp;#xE5; n&amp;#xE4;rmare hem till min brorson, och f&amp;#xF6;r att underl&amp;#xE4;tta resandet till Stockholm.&lt;/p&gt;
-&lt;p&gt;Jag styrketr&amp;#xE4;nade baslyft hela &amp;#xE5;ret. I juni sprang jag &lt;strong&gt;Blodomloppet&lt;/strong&gt;. Jag sprang inte milen detta &amp;#xE5;r.&lt;/p&gt;
-&lt;h2 id="musik"&gt;Musik&lt;a class="anchor" href="#musik"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;H&amp;#xE4;gran&lt;/strong&gt; avslutades, nytt material skrevs och spelades in. &lt;strong&gt;6 nya sp&amp;#xE5;r&lt;/strong&gt; laddades upp p&amp;#xE5; SoundCloud.&lt;/p&gt;
-&lt;p&gt;Jag bes&amp;#xF6;kte &lt;strong&gt;Gefle Metal Festival&lt;/strong&gt; och &lt;strong&gt;House of Metal&lt;/strong&gt;, samt &amp;#xE5;kte &lt;strong&gt;Close-Up b&amp;#xE5;ten 21&lt;/strong&gt;. Mellan dessa gick jag p&amp;#xE5; &lt;strong&gt;12&lt;/strong&gt; konserter i G&amp;#xE4;vle, Sundsvall och Stockholm, d&amp;#xE4;r &lt;strong&gt;Tredingsriten&lt;/strong&gt; (Grift, No&amp;#xEA;ta och Forndom) p&amp;#xE5; Medelplana bygdeg&amp;#xE5;rd var den mest spektakul&amp;#xE4;ra.&lt;/p&gt;
-&lt;p&gt;Mina favoritalbum under &amp;#xE5;ret:&lt;/p&gt;
+&lt;h2 id="microdata-p-evenemang"&gt;Microdata p&amp;#xE5; evenemang&lt;a class="anchor" href="#microdata-p-evenemang"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag har introducerat &lt;em&gt;Mikrodata&lt;/em&gt; igen, i det som jag k&amp;#xE4;nner har mest v&amp;#xE4;rde av det: mina
+kommande evenemang.&lt;/p&gt;
+&lt;p&gt;Mikrodata &amp;#xE4;r ett s&amp;#xE4;tt f&amp;#xF6;r att f&amp;#xE5; s&amp;#xF6;kmotorer och andra parsers att visa mer berikade och relevanta s&amp;#xF6;kresultat.&lt;/p&gt;
+&lt;p&gt;Genom att kika p&amp;#xE5; &lt;a href="https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fmadr.se%2F1%2F"&gt;Googles testverktyg f&amp;#xF6;r strukturerad data&lt;/a&gt; g&amp;#xE5;r det att se vad mina sidor
+inneh&amp;#xE5;ller f&amp;#xF6;r evenemang. Det &amp;#xE4;r ocks&amp;#xE5; ett bra verktyg f&amp;#xF6;r att validera saker, ska s&amp;#xE4;gas.&lt;/p&gt;
+&lt;h2 id="adaptiv-layout"&gt;Adaptiv layout&lt;a class="anchor" href="#adaptiv-layout"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Baserat p&amp;#xE5; vilket operativsystem bes&amp;#xF6;karen har, s&amp;#xE5; kommer operativsystemets system-teckensnitt att anv&amp;#xE4;ndas. Detta f&amp;#xF6;r att texten ska vara s&amp;#xE5; adaptiv som m&amp;#xF6;jligt.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-css"&gt;html {
+  font: normal medium/1.4 apple-system, system-ui, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I samband med att &lt;em&gt;Dark Mode&lt;/em&gt; b&amp;#xF6;rjar bli en grej som allt fler anv&amp;#xE4;nder i Windows, MacOS och linuxdistar, s&amp;#xE5; anpassar sig f&amp;#xE4;rgerna beroende p&amp;#xE5; vald preferens. Detta g&amp;#xF6;rs med &lt;em&gt;media queries&lt;/em&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-css"&gt;@media (prefers-color-scheme: light) {
+  /* css f&amp;#xF6;r att &amp;#xE4;ndra f&amp;#xE4;rger. */
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Om bes&amp;#xF6;karen ocks&amp;#xE5; st&amp;#xE4;llt in att &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#User_Preferences"&gt;st&amp;#xE4;nga av animeringar p&amp;#xE5; sin enhet&lt;/a&gt;, inaktiveras alla transitions och animations globalt.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-css"&gt;@media (prefers-reduced-motion) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="css-grid-areas"&gt;CSS Grid areas&lt;a class="anchor" href="#css-grid-areas"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;CSS grids &amp;#xE4;r n&amp;#xE5;got som funnits ett tag och som har acceptabelt webbl&amp;#xE4;sarst&amp;#xF6;d. En del jag verkligen gillar i sammanhanget &amp;#xE4;r &lt;em&gt;grid areas&lt;/em&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-css"&gt;body {
+  display: grid;
+  grid-template-areas:
+    &amp;quot;header main&amp;quot;
+    &amp;quot;aside main&amp;quot;
+    &amp;quot;footer footer&amp;quot;;
+}
+
+footer {
+  grid-area: footer; /* ist&amp;#xE4;llet f&amp;#xF6;r grid-row: 3 / 5; grid-column: 1 / 4 */
+}
+
+main {
+  grid-area: main; /* ist&amp;#xE4;llet f&amp;#xF6;r grid-row: 1 / 3; grid-column: 2 / 4 */
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Det &amp;#xE4;r riktigt trevligt att arbeta med, d&amp;#xE5; &lt;code&gt;grid-area&lt;/code&gt; k&amp;#xE4;nns mer intuitivt &amp;#xE4;n att anv&amp;#xE4;nda
+&lt;code&gt;grid-row&lt;/code&gt; och &lt;code&gt;grid-column&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="variabler-i-css"&gt;Variabler i CSS&lt;a class="anchor" href="#variabler-i-css"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Variabler &amp;#xE4;r en av de starkaste argumenten f&amp;#xF6;r att introducera precompilers f&amp;#xF6;r CSS, d&amp;#xE5;
+det g&amp;#xF6;r underh&amp;#xE5;ll av CSS-kod &amp;#xF6;ver tid s&amp;#xE5; ofantligt mycket enklare. I mitt fall anv&amp;#xE4;nder jag
+dem f&amp;#xF6;r &lt;strong&gt;att spara och d&amp;#xE4;rmed snabbt &amp;#xE4;ndra f&amp;#xE4;rger&lt;/strong&gt; (beroende p&amp;#xE5; &lt;em&gt;Dark Mode&lt;/em&gt;).&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-css"&gt;:root {
+  --text-color: #ddd;
+  --background-color: #222;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text-color: #444;
+    --background-color: #fff;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"&gt;CSS Variabler&lt;/a&gt; har funnits ett tag i specen, men f&amp;#xE5; anv&amp;#xE4;nder dem d&amp;#xE5; de &amp;#xE4;r begr&amp;#xE4;nsade i j&amp;#xE4;mf&amp;#xF6;relse
+med deras motsvarigheter i precompilers.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Mareridt&lt;/em&gt; av &lt;strong&gt;Myrkur&lt;/strong&gt;  &lt;br&gt;
-En skiva jag v&amp;#xE4;ntade hela &amp;#xE5;ret p&amp;#xE5; och var snabb med att f&amp;#xF6;rbest&amp;#xE4;lla. Den &amp;#xF6;vertr&amp;#xE4;ffade alla f&amp;#xF6;rv&amp;#xE4;ntningar.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;The End is Nigh&lt;/em&gt; av &lt;strong&gt;Apocalypse Orchestra&lt;/strong&gt;  &lt;br&gt;
-S&amp;#xE5; h&amp;#xE4;r bra har inte s&amp;#xE4;ckpipor, nyckelharpor och distad barytongitarr l&amp;#xE5;tit sedan &lt;strong&gt;Lumsk&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Stellar&lt;/em&gt; av &lt;strong&gt;Der Weg Einer Freiheit&lt;/strong&gt;  &lt;br&gt;
-Min favoritskiva ur &amp;#xE5;rets sk&amp;#xF6;rd fr&amp;#xE5;n &lt;strong&gt;Metalhead box&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;&amp;#xD6;delagt&lt;/em&gt; av &lt;strong&gt;Domg&amp;#xE5;rd&lt;/strong&gt;  &lt;br&gt;
-V&amp;#xE4;lskrivet, anrikt och arvshedrande. P&amp;#xE5; riktigt.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Dra sad&lt;/em&gt; av &lt;strong&gt;Elffor&lt;/strong&gt;  &lt;br&gt;
-Minimalistisk skiva som g&amp;#xE5;r tillbaka till hur Elffor l&amp;#xE4;t p&amp;#xE5; &lt;em&gt;Son of the Shades&lt;/em&gt; och &lt;em&gt;Into the Dark Forest ...&lt;/em&gt;, h&amp;#xF6;gst ov&amp;#xE4;ntat men riktigt bra.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Ulfven&lt;/em&gt; av &lt;strong&gt;Ereb Altor&lt;/strong&gt;  &lt;br&gt;
-Mycket publikfriar-l&amp;#xE5;tar p&amp;#xE5; denna. V&amp;#xE4;rdigt arv till &lt;strong&gt;Bathory&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Arvet&lt;/em&gt; av &lt;strong&gt;Grift&lt;/strong&gt;  &lt;br&gt;
-&lt;strong&gt;Grift&lt;/strong&gt; t&amp;#xE4;mjer p&amp;#xE5; gr&amp;#xE4;nserna vad som ryms innanf&amp;#xF6;r ramarna av svensk Black Metal. Mycket v&amp;#xE4;rdig uppf&amp;#xF6;ljare till &lt;strong&gt;Syner&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Berdreyminn&lt;/em&gt; av &lt;strong&gt;Solstafir&lt;/strong&gt;  &lt;br&gt;
-Mysig skiva fr&amp;#xE5;n ett band jag hade mycket liten koll p&amp;#xE5; innan.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stackoverflow.com/questions/40722882/css-native-variables-not-working-in-media-queries#40723269"&gt;CSS variabler st&amp;#xF6;ds ej i media queries breakpoints&lt;/a&gt;, vilket &amp;#xE4;r n&amp;#xE5;got av en showstopper.&lt;/li&gt;
+&lt;li&gt;Deras syntax &amp;#xE4;r ful och icke-intuitiv, i j&amp;#xE4;mf&amp;#xF6;relse med sina motsvarigheter i precompilers.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="lsta-bcker"&gt;L&amp;#xE4;sta b&amp;#xF6;cker&lt;a class="anchor" href="#lsta-bcker"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Get ready for the new CSS layout&lt;/strong&gt; (Rachel Andrew)&lt;br&gt;
-Flexbox, grids och n&amp;#xE5;gra nya CSS properties som kommer att pensionera floats och avancerade hack med Media queries p&amp;#xE5; sikt.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Programming Elixir&lt;/strong&gt; (Dave Thomas)&lt;br&gt;
-Funktionell programmering &amp;#xE4;r rej&amp;#xE4;lt l&amp;#xE5;ngt borta fr&amp;#xE5;n min komfortzon.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Programming Phoenix&lt;/strong&gt; (McCord, Tate, Valim)&lt;br&gt;
-Den egentliga orsaken till att jag ens sneglar &amp;#xE5;t Elixir.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Practical SVG&lt;/strong&gt; (Chris Coyier)&lt;br&gt;
-Vektorgrafik &amp;#xE4;r h&amp;#xE4;r f&amp;#xF6;r att stanna.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Lord of the Rings&lt;/strong&gt; (J.R.R. Tolkien)&lt;br&gt;
-Tillbaka till ursprunget: en av de viktigaste b&amp;#xF6;ckerna i mitt liv, p&amp;#xE5; originalspr&amp;#xE5;ket.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Assassin&amp;apos;s Quest&lt;/strong&gt; och &lt;strong&gt;Assassin&amp;apos;s Fate&lt;/strong&gt; (Robin Hobb)&lt;br&gt;
-Det definitiva slutet f&amp;#xF6;r FitzChivalry Farseer och Fool/Amber, med en m&amp;#xF6;te av Liveship traders. Det var inte ov&amp;#xE4;rdigt, men jag hade inte klagat om &lt;strong&gt;Tawny man&lt;/strong&gt; (*I am content.&amp;quot;) f&amp;#xF6;rblivit det sista som ber&amp;#xE4;ttades om Fitz.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Colour of Magick&lt;/strong&gt; och &lt;strong&gt;The Light Fantastic&lt;/strong&gt; (Terry Pratchett)&lt;br&gt;
-L&amp;#xE4;ttsam l&amp;#xE4;sning.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Satanic Bible&lt;/strong&gt; (Anton Szandor LaVey)&lt;br&gt;
-En &amp;#xE5;terf&amp;#xF6;rening! Denna bok var h&amp;#xE4;ftigare n&amp;#xE4;r en var ton&amp;#xE5;ring &amp;#xE4;n vad den &amp;#xE4;r nu.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="2018"&gt;2018&lt;a class="anchor" href="#2018"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Jag ska vara &amp;#xC5;rskortskund p&amp;#xE5; SJ under ett &amp;#xE5;r som yrkesverksam i Stockholm.&lt;/p&gt;
-&lt;p&gt;Jag kommer att bes&amp;#xF6;ka kultfestivalen &lt;strong&gt;Sweden Rock Festival&lt;/strong&gt;, andra tappningen av &lt;strong&gt;Stockholm Slaughter&lt;/strong&gt;, &amp;#xE4;nnu en &lt;strong&gt;House of Metal&lt;/strong&gt;, sj&amp;#xE4;lvfallet &lt;strong&gt;Gefle Metal Festival&lt;/strong&gt;, samt se Tyskland genom att &amp;#xE5;ka till &lt;strong&gt;Wacken Open Air&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Jag kommer att forts&amp;#xE4;tta att spela Dota 2 f&amp;#xF6;r att det &amp;#xE4;r kul.&lt;/p&gt;
-&lt;p&gt;En demo med experiment av &lt;strong&gt;blastbeats&lt;/strong&gt; i tretakt, tremolo picking och HM-2-ljud ska vara klar under n&amp;#xE4;sta &amp;#xE5;r.&lt;/p&gt;
-&lt;p&gt;Fortsatt fokus p&amp;#xE5; h&amp;#xE4;lsa: mer tr&amp;#xE4;ning, mindre skitmat.&lt;/p&gt;
+&lt;p&gt;En av deras fr&amp;#xE4;msta styrkor &amp;#xE4;r dock att de kan n&amp;#xE5;s fr&amp;#xE5;n JavaScript, vilket har gjort projekt d&amp;#xE4;r animationer och transitions tas p&amp;#xE5; stort allvar har b&amp;#xF6;rjat pusha f&amp;#xF6;r CSS-variabler.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Denna lista kommer troligtvis att fyllas p&amp;#xE5;.&lt;/em&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>When Women Stopped Coding →</title>
-    <id>https://madr.se/2017/when-women-stopped-coding</id>
-    <link href="https://madr.se/2017/when-women-stopped-coding"/>
-    <updated>2017-09-17T00:00:00.000Z</updated>
+    <title>Vad berättar mina program om mig?</title>
+    <id>https://madr.se/2019/apps</id>
+    <link href="https://madr.se/2019/apps"/>
+    <updated>2019-09-10T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
       <email>yttan@fastmail.se</email>
     </author>
-    <content>&lt;p&gt;&lt;em&gt;F&amp;#xF6;ljande text &amp;#xE4;r kopierad fr&amp;#xE5;n ett inl&amp;#xE4;gg p&amp;#xE5; Facebook. Det &amp;#xE4;r borttaget d&amp;#xE4;r, men sparat h&amp;#xE4;r f&amp;#xF6;r referens.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;Jag kan verkligen k&amp;#xE4;nna magnituden i &lt;a href="https://www.facebook.com/amightygirl/photos/a.360833590619627/1433083900061252/?type=3&amp;amp;theater"&gt;Inl&amp;#xE4;gget av A Mighty Girl&lt;/a&gt; om Podd-avsnittet &lt;a href="https://www.npr.org/sections/money/2014/10/17/356944145/episode-576-when-women-stopped-coding?fbclid=IwAR3uggflsBRAu6s_hJw3kInbSBPwCLibRm34wHOVW6OZQcoCCQHZBgli08c&amp;amp;t=1550419003163"&gt;When Women Stopped Coding&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Det h&amp;#xE4;r &amp;#xE4;r en av de sorgligaste sakerna som h&amp;#xE4;nt i efterkrigstid. Bara f&amp;#xF6;r att ge litet exempel p&amp;#xE5; hur det var f&amp;#xF6;re 1984 vill jag n&amp;#xE4;mna tv&amp;#xE5; kvinnor vars kod verkligen &amp;#xE4;r historisk.&lt;/p&gt;
-&lt;p&gt;F&amp;#xF6;rst har vi &lt;a href="https://sv.wikipedia.org/wiki/Grace_Hopper"&gt;Grave Hopper&lt;/a&gt; som s&amp;#xE5;g till att den f&amp;#xF6;rsta kompilatorn togs fram. En kompilator &amp;#xE4;r det som &amp;#xF6;vers&amp;#xE4;tter programmeringskod, som m&amp;#xE4;nniskor skriver och resonerar kring, till ettor och nollor som en dator f&amp;#xF6;rst&amp;#xE5;r. Det programmeringsspr&amp;#xE5;k hon introducerade till kompilatorn vidareutvecklades senare till COBOL, som fortfarande anv&amp;#xE4;nds i banker &amp;#xE4;n idag. Hon fick f&amp;#xF6;r detta smeknamnet &amp;quot;Mormor COBOL&amp;quot; och var &amp;#xE4;ven Officer i amerikanska flottan.&lt;/p&gt;
-&lt;p&gt;Sedan &amp;#xE4;r det &lt;a href="https://sv.wikipedia.org/&amp;#x2026;/Margaret_Hamilton_(vetenskapsman)"&gt;Margaret Hamilton&lt;/a&gt;, som var ansvarig mjukvarudesigner och en av de fr&amp;#xE4;msta programmerarna till Apolloprogrammet p&amp;#xE5; NASA, bl a Apollo 11 som vi alla minns tog m&amp;#xE4;nniskan till m&amp;#xE5;nen. Det var n&amp;#xE5;gra incidenter p&amp;#xE5; den m&amp;#xE5;nf&amp;#xE4;rden som hade avbrutit m&amp;#xE5;nf&amp;#xE4;rden om det inte vore f&amp;#xF6;r Hamiltons f&amp;#xF6;rm&amp;#xE5;ga f&amp;#xF6;r probleml&amp;#xF6;sning.&lt;/p&gt;
-&lt;p&gt;Det &amp;#xE4;r f&amp;#xF6;rkastligt att vi p&amp;#xE5; 1980-talet best&amp;#xE4;mde oss f&amp;#xF6;r att inpr&amp;#xE4;nta i tjejer att datorer bara &amp;#xE4;r f&amp;#xF6;r pojkar. Det g&amp;#xF6;r att det idag, tre &amp;#xE5;rtionden senare, fortfarande &amp;#xE4;r alldeles f&amp;#xF6;r sv&amp;#xE5;rt f&amp;#xF6;r flickor/tjejer att b&amp;#xF6;rja programmera (det g&amp;#xF6;r man som barn eller ton&amp;#xE5;ring) och f&amp;#xF6;r kvinnor att g&amp;#xF6;ra karri&amp;#xE4;r inom IT.&lt;/p&gt;
-&lt;p&gt;Vi beh&amp;#xF6;ver jobba med det h&amp;#xE4;r, s&amp;#xE4;rskilt genom att visa v&amp;#xE5;rt st&amp;#xF6;d f&amp;#xF6;r d&amp;#xF6;ttrar, systrar, sv&amp;#xE4;gerskor och till och med mammor. Ber&amp;#xE4;tta f&amp;#xF6;r dem att de kan, de KAN!&lt;/p&gt;
+    <content>&lt;p&gt;L&amp;#xE5;ng historia kort: Min dator hemma &amp;#xE4;r ett hopplock av delar som b&amp;#xF6;rjar bli med &amp;#xE5;ren.
+Dess 8 &amp;#xE5;r SSD tv&amp;#xE4;rdog h&amp;#xE4;romdagen. En ny SSD k&amp;#xF6;ptes, en Windows-ISO h&amp;#xE4;mtades, en
+USB-sticka f&amp;#xF6;r ominstallation skapades, den gamla SDD:n kasserades.&lt;/p&gt;
+&lt;p&gt;Jag sparade en lista &amp;#xF6;ver alla program jag laddade hem s&amp;#xE5; snart Windows var ominstallerat,
+och t&amp;#xE4;nkte g&amp;#xF6;ra det till en spontan, snabbskriven sj&amp;#xE4;lvskattning. Litet av checkin p&amp;#xE5; vad
+mina f&amp;#xF6;rdragna program s&amp;#xE4;ger om min person och karakt&amp;#xE4;r.&lt;/p&gt;
+&lt;h2 id="firefox"&gt;Firefox&lt;a class="anchor" href="#firefox"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Min f&amp;#xF6;rdragna webbl&amp;#xE4;sare sedan 2004, med ett par &amp;#xE5;r p&amp;#xE5; &amp;#xF6;vervakade paradis-&amp;#xF6;n Chrome som
+undantag.&lt;/p&gt;
+&lt;p&gt;Det &amp;#xE4;r en hj&amp;#xE4;rtefr&amp;#xE5;ga snarare &amp;#xE4;n ett val baserat p&amp;#xE5; kvalifikationer. S&amp;#xE5;v&amp;#xE4;l Safari som
+Chrome &amp;#xE4;r b&amp;#xE4;ttre webbl&amp;#xE4;sare, objektivt sett.&lt;/p&gt;
+&lt;h2 id="git"&gt;Git&lt;a class="anchor" href="#git"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag &amp;#xE4;r en kodare och gillar att ha backup p&amp;#xE5; min kod. Efter r&amp;#xE4;tt s&amp;#xE5; m&amp;#xE5;nga &amp;#xE5;r med
+Subversion och &amp;#xF6;ver ett &amp;#xE5;rtionde med FTP dessf&amp;#xF6;rinnan har jag gjort till en vana att
+versionshantera min kod och ha den replikerad p&amp;#xE5; Github, Bitbucket eller GitLab (litet
+beroende p&amp;#xE5; hum&amp;#xF6;r).&lt;/p&gt;
+&lt;h2 id="elixir-websetup"&gt;Elixir (websetup)&lt;a class="anchor" href="#elixir-websetup"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag kodar mycket Elixir, d&amp;#xE5; det &amp;#xE4;r &lt;a href="/2019/elixir/"&gt;n&amp;#xE5;got jag satsar p&amp;#xE5; att l&amp;#xE4;ra mig i &amp;#xE5;r&lt;/a&gt;. Det &amp;#xE4;r ett
+trevligt spr&amp;#xE5;k som jag tror har en ljus framtid f&amp;#xF6;r realtids- och collab-baserade
+molntj&amp;#xE4;nster med webbaserade anv&amp;#xE4;ndargr&amp;#xE4;nssnitt.&lt;/p&gt;
+&lt;p&gt;Det &amp;#xE4;r ocks&amp;#xE5; riktigt mysigt s&amp;#xE5;v&amp;#xE4;l att skriva kod och som att l&amp;#xE4;sa dokumentation.&lt;/p&gt;
+&lt;h2 id="vscode"&gt;VSCode&lt;a class="anchor" href="#vscode"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Min f&amp;#xF6;rdragna editor f&amp;#xF6;r kod. I VSCode skriver jag Elixir, Markdown, JavaScript,
+TypeScript, Sass, SCSS, CSS, HTML, React med kompisar, Vue och ibland &amp;#xE4;ven Python.
+F&amp;#xF6;rhoppningsvis snart &amp;#xE4;ven Elm, Rust eller ReasonML.&lt;/p&gt;
+&lt;h2 id="node"&gt;Node&lt;a class="anchor" href="#node"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;N&amp;#xF6;dv&amp;#xE4;ndigt ont f&amp;#xF6;r att skriva frontend-kod numera. Jag klarade mig fram tills nyligen med
+vanilla JavaScript, sedan tog jag &lt;a href="/2019/react-redux/"&gt;beslutet att f&amp;#xF6;rdjupa mig i React med kompisar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Jag beh&amp;#xF6;ver det ocks&amp;#xE5; f&amp;#xF6;r exempelvis Babel, Parcel, Sass, SCSS, PostCSS, Jest, TypeScript
+Prettier och Webpack.&lt;/p&gt;
+&lt;h2 id="steam"&gt;Steam&lt;a class="anchor" href="#steam"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag spelar. Ibland. Mest Dota 2.&lt;/p&gt;
+&lt;h2 id="postgresql"&gt;PostgreSQL&lt;a class="anchor" href="#postgresql"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag f&amp;#xF6;redrar Postgres &amp;#xF6;ver MySQL sedan m&amp;#xE5;nga &amp;#xE5;r, fr&amp;#xE4;mst f&amp;#xF6;r att det &amp;#xE4;r vad Ecto och
+Django f&amp;#xF6;redrar. Jag har ingen stark &amp;#xE5;sikt om databaser, annat &amp;#xE4;n att jag upplever
+Postgres som n&amp;#xE5;got mer underh&amp;#xE5;llsfri.&lt;/p&gt;
+&lt;h2 id="discord"&gt;Discord&lt;a class="anchor" href="#discord"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag har v&amp;#xE4;nner. Som spelar. Ibland med mig. Oftast Dota 2.&lt;/p&gt;
+&lt;h2 id="dropbox"&gt;Dropbox&lt;a class="anchor" href="#dropbox"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;F&amp;#xF6;r att enkelt synka bilder fr&amp;#xE5;n telefon till dator, och synka enstaka filer smidigt.&lt;/p&gt;
+&lt;h2 id="syncthing"&gt;Syncthing&lt;a class="anchor" href="#syncthing"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;F&amp;#xF6;r att replikera filer mellan flera datorer. T&amp;#xE4;nk som Dropbox, fast gratis och baserad
+p&amp;#xE5; &amp;#xF6;ppen k&amp;#xE4;llkod.&lt;/p&gt;
+&lt;h2 id="plex-media-server"&gt;Plex Media Server&lt;a class="anchor" href="#plex-media-server"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag har mina 3 Benno-torn med CD privatkopierade, och n&amp;#xE5;gra enstaka filmer. Mycket av det
+finns varken p&amp;#xE5; Netflix, HBO eller Spotify, s&amp;#xE5; jag har det g&amp;#xE4;rna inom r&amp;#xE4;ckh&amp;#xE5;ll.&lt;/p&gt;
+&lt;h2 id="python"&gt;Python&lt;a class="anchor" href="#python"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Version 3.7. Fr&amp;#xE4;mst f&amp;#xF6;r att ett NPM-paket kr&amp;#xE4;vde det: totalt orimligt, men vem &amp;#xE4;r
+egentligen f&amp;#xF6;rv&amp;#xE5;nad eftersom det r&amp;#xF6;r NPM?&lt;/p&gt;
+&lt;p&gt;Jag hade f&amp;#xF6;rmodligen installerat det &amp;#xE4;nd&amp;#xE5;, d&amp;#xE5; jag fortfarande kommer riktigt bra &amp;#xF6;verens
+med Python, som jag gick all-in f&amp;#xF6;r 2012. Django &amp;#xE4;r tr&amp;#xE5;kigt p&amp;#xE5; det bra, p&amp;#xE5;litliga s&amp;#xE4;ttet.
+Stundtals saknar jag &amp;#xE4;ven det minimalistiska i Flask.&lt;/p&gt;
+&lt;h2 id="bubblare-android-studio"&gt;Bubblare: Android Studio&lt;a class="anchor" href="#bubblare-android-studio"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Dagen efter den omedelbara ominstallationen installerades ocks&amp;#xE5; Android Studio.&lt;/p&gt;
+&lt;p&gt;Jag gillar ibland att skriva appar f&amp;#xF6;r smartphones, d&amp;#xE5; det &amp;#xE4;r ett sk&amp;#xF6;nt avbrott fr&amp;#xE5;n &lt;a href="https://news.ycombinator.com/item?id=1083244"&gt;Den
+mest fientliga utvecklingsmilj&amp;#xF6;n som g&amp;#xE5;r att f&amp;#xF6;rest&amp;#xE4;lla sig&lt;/a&gt;. Det &amp;#xE4;r smidigare, mer
+f&amp;#xF6;ruts&amp;#xE4;gbart och totalt annorlunda att skriva gr&amp;#xE4;nssnittskod f&amp;#xF6;r appar.&lt;/p&gt;
+&lt;p&gt;Jag f&amp;#xF6;redrar att koda appar f&amp;#xF6;r Android av ett par sk&amp;#xE4;l: f&amp;#xF6;r det f&amp;#xF6;rsta tvingar det mig
+inte att &amp;#xE4;ga en Mac, f&amp;#xF6;r det andra &amp;#xE4;r jag nyfiken p&amp;#xE5; Kotlin.&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Ut med det gamla, in med det nya</title>
-    <id>https://madr.se/2017/2017-mid</id>
-    <link href="https://madr.se/2017/2017-mid"/>
-    <updated>2017-07-30T00:00:00.000Z</updated>
+    <title>Gärning i ridderlighetens namn</title>
+    <id>https://madr.se/2019/ridderligheten</id>
+    <link href="https://madr.se/2019/ridderligheten"/>
+    <updated>2019-09-01T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
       <email>yttan@fastmail.se</email>
     </author>
-    <content>&lt;p&gt;2017 &amp;#xE4;r ett &amp;#xE5;r i r&amp;#xF6;relse. Hitills i &amp;#xE5;r har jag flyttat hem till G&amp;#xE4;vleborg fr&amp;#xE5;n J&amp;#xE4;mtland och avslutat mina 10 &amp;#xE5;r som konsult genom att ta anst&amp;#xE4;llning i Stockholm som utvecklare f&amp;#xF6;r digitala produkter inom kundservice.&lt;/p&gt;
-&lt;p&gt;Den h&amp;#xE4;r typen av tillst&amp;#xE5;nd agerar ibland katalysator till beslut, och jag har beslutat att avsluta tv&amp;#xE5; l&amp;#xE5;ngvariga projekt.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;H&amp;#xE4;gran&lt;/strong&gt;, enmansbandet med inriktning mot experimentiell Doom Metal, blir officiellt bordslagt p&amp;#xE5; obest&amp;#xE4;md tid efter 9 &amp;#xE5;r utan nytt material. Utgett material kommer att laddas upp p&amp;#xE5; Youtube och Soundcloud.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Tajm&lt;/strong&gt;, ett f&amp;#xF6;rs&amp;#xF6;k att stilla frustration &amp;#xF6;ver att tidrapportering suger, har sl&amp;#xE4;ppts under BSD-licens p&amp;#xE5; Github. De servrar jag har f&amp;#xF6;r tj&amp;#xE4;nsten kommer att st&amp;#xE4;ngas ner i h&amp;#xF6;st.&lt;/p&gt;
-&lt;h2 id="nsta-projekt"&gt;N&amp;#xE4;sta projekt&lt;a class="anchor" href="#nsta-projekt"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Ett &amp;#xE4;nnu od&amp;#xF6;pt musikprojekt, under arbetsnamnet &lt;strong&gt;Umg&amp;#xE4;llt&lt;/strong&gt;, &amp;#xE4;r aktivt och kommer att p&amp;#xE5;b&amp;#xF6;rja inspelning av musik sent i h&amp;#xF6;st eller under vintern.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>2016, året som gick</title>
-    <id>https://madr.se/2016/2016</id>
-    <link href="https://madr.se/2016/2016"/>
-    <updated>2016-12-31T00:00:00.000Z</updated>
-    <author>
-      <name>Anders Ytterström</name>
-      <email>yttan@fastmail.se</email>
-    </author>
-    <content>&lt;p&gt;&amp;#xC4;nnu ett &amp;#xE5;r &amp;#xE4;r avslutat, varvid det &amp;#xE4;r l&amp;#xE4;gligt att skriva litet om de 12 m&amp;#xE5;nader som g&amp;#xE5;tt.&lt;/p&gt;
-&lt;h2 id="tekniker-jag-lskat-under-ret"&gt;Tekniker jag &amp;#xE4;lskat under &amp;#xE5;ret&lt;a class="anchor" href="#tekniker-jag-lskat-under-ret"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;2016 &amp;#xE4;r ett &amp;#xE5;r d&amp;#xE4;r jag trots en hel del hinder (mer om detta senare i inl&amp;#xE4;gget) programmerat mer &amp;#xE4;n jag gjort p&amp;#xE5; flera &amp;#xE5;r. Jag har under &amp;#xE5;ret fr&amp;#xE4;mst skrivit kod i backends f&amp;#xF6;r webb.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Django&lt;/strong&gt; bara v&amp;#xE4;xer, s&amp;#xE4;rskilt efter &amp;#xE5;rets nyhet att &lt;a href="https://www.djangoproject.com/weblog/2016/sep/09/channels-adopted-official-django-project/"&gt;Channels blir en del av Django-projektet&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Flask&lt;/strong&gt; sl&amp;#xE4;ppte version 0.11 i april och forts&amp;#xE4;tter att vara relevant. Inget annat verktyg fick s&amp;#xE5; mycket tid som Flask fick 2016, d&amp;#xE5; jag tillbringade massor tid &amp;#xE5;t att nyutveckla och f&amp;#xF6;rvalta ett REST API med en egen Oauth2-implementation, skrivet i Flask.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vue.js&lt;/strong&gt; blev utv&amp;#xE4;rderat, efter f&amp;#xF6;rra &amp;#xE5;rets uppt&amp;#xE4;cktsf&amp;#xE4;rder med React och Angular. Detta &amp;#xE4;r ett JavaScript-bibliotek helt i min smak! Inkludera ett script och s&amp;#xE4;tt ig&amp;#xE5;ng, ingen startstr&amp;#xE4;cka. F&amp;#xF6;r den som vill v&amp;#xE4;xa med ramverket finns massor med f&amp;#xF6;rdjupningar och intressanta koncept.&lt;/li&gt;
-&lt;li&gt;&amp;#xC5;terkomsten av &lt;strong&gt;Twitter Bootstrap&lt;/strong&gt;. Mycket har h&amp;#xE4;nt med detta prototyp-verktyg sedan sist jag anv&amp;#xE4;nde det i dess barndom. H&amp;#xE4;rligt att se hur det mognat och blivit p&amp;#xE5;litligt.&lt;/li&gt;
-&lt;li&gt;Jag slutf&amp;#xF6;rde min konvertering fr&amp;#xE5;n CSS floats till &lt;strong&gt;Flexbox&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Jag skrev min f&amp;#xF6;rsta app till &lt;strong&gt;Android&lt;/strong&gt;, och har en andra under p&amp;#xE5;g&amp;#xE5;ende utveckling. &lt;strong&gt;Java&lt;/strong&gt; &amp;#xE4;r inte lika l&amp;#xE4;skligt som det brukade vara. Jag kan verkligen g&amp;#xE5; i god f&amp;#xF6;r &lt;a href="https://www.udacity.com/course/android-developer-nanodegree-by-google--nd801"&gt;Udacity nanodegree&lt;/a&gt; f&amp;#xF6;r alla som vill kika p&amp;#xE5; Android.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Wordpress&lt;/strong&gt; utv&amp;#xE4;rderades p&amp;#xE5; djupet. Mitt ogillande fick &amp;#xE4;nnu mer vatten p&amp;#xE5; sin kvarn.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Med allt ovanst&amp;#xE5;ende sagt s&amp;#xE5; k&amp;#xE4;nner jag att &lt;strong&gt;ren gr&amp;#xE4;nssnittsutveckling f&amp;#xF6;r webb&lt;/strong&gt; &amp;#xE4;r alldeles f&amp;#xF6;r tr&amp;#xE5;kigt och ostimulerande, fr&amp;#xE4;mst p&amp;#xE5; grund av att webben som utvecklingsplattform &amp;#xE4;r f&amp;#xF6;r tids&amp;#xF6;dande f&amp;#xF6;r att b&amp;#xE4;ra frukt.&lt;/p&gt;
-&lt;p&gt;F&amp;#xF6;r min del k&amp;#xE4;nns API:er, Service Workers och backends med Django/Flask f&amp;#xF6;r HTTP/PubSubHubbub mer intressant i dagsl&amp;#xE4;get. Det &amp;#xE4;r &amp;#xE5;t det h&amp;#xE5;llet jag vill g&amp;#xE5;.&lt;/p&gt;
-&lt;h2 id="linux"&gt;Linux&lt;a class="anchor" href="#linux"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="/b/no-sysop/"&gt;Jag vill vara kreat&amp;#xF6;r, inte Sysadmin&lt;/a&gt;. P&amp;#xE5; jobbet funkar Linux perfekt, men hemmavid har jag &amp;#xF6;vergett tanken p&amp;#xE5; Linux d&amp;#xE5; det kraftigt h&amp;#xE4;mmar mitt musikskapande. De program jag anv&amp;#xE4;nder finns inte p&amp;#xE5; plattformen.&lt;/p&gt;
-&lt;p&gt;Av denna anledning avslutade jag &amp;#xE5;ret med att k&amp;#xF6;pa en &lt;strong&gt;Macbook Pro med Touch bar&lt;/strong&gt; med avsikt att g&amp;#xE5; all-in p&amp;#xE5; laptop igen. Min station&amp;#xE4;ra dator, som varit bootad i Windows 10 st&amp;#xF6;rre delen av &amp;#xE5;ret, kommer att ominstalleras och bli en hemserver med &lt;strong&gt;Debian&lt;/strong&gt; f&amp;#xF6;r f&amp;#xF6;ljande till&amp;#xE4;mpningar:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Steam in-home streaming&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://syncthing.net"&gt;SyncThing&lt;/a&gt; f&amp;#xF6;r backup av filer&lt;/li&gt;
-&lt;li&gt;iTunes hemmadelning&lt;/li&gt;
-&lt;li&gt;Vagrant + Virtualbox f&amp;#xF6;r virtuella maskiner att labba med&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.plex.tv"&gt;Plex Media Server&lt;/a&gt; f&amp;#xF6;r det egna musik- och filmbiblioteket.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="dota-2"&gt;Dota 2&lt;a class="anchor" href="#dota-2"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Jag h&amp;#xF6;ll l&amp;#xF6;ftet till mig sj&amp;#xE4;lv att spela mindre Dota 2 under 2016. Jag planerar inte att skruva upp n&amp;#xE5;got, men inte heller att helt sluta. Niv&amp;#xE5;n jag har nu fungerar och g&amp;#xF6;r att spelet &amp;#xE4;r roligt n&amp;#xE4;r jag v&amp;#xE4;l tar mig tiden. Regelbundna matcher att titta p&amp;#xE5;, sporadiska botmatcher och riktiga matcher enbart i ranked eller tillsammans med v&amp;#xE4;nner.&lt;/p&gt;
-&lt;h2 id="afk"&gt;AFK&lt;a class="anchor" href="#afk"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;2016 blev sammanslaget ett b&amp;#xE4;ttre &amp;#xE5;r &amp;#xE4;n 2015. Men det &amp;#xE4;r ocks&amp;#xE5; till ett dyrt pris. Mellan april och augusti var jag &lt;strong&gt;deltidssjukskriven&lt;/strong&gt; och behandlades f&amp;#xF6;r &lt;strong&gt;utmattningssyndrom&lt;/strong&gt; och &lt;strong&gt;depression&lt;/strong&gt;. Det var jag sj&amp;#xE4;lv som tog initiativet att kolla upp de fel jag hade, som bestod av bl a f&amp;#xF6;ljande: minskad aptit, orolig s&amp;#xF6;mn, oerh&amp;#xF6;rt alarmerande koncentrationssv&amp;#xE5;righeter och en k&amp;#xE4;nsla av att ingenting n&amp;#xE5;gonsin blev bra.&lt;/p&gt;
-&lt;p&gt;Det startades &amp;#xE4;ven en utredning f&amp;#xF6;r om jag har &lt;strong&gt;Bipol&amp;#xE4;r sjukdom&lt;/strong&gt;, d&amp;#xE4;r slutsatsen blev att s&amp;#xE5; ej var fallet.&lt;/p&gt;
-&lt;p&gt;Min egen slutsats kring allt &amp;#xE4;r att privatlivet som varit slutligen hann ikapp mig och tvingade mig att stanna och h&amp;#xE4;mta andan. Det visade sig vara f&amp;#xF6;r en bra sak, n&amp;#xE4;r allt kommer omkring.&lt;/p&gt;
-&lt;p&gt;G&amp;#xE4;llande min h&amp;#xE4;lsa har jag h&amp;#xE5;llit ig&amp;#xE5;ng kroppen och &amp;#xE4;gnat sista kvartalet &amp;#xE5;t att tekniktr&amp;#xE4;na bas&amp;#xF6;vningar inom styrketr&amp;#xE4;ning, med avsikt att gymma regelbundet n&amp;#xE4;rmsta tolv m&amp;#xE5;naderna. Jag sprang inte milen detta &amp;#xE5;r, men har f&amp;#xE5;tt tillbaka mycket r&amp;#xF6;rlighet i kroppen.&lt;/p&gt;
-&lt;p&gt;2016 flyttade jag ut ur den stora bostadsr&amp;#xE4;tt jag blev ensamboende i under f&amp;#xF6;rg&amp;#xE5;ende &amp;#xE5;r. Jag bor nu i en hyresr&amp;#xE4;tt i ett nyproducerat omr&amp;#xE5;de i utkanten av &amp;#xD6;stersund, d&amp;#xE4;r jag trivs.&lt;/p&gt;
-&lt;h2 id="musik"&gt;Musik&lt;a class="anchor" href="#musik"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;H&amp;#xE4;gran&lt;/strong&gt; slutf&amp;#xF6;rde nytt material f&amp;#xF6;r f&amp;#xF6;rsta g&amp;#xE5;ngen sedan 2008. &lt;em&gt;Arvet&lt;/em&gt; &amp;#xE4;r ett sp&amp;#xE5;r p&amp;#xE5; sju minuter, Doomigt och m&amp;#xF6;rkt i samma anda som &lt;em&gt;Imperium&lt;/em&gt; och &lt;em&gt;Vilseledd&lt;/em&gt;. &lt;a href="https://soundcloud.com/hagran/arvet"&gt;Lyssna p&amp;#xE5; SoundCloud&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Sessionen inneh&amp;#xE5;ller den tvekl&amp;#xF6;st b&amp;#xE4;sta inspelningen jag gjort av mig sj&amp;#xE4;lv p&amp;#xE5; s&amp;#xE5;ng. Detta beror b&amp;#xE5;de p&amp;#xE5; min egen musikaliska kapacitet, men ocks&amp;#xE5; p&amp;#xE5; att jag hade en f&amp;#xF6;rtr&amp;#xE4;ffligt bra mikrofon.&lt;/p&gt;
-&lt;p&gt;Musiken &amp;#xE4;r en ledstj&amp;#xE4;rna i m&amp;#xF6;rkret och jag har som ambition att producera mer n&amp;#xE4;sta &amp;#xE5;r. Det jag gjorde helt r&amp;#xE4;tt i &amp;#xE5;r var att skapa f&amp;#xF6;ruts&amp;#xE4;ttningar f&amp;#xF6;r att bara greppa ett instrument och spela, utan press, med mycket lek.&lt;/p&gt;
-&lt;h2 id="2017"&gt;2017&lt;a class="anchor" href="#2017"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Jag vill under 2016 ta l&amp;#xE4;rdomarna fr&amp;#xE5;n Android f&amp;#xF6;r att utforska &lt;strong&gt;Swift&lt;/strong&gt; i  Apples ekosystem, genom att appar f&amp;#xF6;r AppleTV, Watch, iPhone och iPad. Jag vill bli en gr&amp;#xE4;nssnittsutvecklare &lt;strong&gt;p&amp;#xE5; riktigt&lt;/strong&gt;, och b&amp;#xF6;rja g&amp;#xE5; utanf&amp;#xF6;r den traditionella webbutvecklarrollen jag hittills f&amp;#xF6;rlitat mig p&amp;#xE5;. Id&amp;#xE9;erna finns, och tiden ocks&amp;#xE5; nu n&amp;#xE4;r jag spelar avsev&amp;#xE4;rt mindre Dota 2.&lt;/p&gt;
-&lt;p&gt;Kanske blir 2017 det &amp;#xE5;r jag slutligen tar itu med GTK+ eller PyGObjects? Jag &amp;#xE4;r skeptisk, men &amp;#xE4;r inte beredd att helt sl&amp;#xE4;ppa id&amp;#xE9;n p&amp;#xE5; att skriva program till Linux.&lt;/p&gt;
-&lt;p&gt;Eftersom C# nu &amp;#xE4;r p&amp;#xE5; v&amp;#xE4;g att bli n&amp;#xE5;got f&amp;#xF6;r oss utan Windows och  Visual Studio finns stora m&amp;#xF6;jligheter f&amp;#xF6;r att jag skriver litet kod i det programmeringsspr&amp;#xE5;ket igen.&lt;/p&gt;
-&lt;p&gt;&amp;#xC4;nnu mer musik! Minst en till l&amp;#xE5;t med &lt;strong&gt;H&amp;#xE4;gran&lt;/strong&gt;.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Rants om Progressive Enhancement</title>
-    <id>https://madr.se/2016/pe</id>
-    <link href="https://madr.se/2016/pe"/>
-    <updated>2016-12-15T00:00:00.000Z</updated>
-    <author>
-      <name>Anders Ytterström</name>
-      <email>yttan@fastmail.se</email>
-    </author>
-    <content>&lt;p&gt;I &lt;a href="https://www.viget.com/articles/the-case-against-progressive-enhancements-flimsy-moral-foundation"&gt;The Case Against Progressive Enhancement&amp;apos;s Flimsy Moral Foundation&lt;/a&gt; ifr&amp;#xE5;gas&amp;#xE4;tts den praktiska och faktiska nyttan med &lt;a href="https://en.wikipedia.org/wiki/Progressive_enhancement"&gt;Progressive Enhancement&lt;/a&gt;, en av de principer jag krampaktigt h&amp;#xE5;llit fast vid sedan l&amp;#xE5;ngt innan jag blev professionell webbutvecklare.&lt;/p&gt;
-&lt;p&gt;Jag hittade den via en rant, &lt;a href="https://sonniesedge.co.uk/blog/progressive-enhancement"&gt;Yes, progressive enhancement is a fucking moral argument&lt;/a&gt; vars ton &amp;#xE4;r snarlik den ton jag hade haft om jag tagit mig tid att skriva n&amp;#xE5;got:&lt;/p&gt;
+    <content>&lt;p&gt;F&amp;#xF6;ljande ber&amp;#xE4;ttelse &amp;#xE4;gde rum vid Gasklockorna i G&amp;#xE4;vle under &amp;#xE5;rets upplaga av Gefle Metal Festival. Det &amp;#xE4;r en historia jag redan ber&amp;#xE4;ttat f&amp;#xF6;r n&amp;#xE5;gra utvalda, men som jag ocks&amp;#xE5; har behov av att skriva ner och publicera h&amp;#xE4;r. Det &amp;#xE4;r n&amp;#xE4;mligen en historia om uppr&amp;#xE4;tth&amp;#xE5;lla &lt;a href="https://en.wikipedia.org/wiki/Chivalry"&gt;ridderlighet&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Historien b&amp;#xF6;rjar p&amp;#xE5; alldagligt vis givet ramarna f&amp;#xF6;r en musikfestival. Jag och mitt s&amp;#xE4;llskap hade under skinande sommarsol applicerat solskyddsfaktor, &amp;#xE4;tit ordentligt och hamnat p&amp;#xE5; en bra niv&amp;#xE5; av salongsberusning. Mitt s&amp;#xE4;llskap ville ha en bra plats p&amp;#xE5; bandet &lt;strong&gt;Legion of the Damned&lt;/strong&gt;. Vi gick d&amp;#xE4;rf&amp;#xF6;r tidigt fr&amp;#xE5;n spelningen innan och parkerade oss vid kravallst&amp;#xE4;ngslet, d&amp;#xE4;r det b&amp;#xF6;rjade bli ont om plats.&lt;/p&gt;
+&lt;p&gt;Det &amp;#xE4;r en viss typ av personer som st&amp;#xE5;r vid kravallstaketen i denna tidsrymd, mellan att f&amp;#xF6;rg&amp;#xE5;ende band har 3-4 l&amp;#xE5;tar kvar och n&amp;#xE4;sta band fortfarande soundcheckar p&amp;#xE5; scenen. De personerna &amp;#xE4;r &lt;strong&gt;&amp;#xE4;kta fans&lt;/strong&gt;, som med framf&amp;#xF6;rh&amp;#xE5;llning vill tinga en kanonbra plats p&amp;#xE5; det band de &amp;#xE4;r p&amp;#xE5; festivalen f&amp;#xF6;r att se.&lt;/p&gt;
+&lt;p&gt;Allra st&amp;#xF6;rst fans &amp;#xE4;r de som inte ens samtalar med folket runtom, utan st&amp;#xE5;lfast blickar rakt fram mot scenen, med en f&amp;#xF6;rv&amp;#xE4;ntan h&amp;#xE5;rd som en nitbekl&amp;#xE4;dd knytn&amp;#xE4;ve h&amp;#xE4;ngandes &amp;#xF6;ver dem och deras kroppsspr&amp;#xE5;k.&lt;/p&gt;
+&lt;p&gt;Det var en s&amp;#xE5;dan person som n&amp;#xE5;gon minut efter v&amp;#xE5;r ankomst st&amp;#xE4;llde sig p&amp;#xE5; min v&amp;#xE4;nstra sida. Det var en kort, slank person som jag uppfattade som yngre &amp;#xE4;n mig. Det &amp;#xE4;r inte av n&amp;#xE5;gon st&amp;#xF6;rre vikt i denna historia, men det var en tjej med svart h&amp;#xE5;r, kl&amp;#xE4;dd i olika nyanser av lila, purpur och svart. Hon h&amp;#xF6;rde hemma h&amp;#xE4;r framme, blev mitt f&amp;#xF6;rsta intryck.&lt;/p&gt;
+&lt;p&gt;Under sista l&amp;#xE5;ten av bandet p&amp;#xE5; andra scenen fick hon s&amp;#xE4;llskap av en j&amp;#xE4;mn&amp;#xE5;rig och lika sm&amp;#xE5;v&amp;#xE4;xt kompis, som l&amp;#xE4;mnade sin svarta kofta p&amp;#xE5; st&amp;#xE4;ngslet mellan mig och henne, varvid kompisen f&amp;#xF6;rsvinner. Detta &amp;#xE4;r p&amp;#xE5; festivalspr&amp;#xE5;k en gest att s&amp;#xE4;ga att man &amp;#xE4;r del av ett s&amp;#xE4;llskap, och en p&amp;#xE5;bjudan att andra ska respektera att platserna vid kravallst&amp;#xE4;ngslet &amp;#xE4;r upptagna.&lt;/p&gt;
+&lt;p&gt;Minuterna gick, och kompisen kom inte tillbaka. Bandet p&amp;#xE5; andra scenen spelade klart. De korta minutrarna av andrum mellan spelningar passerade, och det b&amp;#xF6;rjade fyllas p&amp;#xE5; med folk bakom oss som v&amp;#xE4;ntat l&amp;#xE4;ngst. Ungef&amp;#xE4;r en halvminut innan &lt;strong&gt;Legion of the Damned&lt;/strong&gt; gick ut p&amp;#xE5; scenen kom en korth&amp;#xE5;rig, st&amp;#xE4;dad snubbe i vit t-shirt och tr&amp;#xE4;ngde sig fram till mig och tjejen bredvid.&lt;/p&gt;
+&lt;p&gt;Jag &amp;#xE4;r allt f&amp;#xF6;r v&amp;#xE4;lbekant med typen. Jag t&amp;#xE4;nker p&amp;#xE5; honom och hans likar som &lt;a href="https://sv.wiktionary.org/wiki/spr%C3%A4tt"&gt;en spr&amp;#xE4;tt&lt;/a&gt;. Jag s&amp;#xE5;g i &amp;#xF6;gonvr&amp;#xE5;n hur tjejen bredvid mig v&amp;#xE4;nde sig om och talade med honom, samtidigt som hon pekade p&amp;#xE5; koftan. Jag s&amp;#xE5;g spr&amp;#xE4;tten svara att han f&amp;#xF6;rstod, men att han flinade n&amp;#xE4;r han sade det.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Legion of the Damned&lt;/strong&gt; g&amp;#xE5;r ut p&amp;#xE5; scenen. H&amp;#xE4;nder i luften, med &lt;a href="https://en.wikipedia.org/wiki/Sign_of_the_horns"&gt;hornen&lt;/a&gt;. Vr&amp;#xE5;l fr&amp;#xE5;n publiken. Trummor, gitarrer, guttural s&amp;#xE5;ng. Energi som sl&amp;#xE4;pps l&amp;#xF6;s.&lt;/p&gt;
+&lt;p&gt;Efter f&amp;#xF6;rsta refr&amp;#xE4;ngen p&amp;#xE5; f&amp;#xF6;rsta l&amp;#xE5;ten v&amp;#xE4;nde jag &amp;#xE5;ter blicken fr&amp;#xE5;n scenen. Tjejen och koftan var borta, och bredvid mig stod spr&amp;#xE4;tten. Med sitt kortklippta r&amp;#xF6;da h&amp;#xE5;r, fjuniga sk&amp;#xE4;ggstubb och vita t-shirt var han malplacerad l&amp;#xE4;ngst fram p&amp;#xE5; &lt;strong&gt;Legion of the Damned&lt;/strong&gt;. Det var en plats han tagit av n&amp;#xE5;gon som f&amp;#xF6;rtj&amp;#xE4;nat den.&lt;/p&gt;
+&lt;p&gt;Spelningen fortsatte. Spr&amp;#xE4;tten r&amp;#xF6;jde och studsade, men var noga med att inte komma f&amp;#xF6;r n&amp;#xE4;ra min l&amp;#xE5;ngh&amp;#xE5;riga, svettiga, tatuerade och bredarmade uppenbarelse n&amp;#xE4;r vi tillsammans lyssnade p&amp;#xE5; &lt;strong&gt;Legion of the Damned&lt;/strong&gt;. I bryggan p&amp;#xE5; n&amp;#xE4;sta sista l&amp;#xE5;ten var publikens energiniv&amp;#xE5; bra. Bassisten, som st&amp;#xE5;tt framf&amp;#xF6;r oss hela spelningen, ber&amp;#xF6;rdes av sinnesn&amp;#xE4;rvaron hos oss i publiken och gav oss den st&amp;#xF6;rsta bel&amp;#xF6;ningen inom hans makt: ett spontant utkast av plektrumet i hans hand.&lt;/p&gt;
+&lt;p&gt;H&amp;#xE4;r beh&amp;#xF6;vs ett stycke f&amp;#xF6;r att beskriva fenomenet, d&amp;#xE5; det passar till denna historia.&lt;/p&gt;
+&lt;p&gt;Band brukar kasta ut plektrum i slutet av spelningar. De rafsar &amp;#xE5;t sig en h&amp;#xF6;g med 10-15 plektrum, sj&amp;#xE4;lvklart ospelade p&amp;#xE5; under spelningen, och hivar ut det i publiken ett i taget. Vid ytterst s&amp;#xE4;llsamma tillf&amp;#xE4;llen sker dock ovanst&amp;#xE5;ende, att bandmedlemmar sl&amp;#xE4;nger ut det plektrum de brukat hela konserten, &lt;strong&gt;spontant&lt;/strong&gt;, mitt under p&amp;#xE5;g&amp;#xE5;ende spelning. Ofta f&amp;#xF6;ljs gesten av ett leende fr&amp;#xE5;n &amp;#xF6;ron till &amp;#xF6;ron, &lt;a href="https://en.wikipedia.org/wiki/Sign_of_the_horns"&gt;hornen&lt;/a&gt;, en stark tumme upp eller rentav sl&amp;#xE4;ngkyssar fr&amp;#xE5;n den som kastade sitt plektrum.&lt;/p&gt;
+&lt;p&gt;Denna g&amp;#xE5;ng slumpade det sig att plektrumet studsade p&amp;#xE5; spr&amp;#xE4;ttens fingrar, och landade mitt i min kupade hand. Jag sl&amp;#xF6;t handen och f&amp;#xF6;rde den mot kravallstaketet. Spr&amp;#xE4;tten v&amp;#xE4;nde sig mot mig och jag s&amp;#xE5;g hans l&amp;#xE4;ppar forma orden &amp;quot;fick du det?&amp;quot;, varvid jag skakade p&amp;#xE5; huvudet.&lt;/p&gt;
+&lt;p&gt;Spr&amp;#xE4;tten b&amp;#xF6;rjade d&amp;#xE5; leta p&amp;#xE5; marken under sig, och jag passade p&amp;#xE5; att flytta plektrumet till innefickan p&amp;#xE5; min &lt;a href="https://en.wikipedia.org/wiki/Cut-off"&gt;cut&lt;/a&gt;. N&amp;#xE5;gra l&amp;#xE5;tar senare var spelningen slut, och jag visade pletrumet f&amp;#xF6;r mitt s&amp;#xE4;llskap, som flinande ber&amp;#xF6;mde hur l&amp;#xF6;mskt jag snuvat spr&amp;#xE4;tten p&amp;#xE5; det. Plektrumet var ett rej&amp;#xE4;lt tilltaget basplektrum i svart nylon, med &lt;strong&gt;Legion of the Damned&lt;/strong&gt; tryckt p&amp;#xE5; ena sidan. Det var litet kantn&amp;#xF6;tt, men bara fr&amp;#xE5;n str&amp;#xE4;ngarna p&amp;#xE5; en elbas: inte fr&amp;#xE5;n gruset framf&amp;#xF6;r scenen, eller h&amp;#xE5;rda skosulor.&lt;/p&gt;
+&lt;p&gt;Jag fr&amp;#xE5;gade mitt s&amp;#xE4;llskap om han lagt m&amp;#xE4;rke till tjejen som stod bredvid mig innan spr&amp;#xE4;tten. Det hade han gjort, s&amp;#xE5; jag efterfr&amp;#xE5;gade d&amp;#xE5; om hans hj&amp;#xE4;lp att h&amp;#xE5;lla utkik efter henne. En stund senare hittade vi henne, k&amp;#xF6;andes med sin kompis till ett annat band, sittandes vid kravallstaketet.&lt;/p&gt;
+&lt;p&gt;Jag tog n&amp;#xE5;gra sekunder &amp;#xE5;t att i mitt huvud formulera det jag ville ha sagt, d&amp;#xE5; jag noterat att hon inte talade svenska till spr&amp;#xE4;tten. Sedan gick jag fram mot henne och gick ner p&amp;#xE5; huk.&lt;/p&gt;
+&lt;p&gt;Jag h&amp;#xE4;lsade och sade p&amp;#xE5; min b&amp;#xE4;sta skolengelska att jag hade n&amp;#xE5;got som tillh&amp;#xF6;rde henne. Jag h&amp;#xF6;ll upp plektrumet och gjorde en gest om hennes hand, varvid jad placerade plektrumet d&amp;#xE4;r. Jag f&amp;#xF6;rklarade att hon hade st&amp;#xE5;tt bredvid mig tidigare, och att plektrumet d&amp;#xE4;rmed var hennes att f&amp;#xE5;.&lt;/p&gt;
+&lt;p&gt;Hennes ansiktsuttryck brast upp i tacksamhet, lycka och gl&amp;#xE4;dje, och hon b&amp;#xF6;rjade med ett str&amp;#xE5;lande leende, n&amp;#xE4;stan euforiskt svamlande, ber&amp;#xE4;tta att hon inte sett &lt;strong&gt;Legion of the Damned&lt;/strong&gt;, ett av hennes favoritband, p&amp;#xE5; mycket l&amp;#xE4;nge d&amp;#xE5; de inte spelar s&amp;#xE5; ofta d&amp;#xE4;r hon bor. Hon ber&amp;#xE4;ttade att hon &amp;#xE5;kt l&amp;#xE5;ngt, riktigt l&amp;#xE5;ngt, f&amp;#xF6;r att se dem denna g&amp;#xE5;ng. Hon ber&amp;#xE4;ttade om hur litet hon sovit f&amp;#xF6;r att ta sig till G&amp;#xE4;vle. Jag lyssnade med odelad uppm&amp;#xE4;rksamhet p&amp;#xE5; vartenda ord. Hon heter Sarah, och bad om mitt namn: efter ett par f&amp;#xF6;rs&amp;#xF6;k kunde hon &amp;#xE4;ven uttala det.&lt;/p&gt;
+&lt;p&gt;Vi &amp;#xF6;nskade varandra en fortsatt bra festival, och tog farv&amp;#xE4;l. Sarah gav mig ingen kram, men v&amp;#xE5;ra h&amp;#xE4;nder hade kontakt under samtalet. Hon h&amp;#xE4;lsade att hon skulle beh&amp;#xE5;lla plekrumet f&amp;#xF6;r alltid.&lt;/p&gt;
+&lt;p&gt;N&amp;#xE4;r jag kommit tillbaka till mitt s&amp;#xE4;llskap, utbrast han 2019 &amp;#xE5;rs bevingade ord:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;Fundamentally, the article is a shitty strawman argument against PE. It erroneously states that PE proponents want the latest canvas-based in-browser game to work with JS turned off. Which is bollocks, because the argument for PE is developing useful apps and sites that achieve core functionality for everyone, no matter their browser, OS, hardware and user ableness, offering nice-to-haves as the abilities of those things increase. But no, the author has reduced it down to &amp;#x201C;PE hardliners want everything to work without JS&amp;#x201D;.&lt;/p&gt;
+&lt;p&gt;Det d&amp;#xE4;r gav henne hopp om ridderlighetens existens ett tag till.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;De &amp;#xE4;r l&amp;#xE4;sv&amp;#xE4;rda i sin helhet. Det jag personligen kommer att t&amp;#xE4;nka p&amp;#xE5; &amp;#xE4;r att t&amp;#xE4;nket inte &amp;#xE4;r nytt.&lt;/p&gt;
+&lt;p&gt;Historien handlar s&amp;#xE5;ledes om att st&amp;#xE5; upp f&amp;#xF6;r de sm&amp;#xE5;, och att vara b&amp;#xE4;ttre och f&amp;#xF6;red&amp;#xF6;mligare &amp;#xE4;n de giriga. Jag hade med mig m&amp;#xE5;nga h&amp;#xE4;rliga festivalminnen fr&amp;#xE5;n G&amp;#xE4;vle i somras, men detta &amp;#xE4;r vad jag fann behov av att skriva ner.&lt;/p&gt;
+&lt;p&gt;Jag vet ingenting om Sarah mer &amp;#xE4;n att hon har ett plektrum, att hon &amp;#xE4;r liten till v&amp;#xE4;xten och att jag gjorde hennes dag en dag i juli. Jag minns inte i detalj hur hon s&amp;#xE5;g ut.&lt;/p&gt;
+&lt;p&gt;Leendet och kontakten vi hade &amp;#xE4;r dock n&amp;#xE5;got som jag kommer att forts&amp;#xE4;tta uppr&amp;#xE4;tth&amp;#xE5;lla hoppet av och k&amp;#xE4;mpa f&amp;#xF6;r. V&amp;#xE5;r v&amp;#xE4;rld beh&amp;#xF6;ver mer k&amp;#xE4;rlek och sm&amp;#xE5; gester av godhet f&amp;#xF6;r att h&amp;#xE5;lla ondska och m&amp;#xF6;rker borta.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Varför och hur jag ska fördjupa mig i React 2019</title>
+    <id>https://madr.se/2019/react-redux</id>
+    <link href="https://madr.se/2019/react-redux"/>
+    <updated>2019-03-25T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>&lt;p&gt;Med &amp;#xF6;ver 20 &amp;#xE5;r som webbutvecklare ska jag nu g&amp;#xF6;ra en uttalad satsning p&amp;#xE5; en kedja av frontendverktyg. Det h&amp;#xE4;r inl&amp;#xE4;gget &amp;#xE4;r skrivet f&amp;#xF6;r att jag vill minnas sj&amp;#xE4;lv, men ocks&amp;#xE5; f&amp;#xF6;r att inspirera andra.&lt;/p&gt;
+&lt;h2 id="motivering-till-react"&gt;Motivering till React&lt;a class="anchor" href="#motivering-till-react"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Varf&amp;#xF6;r vill jag g&amp;#xF6;ra en satsning p&amp;#xE5; &lt;a href="https://reactjs.org/"&gt;React&lt;/a&gt; och inte exempelvis n&amp;#xE5;gon av alla alternativ?&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;N&amp;#xE4;r CSS b&amp;#xF6;rjade ta fart fanns det folk som f&amp;#xF6;rsvarade fortsatt anv&amp;#xE4;ndning av tabeller f&amp;#xF6;r layout, samt personer som anv&amp;#xE4;nde &lt;code&gt;divs and spans for layout&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;N&amp;#xE4;r IE var den enda webbl&amp;#xE4;saren fanns det personer som ans&amp;#xE5;g att alla andra webbl&amp;#xE4;sare inte r&amp;#xE4;knades, samt folk som tyckte att det var ok att st&amp;#xE4;nga folk med IE ute.&lt;/li&gt;
-&lt;li&gt;N&amp;#xE4;r CSS3 b&amp;#xF6;rjade ta fart fanns personer som bara inkludera &lt;code&gt;-webkit-&lt;/code&gt; prefix, inte &lt;code&gt;-moz-&lt;/code&gt;, &lt;code&gt;-o-&lt;/code&gt; och &lt;code&gt;-ms-&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://angularjs.org/"&gt;Angular2&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vuejs.org/"&gt;Vue&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://elm-lang.org/"&gt;Elm&lt;/a&gt;,&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://reasonml.github.io/"&gt;ReasonML&lt;/a&gt; eller&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/taylorhughes/skit"&gt;skit&lt;/a&gt;?&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Mentaliteten d&amp;#xE4;r verktygen &amp;#xE4;r viktigare &amp;#xE4;n aff&amp;#xE4;rsnytta &amp;#xE4;r inget nytt. Det &amp;#xE4;r l&amp;#xE4;tt att avf&amp;#xE4;rda Progressive Enhancement d&amp;#xE5; det trycker p&amp;#xE5; en &amp;#xF6;m punkt: att det finns ett g&amp;#xE4;ng enheter och scenarion som f&amp;#xF6;rvandlar str&amp;#xE5;lande vacker kod i Det &amp;#xC4;lskade JavaScript-ramverket(tm) till en ol&amp;#xE4;slig klump s&amp;#xF6;rja. Ignorance is bliss.&lt;/p&gt;
-&lt;p&gt;Med detta sagt har &amp;#xE4;ven jag l&amp;#xE4;rt mig att kompromissa f&amp;#xF6;r aff&amp;#xE4;rs- och kundnytta &amp;#xE5;t b&amp;#xE5;da h&amp;#xE5;ll.&lt;/p&gt;
-&lt;p&gt;Under mina 10 &amp;#xE5;r som konsult har inte en enda kund h&amp;#xF6;rt av sig g&amp;#xE4;llande problem relaterat till att JavaScript och CSS &amp;#xE4;r avslaget. Inte heller har n&amp;#xE5;gon h&amp;#xF6;rt av sig om att HTML-dokument inte &amp;#xE4;r tillg&amp;#xE4;ngliga eller semantiskt uppm&amp;#xE4;rkta.&lt;/p&gt;
-&lt;p&gt;I de Google Analytics-rapporter jag baserar en m&amp;#xE5;nadsrapport p&amp;#xE5; f&amp;#xF6;r kunds r&amp;#xE4;kning anv&amp;#xE4;nds sajten enbart av Google Chrome och Safari f&amp;#xF6;r iOS, med mindre &amp;#xE4;n en halv procents anv&amp;#xE4;ndning f&amp;#xF6;r n&amp;#xE5;gon annan enhet eller webbl&amp;#xE4;sare.&lt;/p&gt;
-&lt;p&gt;Med det sagt s&amp;#xE5; bygger jag alltid saker med Progressive Enhancement eftersom det var s&amp;#xE5; jag l&amp;#xE4;rde mig, men det &amp;#xE4;r inte l&amp;#xE4;ngre n&amp;#xE5;got jag tar f&amp;#xF6;r givet att se som ekvivalent till kund- och aff&amp;#xE4;rsnytta.&lt;/p&gt;
+&lt;p&gt;Det finns goda sk&amp;#xE4;l. Jag har kodat React av och till de fyra senaste &amp;#xE5;ren, men bara i andras kod och aldrig utanf&amp;#xF6;r jobbet. Nu ska jag satsa p&amp;#xE5; att skriva mycket kod med just detta bibliotek, av f&amp;#xF6;ljande anledningar.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React (med allt runtom) &amp;#xE4;r sv&amp;#xE5;rt. Det beh&amp;#xF6;vs tid och skrivande av kod f&amp;#xF6;r att l&amp;#xE4;ra sig alla de olika delarna. Det g&amp;#xE5;r inte att g&amp;#xF6;ra litet sporadiskt fulkodande i React.&lt;/li&gt;
+&lt;li&gt;React &amp;#xE4;r fortfarande en av de popul&amp;#xE4;raste biblioteken f&amp;#xF6;r sitt omr&amp;#xE5;de, trots m&amp;#xE5;nga &amp;#xE5;r under lupp av granskande webbutvecklare.&lt;/li&gt;
+&lt;li&gt;Det &amp;#xE4;r vad &lt;a href="https://kundo.se"&gt;Kundo&lt;/a&gt; anv&amp;#xE4;nder (&amp;#xE4;ven om vi ocks&amp;#xE5; sneglar hungrigt p&amp;#xE5; Elm).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="de-delar-av-react-som-intresserar-mig"&gt;De delar av React som intresserar mig&lt;a class="anchor" href="#de-delar-av-react-som-intresserar-mig"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://redux.js.org/"&gt;Redux&lt;/a&gt;, f&amp;#xF6;r att hantera state p&amp;#xE5; ett bra s&amp;#xE4;tt.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/redux-saga/redux-saga"&gt;Redux-sagas&lt;/a&gt;, f&amp;#xF6;r att l&amp;#xE4;ra mig mer om JavaScript-generatorer och hantering av asynkrona sidoeffekter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Jag vill ocks&amp;#xE5; bli litet b&amp;#xE4;ttre p&amp;#xE5; mer generella Javascript-verktyg.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://babeljs.io/"&gt;Babel&lt;/a&gt;, f&amp;#xF6;r att skriva modern JavaScript.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://parceljs.org/"&gt;Parcel&lt;/a&gt;, f&amp;#xF6;r att det verkar mer kompetent &amp;#xE4;n Webpack.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="steg-0---bekanta-mig-med-verktygen-"&gt;Steg 0 - Bekanta mig med verktygen &amp;#x2714;&lt;a class="anchor" href="#steg-0---bekanta-mig-med-verktygen-"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag jobbar med React och Redux p&amp;#xE5; jobbet, d&amp;#xE4;r flera produkter &amp;#xE4;r byggda med React och Redux. Detta var d&amp;#xE4;rf&amp;#xF6;r en enkel punkt att bocka av.&lt;/p&gt;
+&lt;h2 id="steg-1---skriv-simpla-saker-i-react-"&gt;Steg 1 - Skriv simpla saker i React &amp;#x2714;&lt;a class="anchor" href="#steg-1---skriv-simpla-saker-i-react-"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag har b&amp;#xF6;rjat koda hobbyprojekt i React och har n&amp;#xE5;gra projekt fr&amp;#xE5;n 2018 p&amp;#xE5; Github: &lt;a href="https://github.com/madr/brutal-legend"&gt;Br&amp;#xFC;tal Legend&lt;/a&gt;, och &lt;a href="https://github.com/madr/urban-enigma"&gt;en p&amp;#xE5;b&amp;#xF6;rjad tr&amp;#xE4;ningsapp&lt;/a&gt;. Den f&amp;#xF6;rsta &amp;#xE4;r vanilla CSS p&amp;#xE5; webpack, den andra &amp;#xE4;r Sass med Parcel.&lt;/p&gt;
+&lt;h2 id="nsta-steg---utforska-olika-delar-av-react--redux-vrlden"&gt;N&amp;#xE4;sta steg - Utforska olika delar av React + redux-v&amp;#xE4;rlden&lt;a class="anchor" href="#nsta-steg---utforska-olika-delar-av-react--redux-vrlden"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag har ett g&amp;#xE4;ng andra id&amp;#xE9;er p&amp;#xE5; g&amp;#xE5;ng som jag inte kommer att n&amp;#xE4;mna h&amp;#xE4;r, men jag har en liten todo som jag ska g&amp;#xF6;ra under 2019 f&amp;#xF6;r att utmana mig sj&amp;#xE4;lv att l&amp;#xF6;sa och uppleva vanliga problem/m&amp;#xF6;nster inom React och redux.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Anv&amp;#xE4;nd &lt;strong&gt;alltid&lt;/strong&gt; React, Redux och Babel.&lt;/li&gt;
+&lt;li&gt;Utforska g&amp;#xE4;rna fler bundlers &amp;#xE4;n Parcel och Webpack.&lt;/li&gt;
+&lt;li&gt;Hantera asynkront state med &lt;a href="https://github.com/redux-saga/redux-saga"&gt;Redux-sagas&lt;/a&gt;, exempelvis med &lt;code&gt;fetch()&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Spara state med &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Local_storage"&gt;localStorage&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Hantera CRUD av state med &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker"&gt;ServiceWorker&lt;/a&gt;: l&amp;#xE5;tsas att det &amp;#xE4;r en server som svarar och hantera d&amp;#xE4;r state med localStorage eller &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"&gt;IndexedDB&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Uppdatera state med Websockets, f&amp;#xF6;rslagsvis &lt;a href="https://hexdocs.pm/phoenix/Phoenix.Presence.html"&gt;Phoenix Presence&lt;/a&gt; eller &lt;a href="https://socket.io/"&gt;SocketIO&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;G&amp;#xE5; p&amp;#xE5; Meetups&lt;/strong&gt;. F&amp;#xF6;r att p&amp;#xE5; riktigt f&amp;#xE5; umg&amp;#xE5;s med communityt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detta kommer f&amp;#xF6;rhoppningsvis att bli en inl&amp;#xE4;ggs-serie som jag uppdaterar under &amp;#xE5;ret.&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Less is More - omgörning(ar) av madr.se</title>
-    <id>https://madr.se/2016/less-is-more</id>
-    <link href="https://madr.se/2016/less-is-more"/>
-    <updated>2016-11-17T00:00:00.000Z</updated>
+    <title>Varför och hur jag ska fokusera på att lära mig Elixir 2019</title>
+    <id>https://madr.se/2019/elixir</id>
+    <link href="https://madr.se/2019/elixir"/>
+    <updated>2019-03-16T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
       <email>yttan@fastmail.se</email>
     </author>
-    <content>&lt;p&gt;F&amp;#xF6;r n&amp;#xE4;stan 1,5 &amp;#xE5;r sedan sm&amp;#xF6;g jag helt fr&amp;#xE4;ckt ut en ny design av den h&amp;#xE4;r hemsidan, d&amp;#xE4;r jag dessutom kastade ut Django utan minsta f&amp;#xF6;rvarning.&lt;/p&gt;
-&lt;p&gt;Ska jag hitta p&amp;#xE5; en bra urs&amp;#xE4;kt s&amp;#xE5; var det fr&amp;#xE4;mst f&amp;#xF6;r att &lt;a href="https://blog.heroku.com/new-dyno-types-public-beta"&gt;Heroku inte l&amp;#xE4;ngre kan k&amp;#xF6;ras helt gratis&lt;/a&gt;. Men helt &amp;#xE4;rligt s&amp;#xE5; hade tanken p&amp;#xE5; att g&amp;#xE5; vidare fr&amp;#xE5;n Django funnits i mitt huvud ett tag redan.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Less is more&lt;/strong&gt;. Jag bloggar p&amp;#xE5; den h&amp;#xE4;r hemsidan r&amp;#xE4;tt sporadiskt. Jag anv&amp;#xE4;nder den inte f&amp;#xF6;r n&amp;#xE5;got s&amp;#xE4;rskilt, annat &amp;#xE4;n att blogga om s&amp;#xE5;nt jag tycker &amp;#xE4;r v&amp;#xE4;rt att kunna blicka tillbaka p&amp;#xE5; i retrospektiv, fr&amp;#xE4;mst f&amp;#xF6;r egen del.&lt;/p&gt;
-&lt;p&gt;S&amp;#xE5; n&amp;#xE4;r jag snubblade &amp;#xF6;ver &lt;a href="http://metalsmith.io"&gt;MetalSmith&lt;/a&gt;, en modul&amp;#xE4;r och pluginbaserad variant p&amp;#xE5; generatorer f&amp;#xF6;r statiska hemsidor, blev jag genast inspirerad. P&amp;#xE5; n&amp;#xE5;gra kv&amp;#xE4;llar hade jag skrivit n&amp;#xE5;gra byggscript i Node.js och litet CSS, samt ett export-script i Django.&lt;/p&gt;
-&lt;p&gt;Jag placerade de genererade HTML-filerna p&amp;#xE5; min egen VPS, och skj&amp;#xF6;t upp k&amp;#xE4;llkoden p&amp;#xE5; Github f&amp;#xF6;r att f&amp;#xE5; litet backup. N&amp;#xE5;gon m&amp;#xE5;nad senare skapade jag ocks&amp;#xE5; ett SSL-certifikat s&amp;#xE5; att sajten numera k&amp;#xF6;r &amp;#xF6;ver HTTPS. Detta skedde sommaren 2015.&lt;/p&gt;
-&lt;p&gt;I och med detta inl&amp;#xE4;gg har jag piffat upp med litet ny CSS och litet uppst&amp;#xE4;dning bland gamla sidor. &amp;#xC5;terigen, &lt;strong&gt;less os more&lt;/strong&gt;: jag st&amp;#xE4;dade h&amp;#xE4;r bort JavaScript som inte anv&amp;#xE4;ndes, samt n&amp;#xE5;gra beroenden som inte l&amp;#xE4;ngre var aktuella i &lt;code&gt;package.json&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Madr.se &amp;#xE4;r n&amp;#xE4;r allt kommer omkring det mest personliga jag har p&amp;#xE5; Internet. Jag &amp;#xE4;r ingen person som uppskattar verktyg som g&amp;#xE5;r i tr&amp;#xE4;da. S&amp;#xE5;nt som inte kommer till anv&amp;#xE4;ndning ska ut. Enkelt.&lt;/p&gt;
-&lt;p&gt;Detta gjorde jag &amp;#xE4;ven med tanke p&amp;#xE5; att madr.se fyller 10 &amp;#xE5;r i slutet av december. Det &amp;#xE4;r utan t&amp;#xE4;vlan det l&amp;#xE4;ngsta jag givit en och samma sajt.&lt;/p&gt;
-&lt;p&gt;Jag kommer troligtvis att till&amp;#xE5;ta mig att bli litet nostalgisk genom att skriva n&amp;#xE5;gra rader om de sajter jag drev innan n&amp;#xE4;r det s&amp;#xE5; &amp;#xE4;r dags att fira 10 &amp;#xE5;r med samma blogg. M&amp;#xE5;h&amp;#xE4;nda kikar jag tillbaka p&amp;#xE5; vem jag var d&amp;#xE5;, i december 2006.&lt;/p&gt;
+    <content>&lt;p&gt;Jag har &lt;a href="/2017/2017/"&gt;tidigare skrivit om min nyfikenhet p&amp;#xE5; Elixir&lt;/a&gt;. Det &amp;#xE4;r snart 7 &amp;#xE5;r sedan jag satsade p&amp;#xE5; att l&amp;#xE4;ra mig ett nytt programmeringsspr&amp;#xE5;k, vilket den g&amp;#xE5;ngen blev Python. Jag har varit supern&amp;#xF6;jd med den investeringen, och har tack vare den f&amp;#xE5;tt arbeta med mycket sp&amp;#xE4;nnande uppdrag och hamnat hos en Python-orienterad utvecklingsavdelning p&amp;#xE5; &lt;a href="https://kundo.se"&gt;Kundo&lt;/a&gt; i Stockholm.&lt;/p&gt;
+&lt;p&gt;Med &amp;#xF6;ver 20 &amp;#xE5;r som webbutvecklare ska jag nu ta mig ann ett helt nytt programmeringsspr&amp;#xE5;k, ett nytt webbramverk och en ny programmerings-paradigm. Det h&amp;#xE4;r inl&amp;#xE4;gget &amp;#xE4;r skrivet f&amp;#xF6;r att jag vill minnas sj&amp;#xE4;lv, men ocks&amp;#xE5; f&amp;#xF6;r att inspirera andra.&lt;/p&gt;
+&lt;h2 id="motivering-till-elixir"&gt;Motivering till Elixir&lt;a class="anchor" href="#motivering-till-elixir"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Varf&amp;#xF6;r vill jag kika p&amp;#xE5; &lt;a href="https://elixir-lang.org/"&gt;Elixir&lt;/a&gt;? Vad &amp;#xE4;r det som Elixir ger mig som Python inte har?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Det &amp;#xE4;r ett &lt;strong&gt;funktionellt spr&amp;#xE5;k&lt;/strong&gt;, som &amp;#xE4;r litet av en fluga just nu och d&amp;#xE4;rf&amp;#xF6;r n&amp;#xE5;got alla seri&amp;#xF6;sa webbutvecklare med yrkesstolthet beh&amp;#xF6;ver ta st&amp;#xE4;llning till.&lt;/li&gt;
+&lt;li&gt;Dess &lt;strong&gt;syntax&lt;/strong&gt; k&amp;#xE4;nns bekant, med min bakgrund med JavaScript, Python och Ruby.&lt;/li&gt;
+&lt;li&gt;Dess prestanda och p&amp;#xE5;litlighet p&amp;#xE5; grund av att Elixir exekveras i Erlangs VM.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hex&lt;/strong&gt; och &lt;strong&gt;Hex docs&lt;/strong&gt; har ett community som imponerar med sin h&amp;#xF6;ga kvalitet p&amp;#xE5; paket och dokumentation.&lt;/li&gt;
+&lt;li&gt;Och sist men inte minst: &lt;strong&gt;Webbramverket Phoenix&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Varf&amp;#xF6;r &amp;#xE4;r &lt;a href="https://www.phoenixframework.org"&gt;Phoenix&lt;/a&gt; s&amp;#xE5; intressant f&amp;#xF6;r mig? Vad kan Phoenix som inte redan &lt;a href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; och &lt;a href="https://www.djangoproject.com/"&gt;Django&lt;/a&gt; erbjuder mig?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;realtids-interaktivitet med WebSockets&lt;/strong&gt;. Django och Flask &amp;#xE4;r kungar n&amp;#xE4;r det kommer till att bygga saker &amp;#xF6;ver HTTP. Verkligheten &amp;#xE4;r dock en annan idag, d&amp;#xE4;r samarbetsfunktioner och realtids-uppdatering inte l&amp;#xE4;ngre &amp;#xE4;r en lyx utan n&amp;#xE5;got som tas f&amp;#xF6;r givet.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/phoenixframework/phoenix_live_view"&gt;Phoenix Live views&lt;/a&gt;, som exekverar kod p&amp;#xE5; servern &amp;#xF6;ver websockets ist&amp;#xE4;llet f&amp;#xF6;r att koda saker i JavaScript.&lt;/li&gt;
+&lt;li&gt;Det &amp;#xE4;r ett modernt webbramverk f&amp;#xF6;r sent 2010-tal, utan nostalgivibbar eller teknisk skuld, designat f&amp;#xF6;r dagens utmaningar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="steg-0---ls-bcker-om-elixir-och-phoenix-"&gt;Steg 0 - l&amp;#xE4;s b&amp;#xF6;cker om Elixir och Phoenix &amp;#x2714;&lt;a class="anchor" href="#steg-0---ls-bcker-om-elixir-och-phoenix-"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Under 2017 och 2018 l&amp;#xE4;ste jag ett par b&amp;#xF6;cker om Elixir, f&amp;#xF6;r att f&amp;#xE5; litet introduktion till det nya i kontrollerad form.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pragprog.com/book/elixir16/programming-elixir-1-6"&gt;Programming Elixir&lt;/a&gt; - Introduktion till Elixir och OTP. &lt;em&gt;(h&amp;#xF6;sten 2017)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pragprog.com/book/phoenix14/programming-phoenix-1-4"&gt;Programming Phoenix&lt;/a&gt; - Introduktion till ramverket Phoenix. &lt;em&gt;(h&amp;#xF6;sten 2017)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pragprog.com/book/lhelph/functional-web-development-with-elixir-otp-and-phoenix"&gt;Functional Web Development with Elixir, OTP, and Phoenix&lt;/a&gt; - Superpraktisk till&amp;#xE4;mpning d&amp;#xE4;r ett spel byggs i Elixir, OTP och Phoenix. (&lt;em&gt;v&amp;#xE5;ren 2018)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pragprog.com/book/tvmelixir/adopting-elixir"&gt;Adopting Elixir&lt;/a&gt;. Om drifts&amp;#xE4;ttning, inl&amp;#xE4;rning, kunskapspridning och mer kring Elixir som inte handlar om kod. &lt;em&gt;(h&amp;#xF6;sten 2018)&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Efter dessa b&amp;#xF6;cker k&amp;#xE4;nner jag att det &amp;#xE4;r dags att sluta studera p&amp;#xE5; avst&amp;#xE5;nd och &lt;strong&gt;b&amp;#xF6;rja koda p&amp;#xE5; riktigt&lt;/strong&gt;, d&amp;#xE5; det &amp;#xE4;r det som verkligen kr&amp;#xE4;vs f&amp;#xF6;r att f&amp;#xE5; litet fart.&lt;/p&gt;
+&lt;h2 id="steg-1---skriv-simpla-saker-i-elixir-"&gt;Steg 1 - Skriv simpla saker i Elixir &amp;#x2714;&lt;a class="anchor" href="#steg-1---skriv-simpla-saker-i-elixir-"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag har b&amp;#xF6;rjat koda i Elixir och har n&amp;#xE5;gra projekt fr&amp;#xE5;n 2018 p&amp;#xE5; Github: &lt;a href="https://github.com/madr/refactored-octo-succotash"&gt;En simulator f&amp;#xF6;r RISK-slag&lt;/a&gt;, och &lt;a href="https://github.com/madr/super-octo-train"&gt;N&amp;#xE5;gra l&amp;#xF6;sningar i Advent of Code 2018&lt;/a&gt;. Gemensamt f&amp;#xF6;r dessa &amp;#xE4;r att jag anv&amp;#xE4;nt tester rikligt, och f&amp;#xF6;rs&amp;#xF6;kt skriva saker &amp;quot;som man ska&amp;quot;.&lt;/p&gt;
+&lt;h2 id="nsta-steg---koda-enklare-webbsaker-i-phoenix"&gt;N&amp;#xE4;sta steg - koda enklare webbsaker i Phoenix!&lt;a class="anchor" href="#nsta-steg---koda-enklare-webbsaker-i-phoenix"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Jag har ett g&amp;#xE4;ng andra id&amp;#xE9;er p&amp;#xE5; g&amp;#xE5;ng som jag inte kommer att n&amp;#xE4;mna h&amp;#xE4;r, men jag har en liten todo som jag ska g&amp;#xF6;ra under 2019.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Skriv n&amp;#xE5;got enkelt i Phoenix&lt;/strong&gt;. F&amp;#xF6;rmodligen blir det ett webbgr&amp;#xE4;nssnitt f&amp;#xF6;r RISK-simulatorn.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skriv ett REST-API i Phoenix&lt;/strong&gt;. F&amp;#xF6;r &lt;code&gt;GET&lt;/code&gt;, &lt;code&gt;POST&lt;/code&gt;, &lt;code&gt;PATCH&lt;/code&gt; och &lt;code&gt;DELETE&lt;/code&gt;. F&amp;#xF6;r att kika p&amp;#xE5; Phoenix HTTP endpoints, och att bekanta mig med &lt;a href="https://hexdocs.pm/ecto/Ecto.html"&gt;Ecto&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;G&amp;#xF6;r n&amp;#xE5;got realtids-k&amp;#xE4;nsligt med Phoenix&lt;/strong&gt;. Exempelvis en Dashboard eller en chatt. F&amp;#xF6;r att bekanta mig med &lt;a href="https://hexdocs.pm/phoenix/channels.html#content"&gt;Channels&lt;/a&gt; och &lt;a href="https://hexdocs.pm/phoenix/presence.html"&gt;Presence&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Skriv n&amp;#xE5;got enkelt i Phoenix Live views&lt;/strong&gt;. Exempelvis n&amp;#xE5;got som validerar data eller filtrerar en lista. F&amp;#xF6;r att bekanta mig med Live Views.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deploya n&amp;#xE5;got i Phoenix till Heroku&lt;/strong&gt;. F&amp;#xF6;r att det ska vara enkelt som m&amp;#xF6;jligt.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deploya n&amp;#xE5;got i Phoenix till Docker&lt;/strong&gt;. F&amp;#xF6;r att samtidigt f&amp;#xE5; litet kunskap om Docker.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Genomf&amp;#xF6;r Advent of Code 2019 i Elixir&lt;/strong&gt;. F&amp;#xF6;r att koda &amp;#xE4;nnu mer.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;#xC5;k p&amp;#xE5; ElixirConf under 2020&lt;/strong&gt;. F&amp;#xF6;r att p&amp;#xE5; riktigt f&amp;#xE5; umg&amp;#xE5;s med communityt.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Detta kommer f&amp;#xF6;rhoppningsvis att bli en inl&amp;#xE4;ggs-serie som jag uppdaterar under &amp;#xE5;ret.&lt;/p&gt;
 </content>
   </entry>
   <entry>
-    <title>Uppladdning inför Advent of Code 2016</title>
-    <id>https://madr.se/2016/aoc-2016</id>
-    <link href="https://madr.se/2016/aoc-2016"/>
-    <updated>2016-11-17T00:00:00.000Z</updated>
+    <title>Först när Mats var död förstod föräldrarna värdet av hans spelande →</title>
+    <id>https://madr.se/2019/mats</id>
+    <link href="https://madr.se/2019/mats"/>
+    <updated>2019-02-18T00:00:00.000Z</updated>
     <author>
       <name>Anders Ytterström</name>
       <email>yttan@fastmail.se</email>
     </author>
-    <content>&lt;p&gt;Jag har under &amp;#xE5;ret skrivit mer kod &amp;#xE4;n p&amp;#xE5; m&amp;#xE5;nga tidigare &amp;#xE5;r, s&amp;#xE5; vad &amp;#xE4;r v&amp;#xE4;l mer passande &amp;#xE4;n att anv&amp;#xE4;nda formtoppen till n&amp;#xE5;got kul?&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://adventofcode.com"&gt;Advent of Code&lt;/a&gt; &amp;#xE4;r en adventskalender f&amp;#xF6;r programmerare. Varje dag 1-25 december sl&amp;#xE4;pps en nya uppgift som kan l&amp;#xF6;sas med valfritt programmeringsspr&amp;#xE5;k.  Det h&amp;#xF6;lls f&amp;#xF6;r f&amp;#xF6;rsta g&amp;#xE5;ngen 2015 och repriseras i &amp;#xE5;r.&lt;/p&gt;
-&lt;p&gt;Jag deltog inte f&amp;#xF6;rra &amp;#xE5;ret men jag hade t&amp;#xE4;nkt ta revanch i &amp;#xE5;r genom att f&amp;#xF6;rs&amp;#xF6;ka slutf&amp;#xF6;ra hela kalendern med minst tv&amp;#xE5; programmeringsspr&amp;#xE5;k: ett f&amp;#xF6;r mig v&amp;#xE4;lbekant, och ett f&amp;#xF6;r mig obekant.&lt;/p&gt;
-&lt;p&gt;Det v&amp;#xE4;lbekanta spr&amp;#xE5;ket &amp;#xE4;r ingen h&amp;#xF6;goddsare: &lt;strong&gt;Python 3&lt;/strong&gt;. Det &amp;#xE4;r sedan fyra &amp;#xE5;r mitt f&amp;#xF6;rstahandsval f&amp;#xF6;r att koda webbbackends och scripts, s&amp;#xE5; jag ser fram emot att f&amp;#xE5; prova Python p&amp;#xE5; ren probleml&amp;#xF6;snings-orienterad programmering.&lt;/p&gt;
-&lt;p&gt;Det f&amp;#xF6;r mig obekanta spr&amp;#xE5;ket var litet tufft att v&amp;#xE4;lja ut, men landade till slut p&amp;#xE5; ett av de spr&amp;#xE5;k som fascinerar mig mest: &lt;strong&gt;Lisp&lt;/strong&gt;. H&amp;#xE4;r har jag &amp;#xE4;nnu inte valt dialekt, men jag har smalnat av till antingen &lt;strong&gt;Common Lisp&lt;/strong&gt; (d&amp;#xE5; Clozure Common Lisp) eller &lt;strong&gt;Scheme&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;D&amp;#xE5; Lisp &amp;#xE4;r mig totalt obekant kommer jag att tillbringa n&amp;#xE4;rmasta dagarna &amp;#xE5;t att l&amp;#xE4;sa p&amp;#xE5; litet och sedan v&amp;#xE4;lja dialekt baserat p&amp;#xE5; Minsta motst&amp;#xE5;ndets lag.&lt;/p&gt;
-&lt;p&gt;Jag ska en g&amp;#xE5;ng f&amp;#xF6;r alla ifr&amp;#xE5;gas&amp;#xE4;tta myten om att JavaScript och Lisp har likheter, om s&amp;#xE5; bara f&amp;#xF6;r min egen skull.&lt;/p&gt;
-&lt;p&gt;Jag har redan tjuvstartat genom att forka &lt;a href="https://gitub.com/madr/advent_of_code_2016"&gt;Kodsnacks repo p&amp;#xE5; Github&lt;/a&gt; f&amp;#xF6;r att kunna l&amp;#xE4;mna in l&amp;#xF6;sningarna i ett lokalt sammanhang, samt f&amp;#xF6;r att utmana mig sj&amp;#xE4;lv litet att versionshantera l&amp;#xF6;sningarna ordentligt.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Remember, remember ...</title>
-    <id>https://madr.se/2016/5-nov</id>
-    <link href="https://madr.se/2016/5-nov"/>
-    <updated>2016-11-05T00:00:00.000Z</updated>
-    <author>
-      <name>Anders Ytterström</name>
-      <email>yttan@fastmail.se</email>
-    </author>
-    <content>&lt;p&gt;Sammanfattar g&amp;#xE5;rdagen med att den i allra h&amp;#xF6;gsta grad &amp;#xE4;r v&amp;#xE4;rd att minnas.&lt;/p&gt;
-&lt;p&gt;T&amp;#xE5;gresa genom ett H&amp;#xE4;lsingland med sn&amp;#xF6;t&amp;#xE4;ckta skogar, den &amp;#xE5;rliga visningen av V f&amp;#xF6;r
-Vendetta, en h&amp;#xE4;rlig promenad tv&amp;#xE4;rs &amp;#xF6;ver S&amp;#xF6;der, det spontana m&amp;#xF6;tet med Myrkur p&amp;#xE5; hotellet,
-samt spelning med Opeth vars setlist var oerh&amp;#xF6;rt bra, med Myrkur som f&amp;#xF6;rband: dessa &amp;#xE4;r de
-orsaker till att jag kommer att minnas 5 november fr&amp;#xE5;n detta &amp;#xE5;r.&lt;/p&gt;
+    <content>&lt;p&gt;Jag tog mig denna morgon tiden att grundligt l&amp;#xE4;sa artikeln &lt;a href="https://www.svt.se/nyheter/utrikes/berattelsen-om-mats"&gt;F&amp;#xF6;rst n&amp;#xE4;r Mats var d&amp;#xF6;d f&amp;#xF6;rstod f&amp;#xF6;r&amp;#xE4;ldrarna v&amp;#xE4;rdet av hans gaming&lt;/a&gt;, som handlar om ett par f&amp;#xF6;r&amp;#xE4;ldrar som i sin sorg &amp;#xF6;ver att ha f&amp;#xF6;rlorat sin son uppt&amp;#xE4;ckte en v&amp;#xE4;rld de i efterhand &amp;#xF6;nskar att de fr&amp;#xE5;gat honom mer om.&lt;/p&gt;
+&lt;p&gt;Det &amp;#xE4;r en historia som verkligen &amp;#xE4;r v&amp;#xE4;rd att dela. Den &amp;#xE4;r nyanserad och har en bildande, objektiv ton. Dels &amp;#xE4;r det f&amp;#xF6;r&amp;#xE4;ldrars och &amp;#xE4;ldre generationers definitioner av ensamhet och v&amp;#xE4;nskap, som kraftigt s&amp;#xE4;tter sig i f&amp;#xF6;rsvarsst&amp;#xE4;llning &amp;#xF6;ver att yngre generationen &amp;quot;bara sitter och spelar framf&amp;#xF6;r datorn&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Dels &amp;#xE4;r det en redog&amp;#xF6;relse f&amp;#xF6;r hur en rullstolsbunden ung person med en s&amp;#xE4;llsynt sjukdom som &amp;#xE4;r ekvivalent med en d&amp;#xF6;dsdom. Om hur han i en virtuell verklighet spelar en l&amp;#xF6;pare, vars fr&amp;#xE4;msta syfte och mening med sin existens &amp;#xE4;r att springa och f&amp;#xE5; andra att springa. Genom att stiga in i en annan v&amp;#xE4;rld &amp;#xE4;n den fysiska blev han n&amp;#xE5;gon annan. Eller kanske snarare, mer sig sj&amp;#xE4;lv.&lt;/p&gt;
+&lt;p&gt;Detta &amp;#xE4;r &lt;strong&gt;m&amp;#xE5;stel&amp;#xE4;sning&lt;/strong&gt; f&amp;#xF6;r alla f&amp;#xF6;r&amp;#xE4;ldrar. G&amp;#xF6;r inte om misstaget som dessa tv&amp;#xE5; gjorde. Visa intresse och f&amp;#xF6;rst&amp;#xE5;else f&amp;#xF6;r era barn om de investerar mycket tid vid en dator. Underskatta inte alla m&amp;#xF6;jligheter detta inneb&amp;#xE4;r.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fr&amp;#xE5;ga dem varf&amp;#xF6;r de g&amp;#xF6;r det.&lt;/li&gt;
+&lt;li&gt;Vad de g&amp;#xF6;r.&lt;/li&gt;
+&lt;li&gt;Hur de utvecklas inom det.&lt;/li&gt;
+&lt;li&gt;Fr&amp;#xE5;ga andra f&amp;#xF6;r&amp;#xE4;ldrar vad och hur de g&amp;#xF6;r.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Det kan inte l&amp;#xE4;ngre ses som lek. Vi m&amp;#xE5;ste ta oss &amp;#xF6;ver den barri&amp;#xE4;ren. L&amp;#xE5;t oss hj&amp;#xE4;lpas att fixa detta.&lt;/p&gt;
 </content>
   </entry>
 </feed>

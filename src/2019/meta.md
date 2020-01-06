@@ -2,6 +2,7 @@
 title: Tuffa saker i senaste iterationen av madr.se
 date: 2019-10-26
 layout: single.hbs
+collection: articles
 ---
 
 Här går det att infoga valfri fyndighet om skomakarens barn. Istället tänker jag dock
@@ -55,6 +56,19 @@ I samband med att _Dark Mode_ börjar bli en grej som allt fler använder i Wind
 ```css
 @media (prefers-color-scheme: light) {
   /* css för att ändra färger. */
+}
+```
+
+Om besökaren också ställt in att [stänga av animeringar på sin enhet][7], inaktiveras alla transitions och animations globalt.
+
+```css
+@media (prefers-reduced-motion) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
 }
 ```
 
@@ -118,3 +132,4 @@ _Denna lista kommer troligtvis att fyllas på._
 [3]: https://github.com/madr/19/.stylelintrc.json
 [4]: https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 [5]: https://search.google.com/structured-data/testing-tool#url=https%3A%2F%2Fmadr.se%2F1%2F
+[7]: https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion#User_Preferences
