@@ -33,7 +33,11 @@
     {{#if album}}
     {{> teaser-brutal}}
     {{else}}
+    {{#if link}}
+    {{> teaser-link}}
+    {{else}}
     {{> teaser-post }}
+    {{/if}}
     {{/if}}
     {{/if}}
     {{/each}}

@@ -1,11 +1,7 @@
 <article class="teaser teaser--link">
-  <p>
-    {{ comment }}
-  </p>
-  <blockquote>
-    {{{ contents }}}
-  </blockquote>
-  Källa: <a href="{{ source }}" rel="external noopener noreferrer">{{ title }}</a>
+  <h2 class="visuallyhidden">{{ title }} →</h2 class="visuallyhidden">
+  {{{ contents }}}
+  Källa: <a href="{{ source }}" rel="external noopener noreferrer">{{ original }}</a>
   <footer class="teaser__footer">
     <a href="../{{ path }}"><time>{{ date }}</time></a>
     <a rel="author" href="../om">
