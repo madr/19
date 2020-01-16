@@ -3,7 +3,9 @@ title: Hej, Jag heter Anders!
 layout: single.hbs
 ---
 
-Jag är bosatt i Stockholm och titulerar mig webbutvecklare, hobbymusikant, hårdrockare och skrotlyftare.
+Jag är bosatt i Stockholm och titulerar mig webbutvecklare, hobbymusikant, hårdrockare, skrotlyftare och brädspelare.
+
+Jag känns kanske igen ifrån [Twitter](https://twitter.com/madr_se), [Dotabuff](https://www.dotabuff.com/players/42850321), [Last.fm](http://www.lastfm.se/user/Madr), [Github](https://github.com/madr), [Soundcloud](https://soundcloud.com/madr), [Stack Overflow](http://stackoverflow.com/users/512382/madr) eller [Songkick](https://www.songkick.com/users/madrse).
 
 ## Nuvarande projekt
 
@@ -14,10 +16,11 @@ Och denna webbplats, såklart! Jag tycker om att prova tekniska saker här, och 
 
 ## Webbutvecklar-profil
 
-Jag har tekniskt fokus på följande tekniker som jag vill lära mig mer om.
+Jag har fokus på följande tekniker som jag vill lära mig mer om.
 
 - React och Redux.
-- Elixir, Phoenix och Phoenix Presence.
+- Elixir, Phoenix och Phoenix LiveViews.
+- Rust.
 
 Jag har mer än fem års erfarenhet av nedanstående tekniker och vanor.
 
@@ -28,7 +31,7 @@ Jag har mer än fem års erfarenhet av nedanstående tekniker och vanor.
 - Mobile first, Android och iPhone.
 - Wordpress, Drupal, Silverstripe och PHP.
 
-Min favoritdistro är [Arch linux](https://archlinux.org), som jag använt sedan 2011. Jag var Mac-användare 2001-2017, men är nu i exil.
+Min favoritdistro är [Arch linux](https://archlinux.org), som jag använt sedan 2011. Jag var Mac-användare 2001-2017, och är det återigen 2020 - framåt.
 
 ## Tidigare projekt
 
@@ -61,15 +64,6 @@ Mellan december 2012 och september 2016 spelade jag [Dota 2](https://www.dotabuf
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/338405901&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/338405905&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-
-## Närvaro
-
-- [Twitter](https://twitter.com/madr_se) - Mitt sporadiska rantande.
-- [Dotabuff](https://www.dotabuff.com/players/42850321) - Mitt avancemang i Dota 2.
-- [Last.fm](http://www.lastfm.se/user/Madr) - den musik jag lyssnar på via loggbart medium.
-- [Github](https://github.com/madr) - kod jag delar och bidrar till.
-- [Soundcloud](https://soundcloud.com/madr) - musik jag spontant skapar.
-- [Stack Overflow](http://stackoverflow.com/users/512382/madr)
 
 [^0]: Hemsidans ASP-jox blev senare portad till Wordpress. Jag förblev hedersmedlem fram tills föreningen avslutades våren 2019. Jag är via Catahya även [publicerad författare](https://www.goodreads.com/author/show/7245013.Mars_Ytterstr_m).
 [^1]: Detta är mitt mest forkade repo på Github. Personligen har jag gått över till Less och [autoprefixer](https://www.npmjs.com/package/autoprefixer) för de sällsamma fall där vendor-prefix fortfarande behövs.
