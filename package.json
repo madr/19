@@ -2,6 +2,9 @@
   "name": "madr-se-19",
   "private": true,
   "dependencies": {},
+  "scripts": {
+    "build": "node index.js"
+  },
   "devDependencies": {
     "handlebars": "^4.3.1",
     "hilight": "0.0.1",
