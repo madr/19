@@ -41,6 +41,9 @@
       </p>
       {{/if}}
       {{{ contents }}}
+      {{#if source}}
+      <p>Källa: <a href="{{ source }}" rel="external noopener noreferrer">{{ original }}</a></p>
+      {{/if}}
     </article>
   </main>
   {{> aside }}

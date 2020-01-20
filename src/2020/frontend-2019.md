@@ -1,7 +1,7 @@
 ---
-title: "En sammanfattning av Frontend-utveckling för 2019"
+title: En sammanfattning av Frontend-utveckling för 2019
 original: A Recap of Frontend Development in 2019
-link: https://levelup.gitconnected.com/a-recap-of-frontend-development-in-2019-1e7d07966d6c
+source: https://levelup.gitconnected.com/a-recap-of-frontend-development-in-2019-1e7d07966d6c
 date: 2020-01-07
 collection: links
 layout: single.hbs

@@ -28,7 +28,7 @@ var author = function(params) {
 
 Metalsmith(__dirname)
   .metadata({
-    name: "Skrivna ord av Anders Ytterström.",
+    name: "Skrivna ord av Anders Ytterström",
     url: "https://madr.se/",
     image: "https://madr.se/mugshot.jpg"
   })

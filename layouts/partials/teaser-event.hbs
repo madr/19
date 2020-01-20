@@ -1,7 +1,7 @@
 <article class="teaser teaser--media">
   <figure>
     {{#if img}}
-    <img src="../img/{{ img }}" alt="poster">
+    <img src="../img/{{ img }}" alt="poster" loading="lazy">
     {{else}}
     <i class="no-image">Ingen poster</i>
     {{/if}}
@@ -41,7 +41,7 @@
   <footer class="teaser__footer">
     <a href="../{{ path }}"><time>{{ date }}</time></a>
     <a rel="author" href="../om">
-      <img src="../mugshot.jpg" alt="Anders Ytterström">
+      <img src="../mugshot.jpg" alt="Anders Ytterström" loading="lazy">
     </a>
   </footer>
 </article>
