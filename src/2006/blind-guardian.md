@@ -2,7 +2,7 @@
 title: Blind Guardian
 lead: Konsert på Arenan/Fryshuset, Stockholm den 24 september 2006
 date: 2006-09-24
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img:
 collection: events

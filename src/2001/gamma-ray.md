@@ -2,7 +2,7 @@
 title: Gamma Ray
 lead: Konsert på Arenan/Fryshuset, Stockholm den 30 oktober 2001
 date: 2001-10-30
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img:
 collection: events

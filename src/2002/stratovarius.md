@@ -2,7 +2,7 @@
 title: Stratovarius
 lead: Konsert på Arenan/Fryshuset, Stockholm den 23 mars 2002
 date: 2002-03-23
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img:
 collection: events

@@ -2,7 +2,7 @@
 title: Blind Guardian
 lead: Konsert på Arenan/Fryshuset, Stockholm den 8 september 2002
 date: 2002-09-08
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img:
 collection: events

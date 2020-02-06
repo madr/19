@@ -2,7 +2,7 @@
 title: Dimmu Borgir
 lead: Konsert på Arenan/Fryshuset, Stockholm den 27 oktober 2003
 date: 2003-10-27
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img:
 collection: events

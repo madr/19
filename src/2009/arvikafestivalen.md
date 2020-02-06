@@ -3,7 +3,7 @@ title: Arvikafestivalen
 lead: Festival på Folkets park, Arvika den 2-4 juli 2009
 date: 2009-07-02
 enddate: 2009-07-04
-venue: Folkets park
+venue: Folkparken
 region: Arvika
 img: arvikafestivalen-2009.jpg
 collection: events

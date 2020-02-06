@@ -2,7 +2,7 @@
 title: Hammerfall
 lead: Konsert på Arenan/Fryshuset, Stockholm den 12 januari 2001
 date: 2001-01-12
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img:
 collection: events

@@ -2,7 +2,7 @@
 title: In Flames
 lead: Konsert på Arenan/Fryshuset, Stockholm den 27 oktober 2004
 date: 2004-10-27
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img:
 collection: events

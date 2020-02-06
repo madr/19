@@ -2,7 +2,7 @@
 title: King Diamond
 lead: Konsert på Arenan/Fryshuset, Stockholm den 8 augusti 2019
 date: 2019-08-08
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img: king-diamond-2019.jpg
 collection: events

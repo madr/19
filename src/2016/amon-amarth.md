@@ -2,7 +2,7 @@
 title: Amon Amarth
 lead: Konsert på Arenan/Fryshuset, Stockholm den 17 december 2016
 date: 2016-12-17
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img: amon-amarth-2016.jpg
 collection: events

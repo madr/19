@@ -2,7 +2,7 @@
 title: Nightwish
 lead: Konsert på Arenan/Fryshuset, Stockholm den 16 november 2002
 date: 2002-11-16
-venue: Arenan/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img:
 collection: events

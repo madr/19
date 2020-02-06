@@ -3,7 +3,7 @@ title: Stockholm Slaughter
 lead: Stadsfestival på Klubben/Fryshuset, Stockholm den 27-28 april 2018
 date: 2018-04-27
 enddate: 2018-04-28
-venue: Klubben/Fryshuset
+venue: Fryshuset
 region: Stockholm
 img: stockholm-slaughter-2018.jpg
 collection: events

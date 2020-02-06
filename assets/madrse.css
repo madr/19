@@ -227,6 +227,13 @@ selectors.
   left: -999em;
 }
 /* --- /visually hidden --- */
+/* --- leaflet --- */
+#leaflet {
+  height: 80vh;
+  min-height: 90%;
+  max-height: 666px;
+}
+/* --- /leaflet --- */
 /* --- skip link --- */
 .skiplink:link {
   position: absolute;
