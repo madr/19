@@ -10,5 +10,3 @@ location:
   latitude: 56.1174188
   longitude: 14.6774666
 ---
-
-Festival I Norje, Sölvesborg den 3-6 juli 2020.
