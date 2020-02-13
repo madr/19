@@ -7,8 +7,8 @@ region: Stockholm
 collection: events
 img: amon-amarth-2019.jpg
 location:
-  latitude: 59.3009661
-  longitude: 18.086805
+  latitude: 59.2938881
+  longitude: 18.0789738
 release:
   name: Berserker
   year: 2019
