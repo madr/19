@@ -11,6 +11,7 @@ Jag känns kanske igen ifrån [Twitter](https://twitter.com/madr_se), [Dotabuff]
 
 - Äga alla låtar äldre än 1990 i spelet Brutal Legend. På vinyl, såklart.
 - En demo på 2-3 låtar med dödsmetallstema.
+- Kvaliciera för medlemskap i [1000 lbs club](../2020/1000lbs).
 
 Och denna webbplats, såklart! Jag tycker om att prova tekniska saker här, och jag skriver om det i detalj på [Tuffa saker i senaste iterationen av madr.se](../2019/meta/).
 

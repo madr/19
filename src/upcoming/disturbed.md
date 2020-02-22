@@ -1,6 +1,6 @@
 ---
 title: Disturbed
-lead: Konsert på Gröna lund, Stockholm den 17 juni 2020
+lead: Konsert på Gröna lund, Stockholm den 24 juni 2020
 date: 2020-06-24
 venue: Gröna lund
 region: Stockholm
