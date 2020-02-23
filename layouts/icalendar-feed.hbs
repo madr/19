@@ -1,14 +1,16 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
 {{#each upcoming}}
 BEGIN:VEVENT
 UID:{{title}}.{{date}}@madr.se
 {{#if dt}}DTSTAMP:{{dt.start}}{{/if}}
-ORGANIZER;CN={{venue}},{{region}}:MAILTO:john.doe@example.com
+LOCATION:{{venue}}\, {{region}}
 {{#if dt.start}}DTSTART:{{dt.start}}{{/if}}
 {{#if dt.end}}DTEND:{{dt.end}}{{/if}}
 SUMMARY:{{title}}
+DESCRIPTION:{{lead}}
 GEO:{{location.latitude}};{{location.longitude}}
 END:VEVENT
 {{/each}}
