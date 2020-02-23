@@ -1,5 +1,5 @@
 node_modules
 .vscode
-docs/*/*.{js,json,ics}
-docs/*/*/*.{js,json,ics}
+docs/{evenemang,om}/*.js
+docs/{evenemang,om}/*.ics
 docs/upcoming
