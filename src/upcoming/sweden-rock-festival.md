@@ -4,8 +4,9 @@ lead: Festival I Norje, Sölvesborg den 3-6 juli 2020
 date: 2020-06-03
 enddate: 2020-06-06
 dt:
-  start: 20200603T000000Z
-  end: 20200606T230000Z
+  start: 20200603
+  end: 20200606
+  allday: 1
 venue: Norje
 region: Sölvesborg
 collection: upcoming
