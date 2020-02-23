@@ -1,2 +1,5 @@
 node_modules
 .vscode
+docs/*/*.{js,json,ics}
+docs/*/*/*.{js,json,ics}
+docs/upcoming

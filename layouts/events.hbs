@@ -37,7 +37,10 @@
 
       <div id="upcoming">
         <h2>Kommande<a class="anchor" href="#upcoming">¶</a></h2>
-
+        <p><a href="webcal://madr.se/kommande-evenemang.ics" rel="calendar">Lägg till i Kalender</a></p>
+        <p>Om länken ovan inte fungerar, kopiera denna adress:<br>
+        <a href="../kommande-evenemang.ics" rel="calendar">https://madr.se/kommande-evenemang.ics</a>
+        </p>
         <ul>
           {{#upcoming upcoming }}
           <li itemscope="" itemtype="http://schema.org/Event">
@@ -58,22 +61,6 @@
   </main>
   {{> aside }}
   {{> footer }}
-  <script>
-    var mapData = [
-    {{#each events}}
-    {
-      location: [
-        {{location.latitude}},
-        {{location.longitude}}
-      ],
-      title: "{{title}}",
-      date: "{{date}}",
-      region: "{{region}}",
-      venue: "{{venue}}"
-    }{{#unless @last}},{{/unless}}
-    {{/each}}
-    ]
-  </script>
   <script src="../event-map.js" async defer></script>
 </body>
 

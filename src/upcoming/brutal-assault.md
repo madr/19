@@ -3,6 +3,9 @@ title: Brutal Assault 25
 lead: Festival i Jaroměř, Tjeckien den 5-8 augusti 2020
 date: 2020-08-05
 enddate: 2020-08-08
+dt:
+  start: 20200805T200000Z
+  end: 20200808T230000Z
 venue: Jaroměř
 region: Tjeckien
 collection: upcoming

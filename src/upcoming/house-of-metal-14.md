@@ -3,6 +3,9 @@ title: House of Metal 14
 lead: Stadsfestival på Folkets hus, Umeå den 28-29 februari 2020
 date: 2020-02-28
 enddate: 2020-02-29
+dt:
+  start: 20200228T000000Z
+  end: 20200229T230000Z
 venue: Folkets hus
 region: Umeå
 collection: upcoming
