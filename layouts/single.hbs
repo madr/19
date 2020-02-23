@@ -28,22 +28,27 @@
         åsikter.
       </i></p>
     {{/if}}
-    <article>
-      <h1>{{ title }}</h1>
-      {{#if album}}
-      <p>
-        Som jag tidigare skrivit om har jag ett roligt projekt pågående: att äga alla låtar
-        i spelet <a href="https://sv.wikipedia.org/wiki/Br%C3%BCtal_Legend">Brütal Legend</a>
-        äldre än 1990 på vinyl, där det är möjligt.
-      </p>
-      <p>
-        #{{num}}: {{artist}} - "{{songs}}", från <em>{{album}}</em> ({{year}})
-      </p>
-      {{/if}}
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <h1 itemprop="headline">{{ title }}</h1>
+      </header>
+      <div itemprop="articleBody">
       {{{ contents }}}
+      </div>
       {{#if source}}
-      <p>Källa: <a href="{{ source }}" rel="external noopener noreferrer">{{ original }}</a></p>
+      <p itemprop="sharedContent" itemscope itemtype="http://schema.org/WebPage">
+        Källa: <span itemprop="headline"><a href="{{ source }}" rel="external noopener noreferrer">
+          {{ original }}
+        </a></span>
+      </p>
       {{/if}}
+      <footer class="visuallyhidden">
+        <time itemprop="datePublished">{{ date }}</time> 
+        av 
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">Anders Ytterström</span>.
+        </span>
+      </footer>
     </article>
   </main>
   {{> aside }}
