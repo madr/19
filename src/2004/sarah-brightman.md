@@ -7,7 +7,7 @@ region: Stockholm
 img:
 collection: events
 location:
-  latitude: 59.2935099
-  longitude: 18.0764611
+  latitude: 59.2935752
+  longitude: 18.0813614
 layout: event.hbs
 ---

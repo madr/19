@@ -1,6 +1,6 @@
 ---
 title: Coraline
-lead: Föreställning på Folkoperan, Stockholm den 20 februari 2020
+lead: Opera på Folkoperan, Stockholm den 20 februari 2020
 date: 2020-02-20
 venue: Folkoperan
 region: Stockholm
