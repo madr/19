@@ -39,4 +39,4 @@ Jag är helt okej med att telefonen vill underlätta för mig genom att med mask
 
 Apple har fattat detta och ligger mer i nivå med hur jag vill ha det. Apple har dock låtit iPhone bli en symbol för lyx och status (8-15TSEK för en telefon?), och har tappat kopplingen till hur "vanligt folk" vill använda sin telefon.
 
-[^1] Källa: [Ask TeD: How Many PPI Can The Human Eye See?](http://techdissected.com/ask-ted/ask-ted-how-many-ppi-can-the-human-eye-see/)
+[^1]: Källa: [Ask TeD: How Many PPI Can The Human Eye See?](http://techdissected.com/ask-ted/ask-ted-how-many-ppi-can-the-human-eye-see/)
