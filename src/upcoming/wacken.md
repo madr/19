@@ -5,7 +5,7 @@ date: 2020-07-30
 enddate: 2020-08-01
 dt:
   start: 20200730
-  end: 20200801
+  end: 20200802
   allday: 1
 venue: Wacken
 region: Tyskland

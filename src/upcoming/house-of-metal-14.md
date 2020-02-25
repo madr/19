@@ -5,7 +5,7 @@ date: 2020-02-28
 enddate: 2020-02-29
 dt:
   start: 20200228
-  end: 20200229
+  end: 20200301
   allday: 1
 venue: Folkets hus
 region: Umeå

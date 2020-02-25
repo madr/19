@@ -5,7 +5,7 @@ date: 2020-07-09
 enddate: 2020-07-11
 dt:
   start: 20200709
-  end: 20200711
+  end: 20200712
   allday: 1
 venue: Gasklockorna
 region: Gävle
