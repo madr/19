@@ -603,13 +603,22 @@ body {
   body:not(.homepage) {
     display: grid;
     grid-template-areas:
-      "header main"
-      "aside main"
+      "main header"
+      "main aside"
       "footer footer";
-    grid-template-columns: 15em 1fr;
+    grid-template-columns: 1fr 15em;
     grid-template-rows: auto 1fr auto;
     grid-gap: 2em;
     align-items: start;
+  }
+}
+
+@media (min-width: 1222px) {
+  body {
+    padding: 1em;
+  }
+  body:not(.homepage){
+    grid-gap: 3em;
   }
 }
 /* === /Layout === */
