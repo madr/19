@@ -24,7 +24,7 @@ location:
   latitude: 63.8266078
   longitude: 20.265149
 layout: event.hbs
-image: house-of-metal-2020.jpg
+img: house-of-metal-2020.jpg
 ---
 
 **Feral** ställde in, men det gjorde inte så mycket då det innebar att jag fick se hela **Nervosas** spelning, som var festivalens höjdpunkt.

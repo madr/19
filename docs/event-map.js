@@ -4,6 +4,16 @@
   const mapData = [
         {
             location: [
+                63.8266078,
+                20.265149
+            ],
+            title: "House of Metal 14",
+            date: "2020-02-28",
+            region: "Umeå",
+            venue: "Folkets hus"
+        },
+        {
+            location: [
                 59.3185177,
                 18.0560855
             ],
