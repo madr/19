@@ -1,0 +1,52 @@
+---
+title: Diverse avdammade och olästa länkar
+date: 2020-01-20
+layout: single.hbs
+collection: links
+---
+
+I samband med att jag gör en hård reset av min [Pocket](https://getpocket.com) så kommer här en länkdump för referens. Såväl för mig, som kanske kommer att läsa dessa någon gång, eller någon annan som undrar vad jag brukar lägga på att läsa-listor.
+
+- [Empathy Prompts](https://empathyprompts.net/#dyslexia)
+- [PaperCSS • the less formal CSS framework](https://www.getpapercss.com/)
+- [Debouncing with React Hooks - DEV Community](https://dev.to/gabe_ragland/debouncing-with-react-hooks-jci)
+- [The Web We Lost - sonniesedge.co.uk](https://www.sonniesedge.co.uk/bookmarks/1571)
+- [Why Generation Y Yuppies Are Unhappy - Wait But Why](https://waitbutwhy.com/2013/09/why-generation-y-yuppies-are-unhappy.html)
+- [You Don't Want a Rock Star. You Want a Roadie. | LinkedIn](https://www.linkedin.com/pulse/20140816105034-167544180-you-don-t-want-a-rock-star/)
+- [On Django's longevity](https://www.b-list.org/weblog/2018/feb/22/teenage-django/)
+- [Everything Easy is Hard Again – Frank Chimero](https://frankchimero.com/writing/everything-easy-is-hard-again/?utm_content=buffer3e75c&amp;utm_medium=social&amp;utm_source=linkedin.com&amp;utm_campaign=buffer)
+- [Testing Microservices, the sane way – Cindy Sridharan – Medium](https://medium.com/@copyconstruct/testing-microservices-the-sane-way-9bb31d158c16)
+- [http://loudwire.com/best-metal-albums-subgenres/](http://loudwire.com/best-metal-albums-subgenres/)
+- [8 Things Every Person Should Do Before 8 A.M. – The Mission – Medium](https://medium.com/the-mission/8-things-every-person-should-do-before-8-a-m-cc0233e15c8d)
+- [https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/](https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/)
+- [How To Ask Questions The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html)
+- [Happiness Is Not Enough | Mark Manson](https://markmanson.net/happiness-not-enough)
+- [The responsive order conflict for keyboard focus | AlastairC](https://alastairc.ac/2017/06/the-responsive-order-conflict/)
+- [Dockerizing Django, uWSGI and Postgres the serious way](http://www.eidel.io/2017/07/10/dockerizing-django-uwsgi-postgres/?utm_content=buffer07007&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer)
+- [Designing The Perfect Date And Time Picker – Smashing Magazine](https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/)
+- [Actually WCAG 2 says 18pt, not pixels, which are 23.994 pixels (24px).](https://medium.com/@yatil/actually-wcag-2-says-18pt-not-pixels-which-are-23-994-pixels-24px-d70a9550c150)
+- [Are Float Labels Really That Problematic After All?](http://mds.is/still-floating-labels/)
+- [safe-area-inset values on iOS11 - QuirksBlog](https://www.quirksmode.org/blog/archives/2017/10/safeareainset_v.html)
+- [Ack for CSS Developers – CSS Wizardry – CSS Architecture, Web Performance O](https://csswizardry.com/2017/01/ack-for-css-developers/)
+- [I’ve seen the future, it’s full of HTML. – Mikeal – Medium](https://medium.com/@mikeal/ive-seen-the-future-it-s-full-of-html-2577246f2210)
+- [Writing CSS with Accessibility in Mind – Manuel Matuzovic – Medium](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)
+- [A day without Javascript](https://sonniesedge.co.uk/blog/a-day-without-javascript)
+- [Floating labels are problematic – Simple = Human – Medium](https://medium.com/simple-human/floating-labels-are-a-bad-idea-82edb64220f6)
+- [There Is No Document Outline Algorithm | Adrian Roselli](http://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html)
+- [Resilient Web Design—Chapter 4](https://resilientwebdesign.com/chapter4/)
+- [rems and ems, and why you probably don’t need them – Hacker Noon](https://hackernoon.com/rems-and-ems-and-why-you-probably-dont-need-them-664b9ce1e09f)
+- [Elegant SciPy: The Art of Scientific Python: 9781491922873: Computer Scienc](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877/ref=as_li_ss_tl)
+- [Sound Pattern Recognition with Python – Adilson Neto – Medium](https://medium.com/@almeidneto/sound-pattern-recognition-with-python-9aff69edce5d)
+- [Django Migration Don'ts | edX Blog](https://blog.edx.org/django-migration-donts?utm_content=bufferd3092&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer)
+- [Sjuk teori om sjuka hus - Fokus](https://www.fokus.se/2017/09/sjuk-teori-om-sjuka-hus/)
+- [The Senior Engineer’s Guide to Helping Others Make Decisions – Geeky](http://silverwraith.com/blog/2017/10/the-senior-engineers-guide-to-helping-others-make-decisions/)
+- [Realtime Editing of Ordered Sequences – Figma Design](https://blog.figma.com/realtime-editing-of-ordered-sequences-c1e6b46fcd67)
+- [Automating Django Deployments with Fabric and Ansible - Real Python](https://realpython.com/blog/python/automating-django-deployments-with-fabric-and-ansible/#.WGPLymIwuyU.linkedin)
+- [Passmarked](https://passmarked.com/)
+- [From Sass to PostCSS by Tyler Gaw](https://tylergaw.com/articles/sass-to-postcss)
+- [Algorithm-Driven Design: How Artificial Intelligence Is Changing Design – S](https://www.smashingmagazine.com/2017/01/algorithm-driven-design-how-artificial-intelligence-changing-design/)
+- [Reference Types · The Vala Tutorial](https://chebizarro.gitbooks.io/the-vala-tutorial/content/reference_types.html)
+- [Fluid type examples - Mike Riethmuller](https://madebymike.com.au/writing/fluid-type-calc-examples/)
+- [The Typekit Blog | Flexible typography with CSS locks](https://blog.typekit.com/2016/08/17/flexible-typography-with-css-locks/)
+- [Workflows in Django](https://gist.github.com/Nagyman/9502133)
+- [Putting Contexts in Context | Michał Muskała](http://michal.muskala.eu/2017/05/16/putting-contexts-in-context.html)
