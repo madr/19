@@ -7,10 +7,8 @@ dt:
   end: 20200329T170000
 venue: Dieselverkstaden
 region: Stockholm
-collection: upcoming
+collection: canceled
 location:
   latitude: 59.3055073
   longitude: 18.1190833
 ---
-
-[Kårspexet](https://karspexet.se/) levererar som alltid!

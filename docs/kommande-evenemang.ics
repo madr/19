@@ -3,16 +3,6 @@ VERSION:2.0
 PRODID:-//https://madr.se//kommande-evenemang
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:Cecilia Vasa eller Alla dina damer? Finns i sjön.2020-03-29@madr.se
-DTSTAMP:20200329T150000
-DTSTART:20200329T150000
-DTEND:20200329T170000
-SUMMARY:Cecilia Vasa eller Alla dina damer? Finns i sjön
-DESCRIPTION:Spex på Dieselverkstaden, Stockholm den 29 mars 2020
-LOCATION:Dieselverkstaden\, Stockholm
-GEO:59.3055073;18.1190833
-END:VEVENT
-BEGIN:VEVENT
 UID:Uada Pt. II: European Alliance.2020-05-03@madr.se
 DTSTAMP:20200503T190000
 DTSTART:20200503T190000
@@ -91,5 +81,15 @@ SUMMARY:Brutal Assault 25
 DESCRIPTION:Festival i Jaroměř, Tjeckien den 5-8 augusti 2020
 LOCATION:Jaroměř\, Tjeckien
 GEO:50.3404166;15.9333541
+END:VEVENT
+BEGIN:VEVENT
+UID:Watain.2020-09-12@madr.se
+DTSTAMP:20200912T190000
+DTSTART:20200912T190000
+DTEND:20200912T235900
+SUMMARY:Watain
+DESCRIPTION:Konsert på Parksnäckan, Uppsala den 12 september 2020
+LOCATION:Parksnäckan\, Uppsala
+GEO:59.8513847;17.6423553
 END:VEVENT
 END:VCALENDAR
