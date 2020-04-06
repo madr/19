@@ -5,7 +5,64 @@
   <link href="https://madr.se/prenumerera.xml" rel="self"/>
   <title>madr.se</title>
   <subtitle>Anders Ytterström om hårdrock, musik, styrketräning och webbutveckling</subtitle>
-  <updated>2020-04-06T06:45:34.131Z</updated>
+  <updated>2020-04-06T13:02:41.485Z</updated>
+  <entry>
+    <title>Diverse avdammade och olästa länkar</title>
+    <id>https://madr.se/2020/pocket-dump</id>
+    <link href="https://madr.se/2020/pocket-dump"/>
+    <updated>2020-04-06T00:00:00.000Z</updated>
+    <author>
+      <name>Anders Ytterström</name>
+      <email>yttan@fastmail.se</email>
+    </author>
+    <content>&lt;p&gt;I samband med att jag g&amp;#xF6;r en h&amp;#xE5;rd reset av min &lt;a href="https://getpocket.com"&gt;Pocket&lt;/a&gt; s&amp;#xE5; kommer h&amp;#xE4;r en l&amp;#xE4;nkdump f&amp;#xF6;r referens. S&amp;#xE5;v&amp;#xE4;l f&amp;#xF6;r mig, som kanske kommer att l&amp;#xE4;sa dessa n&amp;#xE5;gon g&amp;#xE5;ng, eller n&amp;#xE5;gon annan som undrar vad jag brukar l&amp;#xE4;gga p&amp;#xE5; att l&amp;#xE4;sa-listor.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://empathyprompts.net/#dyslexia"&gt;Empathy Prompts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.getpapercss.com/"&gt;PaperCSS &amp;#x2022; the less formal CSS framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://dev.to/gabe_ragland/debouncing-with-react-hooks-jci"&gt;Debouncing with React Hooks - DEV Community&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sonniesedge.co.uk/bookmarks/1571"&gt;The Web We Lost - sonniesedge.co.uk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://waitbutwhy.com/2013/09/why-generation-y-yuppies-are-unhappy.html"&gt;Why Generation Y Yuppies Are Unhappy - Wait But Why&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.linkedin.com/pulse/20140816105034-167544180-you-don-t-want-a-rock-star/"&gt;You Don&amp;apos;t Want a Rock Star. You Want a Roadie. | LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.b-list.org/weblog/2018/feb/22/teenage-django/"&gt;On Django&amp;apos;s longevity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://frankchimero.com/writing/everything-easy-is-hard-again/?utm_content=buffer3e75c&amp;amp;amp;utm_medium=social&amp;amp;amp;utm_source=linkedin.com&amp;amp;amp;utm_campaign=buffer"&gt;Everything Easy is Hard Again &amp;#x2013; Frank Chimero&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@copyconstruct/testing-microservices-the-sane-way-9bb31d158c16"&gt;Testing Microservices, the sane way &amp;#x2013; Cindy Sridharan &amp;#x2013; Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://loudwire.com/best-metal-albums-subgenres/"&gt;http://loudwire.com/best-metal-albums-subgenres/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/the-mission/8-things-every-person-should-do-before-8-a-m-cc0233e15c8d"&gt;8 Things Every Person Should Do Before 8 A.M. &amp;#x2013; The Mission &amp;#x2013; Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/"&gt;https://www.theatlantic.com/magazine/archive/2017/09/has-the-smartphone-destroyed-a-generation/534198/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.catb.org/esr/faqs/smart-questions.html"&gt;How To Ask Questions The Smart Way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://markmanson.net/happiness-not-enough"&gt;Happiness Is Not Enough | Mark Manson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://alastairc.ac/2017/06/the-responsive-order-conflict/"&gt;The responsive order conflict for keyboard focus | AlastairC&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.eidel.io/2017/07/10/dockerizing-django-uwsgi-postgres/?utm_content=buffer07007&amp;amp;amp;utm_medium=social&amp;amp;amp;utm_source=twitter.com&amp;amp;amp;utm_campaign=buffer"&gt;Dockerizing Django, uWSGI and Postgres the serious way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2017/07/designing-perfect-date-time-picker/"&gt;Designing The Perfect Date And Time Picker &amp;#x2013; Smashing Magazine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@yatil/actually-wcag-2-says-18pt-not-pixels-which-are-23-994-pixels-24px-d70a9550c150"&gt;Actually WCAG 2 says 18pt, not pixels, which are 23.994 pixels (24px).&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mds.is/still-floating-labels/"&gt;Are Float Labels Really That Problematic After All?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.quirksmode.org/blog/archives/2017/10/safeareainset_v.html"&gt;safe-area-inset values on iOS11 - QuirksBlog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://csswizardry.com/2017/01/ack-for-css-developers/"&gt;Ack for CSS Developers &amp;#x2013; CSS Wizardry &amp;#x2013; CSS Architecture, Web Performance O&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@mikeal/ive-seen-the-future-it-s-full-of-html-2577246f2210"&gt;I&amp;#x2019;ve seen the future, it&amp;#x2019;s full of HTML. &amp;#x2013; Mikeal &amp;#x2013; Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939"&gt;Writing CSS with Accessibility in Mind &amp;#x2013; Manuel Matuzovic &amp;#x2013; Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sonniesedge.co.uk/blog/a-day-without-javascript"&gt;A day without Javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/simple-human/floating-labels-are-a-bad-idea-82edb64220f6"&gt;Floating labels are problematic &amp;#x2013; Simple = Human &amp;#x2013; Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://adrianroselli.com/2016/08/there-is-no-document-outline-algorithm.html"&gt;There Is No Document Outline Algorithm | Adrian Roselli&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://resilientwebdesign.com/chapter4/"&gt;Resilient Web Design&amp;#x2014;Chapter 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://hackernoon.com/rems-and-ems-and-why-you-probably-dont-need-them-664b9ce1e09f"&gt;rems and ems, and why you probably don&amp;#x2019;t need them &amp;#x2013; Hacker Noon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877/ref=as_li_ss_tl"&gt;Elegant SciPy: The Art of Scientific Python: 9781491922873: Computer Scienc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/@almeidneto/sound-pattern-recognition-with-python-9aff69edce5d"&gt;Sound Pattern Recognition with Python &amp;#x2013; Adilson Neto &amp;#x2013; Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.edx.org/django-migration-donts?utm_content=bufferd3092&amp;amp;amp;utm_medium=social&amp;amp;amp;utm_source=twitter.com&amp;amp;amp;utm_campaign=buffer"&gt;Django Migration Don&amp;apos;ts | edX Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.fokus.se/2017/09/sjuk-teori-om-sjuka-hus/"&gt;Sjuk teori om sjuka hus - Fokus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://silverwraith.com/blog/2017/10/the-senior-engineers-guide-to-helping-others-make-decisions/"&gt;The Senior Engineer&amp;#x2019;s Guide to Helping Others Make Decisions &amp;#x2013; Geeky&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.figma.com/realtime-editing-of-ordered-sequences-c1e6b46fcd67"&gt;Realtime Editing of Ordered Sequences &amp;#x2013; Figma Design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://realpython.com/blog/python/automating-django-deployments-with-fabric-and-ansible/#.WGPLymIwuyU.linkedin"&gt;Automating Django Deployments with Fabric and Ansible - Real Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://passmarked.com/"&gt;Passmarked&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tylergaw.com/articles/sass-to-postcss"&gt;From Sass to PostCSS by Tyler Gaw&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.smashingmagazine.com/2017/01/algorithm-driven-design-how-artificial-intelligence-changing-design/"&gt;Algorithm-Driven Design: How Artificial Intelligence Is Changing Design &amp;#x2013; S&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://chebizarro.gitbooks.io/the-vala-tutorial/content/reference_types.html"&gt;Reference Types &amp;#xB7; The Vala Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://madebymike.com.au/writing/fluid-type-calc-examples/"&gt;Fluid type examples - Mike Riethmuller&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.typekit.com/2016/08/17/flexible-typography-with-css-locks/"&gt;The Typekit Blog | Flexible typography with CSS locks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gist.github.com/Nagyman/9502133"&gt;Workflows in Django&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://michal.muskala.eu/2017/05/16/putting-contexts-in-context.html"&gt;Putting Contexts in Context | Micha&amp;#x142; Muska&amp;#x142;a&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Önskelista inför telefonbytet 2022-2025</title>
     <id>https://madr.se/2020/telefon</id>
@@ -729,59 +786,6 @@ inte att &amp;#xE4;ga en Mac, f&amp;#xF6;r det andra &amp;#xE4;r jag nyfiken p&a
 &lt;p&gt;Historien handlar s&amp;#xE5;ledes om att st&amp;#xE5; upp f&amp;#xF6;r de sm&amp;#xE5;, och att vara b&amp;#xE4;ttre och f&amp;#xF6;red&amp;#xF6;mligare &amp;#xE4;n de giriga. Jag hade med mig m&amp;#xE5;nga h&amp;#xE4;rliga festivalminnen fr&amp;#xE5;n G&amp;#xE4;vle i somras, men detta &amp;#xE4;r vad jag fann behov av att skriva ner.&lt;/p&gt;
 &lt;p&gt;Jag vet ingenting om Sarah mer &amp;#xE4;n att hon har ett plektrum, att hon &amp;#xE4;r liten till v&amp;#xE4;xten och att jag gjorde hennes dag en dag i juli. Jag minns inte i detalj hur hon s&amp;#xE5;g ut.&lt;/p&gt;
 &lt;p&gt;Leendet och kontakten vi hade &amp;#xE4;r dock n&amp;#xE5;got som jag kommer att forts&amp;#xE4;tta uppr&amp;#xE4;tth&amp;#xE5;lla hoppet av och k&amp;#xE4;mpa f&amp;#xF6;r. V&amp;#xE5;r v&amp;#xE4;rld beh&amp;#xF6;ver mer k&amp;#xE4;rlek och sm&amp;#xE5; gester av godhet f&amp;#xF6;r att h&amp;#xE5;lla ondska och m&amp;#xF6;rker borta.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Varför och hur jag ska fördjupa mig i React 2019</title>
-    <id>https://madr.se/2019/react-redux</id>
-    <link href="https://madr.se/2019/react-redux"/>
-    <updated>2019-03-25T00:00:00.000Z</updated>
-    <author>
-      <name>Anders Ytterström</name>
-      <email>yttan@fastmail.se</email>
-    </author>
-    <content>&lt;p&gt;Med &amp;#xF6;ver 20 &amp;#xE5;r som webbutvecklare ska jag nu g&amp;#xF6;ra en uttalad satsning p&amp;#xE5; en kedja av frontendverktyg. Det h&amp;#xE4;r inl&amp;#xE4;gget &amp;#xE4;r skrivet f&amp;#xF6;r att jag vill minnas sj&amp;#xE4;lv, men ocks&amp;#xE5; f&amp;#xF6;r att inspirera andra.&lt;/p&gt;
-&lt;h2 id="motivering-till-react"&gt;Motivering till React&lt;a class="anchor" href="#motivering-till-react"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Varf&amp;#xF6;r vill jag g&amp;#xF6;ra en satsning p&amp;#xE5; &lt;a href="https://reactjs.org/"&gt;React&lt;/a&gt; och inte exempelvis n&amp;#xE5;gon av alla alternativ?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://angularjs.org/"&gt;Angular2&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://vuejs.org/"&gt;Vue&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://elm-lang.org/"&gt;Elm&lt;/a&gt;,&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://reasonml.github.io/"&gt;ReasonML&lt;/a&gt; eller&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/taylorhughes/skit"&gt;skit&lt;/a&gt;?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Det finns goda sk&amp;#xE4;l. Jag har kodat React av och till de fyra senaste &amp;#xE5;ren, men bara i andras kod och aldrig utanf&amp;#xF6;r jobbet. Nu ska jag satsa p&amp;#xE5; att skriva mycket kod med just detta bibliotek, av f&amp;#xF6;ljande anledningar.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;React (med allt runtom) &amp;#xE4;r sv&amp;#xE5;rt. Det beh&amp;#xF6;vs tid och skrivande av kod f&amp;#xF6;r att l&amp;#xE4;ra sig alla de olika delarna. Det g&amp;#xE5;r inte att g&amp;#xF6;ra litet sporadiskt fulkodande i React.&lt;/li&gt;
-&lt;li&gt;React &amp;#xE4;r fortfarande en av de popul&amp;#xE4;raste biblioteken f&amp;#xF6;r sitt omr&amp;#xE5;de, trots m&amp;#xE5;nga &amp;#xE5;r under lupp av granskande webbutvecklare.&lt;/li&gt;
-&lt;li&gt;Det &amp;#xE4;r vad &lt;a href="https://kundo.se"&gt;Kundo&lt;/a&gt; anv&amp;#xE4;nder (&amp;#xE4;ven om vi ocks&amp;#xE5; sneglar hungrigt p&amp;#xE5; Elm).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="de-delar-av-react-som-intresserar-mig"&gt;De delar av React som intresserar mig&lt;a class="anchor" href="#de-delar-av-react-som-intresserar-mig"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://redux.js.org/"&gt;Redux&lt;/a&gt;, f&amp;#xF6;r att hantera state p&amp;#xE5; ett bra s&amp;#xE4;tt.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/redux-saga/redux-saga"&gt;Redux-sagas&lt;/a&gt;, f&amp;#xF6;r att l&amp;#xE4;ra mig mer om JavaScript-generatorer och hantering av asynkrona sidoeffekter.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Jag vill ocks&amp;#xE5; bli litet b&amp;#xE4;ttre p&amp;#xE5; mer generella Javascript-verktyg.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://babeljs.io/"&gt;Babel&lt;/a&gt;, f&amp;#xF6;r att skriva modern JavaScript.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://parceljs.org/"&gt;Parcel&lt;/a&gt;, f&amp;#xF6;r att det verkar mer kompetent &amp;#xE4;n Webpack.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="steg-0---bekanta-mig-med-verktygen-"&gt;Steg 0 - Bekanta mig med verktygen &amp;#x2714;&lt;a class="anchor" href="#steg-0---bekanta-mig-med-verktygen-"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Jag jobbar med React och Redux p&amp;#xE5; jobbet, d&amp;#xE4;r flera produkter &amp;#xE4;r byggda med React och Redux. Detta var d&amp;#xE4;rf&amp;#xF6;r en enkel punkt att bocka av.&lt;/p&gt;
-&lt;h2 id="steg-1---skriv-simpla-saker-i-react-"&gt;Steg 1 - Skriv simpla saker i React &amp;#x2714;&lt;a class="anchor" href="#steg-1---skriv-simpla-saker-i-react-"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Jag har b&amp;#xF6;rjat koda hobbyprojekt i React och har n&amp;#xE5;gra projekt fr&amp;#xE5;n 2018 p&amp;#xE5; Github: &lt;a href="https://github.com/madr/brutal-legend"&gt;Br&amp;#xFC;tal Legend&lt;/a&gt;, och &lt;a href="https://github.com/madr/urban-enigma"&gt;en p&amp;#xE5;b&amp;#xF6;rjad tr&amp;#xE4;ningsapp&lt;/a&gt;. Den f&amp;#xF6;rsta &amp;#xE4;r vanilla CSS p&amp;#xE5; webpack, den andra &amp;#xE4;r Sass med Parcel.&lt;/p&gt;
-&lt;h2 id="nsta-steg---utforska-olika-delar-av-react--redux-vrlden"&gt;N&amp;#xE4;sta steg - Utforska olika delar av React + redux-v&amp;#xE4;rlden&lt;a class="anchor" href="#nsta-steg---utforska-olika-delar-av-react--redux-vrlden"&gt;&amp;#xB6;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Jag har ett g&amp;#xE4;ng andra id&amp;#xE9;er p&amp;#xE5; g&amp;#xE5;ng som jag inte kommer att n&amp;#xE4;mna h&amp;#xE4;r, men jag har en liten todo som jag ska g&amp;#xF6;ra under 2019 f&amp;#xF6;r att utmana mig sj&amp;#xE4;lv att l&amp;#xF6;sa och uppleva vanliga problem/m&amp;#xF6;nster inom React och redux.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Anv&amp;#xE4;nd &lt;strong&gt;alltid&lt;/strong&gt; React, Redux och Babel.&lt;/li&gt;
-&lt;li&gt;Utforska g&amp;#xE4;rna fler bundlers &amp;#xE4;n Parcel och Webpack.&lt;/li&gt;
-&lt;li&gt;Hantera asynkront state med &lt;a href="https://github.com/redux-saga/redux-saga"&gt;Redux-sagas&lt;/a&gt;, exempelvis med &lt;code&gt;fetch()&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Spara state med &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Local_storage"&gt;localStorage&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Hantera CRUD av state med &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker"&gt;ServiceWorker&lt;/a&gt;: l&amp;#xE5;tsas att det &amp;#xE4;r en server som svarar och hantera d&amp;#xE4;r state med localStorage eller &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"&gt;IndexedDB&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Uppdatera state med Websockets, f&amp;#xF6;rslagsvis &lt;a href="https://hexdocs.pm/phoenix/Phoenix.Presence.html"&gt;Phoenix Presence&lt;/a&gt; eller &lt;a href="https://socket.io/"&gt;SocketIO&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;G&amp;#xE5; p&amp;#xE5; Meetups&lt;/strong&gt;. F&amp;#xF6;r att p&amp;#xE5; riktigt f&amp;#xE5; umg&amp;#xE5;s med communityt.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Detta kommer f&amp;#xF6;rhoppningsvis att bli en inl&amp;#xE4;ggs-serie som jag uppdaterar under &amp;#xE5;ret.&lt;/p&gt;
 </content>
   </entry>
 </feed>
