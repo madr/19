@@ -17,6 +17,7 @@ best:
   - Black Bay
   - I am Morbid
   - Bewitched
+  - Darkened Nocturn Slaugthercult
 mia:
   - Vomitory
   - Feral
@@ -28,3 +29,5 @@ img: house-of-metal-2020.jpg
 ---
 
 **Feral** ställde in, men det gjorde inte så mycket då det innebar att jag fick se hela **Nervosas** spelning, som var festivalens höjdpunkt.
+
+Ölet [Ren in Blood](https://bryggverket.se) är alltid lika spännande att förtära.
