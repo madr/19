@@ -9,7 +9,7 @@ dt:
   allday: 1
 venue: Jaroměř
 region: Tjeckien
-collection: upcoming
+collection: canceled
 location:
   latitude: 50.3404166
   longitude: 15.9333541

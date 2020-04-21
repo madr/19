@@ -398,8 +398,7 @@ selectors.
 
 .upcoming__item__what {
   grid-area: what;
-  color: var(--link-color);
-  font-weight: normal;
+  font-weight: bold;
 }
 
 .upcoming__item__where {

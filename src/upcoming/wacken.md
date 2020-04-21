@@ -9,7 +9,7 @@ dt:
   allday: 1
 venue: Wacken
 region: Tyskland
-collection: upcoming
+collection: canceled
 location:
   latitude: 54.0225064
   longitude: 9.3635148

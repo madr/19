@@ -4,6 +4,16 @@
   const mapData = [
         {
             location: [
+                59.2925432,
+                18.0779979
+            ],
+            title: "Heathen Heroes Tour 2020",
+            date: "2020-09-29",
+            region: "Stockholm",
+            venue: "Slaktkyrkan"
+        },
+        {
+            location: [
                 63.8266078,
                 20.265149
             ],

@@ -7,7 +7,7 @@ dt:
   end: 20200503T235900
 venue: Slaktkyrkan
 region: Stockholm
-collection: upcoming
+collection: canceled
 img: uada-2020.jpg
 location:
   latitude: 59.2925432

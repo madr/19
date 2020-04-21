@@ -1,8 +1,8 @@
 ---
 title: Diverse avdammade och olästa länkar
-date: 2020-01-20
+date: 2020-04-06
 layout: single.hbs
-collection: links
+collection: articles
 ---
 
 I samband med att jag gör en hård reset av min [Pocket](https://getpocket.com) så kommer här en länkdump för referens. Såväl för mig, som kanske kommer att läsa dessa någon gång, eller någon annan som undrar vad jag brukar lägga på att läsa-listor.

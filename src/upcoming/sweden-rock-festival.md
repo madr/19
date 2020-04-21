@@ -9,7 +9,7 @@ dt:
   allday: 1
 venue: Norje
 region: Sölvesborg
-collection: upcoming
+collection: canceled
 location:
   latitude: 56.1174188
   longitude: 14.6774666

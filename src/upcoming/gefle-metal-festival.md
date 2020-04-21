@@ -9,7 +9,7 @@ dt:
   allday: 1
 venue: Gasklockorna
 region: Gävle
-collection: upcoming
+collection: canceled
 location:
   latitude: 60.678416
   longitude: 17.1761251
