@@ -23,8 +23,12 @@ Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedi
   Festival I Norje, Sölvesborg den 3-6 juli 2020.
 * ☠️ **Korn**  
   Konsert på Gröna lund, Stockholm den 17 juni 2020.
+* ☠️ **Disturbed**  
+  Konsert på Gröna lund, Stockholm den 24 juni 2020.
 * ☠️ **Gefle Metal Festival**  
   Festival på Gasklockorna, Gävle den 9-11 juli 2020
+* ☠️ **Pixies**  
+  Konsert på Gröna lund, Stockholm den 27 juli 2020.
 * ☠️ **Wacken Open Air**  
   Festival i Wacken, Tyskland den 30 juli - 1 augusti 2020.
 * ☠️ **Brutal Assault**  

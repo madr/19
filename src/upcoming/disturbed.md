@@ -8,7 +8,7 @@ dt:
 venue: Gröna lund
 region: Stockholm
 img: disturbed-2020.jpg
-collection: upcoming
+collection: canceled
 location:
   latitude: 59.3233591
   longitude: 18.0942014
