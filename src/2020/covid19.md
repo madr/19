@@ -11,12 +11,13 @@ Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedi
 
 * Arbete hemifrån från 14 mars till obestämd tid framåt.
 * Begränsade resor inrikes, enbart de allra nödvändigaste.
-* Omfattande konsekvenser.
 
 ## Inställda evenemang
 
 * ☠️ **Cecilia Vasa eller Alla dina damer? Finns i sjön**  
   Spex på Dieselverkstaden, Stockholm den 29 mars 2020.
+* ☠️ **ElixirConf EU**  
+  Konferens i Washawa, Polen 30 april - 1 maj 2020.
 * ☠️ **Uada Pt. II: European Alliance**  
   Konsert på Slaktkyrkan, Stockholm den 3 maj 2020.
 * ☠️ **Sweden Rock Festival 29**  
@@ -26,7 +27,7 @@ Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedi
 * ☠️ **Disturbed**  
   Konsert på Gröna lund, Stockholm den 24 juni 2020.
 * ☠️ **Gefle Metal Festival**  
-  Festival på Gasklockorna, Gävle den 9-11 juli 2020
+  Festival på Gasklockorna, Gävle den 9-11 juli 2020.
 * ☠️ **Pixies**  
   Konsert på Gröna lund, Stockholm den 27 juli 2020.
 * ☠️ **Wacken Open Air**  
@@ -39,9 +40,6 @@ Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedi
 * **Watain**  
   Konsert på Parksnäckan, Uppsala den 12 september 2020.  
   Ursprungligt datum: 30 april.
-* **ElixirConf EU**  
-  Konferens i Washawa, Polen den 7-8 oktober 2020.  
-  Ursprungligt datum: 30 april - 1 maj 2020.
 
 ## Träning
 
@@ -51,6 +49,7 @@ Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedi
 
 ## Annorstädes
 
+* En blev permitterad på 20% från 1 juli.
 * En väns arbetsplats varslar 70 personer, går från 80 antällda till 10.
 * En väns arbetsplats varslar 50% av de anställda, permitterar övriga till att jobba 40%.
 * Flera vänner och bekanta arbetar hemifrån helt och hållet och känner sig socialt isolerade.
@@ -64,3 +63,4 @@ Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedi
 * Motivation, framtidsplaner och psykisk hälsa åt skogen.
 * GAD och depression cranked up to 11.
 * Paus från Twitter av hälsoskäl.
+* Påfrestande social distansiering, särskilt mot familj.
