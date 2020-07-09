@@ -18,11 +18,25 @@
   <main>
     <h1 class="visuallyhidden">Anders Ytterströms hemsida</h1>
     <img src="mugshot.jpg" alt="Anders, september 2018." class="align-right" loading="lazy">
-    {{{ contents }}}
+    <div class="presentation">{{{ contents }}}</div>
   </main>
-  {{#each pagination.files}}
-  {{> article-post }}
-  {{/each}}
+  <div class="posts">
+  {{#before posts 5}}
+    {{#if location}}
+    {{> teaser-event}}
+    {{else}}
+    {{#if album}}
+    {{> teaser-brutal}}
+    {{else}}
+    {{#if source}}
+    {{> teaser-link}}
+    {{else}}
+    {{> teaser-post }}
+    {{/if}}
+    {{/if}}
+    {{/if}}
+  {{/before}}
+  </div>
 </body>
 
 </html>

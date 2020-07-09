@@ -582,6 +582,11 @@ nav {
   }
 }
 /* --- /nav --- */
+/* --- posts --- */
+.posts {
+  clear: both;
+}
+/* --- /posts --- */
 /* === /Components === */
 
 /* === Layout === */
