@@ -34,6 +34,8 @@ Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedi
   Festival i Wacken, Tyskland den 30 juli - 1 augusti 2020.
 * ☠️ **Brutal Assault**  
   Festival i Jaroměř, Tjeckien den 5-8 augusti 2020.
+* ☠️ **The International 10**  
+  Dota 2-Mästerskap i Globen, Stockholm augusti 2020.
 
 ## Framflyttade evenemang
 
@@ -45,7 +47,7 @@ Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedi
 
 * [1000lbs club-projektet](../../2020/1000lbs/) pausat.
 * Restriktioner på gym.
-* Ett PB i singel: Marklyft, 155KG (2020-04-11).
+* 2 PB i singel: Marklyft, 155KG (2020-04-11); Knäböj, 110KG (2020-07-08).
 
 ## Annorstädes
 

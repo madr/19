@@ -5,3 +5,4 @@ docs/om/*.ics
 docs/evenemang/*.js
 docs/evenemang/*.ics
 docs/upcoming
+.DS_Store
