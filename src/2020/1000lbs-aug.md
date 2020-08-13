@@ -20,9 +20,9 @@ progression framåt.
 
 |      Lyft |   Datum    | Vikt, kg | Kommentar                            |
 | --------: | :--------: | :------: | :----------------------------------- |
-|    Knäböj | 2019-08-11 |   120    | +15kg i 1RM. Bälte, utan knävärmare. |
-| Bänkpress | 2019-07-14 |    80    | -10kg i 1RM. Handledslindor.         |
-|  Marklyft | 2019-07-12 |   160    | +20kg i 1RM. Magnesium och bälte.    |
+|    Knäböj | 2020-08-11 |   120    | +15kg i 1RM. Bälte, utan knävärmare. |
+| Bänkpress | 2020-07-14 |    80    | -10kg i 1RM. Handledslindor.         |
+|  Marklyft | 2020-07-12 |   160    | +20kg i 1RM. Magnesium och bälte.    |
 
 Jag har således **93kg** kvar till att nå 1000 lbs.
 
