@@ -1,11 +1,11 @@
 ---
-title: COVID-19
+title: Coronaviruspandemin
 date: 2020-04-22
 layout: single.hbs
 collection: articles
 ---
 
-Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedia.org/wiki/Covid-19). Växer över tid.
+Samlingssida för alla personliga konsekvenser av [Coronaviruspandemin](https://sv.wikipedia.org/wiki/Coronaviruspandemin_2019%E2%80%932020). Växer över tid.
 
 ## Arbetssituation
 
@@ -47,7 +47,6 @@ Samlingssida för alla personliga konsekvenser av [COVID-19](https://sv.wikipedi
 
 * [1000lbs club-projektet](../../2020/1000lbs/) pausat.
 * Restriktioner på gym.
-* 2 PB i singel: Marklyft, 155KG (2020-04-11); Knäböj, 110KG (2020-07-08).
 
 ## Annorstädes
 

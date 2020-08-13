@@ -1,5 +1,5 @@
 ---
-title: "1000 lbs club - träning under COVID-19"
+title: "1000 lbs club - träning under pandemin"
 date: 2020-08-11
 layout: single.hbs
 collection: articles 1klbs
