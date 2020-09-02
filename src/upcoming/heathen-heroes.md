@@ -5,7 +5,7 @@ date: 2020-09-29
 venue: Slaktkyrkan
 region: Stockholm
 img: heathen-heroes-2020.jpg
-collection: upcoming
+collection: cancelled
 location:
   latitude: 59.2925432
   longitude: 18.0779979

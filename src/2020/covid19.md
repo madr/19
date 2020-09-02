@@ -36,12 +36,10 @@ Samlingssida för alla personliga konsekvenser av [Coronaviruspandemin](https://
   Festival i Jaroměř, Tjeckien den 5-8 augusti 2020.
 * ☠️ **The International 10**  
   Dota 2-Mästerskap i Globen, Stockholm augusti 2020.
-
-## Framflyttade evenemang
-
-* **Watain**  
+* ☠️ **Heathen Heroes Tour**  
+  Konsert på Slaktkyrkan, Stockholm den 29 september 2020.
+* ☠️ **Watain**  
   Konsert på Parksnäckan, Uppsala den 12 september 2020.  
-  Ursprungligt datum: 30 april.
 
 ## Träning
 

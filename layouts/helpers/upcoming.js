@@ -18,12 +18,14 @@ module.exports = function(array, options) {
     '12': 'dec'
   };
 
-  for (var i = 0, e = array.length; i < e; i++) {
-    var data = array[i]
-    var d = data.date.split('-');
-    data.m = months[d[1]];
-    data.d = parseInt(d[2], 10);
-    result += options.fn(data);
+  if (array) {
+    for (var i = 0, e = array.length; i < e; i++) {
+      var data = array[i]
+      var d = data.date.split('-');
+      data.m = months[d[1]];
+      data.d = parseInt(d[2], 10);
+      result += options.fn(data);
+    }
   }
   return result;
 };

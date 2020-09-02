@@ -7,7 +7,7 @@ dt:
   end: 20200912T235900
 venue: Parksnäckan
 region: Uppsala
-collection: upcoming
+collection: cancelled
 img: watain-2020.jpg
 location:
   latitude: 59.8513847
