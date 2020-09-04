@@ -6,7 +6,7 @@
     "build": "node index.js"
   },
   "devDependencies": {
-    "handlebars": "^4.3.1",
+    "handlebars": "^4.4.5",
     "hilight": "0.0.1",
     "metalsmith": "^2.1.0",
     "metalsmith-collections": "^0.9.0",
