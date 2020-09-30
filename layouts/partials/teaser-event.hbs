@@ -1,0 +1,44 @@
+<article class="teaser teaser--media">
+  <figure>
+    {{#if img}}
+    <img src="{{relroot}}img/{{img}}" alt="poster" loading="lazy">
+    {{else}}
+    <i class="no-image">Ingen poster</i>
+    {{/if}}
+  </figure>
+  <h2 class="h--media">
+    📆 {{ title }}
+  </h2>
+  <div class="teaser--media__summary">
+    <p>{{ lead }}.</p>
+    {{#if bands}}
+    <p><strong>Förband</strong>:<br>
+      {{#each bands}}
+      {{#unless @first}}
+      {{.}}{{#unless @last}},{{/unless}}
+      {{/unless}}
+      {{/each}}
+    </p>
+    {{/if}}
+    {{#if best}}
+    <p><strong>Personliga höjdpunkter</strong>:<br>
+      {{#each best}}
+      {{.}}{{#unless @last}},{{/unless}}
+      {{/each}}
+    </p>
+    {{/if}}
+    {{#if mia}}
+    <p><strong>Band jag missade</strong>:<br>
+      {{#each mia}}
+      {{.}}{{#unless @last}},{{/unless}}
+      {{/each}}
+    </p>
+    {{/if}}
+    {{#if release}}
+    <p><strong>Album-aktuella med</strong>:<br> <i>"{{ release.name }}"</i></p>
+    {{/if}}
+  </div>
+  <footer class="teaser__footer">
+    <a href="{{#if on_event_page}}../{{/if}}{{#if pagination.index}}../{{/if}}{{ path }}"><time>{{ date }}</time></a>
+  </footer>
+</article>

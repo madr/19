@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  {{#if pagination.index}}
+  <title>Sida {{ pagination.num }} | {{ name }}</title>
+  {{else}}
+  <title>{{ name }}</title>
+  {{/if}}
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" title="madr.se stilmall" href="{{relroot}}madrse.css">
+  <link href="{{relroot}}prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+  {{#if pagination.previous}}
+    <link rel="previous" href="{{relroot}}{{ pagination.previous.path }}">
+  {{/if}}
+  {{#if pagination.next}}
+    <link rel="next" href="{{relroot}}{{ pagination.next.path }}">
+  {{/if}}
+  <meta name="description" content="Blogg tillhörande en hårdrockare, webbutvecklare, hobbymusikant, skrotlyftare och nörd">
+</head>
+<body>
+  {{> header relroot=relroot current=current }}
+  <main id="content">
+    <h1>
+    {{ title }}{{#if pagination.index}}, sida {{ pagination.num }}
+    {{else}}
+      
+    {{/if}}
+    </h1>
+    {{#each pagination.files}}
+      {{#if location}}
+        {{> teaser-event pagination=../pagination relroot=../relroot}}
+      {{else}}
+        {{#if album}}
+          {{> teaser-brutal pagination=../pagination relroot=../relroot}}
+        {{else}}
+          {{#if source}}
+            {{> teaser-link pagination=../pagination relroot=../relroot}}
+          {{else}}
+            {{> teaser-post pagination=../pagination relroot=../relroot}}
+          {{/if}}
+        {{/if}}
+      {{/if}}
+    {{/each}}
+    <div class="pagination">
+      {{#if pagination.previous}}
+      <a rel="previous" href="{{relroot}}{{ pagination.previous.path }}">← Yngre
+        inlägg</a>
+      {{/if}}
+      <a href="{{relroot}}allt">Alla inlägg</a>
+      {{#if pagination.next}}
+      <a rel="next" href="{{relroot}}{{ pagination.next.path }}">Äldre inlägg →</a>
+      {{/if}}
+    </div>
+  </main>
+  {{> aside relroot=relroot}}
+  {{> footer relroot=relroot}}
+</body>
+</html>

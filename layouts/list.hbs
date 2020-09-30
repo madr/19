@@ -1,0 +1,5 @@
+{{#if pagination.index}}
+  {{> list pagination=pagination relroot="../" title="Inlägg, delade länkar och notiser" }}
+{{else}}
+  {{> list pagination=pagination relroot="./" title="Anders Ytterströms hemsida" current="start" }}
+{{/if}}

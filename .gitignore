@@ -1,0 +1,12 @@
+docs
+pub
+node_modules
+.vscode
+docs/om/*.js
+docs/om/*.ics
+docs/evenemang/*.js
+docs/evenemang/*.ics
+docs/upcoming
+.DS_Store
+src
+assets

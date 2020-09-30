@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }} | {{ name }}</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" title="madr.se stilmall" href="{{ relroot }}madrse.css">
+  <link href="{{ relroot }}/prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+  <link rel="canonical" href="{{ url }}/{{ path }}/">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ url }}/{{ path }}/">
+  <meta property="og:image" content="{{ image }}">
+  <meta property="og:site_name" content="{{ name }}">
+  <meta name="description" content="Blogg tillhörande en hårdrockare, webbutvecklare, hobbymusikant, skrotlyftare och nörd">
+</head>
+
+<body>
+  {{> header relroot="../" }}
+  <main id="content">
+    {{#if archived}}
+    <p class="alert--archived"><i>
+        Detta är ett arkiverat inlägg, som importerats
+        hit för referens. Det kan se konstigt ut och
+        innehålla utdaterad information eller inaktuella
+        åsikter.
+      </i></p>
+    {{/if}}
+    <article>
+      <h1>{{ title }}</h1>
+      <p>📆 {{ lead }}.</p>
+      {{#if bands}}
+      <p><strong>Förband</strong>:<br>
+        {{#each bands}}
+        {{#unless @first}}
+        {{.}}{{#unless @last}},{{/unless}}
+        {{/unless}}
+        {{/each}}
+      </p>
+      {{/if}}
+      {{#if best}}
+      <p><strong>Personliga höjdpunkter</strong>:<br>
+        {{#each best}}
+        {{.}}{{#unless @last}},{{/unless}}
+        {{/each}}
+      </p>
+      {{/if}}
+      {{#if mia}}
+      <p><strong>Band jag missade</strong>:<br>
+        {{#each mia}}
+        {{.}}{{#unless @last}},{{/unless}}
+        {{/each}}
+      </p>
+      {{/if}}
+      {{#if release}}
+      <p><strong>Album-aktuella med</strong>:<br> <i>"{{ release.name }}"</i></p>
+      {{/if}}
+      {{{contents}}}
+      <figure>
+        {{#if img}}
+        <img src="../../img/{{ img }}" alt="poster" loading="lazy">
+        {{else}}
+        <i class="no-image">Ingen poster</i>
+        {{/if}}
+      </figure>
+    </article>
+  </main>
+  {{> aside relroot="../" }}
+  {{> footer relroot="../" }}
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+[
+{{#each events}}
+{
+"location": [
+{{location.latitude}},
+{{location.longitude}}
+],
+"title": "{{title}}",
+"lead": "{{lead}}",
+"img": "{{img}}",
+"date": "{{date}}",
+{{#if enddate}}"enddate": "{{enddate}}",{{/if}}
+"region": "{{region}}",
+{{#if best}}"best": [{{#each best}}"{{.}}"{{#unless @last}},{{/unless}}{{/each}}],{{/if}}
+{{#if bands}}"bands": [{{#each bands}}{{#unless @first}}"{{.}}"{{#unless @last}},{{/unless}}{{/unless}}{{/each}}],{{/if}}
+"venue": "{{venue}}"
+}{{#unless @last}},{{/unless}}
+{{/each}}
+]
