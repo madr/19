@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<h1>1000 lbs club</h1>
+<!-- basic blog post chart -->
+<svg viewBox="0 0 220 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .tick-label {
+      font-family: sans-serif;
+      font-size: 0.5em;
+      fill: grey;
+    }
+
+    .dots-group > circle {
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+
+    .dots-group:hover > circle,
+    .dots-group:focus > circle {
+      opacity: 1;
+    }
+
+    .hitbox {
+      fill: transparent;
+    }
+
+    .tooltip {
+      top: 0;
+      left: 0;
+      position: absolute;
+      transform: translateX(1em) translateY(1em);
+      border: 2px solid black;
+      background-color: #fff;
+      padding: 0.5em;
+      font-family: sans-serif;
+    }
+
+    dl {
+      display: grid;
+      margin: 0;
+      padding: 0;
+      gap: 0.5em;
+      grid-template-columns: repeat(2, auto);
+    }
+
+    dt {
+      text-align: right;
+      font-weight: bold;
+    }
+
+    dd {
+      margin: 0; 
+      padding: 0;
+    }
+  </style>
+  <!-- 
+    Reference line, "origo"
+  -->
+  <g class="origo">
+    <line x1="20" y1="50" x2="200" y2="70" stroke-dasharray="3 3" stroke="grey" />
+  </g>
+  <!-- 
+    X-axis.
+    Contains some ticks.
+    TODO: position the labels relative to the ticks.
+   -->
+  <g class="x-axis">
+    <line
+      stroke="black" 
+      x1="20"
+      x2="219"
+      y1="119"
+      y2="119"
+    />
+    <g class="ticks" x="10">
+      <line
+        stroke="black" 
+        x1="50"
+        x2="50"
+        y1="119"
+        y2="124"
+      />
+      <g
+      transform="">
+        <text
+          class="tick-label"
+          x="50"
+          transform="rotate(-90) scale(1, -1)"
+          y="125">100</text>
+      </g>
+      <line
+        stroke="black" 
+        x1="150"
+        x2="150"
+        y1="119"
+        y2="124"
+      />
+    </g>
+  </g>
+  <!-- 
+    Y-axis.
+    Contains some ticks.
+    TODO: position the labels relative to the ticks.
+   -->
+  <g class="y-axis">
+    <line
+      stroke="black" 
+      x1="20"
+      y1="1"
+      x2="20"
+      y2="119"
+    />
+    <g class="ticks">
+      <line
+        stroke="black" 
+        x1="15"
+        x2="20"
+        y1="19"
+        y2="19"
+      />
+      <text 
+        dx="-14" dy="2"
+        x="15" y="19"
+        class="tick-label">100</text>
+      <line
+        stroke="black" 
+        x1="15"
+        y1="69"
+        x2="20"
+        y2="69"
+      />
+      <text 
+        dx="-10" dy="2"
+        x="15" y="69"
+        class="tick-label">50</text>
+    </g>
+  </g>
+  <!--
+    Line charts.
+    Should be automated with some sort of loop and real data.
+  -->
+  <g class="line-charts">
+    <polyline points="20,50 70,45 120,20 170,10" fill="none" stroke="red" />
+    <polyline points="20,90 70,35 120,85 170,70" fill="none" stroke="green" />
+    <polyline points="20,100 70,25 120,75 170,90" fill="none" stroke="blue" />
+  </g>
+
+  <!--
+    interactionable overlays with hitbox.
+    WIP.
+  -->
+  <g class="dots">
+    <g class="dots-group">
+      <circle fill="red" cx="70" cy="45" r="2" />
+      <circle fill="green" cx="70" cy="35" r="2" />
+      <circle fill="blue" cx="70" cy="25" r="2" />
+      <rect class="hitbox" x="60" y="0" width="20" height="119" /><!--
+      <dl>
+      <dt>Red</dt><dd>45</dd>
+      <dt>Green</dt><dd>35</dd>
+      <dt>Blue</dt><dd>25</dd>
+      </dl>
+      -->
+    </g>
+    <g class="dots-group">
+      <circle fill="red" cx="120" cy="20" r="2" />
+      <circle fill="green" cx="120" cy="85" r="2" />
+      <circle fill="blue" cx="120" cy="75" r="2" />
+      <rect class="hitbox" x="110" y="0" width="20" height="119" /><!--
+      <dl>
+      <dt>Red</dt><dd>20</dd>
+      <dt>Green</dt><dd>85</dd>
+      <dt>Blue</dt><dd>75</dd>
+      </dl>
+      -->
+    </g>
+    <g class="dots-group">
+      <circle fill="red" cx="170" cy="10" r="2" />
+      <circle fill="green" cx="170" cy="70" r="2" />
+      <circle fill="blue" cx="170" cy="90" r="2" />
+      <rect class="hitbox" x="160" y="0" width="20" height="119" /><!--
+        <dl>
+      <dt>Red</dt><dd>110</dd>
+      <dt>Green</dt><dd>70</dd>
+      <dt>Blue</dt><dd>90</dd>
+      </dl>
+      -->
+    </g>
+  </g>
+</svg>
+
+<script>
+(function (d) {
+  var moveTooltip = function (e) {
+    clearTimeout(timer);
+
+    var callback = (function (x, y) {
+      return function () {
+        tooltip.style.top = y + "px";
+        tooltip.style.left = x + "px";
+      };
+    }(e.clientX, e.clientY))
+
+    timer = setTimeout(callback, 10);
+  }
+
+  var updateTooltip = function (content) {
+    tooltip.innerHTML = content;
+  }
+
+  var tooltip = d.createElement('div');
+  tooltip.className = "tooltip";
+  tooltip.hidden = true;
+  document.body.appendChild(tooltip);
+
+  var timer;
+  window.addEventListener('mousemove', moveTooltip);
+
+  window.addEventListener('mouseover', function (e) {
+    var element = e.target;
+
+    if (element.nodeName.match(/rect/i)) {
+      updateTooltip(element.nextSibling.data);
+      tooltip.hidden = false;
+      window.addEventListener('mousemove', moveTooltip);
+    } else {
+      tooltip.hidden = true;
+      updateTooltip('');
+      window.removeEventListener('mousemove', moveTooltip);
+    }
+  });
+}(document))  
+</script>

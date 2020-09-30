@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }} | {{ name }}</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" title="madr.se stilmall" href="../madrse.css">
+  <link href="../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+  <meta name="description" content="Komplett arkiv över alla inlägg av Anders Ytterström 2000-2021.">
+</head>
+
+<body>
+  {{> header relroot="../" }}
+  <main id="content">
+    <h1>{{title}}</h1>
+    {{{contents}}}
+    {{#each archive}}
+    <h2>{{year}}</h2>
+    <ul>
+      {{#each data}}
+        <li><a href="../{{path}}">{{title}}</a></li>
+      {{/each}}
+    </ul>
+    {{/each}}
+  </main>
+  {{> aside relroot="../" }}
+  {{> footer relroot="../" }}
+</body>
+
+</html>

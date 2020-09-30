@@ -1,0 +1,157 @@
+<html lang="en">
+  <!--
+    Welcome to the source code of the resume of Anders Ytterström!
+
+    I apologize for the ending slash (/) in the void elements, this
+    is due to an opinion that won't be added as an option to skip in 
+    Prettier: https://github.com/prettier/prettier/issues/5246
+
+    Anyways, hope you fint my code entertaining to read! The _content_ is
+    best viewed in a web browser, though. :)
+
+    Colophon:
+    - Metalsmith, the pluggable static site generator.
+    - Prettier, for code formatting.
+    - Handlebars, not my favorite template engine but it does the job.
+    - Markdown.
+    - Plain old CSS, for a change.
+
+    Internet Explorer support was not considered when
+    creating this page. I apologize if this is an issue for you.
+   -->
+  <head>
+    <meta charset="UTF-8" />
+    <title>{{title}} | {{name}}</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      property="og:title"
+      content="Anders Ytterström: Full Stack Web Developer"
+    />
+    <meta property="og:description" content="CV" />
+    <meta property="og:image" content="fixme.jpg" />
+    <link rel="stylesheet" href="../cv.css" />
+  </head>
+
+  <body>
+    <main class="resume">
+      <div class="name">
+        <header>
+          <hgroup>
+            <h1>Anders Ytterström</h1>
+            <div role="doc-subtitle">Frontend Developer, Fullstack Developer, Web
+              standardista</div>
+          </hgroup>
+        </header>
+        <footer class="vcard">
+          <address>Nedre Gruvrisvägen 30, 791 56 Falun, Sweden</address>
+          <dl class="contact">
+            <dt>Phone:</dt>
+            <dd><a href="tel:+46702169645">+46 70 216 96 45</a></dd>
+            <dt>Email:</dt>
+            <dd><a href="mailto:yttan@fastmail.se">yttan@fastmail.se</a></dd>
+            <dt>Github:</dt>
+            <dd><a href="https://github.com/madr" rel="external" title="Github">madr</a></dd>
+            <dt>Website:</dt>
+            <dd><a href="https://madr.se" rel="external" title="Website">madr.se</a></dd>
+          </dl>
+        </footer>
+      </div>
+      <section class="about">
+        <div>
+        {{{contents}}}
+        </div>
+        <span>
+        <a href="../cv-anders-ytterstrom.pdf">Download as PDF</a>
+        </span>
+      </section>
+      <section class="skills">
+        <h2>Skills</h2>
+        <dl class="skillset">
+        {{#each skills}}
+          <dt>{{@key}}</dt>
+          <dd>{{.}}</dd>
+        {{/each}}
+        </dl>
+      </section>
+      <section class="work">
+        <h2>Experience</h2>
+        <div class="timeline">
+          {{#each work}}
+            <article class="event">
+              <h3 class="event__title">{{employer}}, {{type}}</h3>
+              <div class="event__location event__aside">{{location}}</div>
+              <div class="event__position">{{position}}</div>
+              <div class="event__date event__aside">{{date}}</div>
+              <div class="event__content">
+                <ul>
+                  {{#each responsibilies}}
+                    <li>{{.}}</li>
+                  {{/each}}
+                </ul>
+              </div>
+            </article>
+          {{/each}}
+        </div>
+      </section>
+      <section class="education">
+        <h2>Education</h2>
+        <div class="timeline">
+          {{#each education}}
+            <article class="event">
+              <h3 class="event__title">{{institution}}</h3>
+              <div class="event__location event__aside">{{location}}</div>
+              <div class="event__position">{{graduation}}</div>
+              <div class="event__date event__aside">{{date}}</div>
+              <div class="event__content">
+                {{fields}}
+              </div>
+            </article>
+          {{/each}}
+        </div>
+      </section>
+      <section class="projects">
+        <h2>Projects</h2>
+        <div class="timeline">
+          {{#each projects}}
+            <article class="event">
+              <h3 class="event__title">{{name}}</h3>
+              <i></i>
+              <div class="event__position">{{context}}</div>
+              <div class="event__aside">{{date}}</div>
+              <div class="event__content">
+                <ul>
+                  {{#each responsibilies}}
+                    <li>{{.}}</li>
+                  {{/each}}
+                </ul>
+              </div>
+            </article>
+          {{/each}}
+        </div>
+      </section>
+      <section class="courses">
+        <h2 class="h-aside">Courses, Conferences & Certifications</h2>
+          <ul>
+            {{#each courses}}
+              <li>{{.}}</li>
+            {{/each}}
+          </ul>
+        </div>
+      </section>
+      <section class="personal">
+        <h2 class="h-aside">Personal Projects</h2>
+        <div class="timeline">
+          {{#each personal}}
+            <article class="event event--aside">
+              <h3 class="event__title">{{@key}}</h3>
+              <i></i>
+              <div class="event__content">
+                <p>{{.}}</p>
+              </div>
+            </article>
+          {{/each}}
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

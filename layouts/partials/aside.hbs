@@ -1,0 +1,41 @@
+<aside>
+    <h2 class="h--aside">Senast publicerat</h2>
+    <ul class="recents">
+        {{#before posts 5}}
+            <li class="recents__item"><a href="{{../relroot}}{{path}}">{{title}}</a></li>
+        {{/before}}
+    </ul>
+    <h2 class="h--aside">Samlingar</h2>
+    <ul class="recents">
+        <li class="recents__item">
+            <a rel="external" href="https://madr.github.io/mybgg/">🎲 Brädspel</a>
+        <li>
+            <a rel="external" href="https://www.discogs.com/user/madrse/collection?limit=250&sort=artist&sort_order=asc&layout=big">💿 Skivor</a>
+        <li>
+            <a rel="external" href="https://www.goodreads.com/review/list/8961412-anders?shelf=%23ALL%23&view=covers">📚 Böcker</a>
+    </ul>
+
+    <h2 class="h--aside">Kommande evenemang</h2>
+    <ul class="upcoming">
+        {{#upcoming upcoming }}
+        <li class="upcoming__item" itemscope="" itemtype="http://schema.org/Event">
+            <strong itemprop="name performer" class="upcoming__item__what">
+                {{ title }}
+            </strong>
+            <span class="upcoming__item__where" itemprop="location" itemscope="" itemtype="http://schema.org/Place">
+                <span itemprop="address">
+                    <span itemprop="name">{{ venue }}</span>, {{ region }}
+                </span>
+            </span>
+            <time datetime="{{ date }}T00:00:00Z" class="upcoming__item__when"
+                itemprop="startDate{{#unless enddate}} endDate{{/unless}}">
+                <span>{{ d }}</span>
+                <span>{{ m }}</span>
+            </time>
+            {{#if enddate}}<span class="visuallyhidden" itemprop="endDate">{{enddate}}</span>{{/if}}
+            <div class="visuallyhidden" itemprop="description">{{lead}}</div>
+            <span class="visuallyhidden" itemprop="address">{{address}}</span>
+        </li>
+        {{/upcoming}}
+    </ul>
+</aside>

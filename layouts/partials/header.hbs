@@ -1,0 +1,35 @@
+<a href="#content" class="skiplink">Hoppa till innehåll</a>
+<header>
+  <p class="presentation">
+    Anders är en webbutvecklare och hårdrockare som gillar brädspel, kaffe och öl.
+    <a href="{{relroot}}om/" rel="author">Om Anders Ytterström</a>
+  </p>
+  <nav>
+    <h2 class="visuallyhidden">Meny</h2>
+    {{#if (eq current "start")}}  
+      <strong class="nav__item">🏚 Start</strong>
+    {{else}}
+      <a class="nav__item" href="{{relroot}}">🏚 Start</a>
+    {{/if}}
+
+    {{#if (eq current "links")}}  
+      <strong class="nav__item">📌 Delade länkar</strong>
+    {{else}}
+      <a class="nav__item" href="{{relroot}}delat/">📌 Delade länkar</a>
+    {{/if}}
+    
+    {{#if (eq current "articles")}}  
+      <strong class="nav__item">✍️ Inlägg</strong>
+    {{else}}
+      <a class="nav__item" href="{{relroot}}inlagg/">✍️ Inlägg</a>
+    {{/if}}
+    
+    {{#if (eq current "events")}}  
+      <strong class="nav__item">📅 Evenemang</strong>
+    {{else}}
+      <a class="nav__item" href="{{relroot}}evenemang/">📅 Evenemang</a>
+    {{/if}}
+       
+    <a class="nav__item" href="{{relroot}}bl/">🤘 Brütal Legend</a>
+  </nav>
+</header>

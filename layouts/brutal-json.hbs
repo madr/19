@@ -1,0 +1,21 @@
+[
+{{#each brutal-legends}}
+{
+
+"id": {{num}},
+"img": "{{id}}.jpg",
+
+"title": "{{album}}",
+"artist": "{{artist}}",
+"album": "{{album}}",
+"year": {{year}},
+"purchased_on": "{{date}}",
+"description": "",
+"songs": [
+{{#each songs}}
+"{{.}}"{{#unless @last}},{{/unless}}
+{{/each}}
+]
+}{{#unless @last}},{{/unless}}
+{{/each}}
+]

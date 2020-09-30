@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//https://madr.se//kommande-evenemang
+METHOD:PUBLISH
+{{#each upcoming}}
+BEGIN:VEVENT
+UID:{{title}}.{{date}}@madr.se
+{{#if dt.allday}}
+DTSTAMP:{{dt.start}}T000000
+DTSTART;VALUE=DATE:{{dt.start}}
+DTEND;VALUE=DATE:{{dt.end}}
+{{else}}
+DTSTAMP:{{dt.start}}
+DTSTART:{{dt.start}}
+DTEND:{{dt.end}}
+{{/if}}
+SUMMARY:{{title}}
+DESCRIPTION:{{lead}}
+LOCATION:{{venue}}\, {{region}}
+GEO:{{location.latitude}};{{location.longitude}}
+END:VEVENT
+{{/each}}
+END:VCALENDAR

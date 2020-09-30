@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ title }} | {{ name }}</title>
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" title="madr.se stilmall" href="../madrse.css" />
+  <link href="../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se" />
+  <link rel="canonical" href="{{ url }}/{{ path }}/" />
+  <meta property="og:title" content="{{ title }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ url }}/{{ path }}/" />
+  <meta property="og:image" content="{{ image }}" />
+  <meta property="og:site_name" content="{{ name }}" />
+  <meta name="description" content="Blogg tillhörande en hårdrockare, webbutvecklare, hobbymusikant, skrotlyftare och nörd">
+</head>
+
+<body>
+  {{> header relroot="../" current="events" }}
+  <main id="content">
+    <article>
+      <h1>{{ title }}</h1>
+
+      <div id="about">
+        {{{contents}}}
+      </div>
+
+      <div id="map">
+        <h2>Geografisk utspridning<a class="anchor" href="#map">¶</a></h2>
+
+        <figure>
+          <div id="leaflet"></div>
+        </figure>
+      </div>
+
+      <div id="upcoming">
+        <h2>Kommande<a class="anchor" href="#upcoming">¶</a></h2>
+        <ul>
+          {{#upcoming upcoming }}
+          <li itemscope="" itemtype="http://schema.org/Event">
+            <strong itemprop="name">
+              {{ title }}
+            </strong>
+            <div itemprop="description">{{ lead }}.</div>
+          </li>
+          {{/upcoming}}
+        </ul>
+        <p><a href="webcal://madr.se/kommande-evenemang.ics" rel="calendar">📆 Lägg till i Kalender</a></p>
+        <p>Om länken ovan inte fungerar, kopiera denna adress och klistra in i ditt kalenderprogram:<br>
+        <code>https://madr.se/kommande-evenemang.ics</code>
+        </p>
+      </div>
+      <div id="past">
+        {{#each events}}
+        {{> teaser-event on_event_page=1 relroot="../"}}
+        {{/each}}
+      </div>
+    </article>
+  </main>
+  {{> aside relroot="../" }}
+  {{> footer relroot="../" }}
+  <script src="../event-map.js" async defer></script>
+</body>
+
+</html>

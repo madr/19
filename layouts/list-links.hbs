@@ -1,0 +1,5 @@
+{{#if pagination.index}}
+  {{> list pagination=pagination relroot="../../" title="Delade länkar"}}
+{{else}}
+  {{> list pagination=pagination relroot="../" title="Delade länkar" current="links" }}
+{{/if}}

@@ -1,0 +1,28 @@
+{
+  "name": "madr-se-19",
+  "private": true,
+  "dependencies": {
+    "@metalsmith/permalinks": "^2.2.0"
+  },
+  "scripts": {
+    "build": "node index.js"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.6",
+    "hilight": "0.0.1",
+    "metalsmith": "^2.1.0",
+    "metalsmith-archive": "^0.1.1",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-date-formatter": "^1.0.2",
+    "metalsmith-discover-helpers": "^0.1.1",
+    "metalsmith-discover-partials": "^0.1.2",
+    "metalsmith-feed-atom": "^1.0.0",
+    "metalsmith-headings-identifier": "0.0.11",
+    "metalsmith-html-minifier": "^3.0.3",
+    "metalsmith-layouts": "^1.4.1",
+    "metalsmith-markdown-remarkable": "^1.0.2",
+    "metalsmith-pagination": "^1.5.0",
+    "metalsmith-sitemap": "^1.2.2",
+    "metalsmith-static": "0.0.5"
+  }
+}

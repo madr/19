@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }} | {{ name }}</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" title="madr.se stilmall" href="madrse.css">
+  <link href="prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="{{ url }}/{{ path }}/">
+  <meta property="og:image" content="{{ image }}">
+  <meta property="og:site_name" content="{{ name }}">
+</head>
+
+<body class="homepage">
+  <main>
+    <h1 class="visuallyhidden">Anders Ytterströms hemsida</h1>
+    <img src="mugshot.jpg" alt="Anders, september 2018." class="align-right" loading="lazy">
+    <div class="presentation">{{{ contents }}}</div>
+  </main>
+  <div class="posts">
+  {{#before posts 5}}
+    {{#if location}}
+    {{> teaser-event}}
+    {{else}}
+    {{#if album}}
+    {{> teaser-brutal}}
+    {{else}}
+    {{#if source}}
+    {{> teaser-link}}
+    {{else}}
+    {{> teaser-post }}
+    {{/if}}
+    {{/if}}
+    {{/if}}
+  {{/before}}
+  </div>
+</body>
+
+</html>
