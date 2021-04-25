@@ -1,8 +1,10 @@
 build:
 	node index.js
-	cp pub/albums.json ../brutal-legend/static/albums.json
 	(cd ../brutal-legend && npm run build)
-	mkdir -p pub/bl/json
+	mkdir pub/bl
 	cp -r ../brutal-legend/docs/* pub/bl
-	
-.PHONY: build
+
+release:
+	rsync -alPvz ./pub/* madr@aginor:/srv/madr.se
+
+.PHONY: build release
