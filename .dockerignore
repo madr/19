@@ -3,3 +3,8 @@ npm-debug.log
 Containerfile
 Readme.md
 Makefile
+dist
+.tool-versions
+.stylelintrc.js
+.gitignore
+.git
