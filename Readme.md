@@ -8,6 +8,15 @@ The pages are created from Markdown using [Metalsmith][1].
 
 ## Build site
 
+    mkdir dist
+
+    podman run \
+    --net host -ti \
+    --volume ./dist:/app/pub \
+    --volume ../../Sync/Rahvin/madrse/src:/app/src \
+    --volume ../../Sync/Rahvin/madrse/assets:/app/assets \
+    c58c3fb29808
+
 The site can now be visited by opening `docs/index.html` in your
 favorite browser.
 
