@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }} | {{ name }}</title>
+  <meta name="viewport" content="width=device-width">
+  <style>
+    html {
+      background-color: #122;
+    }
+
+    body {
+      max-width: 50em;
+      color: #fff;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    p {
+      font-size: large;
+      line-height: 1.4;
+    }
+
+    h2 > a {
+      display: none;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+    <article>
+      <h1 itemprop="headline">{{ title }}</h1>
+      </header>
+      {{{ contents }}}
+
+      {{#each songs}}
+      <figure>
+        <figcaption>{{this}}</figcaption>
+          <audio
+            controls
+            src="../malin/{{@key}}.mp3">
+                <a href="../malin/{{@key}}.mp3">
+                    Ladda ner
+                </a>
+          </audio>
+      </figure>
+      {{/each}}
+    </article>
+</body>
+
+</html>
