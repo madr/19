@@ -5,18 +5,17 @@
   <meta charset="UTF-8">
   <title>{{ title }} | {{ name }}</title>
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" title="madr.se stilmall" href="{{#if date}}../{{/if}}../madrse.css">
-  <link href="{{#if date}}../{{/if}}../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
+  <link rel="stylesheet" title="madr.se stilmall" href="../../madrse.css">
+  <link href="../../prenumerera.xml" type="application/atom+xml" rel="alternate" title="madr.se">
   <link rel="canonical" href="{{ url }}/{{ path }}/">
   <meta property="og:title" content="{{ title }}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{{ url }}/{{ path }}/">
-  <meta property="og:image" content="{{ image }}">
   <meta property="og:site_name" content="{{ name }}">
 </head>
 
 <body>
-  {{> header }}
+  {{> header relroot="../../" }}
   <main id="content">
     <article>
       <h1>{{ title }}</h1>
@@ -31,8 +30,8 @@
       </figure>
     </article>
   </main>
-  {{> aside }}
-  {{> footer }}
+  {{> aside relroot="../../" }}
+  {{> footer relroot="../../" }}
 </body>
 
 </html>
