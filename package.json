@@ -5,7 +5,8 @@
     "@metalsmith/permalinks": "^2.2.0"
   },
   "scripts": {
-    "build": "node index.js"
+    "build": "node index.js",
+    "start": "node dev.js"
   },
   "devDependencies": {
     "handlebars": "^4.7.7",
