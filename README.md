@@ -18,23 +18,20 @@ mounted as volumes when the container image runs.
 Make sure these directories exists. In the below example, the paths are as-is from my portable machine.
 
     podman run \
-    --net host \
     -ti \
-    --volume ./dist:/app/pub \
-    --volume ../../Sync/Rahvin/madrse/src:/app/src \
-    --volume ../../Sync/Rahvin/madrse/assets:/app/assets \
+    -v ./dist:/app/pub \
+    -v /path/to/src:/app/src \
+    -v /path/to/assets:/app/assets \
     ghcr.io/madr/19:main
 
 The site can now be visited by opening `dist/index.html` in your favorite browser.
 
 ### Local container image
 
-Use Buildah or docker:
+Use Podman to utilize cache of the build steps:
 
-    buildah build --net host .
-    docker build .
+    podman build .
 
 Use the above `podman run` example to build site by replacing `ghcr.io/madr/19:main` at the end with the container-id provided by the build command.
-
 
 [1]: https://metalsmith.io/
